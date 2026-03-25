@@ -1,0 +1,228 @@
+{
+  "slug": "remodel-vs-move",
+  "title": "Remodel vs Move: A Complete Cost Comparison",
+  "subtitle": "The real numbers behind the biggest decision homeowners face - and a framework to help you choose.",
+  "excerpt": "Should you renovate your current home or sell and buy something new? We break down the full costs of both options side by side, including hidden expenses most people miss.",
+  "category": "decision-guide",
+  "publishedDate": "2026-03-25",
+  "readTime": 11,
+  "keyTakeaways": [
+    "Selling and buying a home typically costs 10-15% of the home's value in transaction fees, closing costs, and moving expenses - often $40,000-$75,000 on a $400,000 home.",
+    "A major whole-house renovation runs $100,000-$250,000+ but you keep your equity, skip transaction costs, and stay in your neighborhood.",
+    "Remodeling usually wins financially when you need less than 30% of your home's value in upgrades. Moving wins when the gap between your current home and what you need is too large to bridge with renovation."
+  ],
+  "sections": [
+    {
+      "heading": "The Question Every Homeowner Faces",
+      "paragraphs": [
+        "At some point, your home stops fitting your life. Maybe the kitchen is stuck in 1995, there's no bedroom for a third kid, or the layout just doesn't work anymore. And that's when the big question hits: do you remodel what you have or sell and find something better?",
+        "Most people make this decision based on gut feel and Zillow browsing. That's a mistake. This is a financial decision worth tens of thousands of dollars, and the math often points in a different direction than your instincts.",
+        "Let's break down the real costs of both options so you can compare them side by side."
+      ]
+    },
+    {
+      "heading": "The True Cost of Moving",
+      "paragraphs": [
+        "People dramatically underestimate what it costs to sell one home and buy another. It's not just the down payment on the new place. The transaction costs alone are staggering."
+      ],
+      "table": {
+        "headers": ["Expense", "Typical Cost", "On a $400,000 Home"],
+        "rows": [
+          ["Real estate agent commissions (buyer + seller side)", "5-6% of sale price", "$20,000-$24,000"],
+          ["Seller closing costs (title, transfer taxes, etc.)", "1-3% of sale price", "$4,000-$12,000"],
+          ["Buyer closing costs (on new home)", "2-5% of purchase price", "$8,000-$20,000"],
+          ["Home prep/staging for sale", "$2,000-$8,000", "$2,000-$8,000"],
+          ["Moving costs (local)", "$1,500-$5,000", "$1,500-$5,000"],
+          ["Moving costs (long distance)", "$4,000-$12,000", "$4,000-$12,000"],
+          ["Overlap costs (double mortgage, storage)", "$2,000-$6,000", "$2,000-$6,000"],
+          ["New home repairs/updates", "$5,000-$15,000", "$5,000-$15,000"]
+        ]
+      },
+      "callout": "Total transaction cost of selling and buying: $42,500-$102,000 on a $400,000 home. That's money that builds zero equity. It's purely the cost of switching."
+    },
+    {
+      "heading": "The True Cost of Remodeling",
+      "paragraphs": [
+        "Major renovation costs depend entirely on scope. Here's what common renovation scenarios cost in 2026 for a typical 2,000 sq ft home."
+      ],
+      "table": {
+        "headers": ["Renovation Scenario", "Typical Cost Range", "What's Included"],
+        "rows": [
+          ["Cosmetic refresh", "$15,000-$35,000", "Paint, new fixtures, updated hardware, minor flooring"],
+          ["Kitchen remodel (mid-range)", "$35,000-$75,000", "New cabinets, countertops, appliances, flooring, lighting"],
+          ["Bathroom remodel (mid-range)", "$15,000-$35,000", "New tile, vanity, fixtures, shower/tub"],
+          ["Kitchen + 2 bathrooms", "$65,000-$140,000", "Combined mid-range renovation of the big three"],
+          ["Major renovation (multiple rooms)", "$100,000-$200,000", "Kitchen, bathrooms, flooring, paint, some structural"],
+          ["Room addition (200-400 sq ft)", "$80,000-$200,000", "New bedroom, bathroom, or family room"],
+          ["Second story addition", "$150,000-$350,000", "Adding 800-1,200 sq ft above existing footprint"],
+          ["Whole-house gut renovation", "$200,000-$400,000+", "Taking it down to studs and rebuilding everything"]
+        ]
+      }
+    },
+    {
+      "heading": "Side-by-Side Comparison: Remodel vs. Move",
+      "paragraphs": [
+        "Here's the comparison that matters. Let's say you own a $400,000 home and you want to end up in a $550,000 home (either by renovating yours up to that level or by selling and buying at $550,000)."
+      ],
+      "table": {
+        "headers": ["Category", "Remodel", "Move"],
+        "rows": [
+          ["Renovation / purchase cost", "$100,000-$175,000", "$550,000 (new purchase price)"],
+          ["Transaction costs", "$0", "$45,000-$75,000"],
+          ["Monthly payment change", "Home equity loan: $800-$1,200/mo", "Higher mortgage: $600-$1,000/mo increase"],
+          ["Time in temporary disruption", "3-6 months of construction", "2-4 months of searching, selling, moving"],
+          ["Equity position after", "$400K base + $100-175K invested = $500-575K value", "$550K home minus $45-75K in transaction costs"],
+          ["Net cost of the upgrade", "$100,000-$175,000", "$195,000-$225,000 (price difference + transaction costs)"],
+          ["Tax implications", "No taxable event", "Possible capital gains if over $250K/$500K exclusion"]
+        ]
+      },
+      "callout": "In this scenario, remodeling saves $20,000-$125,000 compared to moving - even before factoring in the equity you retain by not paying transaction costs."
+    },
+    {
+      "heading": "When Remodeling Wins",
+      "paragraphs": [
+        "Renovation is almost always the better financial choice when certain conditions are met. Here's when staying put makes the most sense."
+      ],
+      "list": [
+        "Your renovation budget is less than 30% of your home's current value. A $120,000 renovation on a $400,000 home is almost always smarter than moving.",
+        "You love your neighborhood, schools, and commute. These things are nearly impossible to replicate, and their value doesn't show up on a spreadsheet.",
+        "Your home's layout and lot size work. You can change kitchens and bathrooms, but you can't easily change your lot size, street, or neighborhood.",
+        "Interest rates are higher than your current mortgage. If you locked in at 3% and current rates are 6.5%, moving means giving up a rate advantage worth hundreds of dollars per month.",
+        "You have significant equity. Selling means paying transaction costs on all of that equity. Remodeling lets you keep it working for you.",
+        "Your local real estate market is competitive. If buying would mean bidding wars and overpaying, renovation avoids that entirely."
+      ]
+    },
+    {
+      "heading": "When Moving Wins",
+      "paragraphs": [
+        "Sometimes the math favors moving, or the practical limitations of your current home make renovation impractical."
+      ],
+      "list": [
+        "You need significantly more space (50%+ more square footage). Adding 1,000+ sq ft through additions costs $200,000-$500,000 and often exceeds the cost of just buying bigger.",
+        "Your home has fundamental problems - bad foundation, poor lot drainage, terrible floor plan that can't be fixed without gutting everything.",
+        "The neighborhood is declining or no longer fits your needs. No amount of renovation fixes a neighborhood you've outgrown.",
+        "Renovation costs would exceed 50% of your home's value. At that point you're over-improving for the area and won't recoup the investment.",
+        "You're relocating for work, family, or lifestyle reasons that go beyond the house itself.",
+        "Your home is in a flood zone, has environmental issues (lead, asbestos throughout), or has structural problems that make renovation impractical."
+      ]
+    },
+    {
+      "heading": "The Hidden Cost of Moving: Your Mortgage Rate",
+      "paragraphs": [
+        "This is the cost that doesn't show up in moving estimates but absolutely dominates the math for millions of homeowners in 2026. If you bought or refinanced between 2020 and 2022, you likely have a mortgage rate between 2.5% and 3.5%.",
+        "Selling that home and buying at today's rates (hovering around 6.5-7% in early 2026) means a dramatically higher monthly payment even if you buy the exact same priced home."
+      ],
+      "table": {
+        "headers": ["Scenario", "Monthly Payment", "Total Interest Over 30 Years"],
+        "rows": [
+          ["$400,000 mortgage at 3.0%", "$1,686", "$207,000"],
+          ["$400,000 mortgage at 6.5%", "$2,528", "$510,000"],
+          ["Difference", "+$842/month", "+$303,000"]
+        ]
+      },
+      "callout": "Giving up a 3% mortgage rate for a 6.5% rate on the same loan amount costs you $842 per month - that's $10,100 per year. Over 30 years, the interest difference is over $300,000. This one factor alone makes remodeling the better choice for most homeowners who locked in low rates."
+    },
+    {
+      "heading": "The Emotional Factors (They Matter More Than You Think)",
+      "paragraphs": [
+        "Financial analysis gets you 80% of the way to a decision. The last 20% is emotional, and that's not a bad thing. Your home is where you live your life.",
+        "Renovation means 3-6 months of living in a construction zone. Dust everywhere, no kitchen for weeks, strangers in your house every day, and the stress of decisions piling up. Some people handle this fine. Others find it genuinely miserable.",
+        "Moving means leaving a place that holds memories, potentially pulling kids out of schools, and starting over in a new community. Even if the new house is better on paper, the transition period is stressful for everyone."
+      ],
+      "list": [
+        "If you hate disruption and value routine, moving might actually be less stressful than a 6-month renovation.",
+        "If you're deeply attached to your home and neighborhood, the emotional cost of leaving may outweigh any financial argument for moving.",
+        "If your relationship is under strain, a major renovation or a major move will both amplify that stress. Be honest about your bandwidth.",
+        "If you have young kids or elderly family members at home, living through a renovation is harder than most people anticipate."
+      ]
+    },
+    {
+      "heading": "A Decision Framework",
+      "paragraphs": [
+        "Answer these five questions to clarify your path. Be honest with yourself."
+      ],
+      "list": [
+        "Can your current home's footprint accommodate what you need? If yes, lean remodel. If no, lean move.",
+        "Is your renovation budget under 30% of your home's value? If yes, lean remodel. If it's over 50%, lean move.",
+        "Do you have a mortgage rate below 4%? If yes, strongly lean remodel. The rate lock-in effect is massive.",
+        "Are there homes available in your desired area that meet your needs at a price you can afford after transaction costs? If the market is tight, remodel wins by default.",
+        "Can you handle 3-6 months of construction disruption? If not, moving might be the simpler path even if it costs a bit more."
+      ],
+      "callout": "If you answered 'remodel' to 3 or more of these questions, renovation is probably your best path forward. If you answered 'move' to 3 or more, start talking to a real estate agent."
+    },
+    {
+      "heading": "How to Finance Each Option",
+      "paragraphs": [
+        "Financing looks different depending on which path you choose."
+      ],
+      "table": {
+        "headers": ["Financing Option", "Best For", "Typical Terms in 2026"],
+        "rows": [
+          ["Home equity loan", "Remodel - known costs", "6.5-8.5% fixed, 10-20 year terms"],
+          ["HELOC", "Remodel - phased projects", "7-9% variable, draw period + repayment"],
+          ["Cash-out refinance", "Remodel - only if current rate is already high", "6.5-7.5%, replaces your existing mortgage"],
+          ["Personal loan", "Small remodels under $50K", "8-14% fixed, 3-7 year terms"],
+          ["New mortgage", "Moving", "6.5-7.0% for 30-year fixed in early 2026"],
+          ["Bridge loan", "Moving - buying before selling", "8-10%, short-term, higher risk"]
+        ]
+      },
+      "paragraphs": [
+        "For renovation, a home equity loan is usually the best bet if you have the equity. You keep your low first mortgage rate and borrow only what you need at a fixed rate. HELOCs work well if you're doing projects in phases and want to draw funds as needed."
+      ]
+    },
+    {
+      "heading": "ROI: Which Renovations Add the Most Value?",
+      "paragraphs": [
+        "If you decide to remodel, some projects return far more of their cost than others when you eventually sell. According to the 2025-2026 Remodeling Cost vs. Value Report, here are the renovation ROI leaders."
+      ],
+      "table": {
+        "headers": ["Project", "Average Cost", "Resale Value Added", "ROI"],
+        "rows": [
+          ["Garage door replacement", "$4,500", "$4,200", "93%"],
+          ["Manufactured stone veneer", "$11,000", "$10,100", "92%"],
+          ["Minor kitchen remodel", "$28,000", "$23,500", "84%"],
+          ["Fiber cement siding", "$22,000", "$17,600", "80%"],
+          ["Vinyl window replacement", "$20,000", "$14,800", "74%"],
+          ["Bath remodel (mid-range)", "$25,000", "$17,500", "70%"],
+          ["Major kitchen remodel (mid-range)", "$80,000", "$48,000", "60%"],
+          ["Primary suite addition", "$175,000", "$87,500", "50%"],
+          ["Major kitchen remodel (upscale)", "$160,000", "$80,000", "50%"]
+        ]
+      },
+      "callout": "No renovation returns 100% of its cost at resale. But you're not just buying resale value - you're buying years of enjoyment. Factor both into your decision."
+    },
+    {
+      "heading": "The Bottom Line",
+      "paragraphs": [
+        "For most homeowners in 2026, especially those with low mortgage rates, remodeling is the financially stronger choice unless you need dramatically more space or a fundamentally different home. The transaction costs of moving are brutal, and the mortgage rate penalty makes it even worse.",
+        "But finances aren't everything. If your home can't give you what you need, if your neighborhood has changed, or if the renovation required is so massive it doesn't pencil out, moving is the right call. Just go in with your eyes open about the true cost.",
+        "Whatever you decide, run the numbers first. The spreadsheet won't make the decision for you, but it will make sure you're not surprised by a $50,000 gap you didn't see coming."
+      ]
+    }
+  ],
+  "relatedProjects": [
+    {
+      "title": "Room Addition",
+      "href": "/projects/structural/room-addition/",
+      "subtitle": "See cost breakdown"
+    },
+    {
+      "title": "Full Kitchen Remodel",
+      "href": "/projects/kitchen/full-kitchen-remodel/",
+      "subtitle": "See cost breakdown"
+    }
+  ],
+  "seo": {
+    "primaryKeyword": "remodel vs move cost comparison",
+    "secondaryKeywords": [
+      "should I remodel or move",
+      "cost of moving vs renovating",
+      "is it cheaper to renovate or buy a new house",
+      "remodel or sell calculator",
+      "renovation vs buying new home",
+      "cost to sell and buy a house",
+      "when to remodel vs move"
+    ],
+    "metaDescription": "Should you remodel your home or sell and buy new? A full cost comparison of both options in 2026, including transaction fees, renovation costs, mortgage rate impacts, and a decision framework."
+  }
+}

@@ -1,6 +1,7 @@
 import { getCategorySlugs } from '@/app/lib/categories';
 import { getProjectSlugsWithData, getFullProjectData } from '@/app/lib/projects';
 import { getCalculatorSlugs } from '@/app/lib/calculators';
+import { getPostSlugs } from '@/app/lib/blog';
 
 export default function sitemap() {
   const baseUrl = 'https://homeprojectcostguide.com';
@@ -10,6 +11,7 @@ export default function sitemap() {
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
     { url: `${baseUrl}/projects/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/calculators/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${baseUrl}/blog/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/methodology/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
   ];
@@ -38,5 +40,12 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...categoryPages, ...projectPages, ...calculatorPages];
+  const blogPages = getPostSlugs().map((slug) => ({
+    url: `${baseUrl}/blog/${slug}/`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...categoryPages, ...projectPages, ...calculatorPages, ...blogPages];
 }
