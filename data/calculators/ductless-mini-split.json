@@ -1,0 +1,51 @@
+{
+  "slug": "ductless-mini-split",
+  "title": "Ductless Mini-Split Cost Calculator",
+  "description": "Estimate the cost of installing a ductless mini-split system based on number of zones, brand tier, and options.",
+  "projectSlug": "ductless-mini-split",
+  "category": "hvac-energy",
+  "nationalAverage": 4000,
+  "sizeInput": {
+    "label": "Number of Zones",
+    "unit": "zones",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "default": 1
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1000,
+      "laborPerUnit": 700,
+      "permitBase": 100,
+      "description": "Basic brand wall mount (Pioneer or MRCOOL), 12,000 BTU per zone"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 1800,
+      "laborPerUnit": 1000,
+      "permitBase": 200,
+      "description": "Mid-tier brand (Fujitsu or LG), 18,000-24,000 BTU, line concealment"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 2800,
+      "laborPerUnit": 1400,
+      "permitBase": 300,
+      "description": "Premium brand (Mitsubishi or Daikin), ceiling cassette or ducted option"
+    }
+  },
+  "options": [
+    { "id": "lineConcealment", "label": "Line Set Concealment (decorative covers)", "default": false, "costByTier": { "budget": 150, "midRange": 300, "premium": 500 } },
+    { "id": "panelUpgrade", "label": "Electrical Panel Upgrade", "default": false, "costByTier": { "budget": 1000, "midRange": 1500, "premium": 2200 } },
+    { "id": "wifiControl", "label": "Wi-Fi Control Module", "default": false, "costByTier": { "budget": 75, "midRange": 0, "premium": 0 } },
+    { "id": "ceilingCassette", "label": "Ceiling Cassette (instead of wall mount)", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 1200 } },
+    { "id": "concretePad", "label": "Outdoor Unit Concrete Pad", "default": true, "costByTier": { "budget": 75, "midRange": 100, "premium": 150 } }
+  ],
+  "regionalMultipliers": { "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05 },
+  "seo": {
+    "primaryKeyword": "mini split cost calculator",
+    "metaDescription": "Calculate your ductless mini-split installation cost based on number of zones, brand, and your location. Get an instant estimate with our free calculator."
+  }
+}

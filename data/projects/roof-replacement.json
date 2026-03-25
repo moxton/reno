@@ -1,0 +1,131 @@
+{
+  "slug": "roof-replacement",
+  "title": "Roof Replacement (Asphalt Shingles)",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 9500,
+    "typicalLow": 5800,
+    "typicalHigh": 14000,
+    "lowEnd": 4500,
+    "highEnd": 26000,
+    "costPerUnit": { "low": 3.50, "high": 7.00, "unit": "sq ft", "average": 5.00 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 2800,
+      "labor": 3200,
+      "permits": 250,
+      "design": 0,
+      "total": 6500,
+      "description": "3-tab asphalt shingles (~$4/sq ft), basic tearoff of one layer, standard underlayment, 1,500 sq ft roof"
+    },
+    "midRange": {
+      "materials": 4200,
+      "labor": 5000,
+      "permits": 350,
+      "design": 0,
+      "total": 10000,
+      "description": "Architectural shingles ($5-$7/sq ft), full tearoff, ice and water shield at eaves and valleys, new flashing, 2,000 sq ft roof"
+    },
+    "premium": {
+      "materials": 8500,
+      "labor": 8000,
+      "permits": 500,
+      "design": 0,
+      "total": 18000,
+      "description": "Designer/luxury shingles ($8-$10/sq ft), full tearoff, complete ventilation upgrade, ice and water shield on full deck, ridge vent, 2,500 sq ft roof"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Roof Size",
+      "impact": "$2,000 - $10,000+",
+      "description": "Roof size is the single biggest cost driver. A 1,500 sq ft roof might cost $5,250-$10,500, while a 3,000 sq ft roof doubles that to $10,500-$21,000. Roofing is priced by the 'square' (100 sq ft), with each square running $350-$700 installed for standard architectural shingles."
+    },
+    {
+      "title": "Shingle Type",
+      "impact": "$1,500 - $8,000",
+      "description": "Basic 3-tab shingles run about $4 per square foot installed ($80-$100 per roofing square for materials alone). Architectural shingles - the most popular choice - cost $5-$7 per square foot ($100-$200 per square). Designer or luxury shingles push $8-$10 per square foot ($200-$500 per square). For a 2,000 sq ft roof, upgrading from 3-tab to architectural adds roughly $2,000-$6,000."
+    },
+    {
+      "title": "Roof Pitch and Complexity",
+      "impact": "+20-40% for steep or complex roofs",
+      "description": "A simple gable roof with a walkable pitch (4/12 to 6/12) is the easiest and cheapest to work on. Steep roofs (8/12 and above) require special safety equipment and slow the crew down, adding 20-40% to labor costs. Multiple dormers, valleys, hips, and skylights also increase complexity and cost."
+    },
+    {
+      "title": "Number of Layers to Remove",
+      "impact": "$1,000 - $3,000",
+      "description": "Most building codes allow a maximum of two layers of shingles. If your existing roof has one layer, tearoff is standard. Two layers means more labor and disposal costs - each additional layer of tearoff adds $1,000-$3,000 to the project. Some municipalities require a full tearoff regardless."
+    },
+    {
+      "title": "Deck Repairs",
+      "impact": "$2 - $8 per sq ft for damaged areas",
+      "description": "Once old shingles are removed, the plywood deck underneath may show rot or damage. Replacing damaged sheathing runs $2-$8 per square foot. On average, expect 1-5% of your deck to need repair, but badly neglected roofs can need 20% or more replaced, adding $500-$3,000+ to the job."
+    }
+  ],
+  "materialOptions": [
+    { "material": "3-Tab Asphalt Shingles", "costPerUnit": "$80-$100/square", "pros": "Lowest cost, widely available, easy to install and repair", "cons": "Shorter lifespan (15-20 years), less wind resistance, flat appearance", "bestFor": "Budget replacements, rental properties, simple roof lines" },
+    { "material": "Architectural Asphalt Shingles", "costPerUnit": "$100-$200/square", "pros": "Dimensional look, 25-30 year warranty, better wind resistance (up to 130 mph), most popular choice", "cons": "Heavier than 3-tab, moderate cost increase", "bestFor": "Most homeowners - best balance of cost, durability, and appearance" },
+    { "material": "Designer/Luxury Shingles", "costPerUnit": "$200-$500/square", "pros": "Mimics slate or cedar shake, 30-50 year warranty, highest wind rating, best curb appeal", "cons": "2-5x the cost of architectural, heavier (may need structural check)", "bestFor": "Premium homes, historic neighborhoods, maximum curb appeal" },
+    { "material": "Ice and Water Shield", "costPerUnit": "$0.50/sq ft", "pros": "Prevents ice dam leaks, self-sealing around nails, required by code in cold climates", "cons": "Adds cost, only critical in freeze-thaw climates", "bestFor": "All roofs in cold climates, valleys and eaves everywhere" },
+    { "material": "Synthetic Underlayment", "costPerUnit": "$0.15-$0.50/sq ft", "pros": "Lighter than felt, tear-resistant, lays flat, better UV resistance if exposed", "cons": "Costs more than traditional felt paper", "bestFor": "Recommended upgrade over felt for any roof replacement" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, stricter codes, ice dam requirements add cost" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs nationally, fire-resistant materials may be required" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, but hurricane codes may require upgraded fastening" },
+    "midwest": { "label": "Midwest", "min": 0.80, "max": 0.90, "note": "Lowest costs nationally, good contractor availability" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing markets, altitude and weather can affect scheduling" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-3 days",
+    "maximum": "5-7 days",
+    "phases": [
+      { "name": "Tearoff of existing shingles", "duration": "4-8 hours" },
+      { "name": "Deck inspection and repairs", "duration": "1-4 hours" },
+      { "name": "Underlayment and ice/water shield installation", "duration": "2-4 hours" },
+      { "name": "Shingle installation", "duration": "1-2 days" },
+      { "name": "Flashing, ridge cap, and ventilation", "duration": "2-4 hours" },
+      { "name": "Cleanup and final inspection", "duration": "2-4 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Not Recommended",
+    "diySavings": "40-60%",
+    "diyTasks": ["Removing old shingles (tearoff only)", "Minor cleanup and debris hauling", "Gutter cleaning before/after project"],
+    "proOnlyTasks": ["Full shingle installation", "Flashing around chimneys, vents, and skylights", "Ice and water shield installation", "Ridge vent and ventilation work", "Deck repair and structural assessment", "Permit pulling and code compliance"],
+    "diyRisks": "Falls are the number one cause of construction deaths. Residential roofs are steep and slippery, especially during tearoff. Beyond safety, improper installation voids manufacturer warranties that can cover 30-50 years of material defects. Most building codes require permits and inspections for roof replacement, and DIY work may not pass inspection. Insurance claims for storm damage can also be denied if the roof was not professionally installed."
+  },
+  "savingsTips": [
+    "Get quotes in fall or winter. Roofing crews are less busy in the off-season, and many offer 10-20% discounts from October through February.",
+    "Choose architectural shingles over designer. Architectural shingles offer similar durability and wind resistance at roughly half the cost of designer shingles - the main difference is aesthetics.",
+    "Bundle with gutter replacement. If your gutters also need work, doing both at once saves on labor since the crew is already set up with scaffolding and equipment.",
+    "Check for manufacturer rebates. GAF, Owens Corning, and CertainTeed periodically run rebate programs, especially when you use a certified installer.",
+    "Ask about leftover materials. Some contractors have leftover shingles from larger commercial jobs. If you are flexible on color, you may get materials at a discount.",
+    "Skip the full deck replacement unless it is needed. Some contractors push for a full re-sheathing when only 5-10% of the deck has damage. Get a second opinion if the deck replacement quote feels high.",
+    "File insurance claims for storm damage before starting. If your roof was damaged by hail or wind, your homeowner's insurance may cover most of the replacement cost minus your deductible."
+  ],
+  "contractorQuestions": [
+    { "question": "Are you licensed, insured, and do you carry workers' compensation?", "why": "Roofing is dangerous work. If a worker falls on your property and the contractor lacks workers' comp, you could be liable. Verify their insurance certificate directly with the insurer." },
+    { "question": "How do you handle deck damage discovered during tearoff?", "why": "Damaged sheathing is common but hard to predict before tearoff. You need a clear per-square-foot price for deck repairs agreed on in advance, not a surprise change order." },
+    { "question": "What warranty do you offer on labor, and what does the manufacturer warranty cover?", "why": "Shingle manufacturer warranties cover material defects (often 25-50 years) but NOT installation errors. A separate 5-10 year workmanship warranty from your contractor is critical." },
+    { "question": "Will you pull the permit and schedule the inspection?", "why": "A reputable roofer handles permits and ensures the job passes inspection. Skipping permits can cause problems when you sell your home or file an insurance claim." },
+    { "question": "What is your cleanup process?", "why": "Roofing generates a lot of debris - old shingles, nails, and packaging. Ask if they use tarps to protect landscaping and run a magnetic nail sweep of your yard and driveway." },
+    { "question": "How do you handle weather delays?", "why": "Roofing is weather-dependent. You need to know their plan for protecting an exposed deck overnight if rain moves in mid-project." },
+    { "question": "Can I see your roofing license number and three recent local references?", "why": "Many states require a specific roofing license or registration. Local references let you drive by and see the contractor's work in person." }
+  ],
+  "relatedProjects": ["siding-replacement", "window-replacement", "exterior-painting", "garage-door-replacement", "gutter-installation"],
+  "seo": {
+    "primaryKeyword": "roof replacement cost",
+    "secondaryKeywords": ["how much does a new roof cost", "roof replacement cost 2026", "cost to replace roof", "asphalt shingle roof cost", "new roof price", "roof replacement cost per square foot"],
+    "metaDescription": "How much does a roof replacement cost in 2026? National average is $9,500. Get detailed cost breakdowns for 3-tab, architectural, and designer shingles, plus regional pricing and an interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/roofing/install-a-roof/" },
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/roof-replacement" },
+    { "name": "Bill Ragan Roofing", "year": 2025, "url": "https://www.billraganroofing.com/blog/how-much-does-a-new-roof-cost" },
+    { "name": "HomeGuide", "year": 2026, "url": "https://homeguide.com/costs/roof-replacement-cost" }
+  ]
+}

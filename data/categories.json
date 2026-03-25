@@ -1,0 +1,110 @@
+[
+  {
+    "id": "kitchen",
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "description": "Kitchen remodels, cabinet work, countertops, islands, and appliance upgrades.",
+    "icon": "kitchen",
+    "projectCount": 20,
+    "costRange": "$500 - $75,000+"
+  },
+  {
+    "id": "bathroom",
+    "name": "Bathroom",
+    "slug": "bathroom",
+    "description": "Full remodels, shower and tub work, tile, vanities, and accessibility conversions.",
+    "icon": "bathroom",
+    "projectCount": 18,
+    "costRange": "$200 - $50,000+"
+  },
+  {
+    "id": "exterior",
+    "name": "Exterior",
+    "slug": "exterior",
+    "description": "Roofing, siding, windows, doors, gutters, painting, and curb appeal upgrades.",
+    "icon": "exterior",
+    "projectCount": 20,
+    "costRange": "$300 - $80,000+"
+  },
+  {
+    "id": "basement",
+    "name": "Basement",
+    "slug": "basement",
+    "description": "Finishing, waterproofing, egress windows, home theaters, and basement bathrooms.",
+    "icon": "basement",
+    "projectCount": 12,
+    "costRange": "$1,000 - $60,000+"
+  },
+  {
+    "id": "flooring",
+    "name": "Flooring",
+    "slug": "flooring",
+    "description": "Hardwood, laminate, vinyl plank, tile, carpet, and specialty floor installations.",
+    "icon": "flooring",
+    "projectCount": 10,
+    "costRange": "$500 - $15,000+"
+  },
+  {
+    "id": "hvac-energy",
+    "name": "HVAC & Energy",
+    "slug": "hvac-energy",
+    "description": "Heating, cooling, insulation, solar panels, water heaters, and energy efficiency.",
+    "icon": "hvac",
+    "projectCount": 15,
+    "costRange": "$200 - $35,000+"
+  },
+  {
+    "id": "plumbing",
+    "name": "Plumbing",
+    "slug": "plumbing",
+    "description": "Repiping, water mains, sewer lines, water treatment, and fixture installations.",
+    "icon": "plumbing",
+    "projectCount": 10,
+    "costRange": "$150 - $20,000+"
+  },
+  {
+    "id": "electrical",
+    "name": "Electrical",
+    "slug": "electrical",
+    "description": "Panel upgrades, rewiring, lighting, ceiling fans, and smart home electrical work.",
+    "icon": "electrical",
+    "projectCount": 10,
+    "costRange": "$100 - $15,000+"
+  },
+  {
+    "id": "structural",
+    "name": "Structural",
+    "slug": "structural",
+    "description": "Room additions, foundation repair, load-bearing wall removal, and major renovations.",
+    "icon": "structural",
+    "projectCount": 10,
+    "costRange": "$5,000 - $200,000+"
+  },
+  {
+    "id": "painting-walls",
+    "name": "Painting & Walls",
+    "slug": "painting-walls",
+    "description": "Interior and exterior painting, wallpaper, drywall, crown molding, and accent walls.",
+    "icon": "painting",
+    "projectCount": 8,
+    "costRange": "$200 - $12,000+"
+  },
+  {
+    "id": "outdoor-living",
+    "name": "Outdoor Living",
+    "slug": "outdoor-living",
+    "description": "Pools, patios, decks, fire pits, outdoor kitchens, sheds, and landscaping.",
+    "icon": "outdoor",
+    "projectCount": 10,
+    "costRange": "$500 - $100,000+"
+  },
+  {
+    "id": "smart-home",
+    "name": "Smart Home & Tech",
+    "slug": "smart-home",
+    "description": "Smart wiring, home automation, audio systems, motorized shades, and security tech.",
+    "icon": "smarthome",
+    "projectCount": 6,
+    "costRange": "$100 - $10,000+"
+  }
+]

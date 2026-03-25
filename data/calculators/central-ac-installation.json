@@ -1,0 +1,59 @@
+{
+  "slug": "central-ac-installation",
+  "title": "Central AC Installation Cost Calculator",
+  "description": "Estimate the cost of installing central air conditioning based on home size, system capacity, and options.",
+  "projectSlug": "central-ac-installation",
+  "category": "hvac-energy",
+  "nationalAverage": 7500,
+  "sizeInput": {
+    "label": "Home Size",
+    "unit": "sq ft",
+    "min": 500,
+    "max": 5000,
+    "step": 100,
+    "default": 2000
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1.50,
+      "laborPerUnit": 1.25,
+      "permitBase": 200,
+      "description": "14 SEER, single-stage compressor, basic thermostat"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 2.50,
+      "laborPerUnit": 1.75,
+      "permitBase": 300,
+      "description": "16 SEER, two-stage compressor, smart thermostat"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 4.00,
+      "laborPerUnit": 2.50,
+      "permitBase": 400,
+      "description": "20+ SEER, variable speed, zoned system, smart thermostat"
+    }
+  },
+  "options": [
+    { "id": "ductwork", "label": "New Ductwork (no existing)", "default": false, "costByTier": { "budget": 2000, "midRange": 3500, "premium": 5500 } },
+    { "id": "ductRepair", "label": "Duct Sealing/Repair", "default": false, "costByTier": { "budget": 300, "midRange": 600, "premium": 1200 } },
+    { "id": "smartThermostat", "label": "Smart Thermostat", "default": true, "costByTier": { "budget": 150, "midRange": 0, "premium": 0 } },
+    { "id": "electricalUpgrade", "label": "Electrical Panel Upgrade", "default": false, "costByTier": { "budget": 1000, "midRange": 1500, "premium": 2000 } },
+    { "id": "zoning", "label": "2-Zone System", "default": false, "costByTier": { "budget": 1500, "midRange": 2500, "premium": 0 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.88, "AK": 1.30, "AZ": 1.05, "AR": 0.85, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.95, "GA": 0.90, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.88, "KY": 0.85, "LA": 0.88, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.82, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.08,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.85, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.92, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "central AC installation cost calculator",
+    "metaDescription": "Calculate your central AC installation cost based on home size, system efficiency, and options. Get instant 2026 estimates with regional pricing."
+  }
+}

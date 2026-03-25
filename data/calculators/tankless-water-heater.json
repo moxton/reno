@@ -1,0 +1,51 @@
+{
+  "slug": "tankless-water-heater",
+  "title": "Tankless Water Heater Cost Calculator",
+  "description": "Estimate the cost of installing a tankless water heater based on type, capacity, and installation requirements.",
+  "projectSlug": "tankless-water-heater",
+  "category": "plumbing",
+  "nationalAverage": 3000,
+  "sizeInput": {
+    "label": "Number of Bathrooms",
+    "unit": "bathrooms",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "default": 2
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 400,
+      "laborPerUnit": 300,
+      "permitBase": 100,
+      "description": "Electric tankless, basic brand, existing electrical capacity"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 650,
+      "laborPerUnit": 450,
+      "permitBase": 200,
+      "description": "Gas condensing tankless, mid-tier brand, standard venting"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 1000,
+      "laborPerUnit": 650,
+      "permitBase": 300,
+      "description": "Premium gas condensing with recirculation pump, dedicated venting"
+    }
+  },
+  "options": [
+    { "id": "gasLineUpgrade", "label": "Gas Line Upgrade (larger diameter)", "default": false, "costByTier": { "budget": 200, "midRange": 400, "premium": 600 } },
+    { "id": "newVenting", "label": "New Dedicated Venting (gas units)", "default": false, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } },
+    { "id": "recircPump", "label": "Recirculation Pump System", "default": false, "costByTier": { "budget": 200, "midRange": 400, "premium": 600 } },
+    { "id": "panelUpgrade", "label": "Electrical Panel Upgrade (electric units)", "default": false, "costByTier": { "budget": 1000, "midRange": 1500, "premium": 2200 } },
+    { "id": "disposal", "label": "Old Tank Removal and Disposal", "default": true, "costByTier": { "budget": 75, "midRange": 100, "premium": 150 } }
+  ],
+  "regionalMultipliers": { "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05 },
+  "seo": {
+    "primaryKeyword": "tankless water heater cost calculator",
+    "metaDescription": "Calculate your tankless water heater installation cost based on type, home size, and your location. Get an instant estimate with our free interactive calculator."
+  }
+}

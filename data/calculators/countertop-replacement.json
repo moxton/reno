@@ -1,0 +1,59 @@
+{
+  "slug": "countertop-replacement",
+  "title": "Countertop Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your kitchen countertops based on material, size, and options.",
+  "projectSlug": "countertop-replacement",
+  "category": "kitchen",
+  "nationalAverage": 4500,
+  "sizeInput": {
+    "label": "Counter Area",
+    "unit": "sq ft",
+    "min": 10,
+    "max": 100,
+    "step": 5,
+    "default": 35
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 25,
+      "laborPerUnit": 20,
+      "permitBase": 0,
+      "description": "Laminate countertops with basic edge profile and standard sink cutout"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 75,
+      "laborPerUnit": 45,
+      "permitBase": 0,
+      "description": "Quartz or mid-grade granite with upgraded edge and undermount sink"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 160,
+      "laborPerUnit": 75,
+      "permitBase": 0,
+      "description": "Premium marble or exotic granite with custom edges and waterfall details"
+    }
+  },
+  "options": [
+    { "id": "sinkCutout", "label": "Undermount Sink Cutout", "default": true, "costByTier": { "budget": 100, "midRange": 250, "premium": 400 } },
+    { "id": "edgeUpgrade", "label": "Decorative Edge Profile", "default": false, "costByTier": { "budget": 150, "midRange": 350, "premium": 750 } },
+    { "id": "removal", "label": "Old Countertop Removal", "default": true, "costByTier": { "budget": 200, "midRange": 300, "premium": 400 } },
+    { "id": "backsplash", "label": "4-inch Backsplash Lip", "default": false, "costByTier": { "budget": 100, "midRange": 300, "premium": 600 } },
+    { "id": "plumbing", "label": "Plumbing Reconnection", "default": true, "costByTier": { "budget": 150, "midRange": 200, "premium": 300 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "countertop replacement cost calculator",
+    "metaDescription": "Calculate your countertop replacement cost by material, size, and options. Get instant estimates with regional adjustments for quartz, granite, marble, and laminate in 2026."
+  }
+}

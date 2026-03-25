@@ -1,0 +1,130 @@
+{
+  "slug": "toilet-replacement",
+  "title": "Toilet Replacement",
+  "category": "bathroom",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 500,
+    "typicalLow": 275,
+    "typicalHigh": 800,
+    "lowEnd": 150,
+    "highEnd": 3000,
+    "costPerUnit": { "low": 150, "high": 3000, "unit": "unit", "average": 500 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 120,
+      "labor": 150,
+      "permits": 0,
+      "design": 0,
+      "total": 270,
+      "description": "Basic round-front two-piece toilet, standard installation, same-footprint swap with existing flange"
+    },
+    "midRange": {
+      "materials": 300,
+      "labor": 200,
+      "permits": 0,
+      "design": 0,
+      "total": 500,
+      "description": "Comfort-height elongated toilet with soft-close seat, WaterSense certified, new wax ring and supply line"
+    },
+    "premium": {
+      "materials": 1500,
+      "labor": 500,
+      "permits": 0,
+      "design": 0,
+      "total": 2000,
+      "description": "Wall-mounted toilet with in-wall carrier, bidet seat, or smart toilet with heated seat, auto-flush, and night light"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Toilet Type and Features",
+      "impact": "$100 - $2,500 for the fixture",
+      "description": "A basic two-piece round-front toilet costs $100-$200. An elongated comfort-height model runs $200-$500. One-piece toilets with sleek profiles cost $300-$800. Smart toilets with bidet functions, heated seats, and auto-flush push $800-$2,500. Wall-mounted toilets are $300-$800 for the bowl but require a $300-$600 in-wall carrier system."
+    },
+    {
+      "title": "Flange Condition",
+      "impact": "$0 - $350",
+      "description": "If the existing toilet flange is in good condition and at the right height, replacement is straightforward. A cracked or corroded flange needs repair ($50-$150). If the flange sits below the finished floor level - common after new flooring was installed over the old - a flange extender ($20-$50) or flange replacement ($100-$350) is needed."
+    },
+    {
+      "title": "Rough-In Distance",
+      "impact": "$0 - $500",
+      "description": "Most toilets use a standard 12-inch rough-in (distance from the wall to the center of the drain). Older homes sometimes have 10-inch or 14-inch rough-ins. If your rough-in is non-standard, you either need a toilet designed for that measurement (limited selection, sometimes pricier) or you need to modify the drain - a $300-$500 plumbing job."
+    },
+    {
+      "title": "Floor Damage or Rot",
+      "impact": "$100 - $800",
+      "description": "A leaking wax ring or running toilet often causes water damage to the subfloor around the flange. Minor damage can be patched for $100-$200. Significant subfloor rot that requires cutting and replacing plywood runs $300-$800 and can extend the project from 2 hours to a full day."
+    },
+    {
+      "title": "Wall-Mounted Installation",
+      "impact": "$800 - $1,500 premium",
+      "description": "Wall-mounted toilets require an in-wall carrier frame ($300-$600) that bolts to the framing and supports the toilet's weight. Installing one means opening the wall, mounting the carrier, connecting plumbing, and then patching and finishing the wall. Total premium over a standard floor-mounted toilet is $800-$1,500."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Two-Piece Round-Front", "costPerUnit": "$100-$250 per unit", "pros": "Most affordable, widely available, easy to transport and install", "cons": "Takes up less space but harder to clean around base, lower profile", "bestFor": "Budget replacements and small half bathrooms" },
+    { "material": "Two-Piece Elongated", "costPerUnit": "$200-$500 per unit", "pros": "More comfortable seat shape, widely available, comfort-height options", "cons": "Requires 2 more inches of space than round, two-piece design harder to clean", "bestFor": "Most standard bathroom replacements - best value" },
+    { "material": "One-Piece Elongated", "costPerUnit": "$300-$800 per unit", "pros": "Sleek seamless design, easier to clean, no gap between tank and bowl", "cons": "Heavier (60-100 lbs), harder to transport, more expensive", "bestFor": "Mid-range to premium bathrooms where appearance matters" },
+    { "material": "Wall-Mounted Toilet", "costPerUnit": "$600-$1,400 per unit (plus carrier)", "pros": "Modern look, adjustable height, easy floor cleaning, saves floor space", "cons": "Requires in-wall carrier ($300-$600), complex installation, repair access is harder", "bestFor": "Modern and ADA-accessible bathroom designs" },
+    { "material": "Smart Toilet/Bidet Toilet", "costPerUnit": "$800-$2,500 per unit", "pros": "Built-in bidet, heated seat, auto-flush, night light, self-cleaning", "cons": "Requires nearby electrical outlet, expensive, complex repair if features fail", "bestFor": "Luxury master bathrooms and accessibility upgrades" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher plumber hourly rates" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, strict low-flow requirements already standard" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower plumber rates, competitive pricing" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average costs for straightforward installations" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Slightly above national average" }
+  },
+  "timeline": {
+    "minimum": "1 hour",
+    "typical": "2-3 hours",
+    "maximum": "1 day",
+    "phases": [
+      { "name": "Shut off water and remove old toilet", "duration": "30 minutes" },
+      { "name": "Inspect flange and subfloor", "duration": "15 minutes" },
+      { "name": "Flange repair (if needed)", "duration": "30-60 minutes" },
+      { "name": "Install new wax ring and set toilet", "duration": "30-45 minutes" },
+      { "name": "Connect water supply and test", "duration": "15-30 minutes" },
+      { "name": "Caulk base and cleanup", "duration": "15 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "High",
+    "diySavings": "60-80%",
+    "diyTasks": ["Remove and dispose of old toilet", "Install new wax ring", "Set and bolt new floor-mounted toilet", "Connect water supply line", "Caulk around base"],
+    "proOnlyTasks": ["Flange replacement or repair at floor level", "Subfloor repair if rot is found", "Wall-mounted toilet carrier installation", "Moving drain location for a different rough-in", "Adding an electrical outlet for a smart toilet"],
+    "diyRisks": "Toilet replacement is one of the most DIY-friendly plumbing projects, but there are a few ways it can go wrong. Over-tightening the closet bolts can crack the porcelain base - this is unfixable and ruins a new toilet. Not seating the wax ring properly causes sewer gas leaks and slow water damage. If you discover a corroded flange or rotted subfloor after removing the old toilet, that is the point to call a plumber rather than improvise."
+  },
+  "savingsTips": [
+    "Buy the toilet yourself and hire just the installation. Plumber markup on toilets is typically 15-30%. Buy from a big-box store and pay the plumber labor-only for $150-$250.",
+    "Choose a two-piece elongated toilet in the $200-$400 range. This is the sweet spot for quality, comfort, and value. You get comfort height and WaterSense certification without luxury pricing.",
+    "Check your rough-in distance before shopping. Measure from the wall (not the baseboard) to the center of the closet bolts. Buying the right rough-in size avoids return trips and plumbing modifications.",
+    "Skip the wall-mounted toilet unless you are doing a full bathroom remodel. The in-wall carrier and installation premium of $800-$1,500 is hard to justify for a standalone toilet swap.",
+    "Add a bidet seat instead of buying a smart toilet. A quality bidet seat attachment costs $200-$600 vs. $800-$2,500 for an integrated smart toilet and delivers most of the same features.",
+    "Replace the wax ring and supply line every time. A new wax ring costs $5-$10 and a braided stainless supply line is $8-$15. These are cheap insurance against leaks.",
+    "Look for contractor packs. Some retailers sell toilets in contractor multi-packs at 10-20% off single-unit pricing if you are replacing multiple toilets."
+  ],
+  "contractorQuestions": [
+    { "question": "Does your quote include the toilet itself, or just labor?", "why": "Some plumbers include the toilet in their price (with markup), while others charge labor-only and expect you to supply the fixture. Clarify this upfront to compare quotes accurately." },
+    { "question": "What will you do if the flange is damaged?", "why": "A cracked or corroded flange is common in older homes. Ask if flange repair or replacement is included in the base price or if it is an additional charge." },
+    { "question": "Do you inspect the subfloor for water damage?", "why": "A good plumber checks the subfloor condition when the old toilet comes off. This is your one chance to catch rot before it gets worse." },
+    { "question": "Will you haul away the old toilet?", "why": "Old toilet disposal is not always included. If it is not, you will need to get it to the curb or a transfer station yourself - and toilets are heavy and awkward." },
+    { "question": "Do you use a wax ring or a wax-free seal?", "why": "Both work when installed properly. Wax-free seals (like Danco Perfect Seal) are more forgiving of slight misalignment and can be repositioned. This is a preference question that shows their knowledge level." },
+    { "question": "Is there a service call fee in addition to the installation charge?", "why": "Some plumbers charge a $50-$100 service call fee on top of the installation price. Ask about all fees upfront to avoid surprises on the invoice." }
+  ],
+  "relatedProjects": ["bathroom-remodel", "bathroom-vanity-replacement", "shower-remodel", "bathroom-tile-installation"],
+  "seo": {
+    "primaryKeyword": "toilet replacement cost",
+    "secondaryKeywords": ["cost to replace a toilet", "toilet installation cost", "how much to install a toilet", "new toilet cost with installation", "toilet replacement cost 2026"],
+    "metaDescription": "How much does toilet replacement cost in 2026? National average is $500. Compare toilet types, learn what affects pricing, and use our free calculator to estimate your cost."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/plumbing/install-a-toilet/" },
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/toilet-installation" },
+    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-toilet.htm" },
+    { "name": "Bob Vila", "year": 2025, "url": "https://www.bobvila.com/articles/cost-to-install-toilet/" }
+  ]
+}

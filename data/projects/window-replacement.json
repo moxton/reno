@@ -1,0 +1,132 @@
+{
+  "slug": "window-replacement",
+  "title": "Window Replacement",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 750,
+    "typicalLow": 300,
+    "typicalHigh": 1200,
+    "lowEnd": 300,
+    "highEnd": 3000,
+    "costPerUnit": { "low": 300, "high": 2500, "unit": "window", "average": 750 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 250,
+      "labor": 150,
+      "permits": 0,
+      "design": 0,
+      "total": 400,
+      "description": "Vinyl frame, single-hung or double-hung, double-pane clear glass, standard sizes, basic hardware"
+    },
+    "midRange": {
+      "materials": 475,
+      "labor": 200,
+      "permits": 75,
+      "design": 0,
+      "total": 750,
+      "description": "Vinyl or fiberglass frame, double-hung or casement, Low-E glass with argon fill, upgraded hardware, standard trim"
+    },
+    "premium": {
+      "materials": 1000,
+      "labor": 300,
+      "permits": 100,
+      "design": 100,
+      "total": 1500,
+      "description": "Wood or fiberglass frame, casement or specialty shapes, triple-pane glass, premium coatings, custom trim and interior casing"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Frame Material",
+      "impact": "$150 - $1,200 per window",
+      "description": "Vinyl frames are the most affordable at $350-$800 per window installed and require virtually zero maintenance. Aluminum frames run $200-$800 but conduct heat poorly. Fiberglass costs $400-$1,500 and offers the best strength-to-weight ratio with excellent insulation. Wood frames are the premium choice at $400-$2,000 per window - they look beautiful but need repainting every 3-5 years. Composite frames ($300-$2,500) blend wood aesthetics with low-maintenance vinyl durability."
+    },
+    {
+      "title": "Window Style",
+      "impact": "$200 - $3,500 per window",
+      "description": "Double-hung windows (the most common style) cost $300-$1,000 per window installed. Casement windows run $400-$1,200 and offer better air sealing. Sliding windows are comparable to double-hung at $250-$800. Bay windows jump to $900-$4,500 because they require structural support and custom framing. Picture windows (fixed, non-opening) are surprisingly affordable at $200-$800 since there's no operating hardware."
+    },
+    {
+      "title": "Glass Type and Energy Efficiency",
+      "impact": "$50 - $400 per window",
+      "description": "Standard double-pane clear glass is the baseline. Low-E coating adds $25-$75 per window but cuts UV transmission by 70-80% and reduces heating costs. Argon gas fill between panes adds $25-$50 and improves insulation by about 15%. Triple-pane glass adds $100-$400 per window and is worth the investment in cold climates (zones 5-7) where heating bills are high. For most of the country, double-pane Low-E with argon is the sweet spot."
+    },
+    {
+      "title": "Number of Windows",
+      "impact": "10-15% bulk discount",
+      "description": "Replacing windows one at a time is the most expensive per-unit approach. Most installers offer 10-15% discounts on whole-house projects of 10+ windows because they can work more efficiently - measure once, order once, mobilize once. A 15-window project at $750 each ($11,250) might drop to $650 each ($9,750) as a package deal, saving you $1,500."
+    },
+    {
+      "title": "Accessibility and Installation Complexity",
+      "impact": "$50 - $500 per window premium",
+      "description": "Ground-floor windows with easy access are the baseline price. Second-story windows add $50-$150 each for ladder work and safety precautions. Third-story or hard-to-reach windows can add $200-$500 per window. If your existing window frames have rot or water damage, expect $100-$400 per window for frame repair before the new window goes in. Older homes with non-standard sizes require custom-ordered windows, adding 20-30% to material costs."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Vinyl Windows", "costPerUnit": "$350-$800/window", "pros": "Most affordable, zero maintenance, good insulation, wide availability", "cons": "Limited color options (can't be painted), less rigid in large sizes, may warp in extreme heat", "bestFor": "Most homeowners - best value for the money" },
+    { "material": "Aluminum Windows", "costPerUnit": "$200-$800/window", "pros": "Strong and lightweight, slim sightlines, modern aesthetic", "cons": "Poor insulation (conducts heat), condensation issues in cold climates, can corrode", "bestFor": "Modern/contemporary homes, mild climates" },
+    { "material": "Fiberglass Windows", "costPerUnit": "$400-$1,500/window", "pros": "Strongest frames, excellent insulation, paintable, minimal expansion/contraction", "cons": "Higher cost, fewer manufacturers, limited styles at lower price points", "bestFor": "Extreme climates, homeowners wanting premium durability without wood maintenance" },
+    { "material": "Wood Windows", "costPerUnit": "$400-$2,000/window", "pros": "Best aesthetics, excellent insulation, paintable in any color, highest resale value", "cons": "Requires regular painting/staining, vulnerable to rot and insects, most expensive", "bestFor": "Historic homes, high-end remodels, homeowners who prioritize curb appeal" },
+    { "material": "Composite Windows", "costPerUnit": "$300-$2,500/window", "pros": "Wood look without wood maintenance, strong and durable, good insulation", "cons": "Premium pricing, fewer manufacturer options, relatively new technology", "bestFor": "Homeowners who want wood aesthetics with vinyl-level maintenance" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, energy code requirements may push toward triple-pane" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, strict energy codes especially in California" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, less demand for triple-pane reduces material costs" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average labor costs, but cold climate may drive up glass specs" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate premium, altitude and UV exposure favor Low-E coatings" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-3 days",
+    "maximum": "1-2 weeks",
+    "phases": [
+      { "name": "In-home measurement and consultation", "duration": "1-2 hours" },
+      { "name": "Window manufacturing and delivery", "duration": "3-6 weeks" },
+      { "name": "Old window removal", "duration": "15-30 minutes per window" },
+      { "name": "New window installation", "duration": "1-3 hours per window" },
+      { "name": "Interior and exterior trim finishing", "duration": "30-60 minutes per window" },
+      { "name": "Final inspection and cleanup", "duration": "1-2 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Low",
+    "diySavings": "25-40%",
+    "diyTasks": ["Removing interior trim and stops", "Prepping the window opening", "Caulking and weatherstripping", "Painting or staining interior trim"],
+    "proOnlyTasks": ["Measuring and ordering custom-fit windows", "Full-frame window removal and replacement", "Flashing and waterproofing the rough opening", "Structural modifications for different-sized windows", "Installing bay or bow windows"],
+    "diyRisks": "Improper window installation is one of the most costly DIY mistakes in home improvement. Bad flashing or sealing leads to water infiltration behind walls, which causes hidden rot, mold, and structural damage that can cost $2,000-$10,000+ to repair. Most manufacturer warranties are voided by non-professional installation. Air leaks from poor installation negate the energy savings you bought new windows to get."
+  },
+  "savingsTips": [
+    "Replace all your windows at once. Whole-house projects typically earn a 10-15% bulk discount from installers, saving $100-$200 per window on a 15-window project.",
+    "Choose vinyl over wood. Vinyl frames cost 40-60% less than wood and deliver similar energy performance. Unless you have a historic home or strong aesthetic preference, vinyl is the smart financial choice.",
+    "Skip triple-pane unless you live in a cold climate. In USDA zones 1-4 (most of the South, Mid-Atlantic, and West Coast), double-pane Low-E glass provides 90% of the energy benefit at 60-70% of the cost.",
+    "Avoid bay and bow windows unless they already exist. Converting a flat wall to a bay window requires structural framing and costs $2,000-$5,000 per window. Replacing an existing bay is much cheaper.",
+    "Get quotes from at least 3 installers. Window replacement pricing varies more than almost any other home project. We've seen quotes range from $450 to $1,100 for the same window and opening.",
+    "Look for energy rebates and tax credits. The federal energy efficiency tax credit covers 30% of window costs up to $600 annually. Many states and utilities stack additional rebates on top.",
+    "Time your purchase for off-season. Late fall and winter are slower seasons for window installers. You may get 5-10% better pricing and faster lead times from November through February.",
+    "Consider insert (pocket) windows instead of full-frame replacement. If your existing frames are in good shape, insert windows cost 20-30% less because they skip the exterior trim and flashing work."
+  ],
+  "contractorQuestions": [
+    { "question": "Are you quoting full-frame replacement or insert (pocket) windows?", "why": "Full-frame replacement removes everything down to the rough opening and costs more but addresses any hidden rot or damage. Insert windows fit inside the existing frame and are cheaper but reduce glass area slightly. Make sure you're comparing apples to apples between quotes." },
+    { "question": "What brand and specific product line are you installing?", "why": "Window brands like Andersen, Pella, and Marvin all have budget and premium lines with huge quality differences. Ask for the exact model number so you can research warranty, ratings, and reviews." },
+    { "question": "Does your quote include interior and exterior trim?", "why": "Some installers quote window-only and charge separately for interior casing, exterior trim, or aluminum capping. This can add $50-$150 per window that wasn't in the original quote." },
+    { "question": "How do you handle rot or damage found during removal?", "why": "Water damage around old windows is common. Get their policy and rough pricing for frame repair in writing before they start. Surprise frame repairs are the most common reason window projects go over budget." },
+    { "question": "What warranty covers the installation labor?", "why": "Product warranties from the manufacturer typically cover 20 years to lifetime, but installation defects are covered by the installer's separate warranty. Look for at least 2-5 years on workmanship." },
+    { "question": "Will you pull the required permit and schedule the inspection?", "why": "Most jurisdictions require a permit for window replacement ($50-$300). Some installers include this in their quote, others don't. Skipping the permit can cause problems when you sell your home." },
+    { "question": "What's your lead time from measurement to installation?", "why": "Custom-ordered windows typically take 3-6 weeks to manufacture. Some contractors measure and order immediately, others batch orders. If you need windows before winter or have a broken window, lead time matters." }
+  ],
+  "relatedProjects": ["siding-replacement", "exterior-painting", "roof-replacement", "central-ac-installation"],
+  "seo": {
+    "primaryKeyword": "window replacement cost",
+    "secondaryKeywords": ["how much does window replacement cost", "cost to replace windows", "window installation cost", "new windows price", "window replacement cost 2026"],
+    "metaDescription": "How much does window replacement cost in 2026? National average is $750 per window ($300-$1,200 typical range). Get breakdowns by frame material, style, and glass type with an interactive calculator."
+  },
+  "sources": [
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/window-replacement" },
+    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-replace-window.htm" },
+    { "name": "This Old House", "year": 2025, "url": "https://www.thisoldhouse.com/windows/reviews/window-replacement-cost" },
+    { "name": "NerdWallet", "year": 2025, "url": "https://www.nerdwallet.com/article/mortgages/window-replacement-cost" }
+  ]
+}

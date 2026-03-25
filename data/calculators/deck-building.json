@@ -1,0 +1,59 @@
+{
+  "slug": "deck-building",
+  "title": "Deck Building Cost Calculator",
+  "description": "Estimate the cost of building a composite deck based on size, materials, and features.",
+  "projectSlug": "deck-building",
+  "category": "exterior",
+  "nationalAverage": 14000,
+  "sizeInput": {
+    "label": "Deck Size",
+    "unit": "sq ft",
+    "min": 100,
+    "max": 1000,
+    "step": 25,
+    "default": 300
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 18,
+      "laborPerUnit": 16,
+      "permitBase": 400,
+      "description": "Basic composite, simple rectangle, standard railing"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 30,
+      "laborPerUnit": 25,
+      "permitBase": 600,
+      "description": "Mid-grade composite (Trex Select), multi-level, aluminum railing"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 50,
+      "laborPerUnit": 38,
+      "permitBase": 800,
+      "description": "Premium composite (TimberTech/Azek), custom design, cable railing, lighting"
+    }
+  },
+  "options": [
+    { "id": "railing", "label": "Railing (included in base)", "default": true, "costByTier": { "budget": 0, "midRange": 0, "premium": 0 } },
+    { "id": "stairs", "label": "Stairs (one set)", "default": true, "costByTier": { "budget": 500, "midRange": 1000, "premium": 2000 } },
+    { "id": "lighting", "label": "Built-in LED Lighting", "default": false, "costByTier": { "budget": 400, "midRange": 800, "premium": 1500 } },
+    { "id": "pergola", "label": "Pergola/Shade Structure", "default": false, "costByTier": { "budget": 2000, "midRange": 4000, "premium": 8000 } },
+    { "id": "builtinSeating", "label": "Built-in Bench Seating", "default": false, "costByTier": { "budget": 500, "midRange": 1000, "premium": 2000 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "deck building cost calculator",
+    "metaDescription": "Calculate your composite deck building cost based on size, materials, and features. Get instant 2026 estimates with regional pricing."
+  }
+}

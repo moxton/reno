@@ -1,0 +1,134 @@
+{
+  "slug": "fence-installation",
+  "title": "Wood Privacy Fence Installation",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 4500,
+    "typicalLow": 3000,
+    "typicalHigh": 8000,
+    "lowEnd": 1500,
+    "highEnd": 15000,
+    "costPerUnit": { "low": 20, "high": 50, "unit": "linear ft", "average": 30 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 1800,
+      "labor": 1050,
+      "permits": 100,
+      "design": 0,
+      "total": 3000,
+      "description": "Pressure-treated pine, 6ft standard privacy style, basic dog-ear pickets, $18-$27/linear ft for 150 linear feet"
+    },
+    "midRange": {
+      "materials": 3000,
+      "labor": 2200,
+      "permits": 150,
+      "design": 0,
+      "total": 5500,
+      "description": "Cedar, 6ft, board-on-board or dog-ear style, $25-$35/linear ft for 150 linear feet"
+    },
+    "premium": {
+      "materials": 5500,
+      "labor": 3800,
+      "permits": 200,
+      "design": 500,
+      "total": 10000,
+      "description": "Western red cedar or redwood, 8ft, shadowbox or horizontal plank design, custom gates, $40-$70/linear ft for 150 linear feet"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Wood Species",
+      "impact": "$1,200 - $7,500",
+      "description": "Wood choice is the biggest material cost driver. Spruce and pressure-treated pine run $18-$27 per linear foot installed and last 15-20 years with proper maintenance. Cedar costs $25-$35 per linear foot and naturally resists rot for 20-30 years. Redwood is the premium option at $35-$50 per linear foot for standard grades, with premium heartwood redwood pushing $70-$120 per linear foot. For 150 linear feet, the difference between pine and cedar alone is $1,000-$1,200."
+    },
+    {
+      "title": "Fence Height",
+      "impact": "$750 - $2,500",
+      "description": "Standard 6ft privacy fences are the most common and cost-effective height. Stepping up to 8ft adds 25-35% to your total cost because you need longer posts, more pickets, and an additional horizontal rail. Some municipalities cap residential fence height at 6ft without a variance, so check local codes before planning an 8ft fence."
+    },
+    {
+      "title": "Fence Style",
+      "impact": "$500 - $3,000",
+      "description": "A basic flat-top privacy fence is the most affordable. Board-on-board (overlapping pickets) uses 30% more lumber but looks better from both sides. Shadowbox style alternates pickets for airflow and a finished look on both sides. Horizontal plank fences are trendy but require more precise carpentry and often cost 15-25% more than vertical styles."
+    },
+    {
+      "title": "Terrain and Grading",
+      "impact": "$500 - $2,000",
+      "description": "Flat, clear ground is the easiest and cheapest to fence. Slopes require either stepped panels (more posts, more labor) or racked panels that follow the grade. Rocky soil makes post-hole digging significantly harder. Tree roots, existing concrete, or utility lines can all add time and cost to the installation."
+    },
+    {
+      "title": "Gates",
+      "impact": "$200 - $600 each",
+      "description": "Each standard walk-through gate adds $200-$400 to the project. Double-wide gates for equipment or vehicle access run $400-$600. Custom gates with arched tops or decorative hardware push higher. Most residential fences need 1-2 gates, which adds $200-$1,200 to the total."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Spruce", "costPerUnit": "$18-$25/linear ft installed", "pros": "Lowest cost, widely available, takes stain well", "cons": "Least durable, prone to warping, requires more frequent maintenance", "bestFor": "Tight budgets, temporary fencing, properties where appearance is secondary" },
+    { "material": "Pressure-Treated Pine", "costPerUnit": "$20-$27/linear ft installed", "pros": "Affordable, rot-resistant treatment, 15-20 year lifespan with maintenance", "cons": "Green tint when new (fades), chemicals in treatment, can warp as it dries", "bestFor": "Best value for long-term durability on a budget" },
+    { "material": "Cedar", "costPerUnit": "$25-$35/linear ft installed", "pros": "Natural rot and insect resistance, beautiful grain, 20-30 year lifespan, no chemical treatment needed", "cons": "Costs more than pine, grays naturally without stain, softer wood can dent", "bestFor": "Most popular choice - great balance of appearance, durability, and cost" },
+    { "material": "Cypress", "costPerUnit": "$27-$43/linear ft installed", "pros": "Excellent natural rot resistance, strong, beautiful honey color", "cons": "Regional availability (best in Southeast), higher cost", "bestFor": "Southeast homeowners wanting a durable, attractive natural wood" },
+    { "material": "Redwood", "costPerUnit": "$35-$120/linear ft installed", "pros": "Premium appearance, exceptional durability, natural insect resistance, 30+ year lifespan", "cons": "Most expensive option, limited availability outside West Coast, sustainability concerns", "bestFor": "Premium builds where budget is less of a concern and aesthetics matter most" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, cedar and redwood cost more due to shipping" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, though redwood is more available locally" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, cypress is affordable and locally available" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive pricing, good cedar availability from northern suppliers" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate labor costs, growing construction demand" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-3 days",
+    "maximum": "5-7 days",
+    "phases": [
+      { "name": "Permit and utility locate (call 811)", "duration": "1-2 weeks" },
+      { "name": "Site preparation and old fence removal", "duration": "0.5-1 day" },
+      { "name": "Post hole digging and post setting", "duration": "0.5-1 day" },
+      { "name": "Concrete curing (if applicable)", "duration": "24-48 hours" },
+      { "name": "Rail and picket installation", "duration": "1-2 days" },
+      { "name": "Gate installation and hardware", "duration": "2-4 hours" },
+      { "name": "Cleanup and final inspection", "duration": "2-4 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Feasible",
+    "diySavings": "40-60%",
+    "diyTasks": ["Removing old fence", "Digging post holes (rent a two-person auger)", "Setting posts in concrete", "Attaching rails and pickets", "Installing gate hardware", "Staining or sealing the finished fence"],
+    "proOnlyTasks": ["Rocky or extremely difficult soil conditions", "Fences on steep grades requiring custom engineering", "Permit process in strict municipalities", "Large projects over 300 linear feet where speed matters"],
+    "diyRisks": "The most common DIY mistake is setting posts too shallow - posts should be buried at least 1/3 of their total length (2 feet for a 6ft fence). Improperly set posts will lean within a year. Also, hitting a utility line while digging can be dangerous and expensive - always call 811 before digging."
+  },
+  "savingsTips": [
+    "Choose pressure-treated pine over cedar. Pine lasts 15-20 years with a good stain and costs 20-30% less than cedar - saving $750-$1,200 on a typical 150 ft fence.",
+    "Set your own posts. Post-setting is the most labor-intensive part. Renting a two-person auger ($50-$100/day) and setting posts yourself saves $500-$1,000 even if you hire someone to install the rails and pickets.",
+    "Minimize the number of gates. Each gate adds $200-$600. Plan your layout to use as few gates as practical.",
+    "Buy materials directly from a lumberyard instead of a big-box store. Lumberyards often have better pricing on bulk fence materials and can cut boards to length.",
+    "Check if your neighbor will split the cost. Many states have shared fence laws, and even where they don't, neighbors often agree to split the cost of a fence on a property line.",
+    "Time your project for late fall or winter. Fence installers are less booked and may offer 10-15% lower rates during the off-season.",
+    "Stain the fence yourself after installation. Hiring a pro to stain adds $1-$3 per linear foot. A pump sprayer and a weekend of work saves $150-$450.",
+    "Use dog-ear pickets instead of flat-top. Dog-ear style costs the same but sheds water better, extending the life of your fence."
+  ],
+  "contractorQuestions": [
+    { "question": "Will you call 811 for utility marking before digging?", "why": "Hitting a buried gas, water, or electric line is dangerous and expensive. Professional fence installers should always verify utility locations before digging post holes." },
+    { "question": "How deep will you set the posts, and will you use concrete?", "why": "Posts should be buried at least 2 feet for a 6ft fence, set in concrete. Some installers skip concrete to save time, but it significantly reduces fence longevity." },
+    { "question": "Does your quote include removing the old fence?", "why": "Old fence removal and disposal can add $3-$5 per linear foot. Make sure it's clear whether this is included or a separate charge." },
+    { "question": "What grade of lumber will you use?", "why": "There's a big quality range within each wood species. #1 grade cedar looks and performs much better than #2 or #3 grade. Make sure the quote specifies lumber grade." },
+    { "question": "How do you handle property line disputes?", "why": "A fence built even a few inches over the property line can become a legal headache. Professional installers should ask for a survey or set the fence 2-4 inches inside your property line." },
+    { "question": "Do you warranty your work against leaning posts?", "why": "Post failure is the most common fence problem. A good installer will warranty their post-setting work for at least 1-2 years." },
+    { "question": "What's your payment structure?", "why": "Avoid paying more than 30% upfront for materials. The balance should be due upon completion and your satisfaction with the work." }
+  ],
+  "relatedProjects": ["deck-building", "exterior-painting", "landscaping", "driveway-replacement", "retaining-wall-construction"],
+  "seo": {
+    "primaryKeyword": "fence installation cost",
+    "secondaryKeywords": ["wood fence cost", "privacy fence cost", "how much does a fence cost", "cedar fence cost per foot", "fence installation price 2026", "cost to install a wood fence"],
+    "metaDescription": "How much does a wood privacy fence cost in 2026? National average is $4,500 for 150 linear feet. Get detailed cost breakdowns by wood type, regional pricing, and an interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/fencing/" },
+    { "name": "Natural Enclosures", "year": 2025, "url": "https://www.fixr.com/costs/install-fence" },
+    { "name": "Homewyse", "year": 2026, "url": "https://www.homewyse.com/costs/cost_of_wood_privacy_fence.html" },
+    { "name": "Angi", "year": 2026, "url": "https://www.angi.com/articles/how-much-does-fence-installation-cost.htm" },
+    { "name": "Bob Vila", "year": 2025, "url": "https://www.bobvila.com/articles/cost-of-a-fence/" }
+  ]
+}

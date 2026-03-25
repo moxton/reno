@@ -1,0 +1,59 @@
+{
+  "slug": "electrical-panel-upgrade",
+  "title": "Electrical Panel Upgrade Cost Calculator",
+  "description": "Estimate the cost of upgrading your electrical panel based on panel size, tier, and additional options.",
+  "projectSlug": "electrical-panel-upgrade",
+  "category": "electrical",
+  "nationalAverage": 2000,
+  "sizeInput": {
+    "label": "Panel Size",
+    "unit": "amps",
+    "min": 100,
+    "max": 400,
+    "step": 50,
+    "default": 200
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 2.50,
+      "laborPerUnit": 2.50,
+      "permitBase": 150,
+      "description": "Standard panel, basic breakers, no additional circuits"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 4.00,
+      "laborPerUnit": 4.00,
+      "permitBase": 250,
+      "description": "Quality panel with AFCI breakers, grounding update, 2-4 new circuits"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 6.00,
+      "laborPerUnit": 5.50,
+      "permitBase": 350,
+      "description": "Top-tier panel, whole-home surge protection, smart breakers, subpanel"
+    }
+  },
+  "options": [
+    { "id": "surgProtection", "label": "Whole-Home Surge Protection", "default": false, "costByTier": { "budget": 150, "midRange": 250, "premium": 0 } },
+    { "id": "newCircuits", "label": "Add 4 New Circuits", "default": true, "costByTier": { "budget": 600, "midRange": 800, "premium": 1200 } },
+    { "id": "groundingUpgrade", "label": "Grounding System Upgrade", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 500 } },
+    { "id": "meterBase", "label": "New Meter Base", "default": false, "costByTier": { "budget": 200, "midRange": 300, "premium": 450 } },
+    { "id": "subpanel", "label": "Add Subpanel (Garage/Workshop)", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 1200 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "electrical panel upgrade cost calculator",
+    "metaDescription": "Calculate your electrical panel upgrade cost based on panel size, quality tier, and options. Get instant 2026 estimates with regional pricing for all 50 states."
+  }
+}

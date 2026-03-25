@@ -1,0 +1,59 @@
+{
+  "slug": "whole-house-rewiring",
+  "title": "Whole-House Rewiring Cost Calculator",
+  "description": "Estimate the cost of rewiring your home based on square footage, quality tier, and additional options.",
+  "projectSlug": "whole-house-rewiring",
+  "category": "electrical",
+  "nationalAverage": 8000,
+  "sizeInput": {
+    "label": "Home Size",
+    "unit": "sq ft",
+    "min": 500,
+    "max": 5000,
+    "step": 100,
+    "default": 1800
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1.25,
+      "laborPerUnit": 2.00,
+      "permitBase": 300,
+      "description": "Basic NM-B wiring, code-minimum circuits, accessible walls"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 1.75,
+      "laborPerUnit": 2.75,
+      "permitBase": 400,
+      "description": "AFCI/GFCI throughout, dedicated circuits, 200-amp panel"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 2.50,
+      "laborPerUnit": 3.50,
+      "permitBase": 500,
+      "description": "Structured wiring, smart panel, whole-home surge, subpanels"
+    }
+  },
+  "options": [
+    { "id": "panelUpgrade", "label": "Panel Upgrade (100 to 200 amp)", "default": true, "costByTier": { "budget": 1000, "midRange": 1500, "premium": 2000 } },
+    { "id": "drywallRepair", "label": "Drywall Repair and Painting", "default": false, "costByTier": { "budget": 1500, "midRange": 2500, "premium": 4000 } },
+    { "id": "knobTubeRemoval", "label": "Knob-and-Tube Removal", "default": false, "costByTier": { "budget": 500, "midRange": 1000, "premium": 1500 } },
+    { "id": "structuredWiring", "label": "Structured Data/Network Wiring", "default": false, "costByTier": { "budget": 500, "midRange": 1000, "premium": 0 } },
+    { "id": "evChargerPrep", "label": "EV Charger Circuit Pre-Wire", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 500 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "whole house rewiring cost calculator",
+    "metaDescription": "Calculate your whole-house rewiring cost based on home size, wiring quality, and options. Get instant 2026 estimates with regional pricing for all 50 states."
+  }
+}

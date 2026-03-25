@@ -1,0 +1,59 @@
+{
+  "slug": "recessed-lighting",
+  "title": "Recessed Lighting Installation Cost Calculator",
+  "description": "Estimate the cost of installing recessed lighting based on number of lights, quality tier, and installation options.",
+  "projectSlug": "recessed-lighting",
+  "category": "electrical",
+  "nationalAverage": 200,
+  "sizeInput": {
+    "label": "Number of Lights",
+    "unit": "lights",
+    "min": 1,
+    "max": 24,
+    "step": 1,
+    "default": 6
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 20,
+      "laborPerUnit": 75,
+      "permitBase": 0,
+      "description": "Basic IC-rated LED can lights, accessible attic, single switch"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 35,
+      "laborPerUnit": 100,
+      "permitBase": 100,
+      "description": "Slim LED fixtures, color-tunable, dimmer switch, remodel housings"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 60,
+      "laborPerUnit": 130,
+      "permitBase": 150,
+      "description": "Architectural-grade fixtures, multiple zones, smart controls"
+    }
+  },
+  "options": [
+    { "id": "newCircuit", "label": "New Circuit from Panel", "default": false, "costByTier": { "budget": 200, "midRange": 300, "premium": 400 } },
+    { "id": "dimmer", "label": "Dimmer Switch", "default": true, "costByTier": { "budget": 40, "midRange": 0, "premium": 0 } },
+    { "id": "multiZone", "label": "Multiple Dimming Zones (2 zones)", "default": false, "costByTier": { "budget": 100, "midRange": 125, "premium": 0 } },
+    { "id": "ceilingPatch", "label": "Ceiling Patching and Paint", "default": false, "costByTier": { "budget": 100, "midRange": 150, "premium": 200 } },
+    { "id": "smartControl", "label": "Smart Home Dimming System", "default": false, "costByTier": { "budget": 150, "midRange": 200, "premium": 0 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "recessed lighting cost calculator",
+    "metaDescription": "Calculate your recessed lighting installation cost based on number of lights, fixture quality, and options. Get instant 2026 estimates with regional pricing."
+  }
+}

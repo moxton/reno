@@ -1,0 +1,51 @@
+{
+  "slug": "spray-foam-insulation",
+  "title": "Spray Foam Insulation Cost Calculator",
+  "description": "Estimate the cost of spray foam insulation based on area size, foam type, and thickness.",
+  "projectSlug": "spray-foam-insulation",
+  "category": "hvac-energy",
+  "nationalAverage": 3500,
+  "sizeInput": {
+    "label": "Area to Insulate",
+    "unit": "sq ft",
+    "min": 100,
+    "max": 3000,
+    "step": 50,
+    "default": 1000
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 0.90,
+      "laborPerUnit": 0.60,
+      "permitBase": 50,
+      "description": "Open-cell spray foam, 3-4 inches (R-13), attic floor or crawl space"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 1.80,
+      "laborPerUnit": 1.30,
+      "permitBase": 100,
+      "description": "Closed-cell spray foam, 2-3 inches (R-13 to R-19), roof deck or walls"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 3.00,
+      "laborPerUnit": 1.80,
+      "permitBase": 200,
+      "description": "Closed-cell spray foam, 4+ inches (R-26+), with thermal imaging verification"
+    }
+  },
+  "options": [
+    { "id": "oldRemoval", "label": "Remove Existing Insulation First", "default": false, "costByTier": { "budget": 800, "midRange": 1000, "premium": 1200 } },
+    { "id": "thermalBarrier", "label": "Thermal Barrier (drywall or coating)", "default": false, "costByTier": { "budget": 400, "midRange": 600, "premium": 800 } },
+    { "id": "thermalImaging", "label": "Thermal Imaging Verification", "default": false, "costByTier": { "budget": 150, "midRange": 200, "premium": 0 } },
+    { "id": "surfacePrep", "label": "Surface Cleaning and Preparation", "default": false, "costByTier": { "budget": 200, "midRange": 300, "premium": 400 } },
+    { "id": "trimming", "label": "Excess Foam Trimming and Finishing", "default": true, "costByTier": { "budget": 100, "midRange": 150, "premium": 200 } }
+  ],
+  "regionalMultipliers": { "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05 },
+  "seo": {
+    "primaryKeyword": "spray foam insulation cost calculator",
+    "metaDescription": "Calculate your spray foam insulation cost based on area size, foam type, and your location. Compare open-cell vs. closed-cell with our free calculator."
+  }
+}

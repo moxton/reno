@@ -1,0 +1,184 @@
+{
+  "slug": "sump-pump",
+  "title": "Sump Pump Installation",
+  "category": "plumbing",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 1200,
+    "typicalLow": 600,
+    "typicalHigh": 2500,
+    "lowEnd": 400,
+    "highEnd": 4000,
+    "costPerUnit": { "low": 600, "high": 2500, "unit": "unit", "average": 1200 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 200,
+      "labor": 350,
+      "permits": 50,
+      "design": 0,
+      "total": 600,
+      "description": "Basic pedestal sump pump (1/3 HP), existing sump pit, simple discharge line to exterior, no battery backup"
+    },
+    "midRange": {
+      "materials": 450,
+      "labor": 650,
+      "permits": 75,
+      "design": 0,
+      "total": 1175,
+      "description": "Submersible sump pump (1/2 HP), new sump pit if needed, PVC discharge line with check valve, basic battery backup"
+    },
+    "premium": {
+      "materials": 1000,
+      "labor": 1100,
+      "permits": 100,
+      "design": 200,
+      "total": 2400,
+      "description": "High-capacity submersible pump (3/4 HP), cast iron construction, battery backup system, water alarm, buried discharge line with freeze guard"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Pump Type and Horsepower",
+      "impact": "$80 - $500",
+      "description": "Pedestal pumps with the motor above the pit are cheaper ($60-$150) but louder and less efficient. Submersible pumps ($100-$400) sit inside the pit, run quieter, and last longer. Higher horsepower (1/2 HP vs 1/3 HP) matters if you have a high water table or frequent heavy rain. Cast iron pumps cost more upfront but outlast plastic-bodied units by 3-5 years."
+    },
+    {
+      "title": "Sump Pit Installation",
+      "impact": "$300 - $800",
+      "description": "If you already have a sump pit, installation is straightforward. If a new pit needs to be dug, expect to pay $300-$800 for concrete cutting, excavation, and pit liner installation. The pit typically needs to be 18-24 inches in diameter and 24-36 inches deep. Homes with concrete slab floors cost more because the concrete must be cut and removed."
+    },
+    {
+      "title": "Discharge Line Routing",
+      "impact": "$100 - $600",
+      "description": "The discharge pipe carries water from the pump to the outside of your home. A simple line through the rim joist runs $100-$200. Longer runs that need to be buried underground to prevent freezing or reach a drainage area add $300-$600. Most codes require the discharge point be at least 10 feet from the foundation."
+    },
+    {
+      "title": "Battery Backup System",
+      "impact": "$200 - $1,000",
+      "description": "A battery backup sump pump is strongly recommended in areas with frequent power outages. Basic battery backup units cost $200-$400 and run for 6-8 hours. Premium water-powered backup systems cost $400-$800 and run indefinitely (using municipal water pressure). Combination primary/backup systems cost $500-$1,000 installed."
+    },
+    {
+      "title": "Interior Drainage Connection",
+      "impact": "$500 - $3,000",
+      "description": "If the sump pump is part of a larger interior drainage system (French drain to sump pit), the drainage installation is a separate and significant cost. A full perimeter interior French drain that feeds into the sump pit adds $3,000-$8,000 to the project. However, if you're just replacing an existing pump, this doesn't apply."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Pedestal Sump Pump",
+      "costPerUnit": "$60 - $150 for the pump",
+      "pros": "Cheapest option, motor stays above water so it's easier to service, good for shallow pits",
+      "cons": "Louder, less powerful, shorter lifespan (5-8 years), motor is visible and takes up space",
+      "bestFor": "Homes with occasional minor seepage, tight budgets, shallow existing sump pits"
+    },
+    {
+      "material": "Submersible Sump Pump (Plastic)",
+      "costPerUnit": "$100 - $250 for the pump",
+      "pros": "Quiet operation, out of sight in the pit, handles higher water volumes, sealed motor",
+      "cons": "Harder to service, plastic housing can crack, shorter life than cast iron (7-10 years)",
+      "bestFor": "Most standard residential installations, moderate water tables"
+    },
+    {
+      "material": "Submersible Sump Pump (Cast Iron)",
+      "costPerUnit": "$200 - $400 for the pump",
+      "pros": "Very durable (10-15 year lifespan), better heat dissipation, handles debris better, quieter",
+      "cons": "Heavier, more expensive upfront, requires a deeper pit",
+      "bestFor": "High water table areas, homes with frequent pump cycling, long-term reliability"
+    },
+    {
+      "material": "Battery Backup Sump Pump",
+      "costPerUnit": "$200 - $600 for the backup unit",
+      "pros": "Protects against power outages, runs automatically when primary pump fails, peace of mind",
+      "cons": "Batteries need replacement every 3-5 years ($100-$200), adds complexity, takes up pit space",
+      "bestFor": "Areas with frequent storms and power outages, finished basements, anyone who can't afford flooding"
+    },
+    {
+      "material": "Water-Powered Backup Pump",
+      "costPerUnit": "$300 - $800 for the unit",
+      "pros": "Runs indefinitely during outages (no battery), no maintenance, very reliable",
+      "cons": "Requires municipal water supply, uses water (adds to water bill), slower pumping rate, not available on wells",
+      "bestFor": "Homes with municipal water, extended power outage risk, homeowners who want zero-maintenance backup"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High water tables in many Northeast areas drive strong demand for sump pumps. Plumbing labor rates are well above average." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High plumbing labor rates, though sump pump demand is lower in drier climates. Seismic areas may have specific code requirements." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates but many homes are on slabs without basements, reducing demand for traditional sump pumps." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Very high sump pump demand due to high water tables, spring snowmelt, and frequent storms. Competitive pricing from many contractors." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate demand. Snowmelt runoff creates seasonal need in foothill communities." }
+  },
+  "timeline": {
+    "minimum": "3-4 hours",
+    "typical": "1 day",
+    "maximum": "2 days",
+    "phases": [
+      { "name": "Assessment and pit location planning", "duration": "1-2 hours" },
+      { "name": "Sump pit excavation (if new pit needed)", "duration": "2-4 hours" },
+      { "name": "Pump installation and plumbing connections", "duration": "2-3 hours" },
+      { "name": "Discharge line routing and installation", "duration": "1-3 hours" },
+      { "name": "Testing and system verification", "duration": "30-60 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate - Replacing an existing sump pump in an existing pit is a straightforward DIY project. Installing a new sump pit in a concrete floor requires specialized tools (concrete saw, jackhammer) and is better left to professionals. Discharge line routing is doable for handy homeowners.",
+    "diySavings": "40-55% of total project cost",
+    "diyTasks": [
+      "Replace a pump in an existing sump pit",
+      "Install or replace a check valve on the discharge pipe",
+      "Add a battery backup to an existing system",
+      "Route a simple discharge line through the rim joist",
+      "Install a water alarm sensor"
+    ],
+    "proOnlyTasks": [
+      "Cut and excavate a new sump pit in a concrete floor",
+      "Install or connect to an interior French drain system",
+      "Bury underground discharge lines",
+      "Size the pump correctly for your home's water volume",
+      "Pull any required permits"
+    ],
+    "diyRisks": "The most serious DIY risk is undersizing the pump. A pump that's too small will burn out quickly during heavy water events, potentially flooding your basement. Another common mistake is routing the discharge line too close to the foundation, which sends water right back toward your home. Always make sure the discharge exits at least 10 feet from your foundation and drains away from the house."
+  },
+  "savingsTips": [
+    "If you already have a sump pit, replacing the pump yourself is straightforward and saves $300-$600 in labor. Most pumps come with clear installation instructions.",
+    "Buy a combination primary pump and battery backup kit rather than purchasing them separately. Bundled systems save $100-$200 and ensure compatibility.",
+    "A 1/3 HP pump is sufficient for most homes with moderate water issues. Don't let a contractor upsell you to 3/4 HP unless you have a documented high water table.",
+    "Get your sump pump installed during the dry season (late summer or fall). Contractors are less busy and may offer lower rates.",
+    "Skip the water-powered backup if you have a well - it won't work. A basic battery backup at $200-$300 is the right choice for well water homes.",
+    "Check if your homeowner's insurance offers a discount for sump pump installation. Some carriers reduce premiums by $50-$150 annually for homes with backup systems.",
+    "Install a $15-$25 water alarm in your sump pit. It won't prevent flooding, but early warning can save thousands in water damage if the pump fails.",
+    "Maintain your pump annually by pouring a bucket of water into the pit to test the float switch. A $0 maintenance step that prevents expensive failures."
+  ],
+  "contractorQuestions": [
+    { "question": "What size pump do you recommend for my home, and how did you determine that?", "why": "A good plumber should assess your water table, pit size, and drainage needs before recommending a pump. If they suggest a specific size without evaluating your situation, they may be defaulting to a one-size-fits-all approach." },
+    { "question": "Where will the discharge line exit, and how far from the foundation?", "why": "The discharge point must be at least 10 feet from your foundation per most codes. A poorly placed discharge line sends water right back toward your basement, defeating the entire purpose." },
+    { "question": "Do I need a permit for this installation, and is that included?", "why": "Sump pump permits vary by municipality. Some require plumbing permits ($50-$150), especially for new installations. Make sure the contractor handles the permit and any required inspections." },
+    { "question": "Do you recommend a battery backup, and what type?", "why": "Any honest plumber will recommend battery backup for areas with power outages. If they try to skip it, they may be cutting corners. Ask about battery vs. water-powered options for your situation." },
+    { "question": "What's the warranty on the pump and your labor?", "why": "Most quality pumps carry 3-5 year manufacturer warranties. Labor should have at least a 1-year warranty. Some plumbers offer service plans that include annual testing for $75-$150." },
+    { "question": "Will this sump pump handle my current water issues, or do I also need interior drainage?", "why": "A sump pump only removes water that reaches the pit. If water is seeping through walls or cracks before reaching the pit, you may need an interior French drain system, which is a much larger project." }
+  ],
+  "relatedProjects": [
+    "french-drain",
+    "basement-finishing",
+    "basement-waterproofing"
+  ],
+  "seo": {
+    "primaryKeyword": "sump pump installation cost",
+    "secondaryKeywords": [
+      "how much does a sump pump cost",
+      "sump pump cost installed",
+      "sump pump replacement cost",
+      "sump pump with battery backup cost",
+      "cost to install sump pump in basement",
+      "sump pump installation price",
+      "sump pump cost 2026"
+    ],
+    "metaDescription": "Sump pump installation costs $600-$2,500 for most homes in 2026. Compare pump types, backup options, and labor costs with our detailed guide and interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Sump Pump Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/plumbing/install-a-sump-pump/" },
+    { "name": "Fixr - Sump Pump Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/sump-pump-installation" },
+    { "name": "Angi - How Much Does a Sump Pump Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-sump-pump-cost.htm" },
+    { "name": "HomeGuide - Sump Pump Cost", "year": 2025, "url": "https://homeguide.com/costs/sump-pump-installation-cost" }
+  ]
+}

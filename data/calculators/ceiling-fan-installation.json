@@ -1,0 +1,59 @@
+{
+  "slug": "ceiling-fan-installation",
+  "title": "Ceiling Fan Installation Cost Calculator",
+  "description": "Estimate the cost of installing ceiling fans based on number of fans, quality tier, and installation complexity.",
+  "projectSlug": "ceiling-fan-installation",
+  "category": "electrical",
+  "nationalAverage": 250,
+  "sizeInput": {
+    "label": "Number of Fans",
+    "unit": "fans",
+    "min": 1,
+    "max": 10,
+    "step": 1,
+    "default": 2
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 75,
+      "laborPerUnit": 80,
+      "permitBase": 0,
+      "description": "Basic fan, existing fan-rated box, pull-chain controls"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 150,
+      "laborPerUnit": 100,
+      "permitBase": 0,
+      "description": "Quality fan with LED light, remote control, new fan-rated box"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 300,
+      "laborPerUnit": 150,
+      "permitBase": 0,
+      "description": "Designer fan, new wiring run, smart home controls, large format"
+    }
+  },
+  "options": [
+    { "id": "newWiring", "label": "New Wiring Run (no existing fixture)", "default": false, "costByTier": { "budget": 150, "midRange": 200, "premium": 250 } },
+    { "id": "wallControl", "label": "Wall Control Switch", "default": false, "costByTier": { "budget": 75, "midRange": 100, "premium": 125 } },
+    { "id": "highCeiling", "label": "High Ceiling (12+ feet)", "default": false, "costByTier": { "budget": 75, "midRange": 100, "premium": 125 } },
+    { "id": "boxUpgrade", "label": "Upgrade to Fan-Rated Box", "default": true, "costByTier": { "budget": 50, "midRange": 0, "premium": 0 } },
+    { "id": "dimmer", "label": "Dimmer Switch for Fan Light", "default": false, "costByTier": { "budget": 40, "midRange": 60, "premium": 80 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "ceiling fan installation cost calculator",
+    "metaDescription": "Calculate your ceiling fan installation cost based on number of fans, quality level, and wiring needs. Get instant 2026 estimates with regional pricing."
+  }
+}

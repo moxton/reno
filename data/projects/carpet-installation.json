@@ -1,0 +1,187 @@
+{
+  "slug": "carpet-installation",
+  "title": "Carpet Installation",
+  "category": "flooring",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2500,
+    "typicalLow": 1000,
+    "typicalHigh": 5000,
+    "lowEnd": 800,
+    "highEnd": 6500,
+    "costPerUnit": { "low": 2, "high": 8, "unit": "sq ft", "average": 5 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 500,
+      "labor": 500,
+      "permits": 0,
+      "design": 0,
+      "total": 1000,
+      "description": "Basic polyester or olefin carpet, 20-30 oz face weight, builder-grade pad, simple installation in standard rooms"
+    },
+    "midRange": {
+      "materials": 1000,
+      "labor": 750,
+      "permits": 0,
+      "design": 0,
+      "total": 1750,
+      "description": "Mid-grade nylon carpet, 35-50 oz face weight, upgraded 8 lb density pad, includes furniture moving and old carpet removal"
+    },
+    "premium": {
+      "materials": 2000,
+      "labor": 1200,
+      "permits": 0,
+      "design": 0,
+      "total": 3200,
+      "description": "Premium nylon or wool carpet, 50+ oz face weight, premium 10 lb pad, custom seam placement, staircase work, and pattern matching"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Carpet Fiber Type",
+      "impact": "$1.00 - $6.00 per sq ft",
+      "description": "Fiber type is the single biggest driver of carpet material cost. Polyester and olefin are the cheapest at $1-$2 per sq ft. Nylon (the most popular choice) runs $2-$5 per sq ft and offers the best durability for the price. Wool sits at the top at $5-$15 per sq ft but provides unmatched softness and longevity."
+    },
+    {
+      "title": "Carpet Padding Quality",
+      "impact": "$0.25 - $1.00 per sq ft",
+      "description": "Padding makes or breaks how your carpet feels and how long it lasts. Builder-grade 6 lb density pad costs $0.25-$0.40 per sq ft. Standard 8 lb pad runs $0.40-$0.60 per sq ft. Premium 10 lb memory foam or rubber pads hit $0.60-$1.00 per sq ft. Skimping on padding is the most common carpet installation mistake."
+    },
+    {
+      "title": "Room Size and Configuration",
+      "impact": "$200 - $800",
+      "description": "Larger rooms are cheaper per square foot because seaming and edge work is a smaller percentage of the job. Small rooms, closets, and hallways cost more per sq ft due to extra cutting and waste. Stairs add $10-$20 per step for labor. Rooms with many angles or bay windows increase waste and installation time."
+    },
+    {
+      "title": "Old Flooring Removal",
+      "impact": "$100 - $400",
+      "description": "Removing old carpet and pad costs $0.50-$1.00 per sq ft. Most carpet installers include removal of old carpet in their quote, but not always. Removing other flooring types like tile or hardwood before carpet installation costs significantly more at $1.50-$3.00 per sq ft."
+    },
+    {
+      "title": "Subfloor Repairs",
+      "impact": "$100 - $600",
+      "description": "Carpet is more forgiving of subfloor imperfections than hard flooring, but you still need a solid, squeak-free subfloor. Fixing squeaky spots costs $100-$200. Replacing damaged sections of plywood subfloor runs $3-$5 per sq ft. Concrete subfloors may need moisture testing and a vapor barrier ($100-$300)."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Polyester (PET) Carpet",
+      "costPerUnit": "$1.00 - $3.00 per sq ft",
+      "pros": "Excellent stain resistance, soft feel, eco-friendly recycled options, great color retention, lowest price",
+      "cons": "Crushes and mats in high-traffic areas, shorter lifespan (5-8 years), less resilient than nylon",
+      "bestFor": "Bedrooms, guest rooms, low-traffic areas, and budget-conscious homeowners"
+    },
+    {
+      "material": "Nylon Carpet",
+      "costPerUnit": "$2.50 - $5.00 per sq ft",
+      "pros": "Best overall durability, excellent resilience and bounce-back, wide style selection, 10-15 year lifespan with good care",
+      "cons": "Higher cost than polyester, requires stain treatment (not inherently stain-resistant), can generate static",
+      "bestFor": "Living rooms, hallways, stairs, family rooms, and any high-traffic area"
+    },
+    {
+      "material": "Triexta (SmartStrand) Carpet",
+      "costPerUnit": "$2.00 - $4.50 per sq ft",
+      "pros": "Built-in permanent stain resistance, soft feel, good durability, partially made from corn sugar (renewable)",
+      "cons": "Limited to Mohawk brand products, fewer style options than nylon, newer technology with less long-term track record",
+      "bestFor": "Homes with kids and pets, living rooms, family rooms, and anyone prioritizing stain resistance"
+    },
+    {
+      "material": "Wool Carpet",
+      "costPerUnit": "$5.00 - $15.00 per sq ft",
+      "pros": "Luxurious feel, naturally fire and soil resistant, extremely durable (20-25 year lifespan), sustainable and biodegradable",
+      "cons": "Very expensive, not suitable for damp areas, can be sensitive to chemicals, requires specialized cleaning",
+      "bestFor": "Formal living rooms, primary bedrooms, and homeowners wanting a luxury investment that lasts decades"
+    },
+    {
+      "material": "Olefin (Polypropylene) Carpet",
+      "costPerUnit": "$1.00 - $2.50 per sq ft",
+      "pros": "Moisture and mildew resistant, colorfast (solution-dyed), very affordable, good for indoor/outdoor use",
+      "cons": "Lowest durability, crushes easily, can feel rough, attracts oil-based stains, shortest lifespan",
+      "bestFor": "Basements, sunrooms, rental properties, and areas prone to moisture"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates in metro areas like NYC, Boston, and DC push carpet installation costs 15-25% above average" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California and Washington markets carry premium labor costs, especially in San Francisco, LA, and Seattle" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Competitive installer market and lower labor costs keep pricing 10-15% below the national average" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Moderate labor costs and strong installer availability keep carpet pricing affordable across the region" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand in Denver, Boise, and Salt Lake City areas pushes costs slightly above national average" }
+  },
+  "timeline": {
+    "minimum": "3-4 hours",
+    "typical": "1 day",
+    "maximum": "2-3 days",
+    "phases": [
+      { "name": "Old carpet removal and disposal", "duration": "1-3 hours" },
+      { "name": "Subfloor inspection and repair", "duration": "1-2 hours" },
+      { "name": "Tack strip and pad installation", "duration": "1-2 hours" },
+      { "name": "Carpet stretching and installation", "duration": "3-6 hours" },
+      { "name": "Seaming, trimming, and cleanup", "duration": "1-2 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate - basic rooms are doable for handy homeowners, but seaming, stretching, and stairs require specialized tools and experience",
+    "diySavings": "30-40% ($300-$700 on a typical 500 sq ft project)",
+    "diyTasks": [
+      "Removing old carpet and pad",
+      "Installing tack strips around room perimeter",
+      "Laying carpet pad and stapling it down",
+      "Rough-cutting carpet to room dimensions",
+      "Basic trimming and tucking at edges"
+    ],
+    "proOnlyTasks": [
+      "Power stretching for wrinkle-free installation (requires a power stretcher tool)",
+      "Invisible seaming in large rooms or open floor plans",
+      "Staircase carpet installation (wrapping and tucking)",
+      "Pattern matching on patterned or berber carpet",
+      "Handling rooms that require multiple seams"
+    ],
+    "diyRisks": "Poorly stretched carpet will develop ripples and wrinkles within 1-2 years, often requiring professional re-stretching. Bad seams are visible and can unravel over time. Without proper tools, DIY carpet installation often looks noticeably amateur, especially in open living areas. Most carpet manufacturer warranties require professional installation."
+  },
+  "savingsTips": [
+    "Shop remnants and closeout rolls at local carpet stores - you can save 30-50% on name-brand carpet if the piece fits your room",
+    "Time your purchase for holiday sales at big-box stores when carpet goes on sale and free installation promotions are common",
+    "Choose a mid-grade nylon carpet with a good pad instead of premium carpet with a cheap pad - the pad matters more for feel and longevity",
+    "Do your own old carpet removal and disposal to save $100-$300 in labor costs",
+    "Get quotes from independent carpet installers rather than going through the store - retail stores mark up installation labor 20-40%",
+    "Consider carpet tiles for basements and bonus rooms - they cost $1-$3 per sq ft and are a true DIY project",
+    "Skip the stain treatment upgrade if you choose nylon with built-in stain protection (like Stainmaster) - the extra treatment is redundant",
+    "Carpet the whole house at once rather than room by room to negotiate a volume discount on both materials and labor"
+  ],
+  "contractorQuestions": [
+    { "question": "Does your quote include carpet pad, or is that priced separately?", "why": "Some quotes advertise low carpet prices but tack on $0.50-$1.00 per sq ft for padding. Make sure the quote includes pad, and ask what density they plan to use." },
+    { "question": "Is old carpet removal, disposal, and furniture moving included?", "why": "These are common add-on charges that can total $200-$400 if not included. Get it in writing before comparing quotes." },
+    { "question": "How will you handle seams, and where will they be placed?", "why": "Seam placement matters for appearance and durability. Seams should be in low-traffic areas and away from doorways. A good installer will discuss seam placement before starting." },
+    { "question": "Do you use a power stretcher or just a knee kicker?", "why": "A power stretcher is essential for a tight, wrinkle-free installation. Knee kickers alone do not provide enough tension, and the carpet will develop ripples within a year or two." },
+    { "question": "What happens if the subfloor needs repair?", "why": "Unexpected subfloor issues can add cost. Clarify upfront how they handle subfloor problems and what the additional charges would be so there are no surprises." },
+    { "question": "Does the carpet manufacturer warranty require professional installation?", "why": "Most major carpet brands void their warranty if the carpet is not installed by a certified professional. Confirm the installer meets the manufacturer's requirements." }
+  ],
+  "relatedProjects": [
+    "laminate-flooring",
+    "vinyl-plank-flooring",
+    "hardwood-floor-installation",
+    "interior-painting"
+  ],
+  "seo": {
+    "primaryKeyword": "carpet installation cost",
+    "secondaryKeywords": [
+      "how much does carpet installation cost",
+      "carpet cost per square foot",
+      "carpet installation price 2026",
+      "cost to carpet a room",
+      "carpet replacement cost",
+      "new carpet cost per room",
+      "cheapest carpet installation",
+      "carpet vs laminate cost"
+    ],
+    "metaDescription": "Carpet installation costs $2-$8 per square foot in 2026. Get a full cost breakdown by fiber type and quality tier, plus use our free calculator to estimate your project."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Carpet Installation Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/flooring/install-carpet/" },
+    { "name": "Fixr - Carpet Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/carpet-installation" },
+    { "name": "Angi - How Much Does New Carpet Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-carpet-room.htm" },
+    { "name": "Bob Vila - How Much Does Carpet Installation Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/carpet-installation-cost/" },
+    { "name": "Remodeling Magazine - Cost vs. Value Report", "year": 2025, "url": "https://www.remodeling.hw.net/cost-vs-value/2025/" }
+  ]
+}

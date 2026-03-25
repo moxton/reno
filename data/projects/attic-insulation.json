@@ -1,0 +1,189 @@
+{
+  "slug": "attic-insulation",
+  "title": "Attic Insulation",
+  "category": "hvac-energy",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2000,
+    "typicalLow": 1000,
+    "typicalHigh": 3500,
+    "lowEnd": 700,
+    "highEnd": 5000,
+    "costPerUnit": { "low": 0.80, "high": 3.50, "unit": "sq ft", "average": 1.75 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 600,
+      "labor": 350,
+      "permits": 0,
+      "design": 50,
+      "total": 1000,
+      "description": "Blown-in fiberglass over existing insulation (top-up to R-38), 1,000 sq ft attic, basic air sealing"
+    },
+    "midRange": {
+      "materials": 1000,
+      "labor": 700,
+      "permits": 50,
+      "design": 250,
+      "total": 2000,
+      "description": "Blown-in cellulose to R-49, 1,200 sq ft attic, comprehensive air sealing of gaps, can lights, and penetrations"
+    },
+    "premium": {
+      "materials": 1800,
+      "labor": 1000,
+      "permits": 100,
+      "design": 600,
+      "total": 3500,
+      "description": "Spray foam on attic roof deck (creating conditioned attic), R-38 to R-49, 1,200 sq ft, full air sealing, with baffles and ventilation work"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Insulation Type",
+      "impact": "$400 - $3,000",
+      "description": "Blown-in fiberglass costs $0.60-$1.20 per sq ft and is the cheapest option. Blown-in cellulose runs $0.80-$1.50 per sq ft and offers slightly better air sealing. Batt insulation costs $0.70-$1.50 per sq ft but is harder to install properly in attics. Spray foam on the attic roof deck costs $2.50-$5.00 per sq ft but creates a sealed, conditioned attic."
+    },
+    {
+      "title": "Desired R-Value",
+      "impact": "$300 - $1,500",
+      "description": "The Department of Energy recommends R-38 to R-60 for attics depending on your climate zone. Going from R-19 (common in older homes) to R-38 costs 40-50% less than going to R-60. Most homeowners find R-49 hits the sweet spot of cost vs. energy savings."
+    },
+    {
+      "title": "Attic Size and Accessibility",
+      "impact": "$200 - $1,000",
+      "description": "A 1,000 sq ft attic with easy access and standard height costs less than a 1,500 sq ft attic with a small hatch, low clearance, or obstructions. Attics with HVAC equipment, wiring, and recessed lights require more careful work. Walk-up attics are cheapest; pull-down stair access is average; scuttle-hole-only access is the most expensive."
+    },
+    {
+      "title": "Existing Insulation Condition",
+      "impact": "$200 - $1,500",
+      "description": "Adding new insulation over existing material (topping off) is cheapest. If existing insulation is wet, moldy, or contaminated with pests, removal costs $1.00-$2.50 per sq ft before new insulation goes in. Vermiculite insulation may contain asbestos and requires professional testing and potentially hazmat removal ($5-$15 per sq ft)."
+    },
+    {
+      "title": "Air Sealing",
+      "impact": "$300 - $1,500",
+      "description": "Air sealing is the single most important step before adding insulation. Sealing gaps around plumbing, wiring, recessed lights, duct boots, and the attic hatch costs $300-$1,500 depending on the number of penetrations. Without air sealing, new insulation performs 20-30% worse than its rated value."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Blown-In Fiberglass",
+      "costPerUnit": "$0.60 - $1.20 per sq ft",
+      "pros": "Cheapest option, non-combustible, does not absorb moisture, pest-resistant",
+      "cons": "Lower R-value per inch (R-2.5), settles 10-15% over time, does not air seal",
+      "bestFor": "Budget topping-off over existing insulation, DIY-friendly with rental blower"
+    },
+    {
+      "material": "Blown-In Cellulose",
+      "costPerUnit": "$0.80 - $1.50 per sq ft",
+      "pros": "Good R-value per inch (R-3.5), fills gaps better than fiberglass, made from recycled paper",
+      "cons": "Absorbs moisture if attic has leaks, settles 15-20% over time, fire retardant can irritate skin",
+      "bestFor": "Most attic insulation projects - best balance of cost, performance, and air sealing"
+    },
+    {
+      "material": "Fiberglass Batts",
+      "costPerUnit": "$0.70 - $1.50 per sq ft",
+      "pros": "Widely available, familiar to installers, good for standard joist spacing",
+      "cons": "Hard to install properly around obstacles, gaps reduce effectiveness dramatically",
+      "bestFor": "Open attic floors with consistent joist spacing and no obstructions"
+    },
+    {
+      "material": "Open-Cell Spray Foam",
+      "costPerUnit": "$1.50 - $2.50 per sq ft",
+      "pros": "Excellent air sealing, fills irregular spaces, good soundproofing",
+      "cons": "More expensive, requires professional installation, absorbs moisture",
+      "bestFor": "Attic roof deck application in mild climates, soundproofing between floors"
+    },
+    {
+      "material": "Closed-Cell Spray Foam",
+      "costPerUnit": "$2.50 - $5.00 per sq ft",
+      "pros": "Highest R-value per inch (R-6.5), air and moisture barrier, adds structural rigidity",
+      "cons": "Most expensive option, requires professional application, can trap moisture if applied incorrectly",
+      "bestFor": "Attic roof deck in cold/wet climates, creating a conditioned attic for HVAC equipment"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher R-value requirements (R-49 to R-60) drive up material costs. Strong utility rebate programs help offset." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California Title 24 requirements are strict. High labor costs but moderate R-value needs in coastal areas." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower R-value requirements (R-30 to R-38) and lower labor costs. Focus is on radiant barrier rather than thick insulation." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "High R-value requirements (R-49 to R-60) but competitive labor rates. Cellulose is popular and affordable." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "High R-value requirements for cold winters. Many utility rebate programs available in Colorado and Utah." }
+  },
+  "timeline": {
+    "minimum": "2-4 hours",
+    "typical": "4-8 hours",
+    "maximum": "1-2 days",
+    "phases": [
+      { "name": "Inspection and assessment", "duration": "30-60 minutes" },
+      { "name": "Air sealing", "duration": "1-3 hours" },
+      { "name": "Baffle installation (if needed)", "duration": "30-60 minutes" },
+      { "name": "Insulation installation", "duration": "2-4 hours" },
+      { "name": "Cleanup and final inspection", "duration": "30-60 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate to Good - blown-in insulation is one of the most accessible DIY home improvement projects, especially with rental blowers from home improvement stores",
+    "diySavings": "40-60% ($500-$1,200)",
+    "diyTasks": [
+      "Renting a blowing machine from Home Depot or Lowes (often free with insulation purchase)",
+      "Blowing in fiberglass or cellulose insulation",
+      "Installing batt insulation between attic joists",
+      "Sealing obvious air gaps around pipes and wires with canned foam",
+      "Installing attic baffles to maintain soffit ventilation",
+      "Adding weatherstripping to the attic hatch or door"
+    ],
+    "proOnlyTasks": [
+      "Spray foam installation (requires specialized equipment and training)",
+      "Comprehensive air sealing with diagnostic blower door testing",
+      "Removing existing contaminated or asbestos-containing insulation",
+      "Installing insulation in hard-to-access areas",
+      "Energy audit and R-value assessment"
+    ],
+    "diyRisks": "Working in hot attics causes heat exhaustion - attics reach 130-160F in summer. Stepping off joists means falling through the ceiling drywall. Fiberglass irritates skin, eyes, and lungs without proper PPE. Blocking soffit vents causes moisture problems and ice dams. Old insulation may contain asbestos (pre-1990 homes)."
+  },
+  "savingsTips": [
+    "Rent a blower machine free from Home Depot or Lowes when you buy 10+ bags of insulation - DIY saves 40-60%",
+    "Always air seal before insulating - it is the highest-impact, lowest-cost step and doubles your insulation's effectiveness",
+    "Check utility company rebates first - many offer $200-$800 for attic insulation upgrades",
+    "Focus on getting to R-49 rather than R-60 in most climates - the incremental energy savings above R-49 are minimal",
+    "Do this project in spring or fall when attic temperatures are bearable and contractors are less busy",
+    "If you have less than R-19, you are wasting the most energy and will see the fastest payback (often 2-3 years)",
+    "Ask about the Weatherization Assistance Program if you are a low-income homeowner - it covers insulation at no cost",
+    "Combine with an energy audit ($200-$400) to identify the highest-impact improvements and sometimes get audit cost refunded through utility programs"
+  ],
+  "contractorQuestions": [
+    { "question": "Will you perform air sealing before installing insulation?", "why": "This is the most important question. Many contractors skip air sealing and just blow insulation over leaky gaps. Without air sealing, you lose 25-40% of the insulation's benefit." },
+    { "question": "What R-value will the finished installation achieve?", "why": "The contractor should specify the target R-value and explain how many inches of material that requires. Ask them to measure depth in multiple spots after installation." },
+    { "question": "How will you maintain attic ventilation?", "why": "Insulation must not block soffit vents. Proper baffles keep air flowing from soffits to ridge vent. Blocked ventilation causes moisture damage and ice dams." },
+    { "question": "Do I need to remove existing insulation first?", "why": "In most cases, new insulation goes over old. But if existing material is wet, moldy, pest-damaged, or contains vermiculite (possible asbestos), it needs removal first." },
+    { "question": "What insulation material do you recommend for my attic, and why?", "why": "The best material depends on your attic layout, existing insulation, climate, and budget. A good contractor explains the tradeoffs rather than defaulting to whatever they have in the truck." },
+    { "question": "Do you offer a blower door test before and after?", "why": "A blower door test measures air leakage. Testing before and after proves how much the air sealing and insulation improved your home's envelope. Some utility rebate programs require it." }
+  ],
+  "relatedProjects": [
+    "spray-foam-insulation",
+    "furnace-replacement",
+    "heat-pump-installation",
+    "solar-panel-installation",
+    "window-replacement"
+  ],
+  "seo": {
+    "primaryKeyword": "attic insulation cost",
+    "secondaryKeywords": [
+      "how much does attic insulation cost",
+      "cost to insulate attic",
+      "blown in insulation cost",
+      "attic insulation cost per square foot",
+      "attic insulation installation cost 2026",
+      "cellulose insulation cost",
+      "attic insulation R-value",
+      "best attic insulation material"
+    ],
+    "metaDescription": "Attic insulation costs $1,000-$3,500 in 2026, with a national average of $2,000. Compare blown-in, batt, and spray foam options with our detailed cost breakdown and calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Attic Insulation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/insulation/blow-in-insulation/" },
+    { "name": "Fixr - Attic Insulation Cost", "year": 2025, "url": "https://www.fixr.com/costs/attic-insulation" },
+    { "name": "Angi - Attic Insulation Cost Guide", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-insulate-attic.htm" },
+    { "name": "EnergyStar - Seal and Insulate", "year": 2025, "url": "https://www.energystar.gov/campaign/seal_insulate" },
+    { "name": "U.S. Department of Energy - Insulation", "year": 2025, "url": "https://www.energy.gov/energysaver/insulation" }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "vinyl-plank-flooring",
+  "title": "Vinyl Plank Flooring (LVP) Installation",
+  "category": "flooring",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 5500,
+    "typicalLow": 2000,
+    "typicalHigh": 8000,
+    "lowEnd": 2000,
+    "highEnd": 6000,
+    "costPerUnit": { "low": 4, "high": 12, "unit": "sq ft", "average": 7 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 875,
+      "labor": 1875,
+      "permits": 0,
+      "design": 0,
+      "total": 2750,
+      "description": "Basic LVP with 4-8 mil wear layer, click-lock floating installation, standard colors and patterns, minimal subfloor prep"
+    },
+    "midRange": {
+      "materials": 1375,
+      "labor": 2125,
+      "permits": 0,
+      "design": 0,
+      "total": 3500,
+      "description": "Standard LVP with 12-20 mil wear layer, SPC rigid core, realistic wood-look textures, includes basic subfloor prep and transitions"
+    },
+    "premium": {
+      "materials": 2250,
+      "labor": 3000,
+      "permits": 0,
+      "design": 0,
+      "total": 5250,
+      "description": "Premium 20+ mil wear layer, rigid core SPC or WPC, enhanced embossed textures, includes full subfloor leveling, custom transitions, and furniture moving"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Wear Layer Thickness",
+      "impact": "$0.50 - $3.00/sq ft",
+      "description": "The wear layer is what protects the printed design from scratches, dents, and fading. Budget LVP has a 4-8 mil wear layer ($1.50-$2.25/sq ft for materials). Mid-range products jump to 12-20 mil ($2.25-$3.25/sq ft). Premium planks with 20+ mil wear layers run $3.25-$6.00/sq ft. For high-traffic areas like kitchens and entryways, 12 mil is the minimum you should consider."
+    },
+    {
+      "title": "Core Type: SPC vs WPC",
+      "impact": "$0.75 - $2.00/sq ft",
+      "description": "SPC (stone polymer composite) cores are denser, more rigid, and more dent-resistant. WPC (wood polymer composite) cores are softer underfoot and better at sound dampening. SPC typically costs $0.50-$1.00 less per square foot than WPC at comparable quality levels. For basements or areas with moisture risk, SPC is the better choice. For bedrooms and living areas where comfort matters, WPC may be worth the premium."
+    },
+    {
+      "title": "Subfloor Condition",
+      "impact": "$0 - $2.00/sq ft",
+      "description": "LVP is less forgiving of subfloor imperfections than carpet but more forgiving than hardwood. Minor leveling with self-leveling compound costs $0.50-$1.50/sq ft. If your subfloor has significant dips, cracks, or moisture issues, repairs can add $1.00-$2.00/sq ft. Concrete subfloors may need a moisture barrier ($0.25-$0.50/sq ft). A perfectly flat, dry subfloor needs zero prep work."
+    },
+    {
+      "title": "Room Complexity and Layout",
+      "impact": "$0.50 - $1.50/sq ft labor premium",
+      "description": "Wide open rectangles are cheapest to install. Rooms with lots of doorways, closets, angles, or built-in obstacles increase labor time and waste. Stairs add $20-$50 per step. Diagonal or herringbone patterns require more cuts and 15-20% more material waste. Expect to pay a premium for bathrooms and kitchens where cuts around toilets, vanities, and cabinets add complexity."
+    },
+    {
+      "title": "Installation Method",
+      "impact": "$1.00 - $3.00/sq ft",
+      "description": "Click-lock floating installation is the most common and affordable method at $1.50-$3.00/sq ft for labor. Glue-down installation runs $2.00-$4.00/sq ft but provides a more solid feel and better moisture resistance. Loose-lay LVP ($2.00-$3.50/sq ft labor) is less common but allows easier replacement of damaged planks. For most residential projects, click-lock floating is the best value."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Budget LVP (4-8 mil)", "costPerUnit": "$1.50-$2.25/sq ft", "pros": "Most affordable, easy DIY install, waterproof", "cons": "Thin wear layer scratches easily, less realistic look, may dent from heavy furniture", "bestFor": "Rental properties, temporary flooring, low-traffic rooms" },
+    { "material": "LifeProof (Home Depot)", "costPerUnit": "$2.00-$3.50/sq ft", "pros": "Widely available, decent 6-12 mil wear layer, lifetime residential warranty", "cons": "Limited premium styles, mid-tier durability", "bestFor": "Budget-conscious homeowners wanting a reliable brand" },
+    { "material": "Shaw Floorte", "costPerUnit": "$3.00-$6.00/sq ft", "pros": "Wide style selection, SPC and WPC options, excellent warranties", "cons": "Higher price point, professional installation recommended for some lines", "bestFor": "Mid-range to premium projects, high-traffic households" },
+    { "material": "COREtec", "costPerUnit": "$3.50-$6.00/sq ft", "pros": "Industry-leading quality, attached cork backing, very realistic looks", "cons": "Premium pricing, limited availability at big-box stores", "bestFor": "Premium projects, whole-house installations" },
+    { "material": "Pergo Defense+", "costPerUnit": "$2.50-$5.00/sq ft", "pros": "Strong scratch resistance, SpillProtect24 technology, good value", "cons": "Fewer ultra-premium options, some styles only available online", "bestFor": "Households with pets or kids, kitchens and bathrooms" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates in metro areas" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, especially in Bay Area and LA" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, strong contractor availability" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average costs, good availability" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate premium due to growing demand" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-2 days",
+    "maximum": "3-4 days",
+    "phases": [
+      { "name": "Acclimation (material sits in room)", "duration": "24-48 hours" },
+      { "name": "Old flooring removal", "duration": "0.5-1 day" },
+      { "name": "Subfloor prep and leveling", "duration": "0.5-1 day" },
+      { "name": "LVP installation", "duration": "1-2 days" },
+      { "name": "Transitions, trim, and cleanup", "duration": "2-4 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "High",
+    "diySavings": "40-60%",
+    "diyTasks": ["Click-lock floating LVP installation", "Old carpet or flooring removal", "Installing quarter round and transitions", "Basic subfloor cleaning and prep", "Underlayment installation"],
+    "proOnlyTasks": ["Glue-down installation", "Significant subfloor leveling or repair", "Staircase installation", "Asbestos-containing old flooring removal", "Complex patterns like herringbone"],
+    "diyRisks": "The biggest risk is poor subfloor prep. Skipping leveling causes planks to flex, which breaks click-lock connections over time and creates visible gaps. Improper expansion gaps (too tight or too wide) cause buckling or visible edges. Neither issue is dangerous, but both require pulling up and re-laying the floor to fix."
+  },
+  "savingsTips": [
+    "Buy during holiday sales. Home Depot and Lowe's run 20-30% off flooring promotions on Memorial Day, Labor Day, and Black Friday - this alone can save $300-$600 on a 500 sq ft project.",
+    "Remove your old flooring yourself. Ripping out carpet, laminate, or old vinyl is straightforward work that saves $1.00-$1.50/sq ft in labor costs.",
+    "Choose click-lock over glue-down. Floating installation costs $1.00-$2.00/sq ft less in labor and is much easier if you ever want to replace it.",
+    "Buy 10% extra, not 20%. Many installers quote 15-20% waste factor, but simple rectangular rooms need just 5-10%. Buy 10% extra and return unopened boxes.",
+    "Skip upgraded underlayment if your LVP has attached backing. Many mid-range and premium LVP products come with cork or foam backing built in. Adding a separate underlayment is unnecessary and can void your warranty.",
+    "Shop remnants and clearance. Big-box stores discount discontinued colors and opened-box inventory by 30-50%. If you find enough square footage in a style you like, the savings are significant.",
+    "Do the whole project at once. Installers typically charge a minimum fee of $200-$400 per visit. Doing all rooms in one go spreads that fixed cost across more square footage."
+  ],
+  "contractorQuestions": [
+    { "question": "What subfloor prep is included in your quote?", "why": "Some installers quote rock-bottom prices assuming a perfectly flat subfloor, then charge extra for leveling. Get subfloor assessment and any leveling costs in writing before signing." },
+    { "question": "What's your waste factor, and do I keep leftover material?", "why": "Standard waste factor is 10% for simple layouts. Some installers quote 15-20% and keep the extras. You want leftover planks for future repairs." },
+    { "question": "Do you move furniture, and is that included in the price?", "why": "Moving furniture typically adds $50-$150 per room if not included. Some installers require you to clear rooms beforehand." },
+    { "question": "How do you handle transitions between rooms and different flooring types?", "why": "Transitions are where cheap installations look cheap. Ask to see examples of their transition work, especially where LVP meets tile or carpet." },
+    { "question": "What's your warranty on the installation?", "why": "Most reputable installers offer 1-2 years on workmanship. The product warranty (often 15-30 years) is separate and can be voided by improper installation." },
+    { "question": "Will you remove and dispose of my old flooring?", "why": "Removal and disposal typically costs $1.00-$2.00/sq ft. Some quotes include it, others don't. Clarify this upfront to avoid surprise charges." }
+  ],
+  "relatedProjects": ["hardwood-floor-installation", "carpet-installation", "tile-flooring-installation", "interior-painting"],
+  "seo": {
+    "primaryKeyword": "vinyl plank flooring cost",
+    "secondaryKeywords": ["LVP flooring cost", "how much does vinyl plank flooring cost", "vinyl plank flooring installation cost", "LVP cost per square foot", "vinyl plank flooring cost 2026"],
+    "metaDescription": "How much does vinyl plank flooring cost in 2026? National average is $7/sq ft installed ($4-$12 range). Get detailed cost breakdowns, material comparisons, and an interactive calculator."
+  },
+  "sources": [
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/vinyl-plank-flooring-installation" },
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/flooring/install-vinyl-or-linoleum-flooring/" },
+    { "name": "HomeGuide", "year": 2026, "url": "https://homeguide.com/costs/vinyl-plank-flooring-cost" },
+    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-vinyl-plank-flooring.htm" }
+  ]
+}

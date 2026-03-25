@@ -1,0 +1,59 @@
+{
+  "slug": "siding-replacement",
+  "title": "Vinyl Siding Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your home's siding based on house size, vinyl grade, and optional extras.",
+  "projectSlug": "siding-replacement",
+  "category": "exterior",
+  "nationalAverage": 12000,
+  "sizeInput": {
+    "label": "Exterior Wall Area",
+    "unit": "sq ft",
+    "min": 500,
+    "max": 5000,
+    "step": 100,
+    "default": 1500
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 2.30,
+      "laborPerUnit": 2.10,
+      "permitBase": 200,
+      "description": "Economy vinyl (.040), basic colors, standard lap profile"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 3.70,
+      "laborPerUnit": 3.50,
+      "permitBase": 300,
+      "description": "Mid-grade vinyl (.044), insulated backing, wider color selection"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 6.00,
+      "laborPerUnit": 5.00,
+      "permitBase": 350,
+      "description": "Premium insulated vinyl (.046+), shake or board-and-batten profiles, architectural trim"
+    }
+  },
+  "options": [
+    { "id": "oldSidingRemoval", "label": "Remove Old Siding", "default": true, "costByTier": { "budget": 800, "midRange": 1200, "premium": 1500 } },
+    { "id": "houseWrap", "label": "New House Wrap", "default": false, "costByTier": { "budget": 500, "midRange": 750, "premium": 1000 } },
+    { "id": "trimWork", "label": "Aluminum Trim Wrapping", "default": true, "costByTier": { "budget": 800, "midRange": 1200, "premium": 2000 } },
+    { "id": "soffitFascia", "label": "Soffit and Fascia Replacement", "default": false, "costByTier": { "budget": 1000, "midRange": 1800, "premium": 3000 } },
+    { "id": "insulation", "label": "Fanfold Insulation Board", "default": false, "costByTier": { "budget": 400, "midRange": 600, "premium": 800 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "vinyl siding cost calculator",
+    "metaDescription": "Calculate your vinyl siding replacement cost instantly. Enter your home's exterior square footage, choose a quality tier, and get a detailed cost estimate by state."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "solar-panel-installation",
+  "title": "Solar Panel Installation",
+  "category": "hvac-energy",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 20000,
+    "typicalLow": 15000,
+    "typicalHigh": 30000,
+    "lowEnd": 10000,
+    "highEnd": 45000,
+    "costPerUnit": { "low": 2500, "high": 4500, "unit": "kW", "average": 3200 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 9000,
+      "labor": 4000,
+      "permits": 1000,
+      "design": 1000,
+      "total": 15000,
+      "description": "5 kW system with economy panels (Hanwha or Canadian Solar), string inverter, standard roof mount, basic monitoring. Before incentives."
+    },
+    "midRange": {
+      "materials": 12000,
+      "labor": 5000,
+      "permits": 1500,
+      "design": 1500,
+      "total": 20000,
+      "description": "8 kW system with mid-tier panels (REC or Silfab), microinverters (Enphase), flush roof mount, app monitoring. Before incentives."
+    },
+    "premium": {
+      "materials": 18000,
+      "labor": 6500,
+      "permits": 2000,
+      "design": 3500,
+      "total": 30000,
+      "description": "12 kW system with premium panels (SunPower or Panasonic), microinverters, battery-ready, optimized layout with critter guard and monitoring. Before incentives."
+    }
+  },
+  "costFactors": [
+    {
+      "title": "System Size (kW)",
+      "impact": "$7,500 - $40,000",
+      "description": "System size is the primary cost driver. A small 4 kW system (12-14 panels) costs $10,000-$15,000 before incentives. A mid-size 8 kW system (22-26 panels) runs $18,000-$26,000. A large 12 kW system (33-38 panels) costs $28,000-$40,000. Your electricity usage, roof space, and sun exposure determine the right size."
+    },
+    {
+      "title": "Panel Quality and Brand",
+      "impact": "$2,000 - $8,000",
+      "description": "Economy panels (18-20% efficiency) cost $0.50-$0.80 per watt. Mid-tier panels (20-22% efficiency) run $0.80-$1.20 per watt. Premium panels like SunPower Maxeon (22-24% efficiency) cost $1.20-$1.80 per watt. Higher efficiency panels produce more power in less space, which matters if your roof area is limited."
+    },
+    {
+      "title": "Inverter Type",
+      "impact": "$1,000 - $4,000",
+      "description": "String inverters cost $1,000-$2,000 and work well for unshaded, simple roofs. Microinverters (Enphase) cost $1,500-$3,500 but optimize each panel individually, making them better for partial shade or complex roofs. Power optimizers (SolarEdge) fall in between at $1,200-$2,800."
+    },
+    {
+      "title": "Roof Complexity",
+      "impact": "$500 - $3,000",
+      "description": "A simple south-facing roof with standard asphalt shingles is cheapest. Multiple roof planes, steep pitch (over 40 degrees), tile or metal roofing, skylights, vents, and dormers all add labor and hardware costs. Ground-mounted systems cost $2,000-$5,000 more than roof-mounted but work when roof conditions are poor."
+    },
+    {
+      "title": "Battery Storage",
+      "impact": "$8,000 - $16,000",
+      "description": "Adding a battery (Tesla Powerwall, Enphase IQ, or Generac PWRcell) costs $8,000-$16,000 per unit. Batteries provide backup power during outages and let you store excess solar for evening use. Without a battery, grid-tied systems shut down during outages. Battery costs are dropping 10-15% per year."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Monocrystalline Panels (Standard Efficiency)",
+      "costPerUnit": "$2,500 - $3,200 per kW installed",
+      "pros": "Good efficiency (19-21%), widely available, proven technology, 25-year warranties",
+      "cons": "Moderate efficiency means more panels needed, black frames may not match all roofs",
+      "bestFor": "Most residential installations - the default choice for good reason"
+    },
+    {
+      "material": "Monocrystalline Panels (High Efficiency)",
+      "costPerUnit": "$3,200 - $4,500 per kW installed",
+      "pros": "Highest efficiency (22-24%), fewer panels needed, best for limited roof space, longer degradation warranties",
+      "cons": "Premium pricing, the efficiency advantage is shrinking as standard panels improve",
+      "bestFor": "Small or complex roofs, maximum production per panel, homeowners wanting the best technology"
+    },
+    {
+      "material": "String Inverter System",
+      "costPerUnit": "$2,300 - $3,000 per kW installed",
+      "pros": "Lowest system cost, simple design, easy to replace (one unit)",
+      "cons": "Shading on one panel reduces entire string output, single point of failure",
+      "bestFor": "Unshaded south-facing roofs with one consistent plane"
+    },
+    {
+      "material": "Microinverter System (Enphase)",
+      "costPerUnit": "$2,800 - $4,000 per kW installed",
+      "pros": "Per-panel optimization, shade tolerant, panel-level monitoring, no single point of failure",
+      "cons": "Higher cost, more components on the roof, slightly more complex installation",
+      "bestFor": "Roofs with partial shade, multiple orientations, or homeowners wanting detailed monitoring"
+    },
+    {
+      "material": "Solar + Battery System",
+      "costPerUnit": "$4,000 - $6,500 per kW installed (with storage)",
+      "pros": "Backup power during outages, time-of-use optimization, energy independence",
+      "cons": "Significantly higher cost, battery replacement in 10-15 years, adds complexity",
+      "bestFor": "Areas with frequent outages, time-of-use electric rates, homeowners prioritizing energy independence"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Strong state incentives (MA, NY, NJ, CT) often offset higher installation costs. Lower sun hours mean larger systems needed." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California NEM 3.0 reduced net metering value, making batteries more important. High labor costs but excellent sun exposure." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Good sun exposure and lower labor costs. State incentives vary widely - Florida has no state tax credit." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Lower costs but also lower sun hours. Illinois and Minnesota have strong incentive programs." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Excellent sun exposure in Colorado, Utah, Arizona, and New Mexico. Growing installer competition is bringing prices down." }
+  },
+  "timeline": {
+    "minimum": "1 week (permit to power)",
+    "typical": "4-8 weeks (permit to power)",
+    "maximum": "3-6 months",
+    "phases": [
+      { "name": "Site assessment and system design", "duration": "1-2 weeks" },
+      { "name": "Permitting and utility application", "duration": "2-6 weeks" },
+      { "name": "Installation (panels, inverter, electrical)", "duration": "1-3 days" },
+      { "name": "Inspection", "duration": "1-2 weeks" },
+      { "name": "Utility interconnection and permission to operate", "duration": "1-4 weeks" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Difficult but possible - DIY solar is legal in most states but requires electrical knowledge, roof work experience, and navigating permits and utility interconnection",
+    "diySavings": "40-60% ($6,000-$15,000)",
+    "diyTasks": [
+      "Designing the system layout using online tools (Aurora Solar, PVWatts)",
+      "Purchasing panels, inverters, and racking directly from distributors",
+      "Installing roof racking and mounting panels (if comfortable on roofs)",
+      "Running conduit and wiring (if electrically skilled)",
+      "Filing permit applications and utility interconnection requests"
+    ],
+    "proOnlyTasks": [
+      "Electrical panel connections and main service upgrade (requires licensed electrician in most states)",
+      "Final electrical inspection sign-off",
+      "Structural engineering review for roof load (if required)",
+      "Utility interconnection - some utilities only accept applications from licensed installers",
+      "Roof penetration waterproofing and flashing"
+    ],
+    "diyRisks": "Working on roofs is the leading cause of fall injuries in construction. Electrical work on 240V solar systems can cause electrocution. Improper roof penetrations cause leaks and structural damage. DIY installation may void panel warranties. Some utilities and jurisdictions require licensed installer for interconnection. Permit violations can prevent home sale."
+  },
+  "savingsTips": [
+    "Claim the 30% federal Investment Tax Credit (ITC) - on a $20,000 system, that is $6,000 back on your taxes",
+    "Stack state and local incentives on top of the federal credit - some states offer an additional 10-25% in rebates or credits",
+    "Get at least 5 quotes through EnergySage or similar platforms to ensure competitive pricing",
+    "Choose standard-efficiency panels unless your roof space is limited - the price premium for high-efficiency panels rarely pays off",
+    "Skip the battery unless you have frequent outages or time-of-use rates - batteries add $8,000-$16,000 and have a 10-15 year lifespan",
+    "Check if your utility offers net metering at full retail rate - this dramatically affects your payback period",
+    "Consider a solar loan at 4-6% APR rather than a solar lease - you keep all incentives and own the system",
+    "Time your purchase for Q4 when installers push to meet annual sales targets and offer the best discounts"
+  ],
+  "contractorQuestions": [
+    { "question": "What is the total system cost before and after incentives, and what incentives are you including?", "why": "Some quotes show the post-incentive price prominently. Make sure you know the gross cost and exactly which incentives apply. The federal tax credit requires you to have sufficient tax liability to claim it." },
+    { "question": "What is the estimated annual production (kWh) and how did you calculate it?", "why": "Production depends on panel orientation, tilt, shading, and local sun hours. Ask for a site-specific production estimate, not just a generic number. NREL's PVWatts is a good benchmark." },
+    { "question": "What panel brand and model are you using, and what is the warranty?", "why": "Panel warranties include a 25-year product warranty and a production guarantee (typically 85-90% output at year 25). Get the exact model so you can verify specifications independently." },
+    { "question": "Do you use microinverters or a string inverter, and why?", "why": "This affects shade tolerance, monitoring capability, expansion options, and cost. A good installer recommends the right technology for your roof, not just whatever they have in stock." },
+    { "question": "Who handles permitting, utility interconnection, and inspections?", "why": "A turnkey installer handles all paperwork. Some budget installers leave permitting to you, which can take weeks of your time and delay the project." },
+    { "question": "What is your installation warranty, and what does it cover?", "why": "Panel and inverter warranties cover equipment. The installation warranty covers roof leaks, wiring issues, and workmanship. Look for at least a 10-year workmanship warranty." },
+    { "question": "What is the estimated payback period and 25-year savings based on my current electric bill?", "why": "A reputable installer provides a detailed financial analysis showing year-by-year savings, accounting for electricity rate increases, panel degradation, and incentives. Typical payback is 6-10 years." }
+  ],
+  "relatedProjects": [
+    "electrical-panel-upgrade",
+    "roof-replacement",
+    "attic-insulation",
+    "heat-pump-installation",
+    "ev-charger-installation"
+  ],
+  "seo": {
+    "primaryKeyword": "solar panel installation cost",
+    "secondaryKeywords": [
+      "how much do solar panels cost",
+      "solar panel cost",
+      "cost of solar panels for home",
+      "solar installation cost per watt",
+      "solar panel cost 2026",
+      "is solar worth it",
+      "solar panel system cost",
+      "residential solar panel cost"
+    ],
+    "metaDescription": "Solar panel installation costs $15,000-$30,000 before incentives in 2026 (national average $20,000). See costs by system size, panel type, and state plus calculate your savings."
+  },
+  "sources": [
+    { "name": "EnergySage - Solar Panel Cost", "year": 2025, "url": "https://www.energysage.com/local-data/solar-panel-cost-averages/" },
+    { "name": "Fixr - Solar Panel Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/solar-panel-installation" },
+    { "name": "HomeAdvisor - Solar Panel Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/green-energy-solutions/install-solar-panels/" },
+    { "name": "Solar.com - Solar Panel Cost Guide", "year": 2025, "url": "https://www.solar.com/learn/solar-panel-cost/" },
+    { "name": "NREL - U.S. Solar Photovoltaic System and Energy Storage Cost Benchmarks", "year": 2025, "url": "https://www.nrel.gov/solar/market-research-analysis.html" }
+  ]
+}

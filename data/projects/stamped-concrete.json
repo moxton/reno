@@ -1,0 +1,206 @@
+{
+  "slug": "stamped-concrete",
+  "title": "Stamped Concrete Patio and Driveway",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 3800,
+    "typicalLow": 2200,
+    "typicalHigh": 6500,
+    "lowEnd": 1500,
+    "highEnd": 10000,
+    "costPerUnit": { "low": 8, "high": 20, "unit": "sq ft", "average": 13 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 900,
+      "labor": 1100,
+      "permits": 0,
+      "design": 0,
+      "total": 2000,
+      "description": "Single-color stamped concrete, basic pattern (ashlar slate or cobblestone), 300 sq ft patio, standard sealer"
+    },
+    "midRange": {
+      "materials": 1500,
+      "labor": 1800,
+      "permits": 0,
+      "design": 200,
+      "total": 3500,
+      "description": "Two-color stamped concrete with integral color and release agent contrast, medium pattern complexity, 300 sq ft patio, high-gloss sealer"
+    },
+    "premium": {
+      "materials": 2800,
+      "labor": 3200,
+      "permits": 0,
+      "design": 500,
+      "total": 6500,
+      "description": "Multi-color stamped and stained concrete with hand-carved accents, borders, and custom pattern, 300 sq ft patio, premium sealer with anti-slip additive"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Pattern and Color Complexity",
+      "impact": "$500 - $3,000",
+      "description": "A single stamp pattern with one integral color is the simplest and cheapest approach at $8-$12 per square foot. Adding a contrasting release color (the powder applied before stamping) creates depth for $1-$2 more per square foot. Multiple stamp patterns, hand-carved borders, or custom color staining push costs to $15-$20 per square foot because they require more skilled labor and slower application."
+    },
+    {
+      "title": "Concrete Slab Thickness",
+      "impact": "$300 - $1,200",
+      "description": "A standard 4-inch slab works for patios and walkways at $5-$7 per square foot for the concrete alone. Driveways need 5-6 inches to handle vehicle weight, adding $1.50-$3 per square foot. Areas with heavy trucks or RVs may need 6-8 inches with reinforced wire mesh, pushing concrete costs to $8-$10 per square foot before stamping."
+    },
+    {
+      "title": "Site Preparation",
+      "impact": "$400 - $1,500",
+      "description": "Concrete needs a stable, well-compacted base. If your site requires excavation, grading, and 4-6 inches of compacted gravel sub-base, add $2-$5 per square foot. Removing existing concrete or asphalt costs $2-$4 per square foot for demolition and haul-away. Sites with poor drainage may need French drains or swales graded before pouring."
+    },
+    {
+      "title": "Sealer Type and Application",
+      "impact": "$200 - $800",
+      "description": "Stamped concrete must be sealed to protect the color and prevent moisture damage. A basic acrylic sealer costs $0.50-$1 per square foot and lasts 2-3 years. Premium polyurethane or epoxy sealers cost $1.50-$3 per square foot and last 5-7 years. High-gloss finishes that make the concrete look wet cost more than matte finishes. Plan on resealing every 2-5 years at $0.50-$1.50 per square foot."
+    },
+    {
+      "title": "Project Accessibility and Shape",
+      "impact": "$200 - $1,000",
+      "description": "Concrete trucks need access to your pour site. If the truck can back right up to the area, costs are standard. If concrete needs to be pumped through a boom or line pump to reach your patio, add $300-$800 for the pump truck. Curved or irregular shapes also increase costs because they require more formwork and hand-finishing."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Ashlar Slate Pattern",
+      "costPerUnit": "$8-$12 per sq ft installed",
+      "pros": "Classic look mimicking cut stone, works with many home styles, moderate pattern complexity",
+      "cons": "Very common (may look generic), requires good color selection to look realistic",
+      "bestFor": "Most homes, patios, pool decks, and walkways wanting a natural stone look"
+    },
+    {
+      "material": "Cobblestone/Belgian Block Pattern",
+      "costPerUnit": "$10-$14 per sq ft installed",
+      "pros": "Old-world European charm, looks great for driveways and entryways, hides minor imperfections",
+      "cons": "Textured surface can be harder to clean, snow shoveling catches on deeper patterns",
+      "bestFor": "Driveways, front walkways, traditional and colonial style homes"
+    },
+    {
+      "material": "Wood Plank Pattern",
+      "costPerUnit": "$10-$15 per sq ft installed",
+      "pros": "Mimics real wood decking without rot or maintenance, unique appearance, good for modern designs",
+      "cons": "Requires very skilled installer for realistic results, can look fake if poorly done",
+      "bestFor": "Pool decks, patios where you want a deck look without wood maintenance"
+    },
+    {
+      "material": "Random Stone/Flagstone Pattern",
+      "costPerUnit": "$12-$18 per sq ft installed",
+      "pros": "Natural, organic appearance, each section looks unique, excellent for informal settings",
+      "cons": "More labor-intensive to stamp, hand-carved versions are very expensive, irregular joints trap debris",
+      "bestFor": "Garden patios, rustic settings, blending with natural landscaping"
+    },
+    {
+      "material": "Brick Running Bond Pattern",
+      "costPerUnit": "$9-$13 per sq ft installed",
+      "pros": "Timeless brick appearance at a fraction of real brick cost, works well with colonial and traditional homes",
+      "cons": "Can look repetitive on large areas, requires precise color matching to look like real brick",
+      "bestFor": "Traditional homes, front porches, entryways, homes already featuring real brick"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Shorter concrete pouring season (April-October) and freeze-thaw cycles require air-entrained concrete, adding to costs. Resealing frequency is higher in cold climates." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High labor costs and strong demand for decorative concrete in CA drive prices up. Year-round pouring weather is an advantage." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Year-round pouring season, lower labor costs, and high competition among decorative concrete contractors keep prices below average." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Shorter pouring season but lower labor rates balance out. Harsh winters mean resealing every 2-3 years is critical to prevent surface damage." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Altitude affects concrete curing times and mix requirements. UV exposure at higher elevations can fade colors faster, making quality sealer critical." }
+  },
+  "timeline": {
+    "minimum": "2-3 days",
+    "typical": "3-5 days",
+    "maximum": "1-2 weeks",
+    "phases": [
+      { "name": "Site preparation and excavation", "duration": "1 day" },
+      { "name": "Base gravel and compaction", "duration": "1 day" },
+      { "name": "Formwork and reinforcement", "duration": "2-4 hours" },
+      { "name": "Concrete pour, coloring, and stamping", "duration": "1 day" },
+      { "name": "Curing period (no foot traffic)", "duration": "24-48 hours" },
+      { "name": "Sealer application", "duration": "1 day" },
+      { "name": "Full cure before heavy use", "duration": "5-7 days" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Not recommended - Stamped concrete is one of the few hardscape projects where DIY is strongly discouraged. You get one shot during the pour, and the timing of stamping is critical. Mistakes are permanent.",
+    "diySavings": "Not applicable - the risk of ruining a $1,500-$3,000 concrete pour makes DIY savings theoretical",
+    "diyTasks": [
+      "Excavating and grading the site before the contractor arrives",
+      "Removing old patio or concrete (saves $300-$800 in demo costs)",
+      "Installing and compacting the gravel sub-base",
+      "Applying sealer coats in subsequent years (maintenance only)",
+      "Building simple formwork for straightforward rectangular pours"
+    ],
+    "proOnlyTasks": [
+      "Mixing, pouring, and finishing the concrete slab",
+      "Applying integral color and release agents at the right timing",
+      "Stamping the concrete during the narrow workability window",
+      "Achieving consistent stamp depth and pattern alignment",
+      "Cutting control joints at proper spacing and locations",
+      "Initial sealer application after curing"
+    ],
+    "diyRisks": "Stamped concrete has a narrow window of workability - typically 1-2 hours after pouring before the concrete is too hard to stamp. Stamp too early and you get mushy, undefined patterns. Stamp too late and patterns are shallow and inconsistent. Color inconsistencies, stamp misalignment, and cold joint lines are permanent and cannot be fixed without tearing out and starting over."
+  },
+  "savingsTips": [
+    "Choose a single integral color with a standard release agent instead of multi-color staining to save $2-$5 per square foot",
+    "Pick a common stamp pattern (ashlar slate, cobblestone) that your contractor has done many times rather than a specialty pattern",
+    "Do the site preparation and excavation yourself to save $400-$800",
+    "Combine your patio with a driveway or walkway pour for a volume discount of 10-15%",
+    "Schedule pours in fall when concrete contractors are less busy and may offer seasonal discounts",
+    "Opt for a matte sealer instead of high-gloss - it costs less and many people prefer the more natural look",
+    "Keep the shape simple and rectangular to minimize formwork and hand-finishing labor",
+    "Ask the contractor about using a concrete pump if access is tricky rather than wheelbarrowing - it actually saves labor time and money on larger pours"
+  ],
+  "contractorQuestions": [
+    {
+      "question": "Can I see photos of stamped concrete you poured 3-5 years ago?",
+      "why": "New stamped concrete always looks great. What matters is how it holds up over time. Fading color, peeling sealer, and surface flaking are signs of poor technique or materials. Seeing aged work tells you the real story."
+    },
+    {
+      "question": "What concrete mix will you use, and will it include air entrainment?",
+      "why": "In climates with freeze-thaw cycles, air-entrained concrete is essential to prevent surface spalling and cracking. A 4,000 PSI mix with 5-7% air entrainment is the standard for stamped concrete in cold climates."
+    },
+    {
+      "question": "How many people will be on the crew for the pour and stamping?",
+      "why": "Stamped concrete requires a team working fast during a narrow window. A 300 sq ft patio typically needs 3-4 crew members. Too few hands means rushed, inconsistent stamping. Ask how they handle the timing."
+    },
+    {
+      "question": "What color and release agent brands do you use?",
+      "why": "Quality integral color brands (like Solomon Colors or Davis Colors) provide consistent, fade-resistant results. Cheap color additives can fade or look blotchy within a year. The release agent color creates the contrast in the stamp pattern."
+    },
+    {
+      "question": "Where will you place control joints, and how will they be integrated with the pattern?",
+      "why": "Concrete cracks - the question is where. Control joints placed every 8-10 feet in a grid pattern direct inevitable cracking to planned lines. Good contractors integrate these joints into the stamp pattern so they're nearly invisible."
+    },
+    {
+      "question": "What sealer do you recommend, and what's the resealing schedule?",
+      "why": "The sealer protects your investment. Ask about the specific product, expected lifespan, and whether resealing is included in any warranty. Plan on resealing every 2-4 years at $0.50-$1.50 per square foot."
+    },
+    {
+      "question": "What warranty do you offer on color, pattern, and structural integrity?",
+      "why": "A quality contractor should warranty their work for at least 2-3 years against color fading, pattern defects, and structural cracking beyond normal control joints. Some offer 5-year warranties on workmanship."
+    }
+  ],
+  "relatedProjects": ["patio-installation", "deck-building", "retaining-wall", "fence-installation", "siding-replacement"],
+  "seo": {
+    "primaryKeyword": "stamped concrete cost",
+    "secondaryKeywords": [
+      "stamped concrete patio cost",
+      "stamped concrete cost per square foot",
+      "how much does stamped concrete cost",
+      "stamped concrete driveway cost",
+      "stamped concrete vs pavers cost",
+      "decorative concrete cost 2026",
+      "stamped concrete patio cost calculator",
+      "colored stamped concrete cost"
+    ],
+    "metaDescription": "Stamped concrete costs $1,500-$10,000 in 2026, with most homeowners paying $2,200-$6,500. See costs by pattern, color options, and use our free cost calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Stamped Concrete Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/outdoor-living/install-stamped-concrete/" },
+    { "name": "Fixr - Cost of Stamped Concrete", "year": 2025, "url": "https://www.fixr.com/costs/stamped-concrete" },
+    { "name": "Angi - Stamped Concrete Cost Guide", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-stamped-concrete-cost.htm" },
+    { "name": "HomeGuide - Stamped Concrete Prices", "year": 2025, "url": "https://homeguide.com/costs/stamped-concrete-cost" }
+  ]
+}

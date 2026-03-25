@@ -1,0 +1,141 @@
+{
+  "slug": "kitchen-backsplash",
+  "title": "Kitchen Backsplash Installation",
+  "category": "kitchen",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 1500,
+    "typicalLow": 600,
+    "typicalHigh": 2500,
+    "lowEnd": 400,
+    "highEnd": 5000,
+    "costPerUnit": { "low": 10, "high": 75, "unit": "sq ft", "average": 30 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 250,
+      "labor": 300,
+      "permits": 0,
+      "design": 0,
+      "total": 550,
+      "description": "Peel-and-stick tiles or basic ceramic subway tiles, simple grid pattern, standard installation"
+    },
+    "midRange": {
+      "materials": 650,
+      "labor": 700,
+      "permits": 0,
+      "design": 100,
+      "total": 1450,
+      "description": "Porcelain or glass subway tile, herringbone or stacked pattern, professional installation with quality grout"
+    },
+    "premium": {
+      "materials": 1800,
+      "labor": 1200,
+      "permits": 0,
+      "design": 300,
+      "total": 3300,
+      "description": "Natural stone, hand-made tiles, or mosaic designs with complex patterns, accent features, and premium grout"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Tile Material",
+      "impact": "$150 - $2,500",
+      "description": "Ceramic subway tiles run $2-$8 per square foot for materials. Porcelain and glass tiles jump to $7-$25 per square foot. Natural stone like marble, travertine, or slate costs $15-$50 per square foot. Hand-made or artisan tiles can push $30-$80 per square foot. For a typical 30-square-foot backsplash, material alone ranges from $60 to $2,400."
+    },
+    {
+      "title": "Pattern Complexity",
+      "impact": "$0 - $800",
+      "description": "A straight-set grid pattern is the fastest and cheapest to install. Herringbone and chevron patterns require more cuts and take 30-50% longer to install, adding $200-$500 in labor. Complex mosaic patterns with mixed materials or custom designs can add $500-$800 in extra labor time."
+    },
+    {
+      "title": "Backsplash Area Size",
+      "impact": "$10 - $75 per sq ft",
+      "description": "A standard backsplash between the countertop and upper cabinets covers 25-35 square feet. Full-height backsplashes that extend to the ceiling add another 15-25 square feet. Behind-the-range focal walls add 6-12 square feet. Larger areas cost more but the per-square-foot rate may decrease slightly."
+    },
+    {
+      "title": "Surface Preparation",
+      "impact": "$0 - $500",
+      "description": "If your walls are clean drywall, prep is minimal. Removing an old backsplash adds $150-$350 depending on the existing material. Repairing damaged drywall after removal runs $100-$300. Walls that need leveling or waterproofing behind the stove area add $100-$200."
+    },
+    {
+      "title": "Outlets and Obstacles",
+      "impact": "$50 - $300",
+      "description": "Every outlet, switch plate, and window in the backsplash area requires precise tile cuts. Each outlet adds $25-$50 in extra labor. A window in the backsplash area adds $100-$200 for cutting and finishing around the frame. Most kitchens have 4-8 outlets in the backsplash zone."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Ceramic Subway Tile", "costPerUnit": "$2-$8/sq ft material", "pros": "Very affordable, timeless look, easy to clean, widely available", "cons": "Can chip, limited design range in budget options, grout maintenance", "bestFor": "Budget and mid-range kitchens, classic or transitional style" },
+    { "material": "Porcelain Tile", "costPerUnit": "$5-$20/sq ft material", "pros": "More durable than ceramic, water resistant, many style options", "cons": "Harder to cut, slightly more expensive, heavier", "bestFor": "Mid-range kitchens, areas behind sinks with high moisture" },
+    { "material": "Glass Tile", "costPerUnit": "$7-$30/sq ft material", "pros": "Reflective quality brightens kitchens, easy to clean, stain proof", "cons": "Shows imperfections in wall behind, can chip, harder to install", "bestFor": "Modern and contemporary kitchens, small spaces needing visual depth" },
+    { "material": "Natural Stone (Marble/Travertine)", "costPerUnit": "$15-$50/sq ft material", "pros": "Luxury appearance, unique natural patterns, adds significant home value", "cons": "Requires sealing, stains more easily, higher maintenance, porous", "bestFor": "Premium kitchens, traditional or Mediterranean style" },
+    { "material": "Peel-and-Stick Tile", "costPerUnit": "$3-$15/sq ft material", "pros": "No grout needed, easy DIY install, removable in rentals, quick project", "cons": "Less durable, can peel over time near heat, looks less authentic", "bestFor": "Rental kitchens, temporary updates, extreme budget projects" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher tile setter labor rates in metro areas" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Premium labor costs, especially in Bay Area and LA" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs and good contractor availability" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive labor market keeps prices down" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Rising demand in growing metro areas" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-2 days",
+    "maximum": "3-4 days",
+    "phases": [
+      { "name": "Surface preparation and old backsplash removal", "duration": "2-4 hours" },
+      { "name": "Layout planning and dry fit", "duration": "1-2 hours" },
+      { "name": "Tile installation and cutting", "duration": "4-8 hours" },
+      { "name": "Grout application and curing", "duration": "4-24 hours" },
+      { "name": "Cleanup and caulking", "duration": "1-2 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "High - backsplash is one of the best beginner tile projects",
+    "diySavings": "40-60% savings by avoiding labor costs",
+    "diyTasks": [
+      "Removing old backsplash material",
+      "Installing peel-and-stick tiles",
+      "Installing subway tile in a basic grid pattern",
+      "Grouting and sealing tile",
+      "Caulking edges along countertop and cabinets"
+    ],
+    "proOnlyTasks": [
+      "Complex mosaic or herringbone patterns with many cuts",
+      "Natural stone installation requiring precise cuts and sealing",
+      "Electrical work if outlets need to be moved",
+      "Leveling significantly uneven walls"
+    ],
+    "diyRisks": "The biggest risk is uneven tile lines or lippage (tiles sitting at different heights) that become very visible once grout is applied. A tile wet saw rental runs $40-$60 per day and takes practice to use cleanly. Budget an extra 10-15% on tile for mistakes and breakage."
+  },
+  "savingsTips": [
+    "Classic white ceramic subway tile costs as little as $0.15-$0.50 per piece and never goes out of style",
+    "DIY a simple subway tile backsplash over a weekend to save $300-$700 in labor",
+    "Buy tile during holiday sales at Home Depot or Lowe's - prices drop 20-30% on popular options",
+    "Use a basic grid pattern instead of herringbone to reduce labor time and tile waste by 25-35%",
+    "Skip full-height backsplash and just do the standard 18-inch height between counters and cabinets",
+    "Use a premium tile only behind the range as a focal point, and a complementary budget tile for the rest",
+    "Rent a tile saw instead of buying one - most backsplash projects only need it for one day",
+    "Order 10-15% extra tile to account for cuts and waste rather than paying rush shipping for a few replacement tiles"
+  ],
+  "contractorQuestions": [
+    { "question": "Is old backsplash removal included in your quote?", "why": "Some tile installers quote only the new installation. Removing existing tile or other backsplash material adds $150-$350 and should be clarified upfront." },
+    { "question": "Do you charge per square foot or a flat rate for this size job?", "why": "Small backsplash jobs (under 30 sq ft) often have a minimum charge of $500-$800 regardless of area. Flat-rate quotes may be better for smaller kitchens." },
+    { "question": "What type of grout do you recommend, and is sealing included?", "why": "Epoxy grout costs more but resists stains and does not need sealing. Cement grout is cheaper but needs sealing every 1-2 years. The installer should recommend the right grout for your tile and use." },
+    { "question": "How do you handle the edges and end points of the backsplash?", "why": "Where the backsplash ends - at the sides of cabinets, around windows, at open walls - matters for the finished look. Bullnose trim, metal edge strips, or turning the corner all have different costs and looks." },
+    { "question": "Will you repair drywall if it is damaged during old tile removal?", "why": "Removing old tile often pulls off chunks of drywall paper or compound. Confirm who handles repairs and what it costs if damage is more than expected." },
+    { "question": "How do you handle cuts around electrical outlets?", "why": "Precise cuts around outlets look much cleaner. Some installers use outlet extenders if the tile adds thickness. Confirm the plan so outlets sit flush with the finished surface." }
+  ],
+  "relatedProjects": ["countertop-replacement", "full-kitchen-remodel", "interior-painting"],
+  "seo": {
+    "primaryKeyword": "kitchen backsplash installation cost",
+    "secondaryKeywords": ["backsplash cost", "tile backsplash installation price", "subway tile backsplash cost", "how much does a backsplash cost", "kitchen backsplash labor cost", "backsplash cost per square foot", "glass tile backsplash cost", "backsplash installation cost 2026"],
+    "metaDescription": "Kitchen backsplash installation costs $600-$2,500 in 2026. See detailed pricing by tile type (ceramic, glass, stone) with our interactive cost calculator and savings tips."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Backsplash Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/kitchens/install-a-backsplash/" },
+    { "name": "Fixr - Backsplash Cost Guide", "year": 2025, "url": "https://www.fixr.com/costs/backsplash-installation" },
+    { "name": "Angi - Kitchen Backsplash Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-backsplash.htm" },
+    { "name": "Bob Vila - How Much Does a Backsplash Cost", "year": 2025, "url": "https://www.bobvila.com/articles/backsplash-installation-cost/" }
+  ]
+}

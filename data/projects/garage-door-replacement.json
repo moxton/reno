@@ -1,0 +1,143 @@
+{
+  "slug": "garage-door-replacement",
+  "title": "Garage Door Replacement",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 1400,
+    "typicalLow": 750,
+    "typicalHigh": 2500,
+    "lowEnd": 500,
+    "highEnd": 5000,
+    "costPerUnit": { "low": 500, "high": 5000, "unit": "door", "average": 1400 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 400,
+      "labor": 300,
+      "permits": 0,
+      "design": 0,
+      "total": 700,
+      "description": "Single-layer steel door, basic white, no insulation, no windows, standard hardware"
+    },
+    "midRange": {
+      "materials": 850,
+      "labor": 400,
+      "permits": 0,
+      "design": 50,
+      "total": 1300,
+      "description": "Insulated double-layer steel door with decorative panels, basic windows, upgraded springs and hardware"
+    },
+    "premium": {
+      "materials": 2800,
+      "labor": 650,
+      "permits": 0,
+      "design": 150,
+      "total": 3600,
+      "description": "Carriage-style wood or composite door, triple-layer insulated, decorative windows, smart opener, custom finish"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Door Material",
+      "impact": "$300 - $3,500",
+      "description": "Basic single-layer steel doors start at $300-$600 for the door itself. Insulated double-layer steel runs $500-$1,200. Wood and composite carriage-style doors cost $1,500-$3,500+. Aluminum and glass contemporary doors range from $1,200-$5,000. Material choice is the biggest driver of your total cost."
+    },
+    {
+      "title": "Door Size",
+      "impact": "$200 - $1,000",
+      "description": "A standard single-car door (8x7 or 9x7) costs significantly less than a double-car door (16x7 or 18x7). Single doors run $500-$1,800 installed. Double-wide doors cost $750-$3,500 installed. Oversized or custom-height doors for RVs or lifted trucks add 20-40% to the base price."
+    },
+    {
+      "title": "Insulation R-Value",
+      "impact": "$100 - $600",
+      "description": "Non-insulated single-layer doors are cheapest. Polystyrene insulation (R-6 to R-9) adds $100-$200 to the door price. Polyurethane insulation (R-12 to R-18) adds $200-$600. Insulation matters most if your garage is attached to your home or if you use it as a workshop."
+    },
+    {
+      "title": "Opener Replacement",
+      "impact": "$200 - $600",
+      "description": "If your existing opener works with the new door, you save this cost. Chain-drive openers cost $200-$300 installed. Belt-drive models (quieter) run $300-$450. Smart openers with WiFi and camera integration cost $400-$600. Many homeowners replace the opener at the same time as the door."
+    },
+    {
+      "title": "Old Door Removal and Disposal",
+      "impact": "$50 - $200",
+      "description": "Most installers include removal of the old door in their quote. Some charge $50-$200 separately for haul-away and disposal. Metal doors may be recycled at no charge. Wood doors are heavier and cost more to dispose of. Always confirm disposal is included before signing."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Steel (Single Layer)", "costPerUnit": "$300-$600 per door", "pros": "Most affordable, low maintenance, dent resistant in thicker gauges, many styles", "cons": "No insulation, can rust if scratched, basic appearance", "bestFor": "Detached garages, budget replacements, mild climates" },
+    { "material": "Steel (Insulated Double/Triple Layer)", "costPerUnit": "$500-$1,500 per door", "pros": "Good insulation, quiet operation, durable, dent resistant, wide style range", "cons": "Mid-range price, still has a steel look even with embossed wood grain", "bestFor": "Attached garages, most homeowners, best value for the money" },
+    { "material": "Wood (Real Wood)", "costPerUnit": "$1,200-$4,000 per door", "pros": "Beautiful natural appearance, carriage-house style, can be custom stained or painted", "cons": "Requires regular maintenance (painting/staining every 2-3 years), can warp or rot, heavy", "bestFor": "High-end homes, historic properties, homeowners wanting a custom look" },
+    { "material": "Composite/Faux Wood", "costPerUnit": "$1,000-$3,000 per door", "pros": "Looks like wood without the maintenance, insulated, rot and insect resistant", "cons": "Expensive, fewer custom options than real wood, can fade over time", "bestFor": "Homeowners wanting wood appearance without ongoing maintenance" },
+    { "material": "Aluminum and Glass", "costPerUnit": "$1,500-$5,000 per door", "pros": "Modern contemporary look, lightweight, lets in natural light, rust resistant", "cons": "Dents easily, poor insulation, fingerprints on glass, highest price point", "bestFor": "Modern architecture, showroom-style garages, homes with great curb appeal" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, insulated doors more common due to climate" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, design-oriented door choices common" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor, less insulation needed" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive market, insulated doors recommended for cold winters" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing housing markets, insulation important at higher elevations" }
+  },
+  "timeline": {
+    "minimum": "2-4 hours",
+    "typical": "Half day",
+    "maximum": "1-2 days",
+    "phases": [
+      { "name": "Old door removal", "duration": "30-60 minutes" },
+      { "name": "Track and hardware installation", "duration": "1-2 hours" },
+      { "name": "Door panel assembly and hanging", "duration": "1-2 hours" },
+      { "name": "Spring tensioning and balancing", "duration": "30-60 minutes" },
+      { "name": "Opener connection and programming", "duration": "30-60 minutes" },
+      { "name": "Testing and adjustment", "duration": "15-30 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Low - spring tensioning is dangerous; professional installation strongly recommended",
+    "diySavings": "15-25% savings, but not worth the safety risk for most homeowners",
+    "diyTasks": [
+      "Researching and ordering the right door size and style",
+      "Painting or staining a new wood door before installation",
+      "Installing a new garage door opener (if door is already hung)",
+      "Adding weather stripping and bottom seals",
+      "Programming remote controls and smart home integration"
+    ],
+    "proOnlyTasks": [
+      "Removing and disposing of old torsion springs (high-tension, dangerous)",
+      "Installing and tensioning new torsion springs",
+      "Hanging and balancing the door on tracks",
+      "Adjusting spring tension for proper balance",
+      "Replacing or modifying framing and tracks"
+    ],
+    "diyRisks": "Garage door torsion springs are under extreme tension and cause serious injuries and deaths every year when mishandled. A fully wound torsion spring stores enough energy to break bones or worse. Professional installation costs $300-$650 in labor - this is not the project to save money on. Extension spring systems are somewhat safer but still risky for inexperienced homeowners."
+  },
+  "savingsTips": [
+    "A standard insulated steel door delivers the best value - 80% of the look at 40% of the cost of wood or composite",
+    "Replace a double-wide door with two single doors for a more custom look at a similar or lower cost",
+    "Skip decorative windows if privacy is not a concern with your garage layout - saves $100-$300",
+    "Keep your existing opener if it works well with the new door - saves $200-$500",
+    "Buy the door directly from a manufacturer or big-box store and pay only for installation labor",
+    "Time your purchase for spring or fall when dealers often run seasonal promotions",
+    "Choose a stock size door rather than a custom size to avoid fabrication upcharges of 30-50%",
+    "Consider a steel door with a wood-grain texture finish instead of real wood - similar look at a fraction of the price and maintenance"
+  ],
+  "contractorQuestions": [
+    { "question": "Does the price include removal and disposal of the old door?", "why": "Most reputable installers include this, but some charge $50-$200 extra. Clarify before comparing quotes." },
+    { "question": "What is the R-value of the door you are quoting?", "why": "Insulation matters for energy efficiency, noise reduction, and door durability. R-12 to R-18 is ideal for attached garages in cold climates." },
+    { "question": "Are new tracks and hardware included, or are you reusing the existing ones?", "why": "New doors often require new tracks. Reusing old tracks can cause alignment problems and void the door warranty." },
+    { "question": "What type of springs will you install, and what is the warranty?", "why": "Standard springs are rated for about 10,000 cycles (roughly 7-10 years). High-cycle springs rated for 25,000-50,000 cycles cost $50-$150 more but last much longer." },
+    { "question": "Is the opener included in this quote, or is it separate?", "why": "Some quotes bundle the door and opener. Others list them separately. Make sure you are comparing total installed costs." },
+    { "question": "What warranty comes with the door and the installation?", "why": "Quality steel doors carry 10-20 year warranties against rust and defects. Installation warranties should cover at least 1-2 years for labor and adjustments." }
+  ],
+  "relatedProjects": ["driveway-replacement", "exterior-painting", "fence-installation"],
+  "seo": {
+    "primaryKeyword": "garage door replacement cost",
+    "secondaryKeywords": ["new garage door cost", "garage door installation price", "how much does a garage door cost", "garage door replacement cost 2026", "insulated garage door cost", "two-car garage door price", "carriage style garage door cost", "garage door cost per door"],
+    "metaDescription": "Garage door replacement costs $750-$2,500 per door in 2026. Compare steel, wood, and composite options with our interactive cost calculator and contractor tips."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Garage Door Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/garages/install-a-garage-door/" },
+    { "name": "Fixr - Garage Door Replacement Cost", "year": 2025, "url": "https://www.fixr.com/costs/garage-door-installation" },
+    { "name": "Angi - Garage Door Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-new-garage-door-cost.htm" },
+    { "name": "Bob Vila - Garage Door Installation Cost", "year": 2025, "url": "https://www.bobvila.com/articles/garage-door-installation-cost/" }
+  ]
+}

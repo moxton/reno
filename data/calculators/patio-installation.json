@@ -1,0 +1,59 @@
+{
+  "slug": "patio-installation",
+  "title": "Paver Patio Cost Calculator",
+  "description": "Estimate the cost of installing a paver patio based on size, material choice, pattern, and optional features.",
+  "projectSlug": "patio-installation",
+  "category": "exterior",
+  "nationalAverage": 4500,
+  "sizeInput": {
+    "label": "Patio Area",
+    "unit": "sq ft",
+    "min": 50,
+    "max": 1000,
+    "step": 25,
+    "default": 300
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 4.00,
+      "laborPerUnit": 3.70,
+      "permitBase": 0,
+      "description": "Standard concrete pavers, running bond pattern, basic gravel base"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 7.30,
+      "laborPerUnit": 7.00,
+      "permitBase": 0,
+      "description": "Premium interlocking pavers, herringbone pattern, soldier course border"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 13.30,
+      "laborPerUnit": 10.70,
+      "permitBase": 0,
+      "description": "Natural stone or porcelain pavers, custom pattern with inlays, mortar-set on concrete slab"
+    }
+  },
+  "options": [
+    { "id": "soldierBorder", "label": "Decorative Soldier Course Border", "default": true, "costByTier": { "budget": 200, "midRange": 350, "premium": 600 } },
+    { "id": "seatWall", "label": "Built-In Seat Wall (10 ft)", "default": false, "costByTier": { "budget": 800, "midRange": 1500, "premium": 2500 } },
+    { "id": "firepit", "label": "Paver Fire Pit Kit", "default": false, "costByTier": { "budget": 300, "midRange": 600, "premium": 1200 } },
+    { "id": "steps", "label": "Paver Steps (1 set)", "default": false, "costByTier": { "budget": 400, "midRange": 700, "premium": 1200 } },
+    { "id": "polymericSand", "label": "Polymeric Sand Joints", "default": true, "costByTier": { "budget": 100, "midRange": 150, "premium": 200 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "paver patio cost calculator",
+    "metaDescription": "Calculate your paver patio installation cost instantly. Enter your patio size, choose a material tier, and get a detailed estimate adjusted for your state."
+  }
+}

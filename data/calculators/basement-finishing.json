@@ -1,0 +1,60 @@
+{
+  "slug": "basement-finishing",
+  "title": "Basement Finishing Cost Calculator",
+  "description": "Estimate the cost of finishing your basement based on size, features, and your location.",
+  "projectSlug": "basement-finishing",
+  "category": "basement",
+  "nationalAverage": 22000,
+  "sizeInput": {
+    "label": "Basement Square Footage",
+    "unit": "sq ft",
+    "min": 200,
+    "max": 2000,
+    "step": 50,
+    "default": 800
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 8,
+      "laborPerUnit": 9,
+      "permitBase": 500,
+      "description": "Basic finish - framing, drywall, LVP flooring, paint, basic lighting"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 14,
+      "laborPerUnit": 16,
+      "permitBase": 800,
+      "description": "Mid-range finish - insulation, drywall, LVP or carpet, recessed lighting, half bath"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 22,
+      "laborPerUnit": 24,
+      "permitBase": 1200,
+      "description": "High-end finish - full bath, wet bar, premium flooring, custom built-ins, home theater"
+    }
+  },
+  "options": [
+    { "id": "halfBath", "label": "Half Bathroom", "default": false, "costByTier": { "budget": 3500, "midRange": 4500, "premium": 6000 } },
+    { "id": "fullBath", "label": "Full Bathroom (with shower)", "default": false, "costByTier": { "budget": 6000, "midRange": 8000, "premium": 12000 } },
+    { "id": "egressWindow", "label": "Egress Window (for bedroom)", "default": false, "costByTier": { "budget": 2500, "midRange": 3500, "premium": 5000 } },
+    { "id": "wetBar", "label": "Wet Bar or Kitchenette", "default": false, "costByTier": { "budget": 2000, "midRange": 4000, "premium": 8000 } },
+    { "id": "theaterWiring", "label": "Home Theater Wiring", "default": false, "costByTier": { "budget": 500, "midRange": 1200, "premium": 3000 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92,
+    "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "basement finishing cost calculator",
+    "metaDescription": "Calculate your basement finishing cost by square footage, features, and location. Get instant estimates for budget, mid-range, and premium basement remodels."
+  }
+}

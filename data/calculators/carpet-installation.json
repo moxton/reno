@@ -1,0 +1,59 @@
+{
+  "slug": "carpet-installation",
+  "title": "Carpet Installation Cost Calculator",
+  "description": "Estimate the cost of installing new carpet based on room size, carpet type, and additional services.",
+  "projectSlug": "carpet-installation",
+  "category": "flooring",
+  "nationalAverage": 2500,
+  "sizeInput": {
+    "label": "Floor Area",
+    "unit": "sq ft",
+    "min": 50,
+    "max": 3000,
+    "step": 50,
+    "default": 500
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1.00,
+      "laborPerUnit": 1.00,
+      "permitBase": 0,
+      "description": "Polyester carpet, 20-30 oz face weight, basic 6 lb density pad"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 2.00,
+      "laborPerUnit": 1.50,
+      "permitBase": 0,
+      "description": "Nylon carpet, 35-50 oz face weight, 8 lb density pad, includes old carpet removal"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 4.00,
+      "laborPerUnit": 2.40,
+      "permitBase": 0,
+      "description": "Premium nylon or wool, 50+ oz face weight, 10 lb premium pad, pattern matching"
+    }
+  },
+  "options": [
+    { "id": "oldCarpetRemoval", "label": "Remove Old Carpet and Pad", "default": true, "costByTier": { "budget": 100, "midRange": 150, "premium": 200 } },
+    { "id": "furnitureMoving", "label": "Furniture Moving", "default": false, "costByTier": { "budget": 75, "midRange": 125, "premium": 200 } },
+    { "id": "subfloorRepair", "label": "Subfloor Repair", "default": false, "costByTier": { "budget": 100, "midRange": 250, "premium": 500 } },
+    { "id": "stairs", "label": "Staircase Installation (per flight)", "default": false, "costByTier": { "budget": 150, "midRange": 300, "premium": 500 } },
+    { "id": "stainProtection", "label": "Stain Protection Treatment", "default": false, "costByTier": { "budget": 50, "midRange": 100, "premium": 175 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10,
+    "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85,
+    "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80,
+    "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25,
+    "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85,
+    "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82,
+    "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "carpet installation cost calculator",
+    "metaDescription": "Calculate your carpet installation cost instantly. Enter room size, choose carpet type and padding, and get a personalized estimate for 2026."
+  }
+}

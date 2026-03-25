@@ -1,0 +1,59 @@
+{
+  "slug": "bathroom-vanity-replacement",
+  "title": "Bathroom Vanity Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your bathroom vanity based on vanity type, countertop choice, and installation options.",
+  "projectSlug": "bathroom-vanity-replacement",
+  "category": "bathroom",
+  "nationalAverage": 2000,
+  "sizeInput": {
+    "label": "Number of Vanities",
+    "unit": "unit",
+    "min": 1,
+    "max": 4,
+    "step": 1,
+    "default": 1
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 350,
+      "laborPerUnit": 250,
+      "permitBase": 0,
+      "description": "Stock vanity with integrated top, basic faucet"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 1200,
+      "laborPerUnit": 600,
+      "permitBase": 0,
+      "description": "Semi-custom vanity, quartz top, quality faucet, new mirror"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 3500,
+      "laborPerUnit": 1200,
+      "permitBase": 0,
+      "description": "Custom or designer vanity, stone top, premium fixtures"
+    }
+  },
+  "options": [
+    { "id": "countertopUpgrade", "label": "Separate Stone Countertop", "default": false, "costByTier": { "budget": 200, "midRange": 500, "premium": 1200 } },
+    { "id": "faucetUpgrade", "label": "Premium Faucet", "default": false, "costByTier": { "budget": 75, "midRange": 200, "premium": 500 } },
+    { "id": "newMirror", "label": "New Mirror", "default": true, "costByTier": { "budget": 50, "midRange": 150, "premium": 400 } },
+    { "id": "plumbingMods", "label": "Plumbing Modifications", "default": false, "costByTier": { "budget": 300, "midRange": 600, "premium": 1200 } },
+    { "id": "wallRepair", "label": "Wall/Floor Patching", "default": false, "costByTier": { "budget": 100, "midRange": 200, "premium": 400 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "bathroom vanity replacement cost calculator",
+    "metaDescription": "Calculate your bathroom vanity replacement cost based on vanity type, countertop material, and options. Instant 2026 estimates with regional adjustments."
+  }
+}

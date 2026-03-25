@@ -1,0 +1,59 @@
+{
+  "slug": "epoxy-garage-floor",
+  "title": "Epoxy Garage Floor Cost Calculator",
+  "description": "Estimate the cost of coating your garage floor with epoxy, polyurea, or polyaspartic based on garage size, coating type, and prep work needed.",
+  "projectSlug": "epoxy-garage-floor",
+  "category": "flooring",
+  "nationalAverage": 2500,
+  "sizeInput": {
+    "label": "Garage Floor Area",
+    "unit": "sq ft",
+    "min": 100,
+    "max": 1200,
+    "step": 25,
+    "default": 400
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1.00,
+      "laborPerUnit": 1.50,
+      "permitBase": 0,
+      "description": "Water-based epoxy, single coat, acid etch prep, solid color"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 2.00,
+      "laborPerUnit": 3.00,
+      "permitBase": 0,
+      "description": "100% solids epoxy, two-coat system, diamond grinding, color flakes, clear topcoat"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 4.50,
+      "laborPerUnit": 5.50,
+      "permitBase": 0,
+      "description": "Polyurea/polyaspartic coating, full diamond grinding, full-broadcast flake or metallic, UV-stable topcoat"
+    }
+  },
+  "options": [
+    { "id": "crackRepair", "label": "Crack and Joint Repair", "default": true, "costByTier": { "budget": 100, "midRange": 250, "premium": 450 } },
+    { "id": "moistureMitigation", "label": "Moisture Mitigation Primer", "default": false, "costByTier": { "budget": 150, "midRange": 300, "premium": 500 } },
+    { "id": "decorativeFlakes", "label": "Decorative Color Flakes (Full Broadcast)", "default": false, "costByTier": { "budget": 150, "midRange": 300, "premium": 500 } },
+    { "id": "metallicFinish", "label": "Metallic Finish (Replaces Flakes)", "default": false, "costByTier": { "budget": 400, "midRange": 700, "premium": 1200 } },
+    { "id": "previousCoatingRemoval", "label": "Remove Existing Coating or Sealer", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 500 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10,
+    "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85,
+    "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80,
+    "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25,
+    "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85,
+    "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82,
+    "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "epoxy garage floor cost calculator",
+    "metaDescription": "Calculate your epoxy garage floor cost instantly. Enter garage size, choose coating type and options, and get a personalized estimate for 2026."
+  }
+}

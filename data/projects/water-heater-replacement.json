@@ -1,0 +1,186 @@
+{
+  "slug": "water-heater-replacement",
+  "title": "Water Heater Replacement",
+  "category": "plumbing",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 1500,
+    "typicalLow": 800,
+    "typicalHigh": 2500,
+    "lowEnd": 600,
+    "highEnd": 3500,
+    "costPerUnit": { "low": 800, "high": 2500, "unit": "unit", "average": 1500 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 450,
+      "labor": 300,
+      "permits": 50,
+      "design": 0,
+      "total": 800,
+      "description": "Standard 40-gallon electric tank water heater, basic brand (Rheem or AO Smith), same-location swap with existing connections"
+    },
+    "midRange": {
+      "materials": 800,
+      "labor": 500,
+      "permits": 100,
+      "design": 100,
+      "total": 1500,
+      "description": "50-gallon gas or electric tank water heater, mid-tier brand (Bradford White or Rheem ProTerra), standard installation with updated connections"
+    },
+    "premium": {
+      "materials": 1500,
+      "labor": 700,
+      "permits": 150,
+      "design": 150,
+      "total": 2500,
+      "description": "75-80 gallon high-efficiency gas unit or hybrid heat pump water heater, premium brand, expanded capacity with updated venting and connections"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Fuel Type (Gas vs. Electric)",
+      "impact": "$400 - $1,200",
+      "description": "Electric water heaters cost $300-$700 for the unit, while gas models run $500-$1,200. Gas units heat faster and cost less to operate in most areas, but require venting and a gas line. If you are switching fuel types, expect to pay $500-$1,500 extra for new gas lines or electrical upgrades."
+    },
+    {
+      "title": "Tank Size",
+      "impact": "$200 - $800",
+      "description": "A 30-gallon tank suits 1-2 people and costs $300-$600. A 50-gallon tank handles a family of 3-4 at $450-$900. Larger 75-80 gallon tanks for big households run $700-$1,400. The right size depends on your peak hot water demand, not just household size."
+    },
+    {
+      "title": "Installation Complexity",
+      "impact": "$200 - $1,500",
+      "description": "A straightforward swap in the same location with matching connections is the cheapest option. Moving the unit to a new location, switching fuel types, bringing venting up to code, or working in tight crawl spaces or attics all add significant labor costs."
+    },
+    {
+      "title": "Energy Efficiency Rating",
+      "impact": "$300 - $1,000",
+      "description": "Standard tanks have a Uniform Energy Factor (UEF) of 0.58-0.65. High-efficiency models reach 0.67-0.95. Hybrid heat pump water heaters hit 3.0+ UEF but cost $1,200-$2,500 for the unit. Higher efficiency saves $100-$300 per year on energy bills."
+    },
+    {
+      "title": "Code Compliance Upgrades",
+      "impact": "$100 - $600",
+      "description": "Many jurisdictions now require expansion tanks ($50-$150), earthquake straps in seismic zones ($20-$80), updated venting for gas units ($100-$300), and drain pans ($30-$60). These add-ons were not always required on your old unit but are mandatory on new installs."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Standard Electric Tank",
+      "costPerUnit": "$600 - $1,200 installed",
+      "pros": "Lowest upfront cost, simple installation, no venting needed",
+      "cons": "Higher operating costs, slower recovery rate",
+      "bestFor": "Budget-conscious homeowners, small households, homes without gas lines"
+    },
+    {
+      "material": "Standard Gas Tank",
+      "costPerUnit": "$800 - $1,800 installed",
+      "pros": "Faster recovery rate, lower operating costs in most areas",
+      "cons": "Requires venting and gas line, slightly higher upfront cost",
+      "bestFor": "Homes with existing gas lines, families of 3-5 people"
+    },
+    {
+      "material": "High-Efficiency Gas Tank",
+      "costPerUnit": "$1,200 - $2,500 installed",
+      "pros": "Lower monthly bills, qualifies for some utility rebates",
+      "cons": "Higher upfront cost, may need power vent or direct vent upgrade",
+      "bestFor": "Homeowners planning to stay 5+ years, high hot water usage"
+    },
+    {
+      "material": "Hybrid Heat Pump Water Heater",
+      "costPerUnit": "$1,800 - $3,500 installed",
+      "pros": "Lowest operating costs (uses 60% less energy), qualifies for federal tax credits",
+      "cons": "High upfront cost, needs 700+ cu ft of space, produces cool air",
+      "bestFor": "Warm climates, basements/garages with space, homeowners focused on long-term savings"
+    },
+    {
+      "material": "Point-of-Use Electric",
+      "costPerUnit": "$200 - $600 installed",
+      "pros": "Compact, provides instant hot water at a single fixture, low cost",
+      "cons": "Limited capacity, only serves one fixture",
+      "bestFor": "Supplementing a distant main heater, bathroom additions, outdoor sinks"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates and stricter code requirements drive up costs in the Northeast corridor" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California seismic bracing requirements and high labor costs push prices up significantly" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs and less stringent code requirements keep prices below average" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Moderate labor costs and straightforward installations keep prices competitive" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing populations in Denver, Salt Lake, and Boise have pushed labor rates up slightly" }
+  },
+  "timeline": {
+    "minimum": "2-3 hours",
+    "typical": "4-6 hours",
+    "maximum": "1-2 days",
+    "phases": [
+      { "name": "Assessment and old unit removal", "duration": "1-2 hours" },
+      { "name": "Connections and code upgrades", "duration": "1-2 hours" },
+      { "name": "New unit installation", "duration": "1-2 hours" },
+      { "name": "Testing and cleanup", "duration": "30-60 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate - experienced DIYers can handle electric tank swaps, but gas and hybrid units should be left to professionals",
+    "diySavings": "30-40% ($250-$500)",
+    "diyTasks": [
+      "Draining the old tank",
+      "Disconnecting and removing the old electric unit",
+      "Installing an electric unit in the same location with matching connections",
+      "Adding expansion tanks and drain pans"
+    ],
+    "proOnlyTasks": [
+      "Gas line connections and leak testing",
+      "Venting installation or modification",
+      "Electrical panel upgrades or new circuits",
+      "Permit pulling and code inspections",
+      "Hybrid heat pump installation"
+    ],
+    "diyRisks": "Gas leaks can cause explosions. Improper venting leads to carbon monoxide poisoning. Faulty electrical connections create fire hazards. A failed installation can also void the manufacturer warranty."
+  },
+  "savingsTips": [
+    "Keep the same fuel type and location to avoid costly gas line or electrical work",
+    "Ask about utility rebates - many utilities offer $200-$500 for high-efficiency or heat pump units",
+    "Claim the federal tax credit of up to $2,000 for qualifying heat pump water heaters under the Inflation Reduction Act",
+    "Buy the unit yourself from a home improvement store and hire a plumber for install only to save 10-20%",
+    "Schedule the replacement before your old unit fails - emergency calls cost 20-50% more",
+    "Consider a slightly smaller tank if your household size has decreased since the last install",
+    "Ask about off-peak installation - some plumbers offer lower rates for flexible scheduling",
+    "Get at least three quotes and ask each plumber to itemize materials, labor, and permit costs separately"
+  ],
+  "contractorQuestions": [
+    { "question": "What size water heater do you recommend for my household, and why?", "why": "Oversizing wastes money upfront and on energy bills. Undersizing means cold showers. A good plumber will ask about your peak usage before recommending a size." },
+    { "question": "Is my current venting adequate for the new unit?", "why": "Newer gas water heaters often require different venting than older models. Power-vent and direct-vent upgrades can add $300-$800 to the project." },
+    { "question": "Will the installation require any code upgrades?", "why": "Expansion tanks, seismic straps, drain pans, and updated gas connectors may be required by current code even if your old unit did not have them." },
+    { "question": "What is included in your quote - unit, labor, permits, disposal?", "why": "Some quotes include the water heater; others assume you will buy it separately. Make sure you know exactly what is covered to compare quotes accurately." },
+    { "question": "How long is the warranty, and does your installation affect it?", "why": "Most tanks come with 6-12 year warranties, but improper installation can void them. Ask if the plumber is certified by the manufacturer." },
+    { "question": "Do you pull permits and schedule inspections?", "why": "Many areas require permits for water heater replacement. Unpermitted work can cause problems when you sell your home." }
+  ],
+  "relatedProjects": [
+    "tankless-water-heater",
+    "whole-house-repiping",
+    "water-softener-installation",
+    "heat-pump-installation",
+    "central-ac-installation"
+  ],
+  "seo": {
+    "primaryKeyword": "water heater replacement cost",
+    "secondaryKeywords": [
+      "how much does a water heater cost",
+      "water heater installation cost",
+      "cost to replace water heater",
+      "new water heater price",
+      "hot water heater replacement cost 2026",
+      "50 gallon water heater cost installed",
+      "electric water heater replacement cost",
+      "gas water heater installation cost"
+    ],
+    "metaDescription": "Water heater replacement costs $800-$3,500 in 2026, with a national average of $1,500. Get detailed cost breakdowns by type, size, and region plus an interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Water Heater Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/plumbing/install-a-water-heater/" },
+    { "name": "Fixr - Water Heater Replacement Cost", "year": 2025, "url": "https://www.fixr.com/costs/water-heater-installation" },
+    { "name": "Angi - How Much Does Water Heater Installation Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-water-heater.htm" },
+    { "name": "Bob Vila - How Much Does a Water Heater Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/water-heater-cost/" },
+    { "name": "U.S. Department of Energy - Water Heating", "year": 2025, "url": "https://www.energy.gov/energysaver/water-heating" }
+  ]
+}

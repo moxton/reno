@@ -1,0 +1,59 @@
+{
+  "slug": "stamped-concrete",
+  "title": "Stamped Concrete Cost Calculator",
+  "description": "Estimate the cost of a stamped concrete patio or driveway based on size, pattern complexity, and color options.",
+  "projectSlug": "stamped-concrete",
+  "category": "exterior",
+  "nationalAverage": 3800,
+  "sizeInput": {
+    "label": "Concrete Area",
+    "unit": "sq ft",
+    "min": 50,
+    "max": 1500,
+    "step": 25,
+    "default": 300
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 3.00,
+      "laborPerUnit": 3.70,
+      "permitBase": 0,
+      "description": "Single-color integral, basic stamp pattern (ashlar slate), standard sealer"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 5.00,
+      "laborPerUnit": 6.00,
+      "permitBase": 0,
+      "description": "Two-color with contrast release, medium pattern, high-gloss sealer"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 9.30,
+      "laborPerUnit": 10.70,
+      "permitBase": 0,
+      "description": "Multi-color with hand staining, custom borders, premium sealer with anti-slip"
+    }
+  },
+  "options": [
+    { "id": "contrastBorder", "label": "Contrasting Stamp Border", "default": false, "costByTier": { "budget": 200, "midRange": 400, "premium": 700 } },
+    { "id": "extraThickness", "label": "5-inch Slab (driveway grade)", "default": false, "costByTier": { "budget": 250, "midRange": 350, "premium": 500 } },
+    { "id": "demolition", "label": "Remove Existing Concrete", "default": false, "costByTier": { "budget": 400, "midRange": 600, "premium": 800 } },
+    { "id": "concretePump", "label": "Concrete Pump (limited access)", "default": false, "costByTier": { "budget": 400, "midRange": 500, "premium": 600 } },
+    { "id": "premiumSealer", "label": "Upgrade to Polyurethane Sealer", "default": false, "costByTier": { "budget": 150, "midRange": 250, "premium": 400 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "stamped concrete cost calculator",
+    "metaDescription": "Calculate your stamped concrete patio or driveway cost instantly. Enter the area, choose pattern complexity, and get a detailed estimate adjusted for your state."
+  }
+}

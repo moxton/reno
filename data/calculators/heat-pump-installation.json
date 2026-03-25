@@ -1,0 +1,51 @@
+{
+  "slug": "heat-pump-installation",
+  "title": "Heat Pump Installation Cost Calculator",
+  "description": "Estimate the cost of installing a heat pump based on home size, system type, efficiency, and options.",
+  "projectSlug": "heat-pump-installation",
+  "category": "hvac-energy",
+  "nationalAverage": 8000,
+  "sizeInput": {
+    "label": "Home Size",
+    "unit": "sq ft",
+    "min": 500,
+    "max": 5000,
+    "step": 100,
+    "default": 2000
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1.30,
+      "laborPerUnit": 1.00,
+      "permitBase": 200,
+      "description": "14 SEER single-stage air-source, basic brand, existing ductwork"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 2.20,
+      "laborPerUnit": 1.50,
+      "permitBase": 400,
+      "description": "17-18 SEER two-stage, mid-tier brand, smart thermostat"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 3.80,
+      "laborPerUnit": 2.00,
+      "permitBase": 500,
+      "description": "20+ SEER variable-speed cold-climate, premium brand, zoning"
+    }
+  },
+  "options": [
+    { "id": "panelUpgrade", "label": "Electrical Panel Upgrade (100 to 200 amp)", "default": false, "costByTier": { "budget": 1200, "midRange": 1800, "premium": 2500 } },
+    { "id": "backupHeat", "label": "Backup Heat Strips", "default": false, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } },
+    { "id": "dualFuel", "label": "Dual-Fuel Gas Backup Kit", "default": false, "costByTier": { "budget": 800, "midRange": 1200, "premium": 2000 } },
+    { "id": "smartThermostat", "label": "Smart Thermostat", "default": false, "costByTier": { "budget": 150, "midRange": 250, "premium": 400 } },
+    { "id": "ductSealing", "label": "Ductwork Sealing", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 1200 } }
+  ],
+  "regionalMultipliers": { "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05 },
+  "seo": {
+    "primaryKeyword": "heat pump cost calculator",
+    "metaDescription": "Calculate your heat pump installation cost based on home size, system type, and your location. Get an instant estimate with our free interactive calculator."
+  }
+}

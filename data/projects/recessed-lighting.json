@@ -1,0 +1,186 @@
+{
+  "slug": "recessed-lighting",
+  "title": "Recessed Lighting Installation",
+  "category": "electrical",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 200,
+    "typicalLow": 150,
+    "typicalHigh": 300,
+    "lowEnd": 100,
+    "highEnd": 500,
+    "costPerUnit": { "low": 150, "high": 300, "unit": "light", "average": 200 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 350,
+      "labor": 400,
+      "permits": 0,
+      "design": 0,
+      "total": 750,
+      "description": "6 basic IC-rated LED can lights, new construction housings in accessible attic space, single switch, standard 5-6 inch cans"
+    },
+    "midRange": {
+      "materials": 600,
+      "labor": 700,
+      "permits": 100,
+      "design": 0,
+      "total": 1400,
+      "description": "8 slim LED recessed lights with adjustable color temperature, dimmer switch, remodel housings, baffled trims"
+    },
+    "premium": {
+      "materials": 1000,
+      "labor": 1100,
+      "permits": 150,
+      "design": 250,
+      "total": 2500,
+      "description": "10-12 architectural-grade LED fixtures, multiple dimming zones, smart controls, custom layout design, premium trims and finishes"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Number of Lights",
+      "impact": "$100 - $300 per light",
+      "description": "The per-light cost drops as you add more fixtures because the electrician is already on site with materials. The first light is the most expensive due to setup, running the home run wire, and installing the switch. Lights 2-6 on the same circuit are cheaper. A typical kitchen needs 4-6 lights; a living room needs 4-8 depending on size."
+    },
+    {
+      "title": "Ceiling Access",
+      "impact": "$0 - $200 per light",
+      "description": "New construction or accessible attic space above makes installation simple and fast. Finished ceilings with attic access from above are moderate. The most expensive scenario is a finished ceiling with no attic access (such as a first-floor ceiling below a second story), which requires remodel-style housings, careful cutting, and fishing wires through closed walls and ceilings."
+    },
+    {
+      "title": "Existing Wiring",
+      "impact": "$0 - $500",
+      "description": "If there is an existing light fixture in the room, the electrician can usually tap into that circuit and run new wiring from there. A room with no existing electrical at the ceiling requires a new circuit run from the panel, adding $200-$500 depending on distance. Homes with knob-and-tube or aluminum wiring may need additional work for safe connections."
+    },
+    {
+      "title": "Light Quality and Type",
+      "impact": "$15 - $75 per fixture",
+      "description": "Basic builder-grade LED can lights cost $15-$25 each. Slim profile LED fixtures that do not need a traditional housing run $20-$40. Adjustable gimbal lights for directing light at artwork or features cost $30-$50. Architectural-grade fixtures with premium trims, multiple color temperatures, or smart capabilities range from $50-$75 each."
+    },
+    {
+      "title": "Dimming and Controls",
+      "impact": "$25 - $300",
+      "description": "A standard on/off switch adds nothing beyond the base cost. A dimmer switch adds $25-$60 for the switch plus installation. Multiple dimming zones (such as separating perimeter and center lights) add $75-$150 per zone for the additional switch and wiring. Smart dimming systems (Lutron Caseta, Philips Hue) add $100-$300 depending on the system."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Standard IC-Rated LED Can Light",
+      "costPerUnit": "$15 - $25 per fixture",
+      "pros": "Affordable, widely available, IC rated for insulation contact, integrated LED saves on bulbs",
+      "cons": "Requires a 6-inch hole, housing takes up ceiling space, harder to install in tight ceilings",
+      "bestFor": "New construction, open ceilings, budget-focused projects"
+    },
+    {
+      "material": "Slim Profile LED (Canless)",
+      "costPerUnit": "$20 - $40 per fixture",
+      "pros": "No housing required, fits in tight spaces, thinner profile, easy remodel installation",
+      "cons": "Some models have shorter lifespans, limited adjustability, fewer trim options",
+      "bestFor": "Remodel projects, low-clearance ceilings, finished ceilings without attic access"
+    },
+    {
+      "material": "Adjustable Gimbal Light",
+      "costPerUnit": "$30 - $50 per fixture",
+      "pros": "Directional aiming for artwork or features, adjustable angle, modern look",
+      "cons": "More expensive, requires precise placement planning, not ideal for general ambient light",
+      "bestFor": "Living rooms with artwork, kitchen task areas, accent lighting"
+    },
+    {
+      "material": "Color-Tunable LED",
+      "costPerUnit": "$35 - $60 per fixture",
+      "pros": "Switch between warm and cool white, adapt to time of day or mood, single fixture does double duty",
+      "cons": "Requires compatible dimmer, more expensive, added complexity in controls",
+      "bestFor": "Kitchens, home offices, spaces used at different times of day"
+    },
+    {
+      "material": "Smart Recessed Light (Wi-Fi/Zigbee)",
+      "costPerUnit": "$50 - $75 per fixture",
+      "pros": "Full color and white tuning, app and voice control, scenes and scheduling, no smart hub on some models",
+      "cons": "Expensive per fixture, depends on Wi-Fi reliability, app updates can cause issues",
+      "bestFor": "Smart home enthusiasts, entertainment rooms, homes with existing smart ecosystems"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High electrician rates in the NYC, Boston, and DC corridors push costs 15-25% above average" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California Title 24 energy code requires specific fixture types, and high labor rates add 20-35%" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs and competitive markets keep recessed lighting 10-15% below the national average" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Affordable electrician rates and straightforward permitting save 5-15% on most projects" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand in CO and UT metro areas pushes costs 5-10% above the national average" }
+  },
+  "timeline": {
+    "minimum": "2-3 hours",
+    "typical": "4-8 hours",
+    "maximum": "2 days",
+    "phases": [
+      { "name": "Layout planning and marking", "duration": "30-60 minutes" },
+      { "name": "Cutting ceiling holes", "duration": "30-60 minutes" },
+      { "name": "Running wiring between fixtures", "duration": "1-3 hours" },
+      { "name": "Installing housings and fixtures", "duration": "1-2 hours" },
+      { "name": "Switch installation and testing", "duration": "30-60 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate to difficult - basic wiring is achievable for experienced DIYers, but cutting into ceilings and fishing wire through closed spaces is challenging",
+    "diySavings": "40-50% savings on labor ($400-$700 on a typical 6-light project)",
+    "diyTasks": [
+      "Planning the layout and spacing of lights",
+      "Installing remodel-style canless LED fixtures in accessible locations",
+      "Replacing existing recessed lights with new LED retrofit kits",
+      "Installing dimmer switches on existing circuits",
+      "Patching and painting around new fixtures"
+    ],
+    "proOnlyTasks": [
+      "Running new circuits from the electrical panel",
+      "Working in ceilings with no attic access (fishing wires blind)",
+      "Cutting holes near structural members, ducts, or plumbing",
+      "Installing fixtures that require a permit and inspection",
+      "Working in homes with knob-and-tube or aluminum wiring"
+    ],
+    "diyRisks": "The biggest risk is cutting into something you cannot see - water pipes, HVAC ducts, or structural members. Always use a stud finder and check from above (attic) or use a borescope before cutting. Electrical shock is a risk if breakers are not properly identified and locked out. Poor wire connections inside junction boxes are a fire hazard if not done properly."
+  },
+  "savingsTips": [
+    "Install all the lights in a room at once rather than adding one or two at a time - the per-light cost drops significantly",
+    "Choose canless slim LED fixtures over traditional can lights to save $5-$15 per fixture and simplify installation",
+    "Buy fixtures in bulk packs of 6 or 12 - pricing is typically 20-30% cheaper per unit than buying individually",
+    "Opt for a single dimming zone rather than multiple zones if you do not need independent control",
+    "Use LED retrofit kits ($15-$25 each) to upgrade existing recessed cans instead of replacing the entire housing",
+    "Plan your layout carefully to use the minimum number of lights that still provides adequate coverage",
+    "Bundle recessed lighting with other electrical work (panel upgrade, outlet additions) to save on the service call fee",
+    "Ask the electrician if the work can tap into an existing ceiling circuit to avoid the cost of a new circuit run"
+  ],
+  "contractorQuestions": [
+    { "question": "How many lights do you recommend for this room?", "why": "A good electrician will calculate based on room size, ceiling height, and intended use. The general rule is one light per 4-6 square feet of ceiling space, but kitchens need more than bedrooms. Be wary of someone who recommends a number without measuring." },
+    { "question": "What type of ceiling access is there?", "why": "This directly affects cost and installation method. Ask the electrician to assess whether the work can be done from above (attic) or must be done from below with remodel housings. The answer changes the price by 30-50%." },
+    { "question": "Will you need to run a new circuit from the panel?", "why": "Adding 6-8 LED lights typically draws under 100 watts total, which can often share an existing circuit. But if the existing circuits are loaded, a new dedicated circuit adds $200-$500 to the project." },
+    { "question": "What brand and type of fixture do you use?", "why": "Some electricians default to the cheapest fixtures available. Ask specifically about the LED driver warranty (look for 5+ years), color temperature (2700K is warm, 3000K is neutral), and whether they are IC-rated for insulation contact." },
+    { "question": "Is a permit required for this work?", "why": "Permit requirements vary by jurisdiction. Some areas require permits for any new electrical work; others exempt low-voltage or minor fixture additions. A permit adds $50-$150 but ensures the work is inspected for safety." },
+    { "question": "Can you install a dimmer, and will it be compatible with the LED fixtures?", "why": "Not all dimmers work with all LED fixtures. Incompatible combinations cause flickering, buzzing, or limited dimming range. Good electricians know which dimmer brands work with which fixtures." },
+    { "question": "How will you route the wiring between fixtures?", "why": "In finished ceilings, the electrician needs a plan for getting wire from fixture to fixture. Daisy-chaining through the ceiling is standard, but the method affects how many ceiling patches you will need and how clean the finished product looks." }
+  ],
+  "relatedProjects": [
+    "ceiling-fan-installation",
+    "electrical-panel-upgrade",
+    "interior-painting",
+    "full-kitchen-remodel"
+  ],
+  "seo": {
+    "primaryKeyword": "recessed lighting installation cost",
+    "secondaryKeywords": [
+      "cost to install recessed lights",
+      "recessed lighting cost per light",
+      "can light installation cost",
+      "LED recessed lighting cost",
+      "how much to install recessed lighting",
+      "recessed lighting installation price",
+      "recessed lighting cost 2026"
+    ],
+    "metaDescription": "Recessed lighting installation costs $150-$300 per light in 2026, with a national average of $200. See detailed breakdowns by light type, ceiling access, and regional pricing."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Recessed Lighting Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/electrical/install-recessed-lighting/" },
+    { "name": "Fixr - Cost to Install Recessed Lighting", "year": 2025, "url": "https://www.fixr.com/costs/recessed-lighting-installation" },
+    { "name": "Angi - Recessed Lighting Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-recessed-lighting.htm" },
+    { "name": "HomeGuide - Recessed Lighting Cost", "year": 2025, "url": "https://homeguide.com/costs/recessed-lighting-installation-cost" }
+  ]
+}

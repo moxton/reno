@@ -1,0 +1,143 @@
+{
+  "slug": "countertop-replacement",
+  "title": "Countertop Replacement",
+  "category": "kitchen",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 4500,
+    "typicalLow": 2000,
+    "typicalHigh": 8000,
+    "lowEnd": 1200,
+    "highEnd": 15000,
+    "costPerUnit": { "low": 40, "high": 200, "unit": "sq ft", "average": 100 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 1050,
+      "labor": 700,
+      "permits": 0,
+      "design": 0,
+      "total": 1750,
+      "description": "Laminate countertops, basic edge profile, standard sink cutout, removal of old surface"
+    },
+    "midRange": {
+      "materials": 2600,
+      "labor": 1500,
+      "permits": 0,
+      "design": 200,
+      "total": 4300,
+      "description": "Quartz or mid-grade granite, upgraded edge profile, undermount sink cutout, new backsplash connection"
+    },
+    "premium": {
+      "materials": 5500,
+      "labor": 2500,
+      "permits": 0,
+      "design": 500,
+      "total": 8500,
+      "description": "Premium marble or exotic granite, custom edge profiles, integrated sink, waterfall edges, seam matching"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Material Selection",
+      "impact": "$800 - $7,000",
+      "description": "This is the single biggest cost driver. Laminate runs $10-$40 per square foot for materials alone, while quartz and granite sit at $40-$100, and premium natural stone like marble or quartzite pushes $100-$200+. For a typical 35-square-foot kitchen counter, the material choice alone can swing your total by $5,000 or more."
+    },
+    {
+      "title": "Counter Square Footage",
+      "impact": "$40 - $200 per sq ft",
+      "description": "The average kitchen has 30-40 square feet of counter space. L-shaped and U-shaped kitchens tend to have more surface area. Islands add another 12-24 square feet. Measure your total countertop area carefully before budgeting - even a few extra square feet adds hundreds at higher material price points."
+    },
+    {
+      "title": "Edge Profile Complexity",
+      "impact": "$0 - $1,200",
+      "description": "A simple eased or beveled edge is typically included in the base price. Bullnose and half-bullnose edges add $5-$15 per linear foot. Ogee and other decorative profiles run $15-$30 per linear foot. For 20-25 linear feet of exposed edges, a premium profile adds $300-$750 to your total."
+    },
+    {
+      "title": "Sink and Cooktop Cutouts",
+      "impact": "$100 - $600",
+      "description": "Each cutout for a sink, cooktop, or faucet hole adds cost. A standard drop-in sink cutout runs $100-$200. Undermount sink cutouts require more precision and cost $200-$400. Cooktop cutouts add another $150-$300. Multiple cutouts in stone counters add up quickly."
+    },
+    {
+      "title": "Removal and Disposal",
+      "impact": "$200 - $500",
+      "description": "Tearing out your old countertops costs $200-$500 depending on the material. Laminate and tile are straightforward. Granite and concrete tops are heavier and harder to remove, pushing toward the higher end. Some installers include removal in their quote while others charge separately."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Laminate", "costPerUnit": "$10-$40/sq ft installed", "pros": "Most affordable, many patterns including stone look-alikes, easy to clean", "cons": "Can chip and peel, not heat resistant, lower resale value, visible seams", "bestFor": "Budget remodels, rental properties, quick updates" },
+    { "material": "Quartz (Engineered Stone)", "costPerUnit": "$50-$150/sq ft installed", "pros": "Non-porous, no sealing needed, consistent color, extremely durable", "cons": "Not fully heat-proof (can discolor), premium price, visible seams on long runs", "bestFor": "Most kitchens - best balance of durability, looks, and maintenance" },
+    { "material": "Granite", "costPerUnit": "$40-$200/sq ft installed", "pros": "Natural stone beauty, heat resistant, unique patterns, strong resale value", "cons": "Requires annual sealing, can crack, color varies by slab, porous surface", "bestFor": "Mid-range to premium kitchens, homeowners who want natural stone" },
+    { "material": "Marble", "costPerUnit": "$75-$250/sq ft installed", "pros": "Timeless luxury appearance, unique veining, cool surface ideal for baking", "cons": "Stains easily, scratches, etches from acid, requires frequent sealing and care", "bestFor": "Premium kitchens, baking enthusiasts, statement design pieces" },
+    { "material": "Butcher Block", "costPerUnit": "$35-$200/sq ft installed", "pros": "Warm natural look, easy DIY install, food-safe surface, can be refinished", "cons": "Requires regular oiling, can harbor bacteria in cuts, water damage risk", "bestFor": "Farmhouse and traditional kitchens, island tops, secondary prep areas" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher fabrication shop rates and labor costs" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, premium shop rates in metro areas" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates, competitive fabricator market" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Lower cost of living keeps fabrication and install prices down" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand in booming housing markets" }
+  },
+  "timeline": {
+    "minimum": "1-2 days",
+    "typical": "3-5 days",
+    "maximum": "2-3 weeks",
+    "phases": [
+      { "name": "Template and measurement", "duration": "1 day" },
+      { "name": "Fabrication (stone materials)", "duration": "5-10 business days" },
+      { "name": "Old countertop removal", "duration": "2-4 hours" },
+      { "name": "Installation", "duration": "4-8 hours" },
+      { "name": "Plumbing reconnection", "duration": "1-2 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate for laminate and butcher block; not recommended for stone",
+    "diySavings": "30-50% on laminate or butcher block installs",
+    "diyTasks": [
+      "Removing old laminate countertops",
+      "Installing pre-cut laminate or butcher block",
+      "Reconnecting drop-in sinks",
+      "Caulking and sealing edges",
+      "Painting or refinishing existing countertops as a temporary fix"
+    ],
+    "proOnlyTasks": [
+      "Templating and fabricating stone slabs",
+      "Cutting and polishing quartz or granite",
+      "Undermount sink installation in stone",
+      "Seam joining on long stone runs",
+      "Plumbing for new sink configurations"
+    ],
+    "diyRisks": "Stone slabs weigh 300-500 lbs and require specialized equipment to transport and install. A cracked slab during DIY install means buying a whole new slab at $1,500-$5,000+. Laminate and butcher block are much more forgiving for DIY."
+  },
+  "savingsTips": [
+    "Choose a quartz or granite color in the 'first tier' pricing - common colors cost 20-40% less than exotic or rare patterns",
+    "Keep your existing sink cutout location to avoid extra fabrication charges",
+    "Select a simple eased edge instead of ogee or waterfall - saves $300-$750 on a typical kitchen",
+    "Buy remnant slabs from fabricators for small kitchens or islands - can save 40-60% on materials",
+    "Install laminate counters yourself and save $500-$1,200 in labor",
+    "Skip the integrated backsplash and tile separately for a more custom look at lower cost",
+    "Get quotes from at least 3-4 fabricators - pricing varies significantly even in the same market",
+    "Time your project for late fall or winter when fabricators are less busy and may offer discounts"
+  ],
+  "contractorQuestions": [
+    { "question": "Does your quote include templating, fabrication, and installation?", "why": "Some shops quote fabrication separately from installation. Make sure you are comparing all-in prices." },
+    { "question": "How do you handle seams, and where will they be placed?", "why": "Seam placement affects both appearance and structural integrity. Good fabricators plan seam locations carefully and should walk you through the layout." },
+    { "question": "What is your lead time from template to installation?", "why": "Stone fabrication typically takes 5-10 business days, but busy shops can take 3-4 weeks. Plan around being without a functional kitchen during this period." },
+    { "question": "Do you include sink and faucet cutouts in the price?", "why": "Some fabricators charge $150-$400 extra per cutout. Undermount sinks require more work than drop-in models." },
+    { "question": "What warranty do you offer on fabrication and installation?", "why": "Reputable fabricators offer at least a 1-year installation warranty. Some quartz manufacturers offer 10-15 year material warranties that require professional installation." },
+    { "question": "Will you disconnect and reconnect the plumbing, or do I need a separate plumber?", "why": "Some countertop installers handle basic plumbing reconnection. Others require you to hire a plumber separately, adding $150-$300 to your total." },
+    { "question": "Can I visit your shop to see the actual slab before fabrication?", "why": "For natural stone, every slab is unique. Visiting the shop lets you pick your exact slab and approve the veining pattern and color before any cutting begins." }
+  ],
+  "relatedProjects": ["full-kitchen-remodel", "kitchen-backsplash", "hardwood-floor-installation"],
+  "seo": {
+    "primaryKeyword": "countertop replacement cost",
+    "secondaryKeywords": ["quartz countertop cost", "granite countertop installation cost", "kitchen countertop replacement price", "cost to replace countertops 2026", "countertop cost per square foot", "marble countertop cost", "laminate countertop replacement", "how much do new countertops cost", "countertop installation labor cost"],
+    "metaDescription": "Countertop replacement costs $2,000-$8,000 for most kitchens in 2026. See detailed cost breakdowns by material (quartz, granite, marble, laminate) with our interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Countertop Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/kitchens/install-a-countertop/" },
+    { "name": "Fixr - Countertop Replacement Cost", "year": 2025, "url": "https://www.fixr.com/costs/countertop-installation" },
+    { "name": "HomeGuide - Countertop Prices", "year": 2025, "url": "https://homeguide.com/costs/countertop-installation-cost" },
+    { "name": "Angi - Countertop Installation Costs", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-countertop.htm" }
+  ]
+}

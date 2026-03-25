@@ -1,0 +1,59 @@
+{
+  "slug": "fence-installation",
+  "title": "Fence Installation Cost Calculator",
+  "description": "Estimate the cost of installing a wood privacy fence based on length, wood type, and features.",
+  "projectSlug": "fence-installation",
+  "category": "exterior",
+  "nationalAverage": 4500,
+  "sizeInput": {
+    "label": "Fence Length",
+    "unit": "linear ft",
+    "min": 50,
+    "max": 500,
+    "step": 10,
+    "default": 150
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 12,
+      "laborPerUnit": 7,
+      "permitBase": 100,
+      "description": "Pressure-treated pine, 6ft, basic dog-ear pickets"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 20,
+      "laborPerUnit": 15,
+      "permitBase": 150,
+      "description": "Cedar, 6ft, board-on-board style"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 37,
+      "laborPerUnit": 25,
+      "permitBase": 200,
+      "description": "Western red cedar or redwood, 8ft, shadowbox/horizontal plank, custom gates"
+    }
+  },
+  "options": [
+    { "id": "gates", "label": "Walk-Through Gate (1)", "default": true, "costByTier": { "budget": 200, "midRange": 350, "premium": 600 } },
+    { "id": "doubleGate", "label": "Double-Wide Gate", "default": false, "costByTier": { "budget": 400, "midRange": 550, "premium": 900 } },
+    { "id": "oldFenceRemoval", "label": "Remove Old Fence", "default": false, "costByTier": { "budget": 300, "midRange": 500, "premium": 700 } },
+    { "id": "staining", "label": "Stain/Seal Finish", "default": false, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } },
+    { "id": "postCaps", "label": "Decorative Post Caps", "default": false, "costByTier": { "budget": 75, "midRange": 150, "premium": 300 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "fence installation cost calculator",
+    "metaDescription": "Calculate your wood privacy fence installation cost based on length, wood type, and features. Get instant 2026 estimates with regional pricing."
+  }
+}

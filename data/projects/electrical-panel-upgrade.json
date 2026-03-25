@@ -1,0 +1,186 @@
+{
+  "slug": "electrical-panel-upgrade",
+  "title": "Electrical Panel Upgrade",
+  "category": "electrical",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2000,
+    "typicalLow": 1000,
+    "typicalHigh": 3500,
+    "lowEnd": 850,
+    "highEnd": 4500,
+    "costPerUnit": { "low": 1000, "high": 3500, "unit": "panel", "average": 2000 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 500,
+      "labor": 500,
+      "permits": 150,
+      "design": 0,
+      "total": 1150,
+      "description": "Basic 100-to-200 amp upgrade with standard breaker panel, minimal circuit additions, existing wiring in good condition"
+    },
+    "midRange": {
+      "materials": 750,
+      "labor": 850,
+      "permits": 250,
+      "design": 150,
+      "total": 2000,
+      "description": "200-amp panel with copper bus bar, 30-40 circuit spaces, arc-fault breakers on required circuits, grounding system update"
+    },
+    "premium": {
+      "materials": 1200,
+      "labor": 1200,
+      "permits": 350,
+      "design": 250,
+      "total": 3000,
+      "description": "Top-tier 200-400 amp panel (Square D or Eaton), whole-home surge protection, smart breaker panel, new grounding system, subpanel for garage or workshop"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Panel Amperage",
+      "impact": "$800 - $2,500",
+      "description": "Upgrading from 100 to 200 amps is the most common job and typically costs $1,000-$2,500. Going from 200 to 400 amps for large homes or heavy electrical loads (EV chargers, workshops, pools) runs $2,000-$4,500. The meter base and service entrance cable may need replacement with higher amperage, adding $300-$800 to the project."
+    },
+    {
+      "title": "Code Compliance Work",
+      "impact": "$200 - $1,500",
+      "description": "When you open up a panel, inspectors require the entire electrical system to meet current code. This can mean adding arc-fault circuit interrupters (AFCIs) at $30-$50 per breaker, GFCI protection in wet areas, proper grounding and bonding, and sometimes a new grounding rod. Older homes from the 1960s-1970s often need more code work than newer homes."
+    },
+    {
+      "title": "Utility Coordination",
+      "impact": "$0 - $500",
+      "description": "Your utility company needs to disconnect and reconnect power at the meter. Some utilities do this for free; others charge $100-$500. In some areas, the utility replaces the meter socket at no charge. In others, the homeowner pays for the new meter base, which runs $150-$350 installed. Call your utility before getting contractor quotes."
+    },
+    {
+      "title": "Location and Access",
+      "impact": "$100 - $800",
+      "description": "Panels in easy-to-reach basements or garages cost less to swap than panels buried behind drywall, in tight crawl spaces, or on exterior walls that require weatherproofing. Relocating a panel to a different wall or room adds $500-$1,500 to the project. Current code requires a clear 30-inch-wide by 36-inch-deep workspace in front of the panel."
+    },
+    {
+      "title": "Number of New Circuits",
+      "impact": "$150 - $300 per circuit",
+      "description": "Most panel upgrades include adding a few new circuits for modern loads. Each new dedicated circuit (for a kitchen appliance, bathroom, or home office) costs $150-$300 including the breaker, wire, and outlet. Adding 4-6 new circuits is common during an upgrade and can add $600-$1,800 to the total."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Standard Panel (Square D Homeline)",
+      "costPerUnit": "$150 - $250",
+      "pros": "Widely available, affordable, reliable, easy for electricians to work with",
+      "cons": "Basic features, no smart monitoring, standard warranty",
+      "bestFor": "Budget-conscious upgrades, rental properties, straightforward replacements"
+    },
+    {
+      "material": "Premium Panel (Square D QO)",
+      "costPerUnit": "$250 - $400",
+      "pros": "Visi-Trip indicator on breakers, more durable contacts, better arc protection",
+      "cons": "Higher cost, QO breakers cost more than Homeline",
+      "bestFor": "Homeowners who want better reliability and longer lifespan"
+    },
+    {
+      "material": "Smart Panel (Span or Leviton)",
+      "costPerUnit": "$3,500 - $6,000",
+      "pros": "Per-circuit monitoring and control via app, solar and EV integration, energy tracking",
+      "cons": "Very expensive, requires Wi-Fi, newer technology with less long-term track record",
+      "bestFor": "Tech-savvy homeowners, solar panel owners, homes with EV chargers"
+    },
+    {
+      "material": "Eaton BR Series",
+      "costPerUnit": "$175 - $300",
+      "pros": "Good build quality, competitive pricing, wide breaker selection",
+      "cons": "Less common than Square D in some regions, slightly fewer circuit options",
+      "bestFor": "Mid-range upgrades, good balance of quality and cost"
+    },
+    {
+      "material": "Siemens Panel",
+      "costPerUnit": "$175 - $325",
+      "pros": "Solid German engineering, good warranty, compatible with many breaker types",
+      "cons": "Can be harder to find breakers at local hardware stores compared to Square D",
+      "bestFor": "Electricians who prefer Siemens products, commercial-grade reliability"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High labor rates and strict permitting in MA, NY, NJ, and CT drive costs up 15-25%" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California Title 24 requirements and high electrician wages push costs 20-35% above average" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates and lighter permitting keep costs 10-15% below the national average" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive labor markets and reasonable permit fees save 5-15% in most metro areas" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand in CO, UT, and ID areas pushes costs 5-10% above average" }
+  },
+  "timeline": {
+    "minimum": "4-6 hours",
+    "typical": "1 day",
+    "maximum": "2-3 days",
+    "phases": [
+      { "name": "Permit and utility coordination", "duration": "1-3 weeks" },
+      { "name": "Power disconnect by utility", "duration": "Same day or scheduled" },
+      { "name": "Old panel removal and new panel installation", "duration": "4-8 hours" },
+      { "name": "Circuit reconnection and new circuit wiring", "duration": "2-6 hours" },
+      { "name": "Inspection and utility reconnect", "duration": "1-5 business days" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Not recommended - electrical panel work requires a licensed electrician in virtually all jurisdictions",
+    "diySavings": "N/A - permits are typically only issued to licensed electricians for panel work",
+    "diyTasks": [
+      "Clearing the area around the panel for 30x36 inch workspace",
+      "Removing shelving or storage blocking access",
+      "Labeling existing circuits before the electrician arrives",
+      "Patching and painting drywall after the work is complete"
+    ],
+    "proOnlyTasks": [
+      "All panel removal and installation",
+      "Wiring and circuit connections",
+      "Utility coordination and meter base work",
+      "Grounding system installation",
+      "Permit pulling and inspection scheduling"
+    ],
+    "diyRisks": "Working inside an electrical panel carries a serious risk of electrocution and fire. Even with the main breaker off, the service entrance cables remain live at 240 volts. Improper connections can cause arc faults, overheating, and house fires. Insurance may not cover damage from unlicensed electrical work."
+  },
+  "savingsTips": [
+    "Get quotes from at least three licensed electricians and compare line-item pricing, not just totals",
+    "Schedule the work during electricians' slower season (late fall and winter) for better pricing",
+    "Ask if the utility company covers any costs for the meter base or disconnect/reconnect service",
+    "Skip the smart panel unless you have solar or specific energy monitoring needs - it adds $3,000+ to the project",
+    "Bundle the panel upgrade with other electrical work (outlets, circuits, EV charger prep) to save on the second service call",
+    "Check if your utility offers rebates for panel upgrades that support EV charger or heat pump installations",
+    "Choose a 200-amp panel with 40+ spaces even if you do not need them all now - the panel cost difference is minimal and avoids a future upgrade",
+    "Ask about financing through the electrician - many offer 12-month interest-free plans on panel work"
+  ],
+  "contractorQuestions": [
+    { "question": "Are you licensed and insured for electrical panel work in this jurisdiction?", "why": "Panel upgrades require specific electrical licenses. General contractors or handymen should not perform this work. Ask for their license number and verify it with your state licensing board." },
+    { "question": "Will you handle the permit and utility coordination?", "why": "Good electricians include permitting in their quote and schedule the utility disconnect and inspection. If they expect you to handle this, it is a red flag." },
+    { "question": "How many circuit spaces will the new panel have?", "why": "A 30-space panel is the minimum for most homes, but a 40-42 space panel costs only $30-$75 more and gives you room to add circuits later for EV chargers, shop tools, or kitchen upgrades." },
+    { "question": "What brand of panel and breakers do you install?", "why": "Reputable brands include Square D, Eaton, and Siemens. Avoid electricians who use off-brand or discontinued panel brands. The breaker compatibility matters for future maintenance." },
+    { "question": "Does the quote include bringing everything up to current code?", "why": "An open permit triggers a code inspection. The quote should include AFCI breakers, proper grounding, and any other code updates your local inspector will require." },
+    { "question": "What is the warranty on your labor?", "why": "Most quality electricians offer 1-2 year warranties on their workmanship in addition to the manufacturer warranty on the panel and breakers. Avoid anyone who offers no labor warranty." },
+    { "question": "How long will the power be off during the upgrade?", "why": "A straightforward swap takes 4-8 hours without power. If you work from home or have medical equipment, you need to plan around the outage. Some electricians can do temporary power arrangements for an additional fee." }
+  ],
+  "relatedProjects": [
+    "whole-house-rewiring",
+    "ev-charger-installation",
+    "recessed-lighting",
+    "ceiling-fan-installation"
+  ],
+  "seo": {
+    "primaryKeyword": "electrical panel upgrade cost",
+    "secondaryKeywords": [
+      "200 amp panel upgrade cost",
+      "electrical panel replacement cost",
+      "cost to upgrade electrical panel",
+      "breaker box upgrade cost",
+      "100 to 200 amp upgrade cost",
+      "electrical service upgrade cost",
+      "how much does a panel upgrade cost",
+      "electrical panel upgrade 2026"
+    ],
+    "metaDescription": "Electrical panel upgrade costs $1,000-$3,500 in 2026, with a national average of $2,000. See detailed cost breakdowns by panel type, regional pricing, and what drives your total."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Electrical Panel Upgrade Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/electrical/upgrade-an-electrical-panel/" },
+    { "name": "Fixr - Cost to Upgrade Electrical Panel", "year": 2025, "url": "https://www.fixr.com/costs/upgrade-electrical-panel" },
+    { "name": "Angi - Electrical Panel Replacement Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-replace-electrical-panel.htm" },
+    { "name": "HomeGuide - Electrical Panel Upgrade Cost", "year": 2025, "url": "https://homeguide.com/costs/electrical-panel-upgrade-cost" }
+  ]
+}

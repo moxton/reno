@@ -1,0 +1,60 @@
+{
+  "slug": "room-addition",
+  "title": "Room Addition Cost Calculator",
+  "description": "Estimate the cost of adding a room to your home based on square footage, finish level, and your location.",
+  "projectSlug": "room-addition",
+  "category": "structural",
+  "nationalAverage": 55000,
+  "sizeInput": {
+    "label": "Addition Size",
+    "unit": "sq ft",
+    "min": 80,
+    "max": 800,
+    "step": 10,
+    "default": 300
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 50,
+      "laborPerUnit": 70,
+      "permitBase": 1500,
+      "description": "Standard materials, vinyl siding, builder-grade windows, basic electrical and HVAC extension"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 75,
+      "laborPerUnit": 95,
+      "permitBase": 2500,
+      "description": "Mid-grade finishes, fiber cement siding, energy-efficient windows, dedicated HVAC zone"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 115,
+      "laborPerUnit": 130,
+      "permitBase": 3500,
+      "description": "Premium finishes, custom millwork, high-end windows, radiant heating, full architectural design"
+    }
+  },
+  "options": [
+    { "id": "bathroom", "label": "Include Bathroom", "default": false, "costByTier": { "budget": 5000, "midRange": 8000, "premium": 15000 } },
+    { "id": "basement_foundation", "label": "Basement Foundation (vs. Slab)", "default": false, "costByTier": { "budget": 8000, "midRange": 12000, "premium": 18000 } },
+    { "id": "hvac_zone", "label": "Separate HVAC Zone", "default": false, "costByTier": { "budget": 3000, "midRange": 5000, "premium": 8000 } },
+    { "id": "architectural_design", "label": "Full Architectural Plans", "default": true, "costByTier": { "budget": 1500, "midRange": 3500, "premium": 6500 } },
+    { "id": "fireplace", "label": "Gas Fireplace", "default": false, "costByTier": { "budget": 2500, "midRange": 4000, "premium": 7000 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92,
+    "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "room addition cost calculator",
+    "metaDescription": "Calculate the cost of adding a room to your home. Enter your square footage, finish level, and location for an instant estimate with itemized breakdown."
+  }
+}

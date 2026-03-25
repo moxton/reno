@@ -1,0 +1,133 @@
+{
+  "slug": "shower-remodel",
+  "title": "Shower Replacement/Remodel",
+  "category": "bathroom",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 5500,
+    "typicalLow": 2500,
+    "typicalHigh": 10000,
+    "lowEnd": 1000,
+    "highEnd": 15000,
+    "costPerUnit": { "low": 75, "high": 350, "unit": "sq ft", "average": 175 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 800,
+      "labor": 1100,
+      "permits": 100,
+      "design": 0,
+      "total": 2000,
+      "description": "Prefab acrylic or fiberglass shower insert, basic valve replacement, standard shower head"
+    },
+    "midRange": {
+      "materials": 2500,
+      "labor": 2700,
+      "permits": 150,
+      "design": 250,
+      "total": 5600,
+      "description": "Custom tile shower with porcelain tile, new valve and trim, glass shower door, built-in niche"
+    },
+    "premium": {
+      "materials": 5500,
+      "labor": 5000,
+      "permits": 200,
+      "design": 800,
+      "total": 11500,
+      "description": "Large walk-in shower with natural stone tile, frameless glass enclosure, multiple shower heads, linear drain, bench seat"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Prefab vs. Custom Tile",
+      "impact": "$1,000 - $12,000",
+      "description": "A prefab acrylic or fiberglass shower surround costs $1,000-$3,000 installed and can be done in a single day. A custom tile shower with proper waterproofing, cement board, and porcelain tile runs $3,500-$8,000. Premium natural stone tile with frameless glass pushes $8,000-$15,000. This is the single largest cost decision in a shower remodel."
+    },
+    {
+      "title": "Shower Enclosure Type",
+      "impact": "$300 - $4,000",
+      "description": "A shower curtain rod costs $20-$50. A framed glass door runs $300-$800. A semi-frameless door costs $500-$1,200. A frameless glass shower enclosure - the most popular upgrade in mid-range and premium remodels - runs $1,200-$4,000 depending on size, glass thickness, and hardware finish."
+    },
+    {
+      "title": "Plumbing Scope",
+      "impact": "$200 - $3,000",
+      "description": "Replacing just the shower valve and trim kit costs $200-$600. Adding a handheld sprayer or rain shower head adds $150-$500. Installing a full multi-head system with body sprays requires a 3/4-inch supply line and runs $1,000-$3,000. Moving the drain location adds $500-$1,500."
+    },
+    {
+      "title": "Shower Size",
+      "impact": "Scales with square footage",
+      "description": "A standard 32x32 shower stall uses about 15-18 sq ft of wall and floor area. A 48x36 shower bumps that to 25-30 sq ft. A large walk-in shower (60x36 or bigger) covers 35-50+ sq ft. Every additional square foot of tile adds $15-$35 in materials and labor."
+    },
+    {
+      "title": "Tub-to-Shower Conversion",
+      "impact": "$1,500 - $5,000 premium",
+      "description": "Converting a tub space to a walk-in shower requires removing the tub, rerouting the drain from the tub position to a shower drain location, adjusting plumbing, and often modifying the subfloor. This adds $1,500-$5,000 compared to a simple shower-for-shower replacement."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Fiberglass/Acrylic Insert", "costPerUnit": "$1,000-$3,000 installed", "pros": "Fastest install (1 day), waterproof as a single unit, most affordable", "cons": "Limited styles, looks budget, can yellow and crack over time", "bestFor": "Budget remodels, rental properties, quick turnarounds" },
+    { "material": "Porcelain Tile Shower", "costPerUnit": "$3,500-$7,000 installed", "pros": "Highly customizable, durable, wide range of looks, good resale value", "cons": "Longer install (5-7 days), requires proper waterproofing, grout maintenance", "bestFor": "Most mid-range bathroom remodels" },
+    { "material": "Natural Stone Tile Shower", "costPerUnit": "$6,000-$12,000 installed", "pros": "Premium luxury appearance, unique natural patterns, impressive resale impact", "cons": "Expensive, requires sealing, heavier (may need reinforced substrate), higher maintenance", "bestFor": "High-end master bathrooms and spa-like retreats" },
+    { "material": "Solid Surface Panels (Corian/Swanstone)", "costPerUnit": "$2,500-$5,000 installed", "pros": "No grout lines, seamless look, easy cleaning, good mid-range option", "cons": "Limited design options compared to tile, can scratch, repair is harder than tile", "bestFor": "Low-maintenance mid-range remodels, accessibility showers" },
+    { "material": "Cultured Marble Panels", "costPerUnit": "$1,500-$4,000 installed", "pros": "Smooth seamless finish, no grout, faster install than tile", "cons": "Can crack on impact, less durable than solid surface, limited color options", "bestFor": "Mid-range remodels where you want a clean look without tile maintenance" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher skilled trades labor rates, stricter building codes" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest costs nationally, expensive permits in major metros" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, strong contractor availability" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average costs, competitive market" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate premium, rising with population growth" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "5-7 days",
+    "maximum": "3 weeks",
+    "phases": [
+      { "name": "Demolition and removal", "duration": "1 day" },
+      { "name": "Plumbing rough-in and valve replacement", "duration": "1 day" },
+      { "name": "Waterproofing membrane installation", "duration": "1 day" },
+      { "name": "Tile or panel installation", "duration": "2-5 days" },
+      { "name": "Grouting (tile only)", "duration": "1 day" },
+      { "name": "Glass door installation", "duration": "1 day" },
+      { "name": "Trim, caulk, and final connections", "duration": "Half day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Low",
+    "diySavings": "30-50%",
+    "diyTasks": ["Demolition and removal of old shower", "Painting surrounding walls", "Installing a shower curtain rod and accessories", "Swapping a shower head (no valve work)"],
+    "proOnlyTasks": ["Shower pan installation and waterproofing", "Tile installation in the shower", "Plumbing valve replacement or relocation", "Frameless glass door measurement and installation", "Drain modification or relocation", "Building a shower bench or niche"],
+    "diyRisks": "Shower waterproofing failures are among the most expensive mistakes in home improvement. A leaking shower pan or improperly waterproofed wall sends water into the subfloor and wall framing, causing mold and structural rot that costs $5,000-$15,000+ to remediate. Plumbing valve work in a shower wall requires soldering or PEX connections behind a finished wall - a leak here can cause major damage before you notice it."
+  },
+  "savingsTips": [
+    "Consider a prefab shower insert if your goal is functional, not luxury. A quality acrylic unit runs $1,000-$3,000 installed vs. $3,500-$7,000 for custom tile.",
+    "Keep the shower in its current footprint. Expanding the shower or moving the drain adds $1,500-$5,000 in plumbing and framing work.",
+    "Choose a semi-frameless glass door over fully frameless. Semi-frameless doors cost $500-$1,200 installed vs. $1,200-$4,000 for frameless and still look great.",
+    "Use porcelain tile instead of natural stone. Porcelain that mimics marble or travertine costs $4-$10/sq ft vs. $15-$35 for real stone.",
+    "Skip the body spray system. A rain shower head with a handheld sprayer delivers a spa feel for $200-$500 vs. $1,000-$3,000 for a multi-head system that also requires upgraded water supply.",
+    "Do your own demolition. Tearing out an old shower surround saves $300-$800 in labor. Just be careful with the plumbing behind the wall.",
+    "Build a tile-ready foam niche instead of a custom one. Pre-formed shower niches cost $30-$80 and save significant framing and tiling labor.",
+    "Time your remodel for the off-season. Contractors are busiest in spring and summer. Fall and winter remodels may come with 5-15% discounts."
+  ],
+  "contractorQuestions": [
+    { "question": "What waterproofing system do you use for the shower pan and walls?", "why": "The answer should name a specific system like Schluter Kerdi, Laticrete Hydro Ban, or a hot-mopped pan. A vague answer is a serious red flag for a shower project." },
+    { "question": "Have you done tub-to-shower conversions before, and can I see examples?", "why": "Conversions involve drain relocation, subfloor modification, and often framing changes. You want someone with specific experience, not a general handyman." },
+    { "question": "What is included in your quote - just the shower or also the glass door?", "why": "Some tile contractors do not install glass doors, requiring a separate glass company. Make sure you know exactly what is and is not covered." },
+    { "question": "How do you slope the shower floor for drainage?", "why": "A properly sloped shower floor is critical to prevent standing water. The standard is 1/4 inch per foot toward the drain. This question tests their attention to detail." },
+    { "question": "Will the shower valve brand you install have replacement parts available long-term?", "why": "Cheap or off-brand valves can be impossible to get cartridges for in 5-10 years. Brands like Moen, Delta, and Kohler have reliable long-term parts availability." },
+    { "question": "Do you pull permits for shower remodels?", "why": "Most areas require permits for plumbing work. Unpermitted work can cause problems when selling your home and may void your insurance coverage." },
+    { "question": "What is your timeline, and will I be without a shower during the project?", "why": "A tile shower takes 5-10 days minimum. If this is your only shower, you need to plan accordingly. Some contractors can stage the work to minimize downtime." }
+  ],
+  "relatedProjects": ["bathroom-remodel", "bathroom-tile-installation", "bathroom-vanity-replacement", "toilet-replacement"],
+  "seo": {
+    "primaryKeyword": "shower remodel cost",
+    "secondaryKeywords": ["shower replacement cost", "walk-in shower cost", "tub to shower conversion cost", "custom tile shower cost", "shower renovation cost 2026"],
+    "metaDescription": "How much does a shower remodel cost in 2026? National average is $5,500. Compare prefab vs. custom tile costs, get a free calculator, and learn what drives the price up or down."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/bathrooms/install-a-shower/" },
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/shower-installation" },
+    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-remodel-shower.htm" },
+    { "name": "HomeGuide", "year": 2025, "url": "https://homeguide.com/costs/shower-remodel-cost" }
+  ]
+}

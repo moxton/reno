@@ -1,0 +1,182 @@
+{
+  "slug": "crown-molding",
+  "title": "Crown Molding Installation",
+  "category": "painting-walls",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 1500,
+    "typicalLow": 700,
+    "typicalHigh": 3000,
+    "lowEnd": 400,
+    "highEnd": 4500,
+    "costPerUnit": { "low": 4, "high": 18, "unit": "linear ft", "average": 10 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 250,
+      "labor": 400,
+      "permits": 0,
+      "design": 0,
+      "total": 650,
+      "description": "MDF or polystyrene foam molding, simple profile, one room (about 60 linear feet), basic paint-grade finish"
+    },
+    "midRange": {
+      "materials": 500,
+      "labor": 850,
+      "permits": 0,
+      "design": 0,
+      "total": 1350,
+      "description": "Solid wood (pine or poplar) molding, moderate profile detail, 2-3 rooms (about 150 linear feet), professional painting included"
+    },
+    "premium": {
+      "materials": 1200,
+      "labor": 1500,
+      "permits": 0,
+      "design": 300,
+      "total": 3000,
+      "description": "Hardwood (oak, cherry, or mahogany) or multi-piece built-up crown, ornate profiles, whole house (250+ linear feet), stain-grade finish"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Material Type",
+      "impact": "$2 - $12 per linear foot",
+      "description": "Foam and MDF molding costs $1-$3 per linear foot for materials, while solid pine runs $2-$5 and hardwoods like oak or cherry push $6-$12. Multi-piece built-up crown using two or three layered profiles can double or triple material costs but creates a dramatic look you can't get from a single piece."
+    },
+    {
+      "title": "Room Layout and Corners",
+      "impact": "$200 - $800",
+      "description": "Rooms with lots of corners, angles, or cathedral ceilings take significantly longer to install. A simple rectangular room might take 2-3 hours, while a room with bay windows, vaulted ceilings, or multiple angles can take 6-8 hours. Each outside corner and odd angle adds time and increases the chance of material waste from miscuts."
+    },
+    {
+      "title": "Ceiling Height",
+      "impact": "$150 - $500",
+      "description": "Standard 8-foot ceilings are straightforward. Taller ceilings of 9-10 feet require scaffolding or specialized ladders and wider crown profiles to look proportional. Anything over 10 feet adds significant labor time and typically requires a wider, more expensive molding to maintain proper visual scale."
+    },
+    {
+      "title": "Profile Size and Complexity",
+      "impact": "$1 - $6 per linear foot",
+      "description": "A basic 3.5-inch crown is the most affordable and easiest to install. Moving up to 5.25-inch or larger profiles costs more per foot and takes more skill to cut and fit properly. Multi-piece built-up designs that layer multiple profiles together create a high-end look but add $3-$6 per foot in material and double the labor time."
+    },
+    {
+      "title": "Existing Conditions and Prep Work",
+      "impact": "$100 - $400",
+      "description": "Walls and ceilings that aren't plumb or level require shimming and caulking to create clean lines. Older homes with plaster walls need special fasteners and careful drilling. If you have existing molding that needs removal, expect $1-$2 per linear foot in removal and disposal costs before new installation begins."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Polystyrene Foam",
+      "costPerUnit": "$1 - $3 per linear foot",
+      "pros": "Lightweight, easy to cut, won't crack from settling, cheapest option, can be painted",
+      "cons": "Limited profile options, can look cheap up close, dents easily, not suitable for staining",
+      "bestFor": "Budget projects, DIY installations, rooms with minimal visibility"
+    },
+    {
+      "material": "MDF (Medium Density Fiberboard)",
+      "costPerUnit": "$1.50 - $4 per linear foot",
+      "pros": "Smooth paintable surface, consistent quality, wide profile selection, affordable",
+      "cons": "Heavy, can swell with moisture, not suitable for bathrooms or kitchens, can't be stained",
+      "bestFor": "Paint-grade installations in dry rooms, best price-to-quality ratio"
+    },
+    {
+      "material": "Pine or Poplar (Softwood)",
+      "costPerUnit": "$2 - $5 per linear foot",
+      "pros": "Real wood look and feel, can be painted or stained (poplar paints better), holds nails well, moderate cost",
+      "cons": "Pine shows dents and dings, poplar has greenish tint that needs stain conditioning, not as hard as oak",
+      "bestFor": "Mid-range paint-grade projects, traditional homes, moderate budgets"
+    },
+    {
+      "material": "Oak or Maple (Hardwood)",
+      "costPerUnit": "$5 - $10 per linear foot",
+      "pros": "Beautiful natural grain, extremely durable, stains beautifully, adds real value to a home",
+      "cons": "Expensive, harder to cut and install, requires pre-drilling for nails, heavier",
+      "bestFor": "Stain-grade installations, formal rooms, high-end remodels, craftsman-style homes"
+    },
+    {
+      "material": "Polyurethane (High-Density)",
+      "costPerUnit": "$4 - $8 per linear foot",
+      "pros": "Looks like real wood, lightweight, moisture resistant, won't crack or rot, very detailed profiles available",
+      "cons": "Can't be stained like real wood, higher cost than foam or MDF, some profiles look slightly plastic",
+      "bestFor": "Bathrooms, kitchens, humid climates, homeowners who want ornate profiles without the wood cost"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates in metro areas like Boston and NYC push costs up. Older homes with plaster walls also require more prep work." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Finish carpentry labor rates are among the highest in the country, particularly in the Bay Area, LA, and Seattle." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates and high availability of trim carpenters keep costs below the national average." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive labor market and lower cost of living translate to affordable installation rates." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand in cities like Denver and Salt Lake City has pushed finish carpentry rates slightly above average." }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-2 days",
+    "maximum": "3-4 days",
+    "phases": [
+      { "name": "Measurement and material ordering", "duration": "1-3 days" },
+      { "name": "Room prep and old molding removal", "duration": "1-2 hours per room" },
+      { "name": "Crown molding installation", "duration": "2-4 hours per room" },
+      { "name": "Caulking, filling nail holes, and touch-up painting", "duration": "2-4 hours total" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate - Crown molding is one of the trickier DIY trim projects because of the compound angle cuts required. Foam and MDF are much more forgiving than hardwood. If you're comfortable with a miter saw and have patience for coping joints, you can save 50-60% on labor.",
+    "diySavings": "40-60% of total project cost",
+    "diyTasks": [
+      "Install foam or MDF crown in simple rectangular rooms",
+      "Paint or caulk the finished installation",
+      "Remove existing molding before a pro arrives",
+      "Handle rooms with standard 8-foot ceilings"
+    ],
+    "proOnlyTasks": [
+      "Rooms with cathedral or vaulted ceilings",
+      "Multi-piece built-up crown installations",
+      "Hardwood stain-grade crown requiring perfect joints",
+      "Rooms with multiple odd angles or bay windows"
+    ],
+    "diyRisks": "The most common DIY mistake is incorrect miter and bevel angles, which creates visible gaps at corners. Crown molding sits at an angle between wall and ceiling, so cuts require compound angles that can be confusing. Material waste from miscuts can run 15-25% for beginners, eating into your savings."
+  },
+  "savingsTips": [
+    "Use MDF or foam molding instead of solid wood - you can't tell the difference once it's painted, and you'll save $2-$5 per linear foot on materials alone.",
+    "Install crown in just the most visible rooms first (living room, dining room, primary bedroom) and add other rooms later as budget allows.",
+    "Buy a crown molding jig or corner template system ($20-$40) if doing it yourself - it dramatically reduces miscuts and wasted material.",
+    "Purchase materials during holiday sales at Home Depot or Lowe's. Trim and molding regularly goes on sale during spring and fall renovation seasons.",
+    "Ask your contractor about pre-made corner blocks. They eliminate the need for precise miter cuts at corners, reducing labor time by 20-30%.",
+    "Combine crown molding with other trim work (baseboards, casing) in a single project. Most carpenters offer better per-foot rates for larger jobs.",
+    "Consider 3.5-inch profiles for rooms with 8-foot ceilings. Going bigger doesn't always look better and costs significantly more.",
+    "If you have a simple rectangular room, this is one of the more approachable DIY trim projects. Rent a compound miter saw for $50-$75 per day instead of buying one."
+  ],
+  "contractorQuestions": [
+    { "question": "Do you charge per linear foot or by the room, and what does that include?", "why": "Pricing models vary widely. Per-linear-foot pricing is more transparent and lets you compare bids accurately. Make sure the quote includes caulking, nail hole filling, and painting or you could face surprise add-on charges." },
+    { "question": "How do you handle corners - coped joints or mitered?", "why": "Coped joints look better and hold up over time as the house settles. A carpenter who copes inside corners rather than simply mitering them is likely more skilled and will deliver a cleaner result." },
+    { "question": "What material do you recommend for my home, and why?", "why": "An experienced finish carpenter should be able to assess your home's conditions (humidity, ceiling height, room style) and recommend the right material. If they default to the cheapest option without asking about your goals, that's a red flag." },
+    { "question": "How do you handle out-of-plumb walls or uneven ceilings?", "why": "Older homes often have walls and ceilings that aren't perfectly straight. A good carpenter will explain their approach to scribing, shimming, or using flexible caulk to create clean lines despite imperfections." },
+    { "question": "Is painting or finishing included in your quote?", "why": "Many carpenters install the molding but don't paint it. Painting crown molding after installation typically costs $1-$2 per linear foot, so make sure you know whether that's included or an additional expense." },
+    { "question": "What's your waste factor, and who pays for extra material?", "why": "Standard waste for crown molding is 10-15%. Some contractors include waste in their material estimate, while others may charge you for extra material needed due to miscuts. Clarify this upfront to avoid surprise charges." }
+  ],
+  "relatedProjects": [
+    "wainscoting",
+    "interior-painting",
+    "full-kitchen-remodel",
+    "bathroom-remodel"
+  ],
+  "seo": {
+    "primaryKeyword": "crown molding installation cost",
+    "secondaryKeywords": [
+      "how much does crown molding cost",
+      "crown molding cost per linear foot",
+      "crown molding installation price",
+      "cost to install crown molding per room",
+      "crown molding labor cost",
+      "MDF vs wood crown molding cost",
+      "crown molding cost 2026"
+    ],
+    "metaDescription": "Crown molding installation costs $700-$3,000 for most homes in 2026. Get detailed cost breakdowns by material, room size, and region, plus an interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Crown Molding Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/walls-and-ceilings/install-crown-molding/" },
+    { "name": "Fixr - Crown Molding Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/install-crown-molding" },
+    { "name": "Angi - How Much Does Crown Molding Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-crown-molding-cost.htm" },
+    { "name": "HomeGuide - Crown Molding Installation Cost", "year": 2025, "url": "https://homeguide.com/costs/crown-molding-installation-cost" }
+  ]
+}

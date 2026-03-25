@@ -1,0 +1,59 @@
+{
+  "slug": "bathroom-remodel",
+  "title": "Bathroom Remodel Cost Calculator",
+  "description": "Estimate the cost of your bathroom remodel based on size, quality tier, and specific options.",
+  "projectSlug": "bathroom-remodel",
+  "category": "bathroom",
+  "nationalAverage": 12000,
+  "sizeInput": {
+    "label": "Bathroom Size",
+    "unit": "sq ft",
+    "min": 25,
+    "max": 250,
+    "step": 5,
+    "default": 75
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 32,
+      "laborPerUnit": 43,
+      "permitBase": 150,
+      "description": "Refinish tub, new vanity, repaint, vinyl flooring"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 80,
+      "laborPerUnit": 96,
+      "permitBase": 300,
+      "description": "Tile shower, quartz vanity top, porcelain tile, new toilet"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 200,
+      "laborPerUnit": 233,
+      "permitBase": 400,
+      "description": "Custom walk-in shower, freestanding tub, heated floor, premium tile"
+    }
+  },
+  "options": [
+    { "id": "showerReplace", "label": "Replace Shower/Tub", "default": true, "costByTier": { "budget": 600, "midRange": 3500, "premium": 10000 } },
+    { "id": "heatedFloor", "label": "Heated Floor", "default": false, "costByTier": { "budget": 800, "midRange": 1500, "premium": 2500 } },
+    { "id": "plumbingMove", "label": "Move Plumbing Fixtures", "default": false, "costByTier": { "budget": 1500, "midRange": 3000, "premium": 6000 } },
+    { "id": "glassShowerDoor", "label": "Frameless Glass Shower Door", "default": false, "costByTier": { "budget": 600, "midRange": 1200, "premium": 2500 } },
+    { "id": "newToilet", "label": "New Toilet", "default": true, "costByTier": { "budget": 200, "midRange": 450, "premium": 1200 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "bathroom remodel cost calculator",
+    "metaDescription": "Calculate your bathroom remodel cost based on size, quality tier, and options. Get instant estimates with regional adjustments for 2026."
+  }
+}

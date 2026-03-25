@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1F2937;
+  background: #FAFBFC;
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-200 ease-out;
+  }
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  .section-width {
+    @apply max-w-site mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Tabular numbers for cost displays */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Search dropdown shadow */
+.search-dropdown {
+  box-shadow: 0 10px 40px -5px rgba(0, 0, 0, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Print styles for calculator */
+@media print {
+  header, footer, nav, .breadcrumbs, .print\\:hidden {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}

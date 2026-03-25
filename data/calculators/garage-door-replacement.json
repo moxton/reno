@@ -1,0 +1,59 @@
+{
+  "slug": "garage-door-replacement",
+  "title": "Garage Door Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your garage door based on material, size, insulation, and features.",
+  "projectSlug": "garage-door-replacement",
+  "category": "exterior",
+  "nationalAverage": 1400,
+  "sizeInput": {
+    "label": "Number of Doors",
+    "unit": "doors",
+    "min": 1,
+    "max": 4,
+    "step": 1,
+    "default": 1
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 400,
+      "laborPerUnit": 300,
+      "permitBase": 0,
+      "description": "Single-layer steel door, basic white, no insulation"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 850,
+      "laborPerUnit": 400,
+      "permitBase": 0,
+      "description": "Insulated steel door with decorative panels and basic windows"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 2800,
+      "laborPerUnit": 650,
+      "permitBase": 0,
+      "description": "Carriage-style wood or composite, triple-layer insulated, custom finish"
+    }
+  },
+  "options": [
+    { "id": "opener", "label": "New Garage Door Opener", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 550 } },
+    { "id": "windows", "label": "Decorative Window Inserts", "default": false, "costByTier": { "budget": 100, "midRange": 200, "premium": 400 } },
+    { "id": "smartFeatures", "label": "Smart Opener with WiFi", "default": false, "costByTier": { "budget": 100, "midRange": 150, "premium": 250 } },
+    { "id": "highCycleSprings", "label": "High-Cycle Springs (25,000+)", "default": false, "costByTier": { "budget": 75, "midRange": 100, "premium": 150 } },
+    { "id": "weatherSeal", "label": "Premium Weather Sealing", "default": true, "costByTier": { "budget": 50, "midRange": 75, "premium": 100 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "garage door replacement cost calculator",
+    "metaDescription": "Calculate your garage door replacement cost by material, insulation, and features. Get instant 2026 estimates with regional adjustments for steel, wood, and composite doors."
+  }
+}

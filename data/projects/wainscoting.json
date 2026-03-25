@@ -1,0 +1,185 @@
+{
+  "slug": "wainscoting",
+  "title": "Wainscoting and Board and Batten Installation",
+  "category": "painting-walls",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2500,
+    "typicalLow": 1000,
+    "typicalHigh": 5000,
+    "lowEnd": 600,
+    "highEnd": 7500,
+    "costPerUnit": { "low": 7, "high": 25, "unit": "linear ft", "average": 15 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 400,
+      "labor": 550,
+      "permits": 0,
+      "design": 0,
+      "total": 950,
+      "description": "MDF board and batten style, simple vertical battens on flat panels, one room (about 50 linear feet), paint-grade finish"
+    },
+    "midRange": {
+      "materials": 900,
+      "labor": 1300,
+      "permits": 0,
+      "design": 200,
+      "total": 2400,
+      "description": "Raised panel or shaker-style wainscoting in pine or poplar, 2-3 rooms (about 120 linear feet), chair rail cap, professional painting"
+    },
+    "premium": {
+      "materials": 2200,
+      "labor": 2500,
+      "permits": 0,
+      "design": 500,
+      "total": 5200,
+      "description": "Custom hardwood raised panel wainscoting, full room installations, stain-grade finish, ornate chair rail and base cap profiles"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Wainscoting Style",
+      "impact": "$3 - $15 per linear foot",
+      "description": "Board and batten is the most affordable style at $7-$12 per linear foot installed. Shaker or flat-panel recessed styles run $10-$18 per foot. Raised panel wainscoting is the most expensive at $15-$25+ per foot because each panel must be individually milled and fitted. The style you choose can easily double or triple the total project cost."
+    },
+    {
+      "title": "Wall Height Coverage",
+      "impact": "$200 - $1,500",
+      "description": "Traditional wainscoting covers the lower third of the wall (32-36 inches). Going higher to half-wall (48 inches) or three-quarter height adds significantly more material and labor. Full-height board and batten that runs floor to ceiling has become popular but uses roughly twice the material of standard-height wainscoting."
+    },
+    {
+      "title": "Material Choice",
+      "impact": "$2 - $10 per linear foot",
+      "description": "MDF panels and battens are the most cost-effective at $2-$4 per linear foot for materials. Solid pine or poplar runs $3-$6. Hardwoods like oak or maple push $6-$12. For paint-grade installations, there's little visual reason to choose solid wood over MDF since it paints identically and resists warping."
+    },
+    {
+      "title": "Room Complexity",
+      "impact": "$200 - $800",
+      "description": "Simple straight walls are the easiest and cheapest to panel. Rooms with windows, doors, outlets, and switches all require careful cutouts that slow installation. A room with 4 windows and 2 doors might take 50% longer than a room with no openings. Staircase wainscoting is particularly labor-intensive because of the angle cuts."
+    },
+    {
+      "title": "Finishing and Paint",
+      "impact": "$150 - $600",
+      "description": "Paint-grade wainscoting needs primer, caulk at every seam, and two coats of paint. Budget $1.50-$3 per linear foot for professional painting. Stain-grade hardwood wainscoting is more expensive to finish because it requires careful sanding, stain application, and clear coat - typically $3-$5 per linear foot."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "MDF Panels and Battens",
+      "costPerUnit": "$2 - $4 per linear foot",
+      "pros": "Smooth surface, no grain to bleed through paint, consistent quality, affordable, won't warp",
+      "cons": "Can swell with moisture, heavier than solid wood, not suitable for bathrooms, can't be stained",
+      "bestFor": "Paint-grade board and batten or shaker-style installations in dry rooms"
+    },
+    {
+      "material": "Pine or Poplar",
+      "costPerUnit": "$3 - $6 per linear foot",
+      "pros": "Real wood, takes paint well, can be stained (with conditioning), relatively affordable, lightweight",
+      "cons": "Pine dents easily, poplar has greenish undertones, both are soft woods prone to nicks from daily use",
+      "bestFor": "Mid-range installations, traditional homes, either paint or light stain finishes"
+    },
+    {
+      "material": "Oak or Maple",
+      "costPerUnit": "$6 - $12 per linear foot",
+      "pros": "Hard and durable, beautiful grain for stain-grade work, classic appearance, adds home value",
+      "cons": "Expensive, heavier, requires pre-drilling for nails, open grain (oak) needs filler for smooth finish",
+      "bestFor": "Stain-grade raised panel wainscoting, formal dining rooms, high-end home renovations"
+    },
+    {
+      "material": "PVC/Cellular PVC",
+      "costPerUnit": "$5 - $9 per linear foot",
+      "pros": "Completely waterproof, won't rot or swell, paintable, ideal for wet areas, insect-proof",
+      "cons": "More expensive than MDF, can expand with heat, limited to paint finish (can't stain), slightly different feel than wood",
+      "bestFor": "Bathrooms, mudrooms, laundry rooms, below-grade installations, any high-moisture environment"
+    },
+    {
+      "material": "Pre-Made Wainscoting Kits",
+      "costPerUnit": "$8 - $15 per linear foot",
+      "pros": "Includes all components, consistent sizing, often includes chair rail and base, good for DIY",
+      "cons": "Limited style options, may not fit non-standard wall heights, premium pricing for convenience",
+      "bestFor": "DIY homeowners, single-room projects, anyone who wants a simplified installation process"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Strong demand for wainscoting in Colonial and Federal-style homes drives both material availability and labor rates up." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High finish carpentry labor rates in major metros. Board and batten has been especially popular in West Coast modern farmhouse renovations." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs and strong carpentry labor supply keep prices below the national average." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Affordable labor and good material pricing make wainscoting projects very budget-friendly in most Midwestern markets." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing renovation market in resort and suburban areas has moderately pushed trim carpentry rates above average." }
+  },
+  "timeline": {
+    "minimum": "1-2 days",
+    "typical": "2-4 days",
+    "maximum": "5-7 days",
+    "phases": [
+      { "name": "Design, measurement, and material ordering", "duration": "2-5 days" },
+      { "name": "Wall preparation and layout marking", "duration": "2-4 hours" },
+      { "name": "Panel and batten installation", "duration": "1-2 days per room" },
+      { "name": "Chair rail and trim cap installation", "duration": "2-4 hours per room" },
+      { "name": "Caulking, filling, priming, and painting", "duration": "1-2 days" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate to High - Board and batten is one of the most DIY-friendly wall treatments and has become a hugely popular weekend project. Shaker-style flat panels are also very doable. Raised panel wainscoting is significantly harder and usually best left to a finish carpenter.",
+    "diySavings": "50-65% of total project cost",
+    "diyTasks": [
+      "Board and batten installation on straight walls",
+      "Flat or shaker-style panel installation",
+      "Painting and caulking the finished wainscoting",
+      "Removing existing trim or wall treatments",
+      "Installing chair rail and base cap"
+    ],
+    "proOnlyTasks": [
+      "Custom raised panel wainscoting with milled profiles",
+      "Staircase wainscoting with angled cuts",
+      "Stain-grade hardwood installations requiring invisible joints",
+      "Full-room installations with multiple windows and door openings"
+    ],
+    "diyRisks": "The biggest challenge is getting consistent spacing between battens or panels. Walls that aren't perfectly plumb will show uneven gaps. Using a level and measuring carefully from both ends of each wall is critical. Another common mistake is not accounting for outlets and switches, which need to be extended to sit flush with the new wall surface."
+  },
+  "savingsTips": [
+    "Board and batten is the cheapest style to install and one of the most popular looks right now. You get high visual impact for roughly half the cost of raised panel wainscoting.",
+    "Use MDF instead of solid wood for any paint-grade project. Once painted, MDF looks identical to wood and costs 40-60% less for materials.",
+    "Start with one high-impact room like a dining room or entryway. You can always add more rooms later using the same style.",
+    "Buy lumber and MDF during seasonal sales. Spring and fall renovation seasons often bring 10-20% off at big box stores.",
+    "If DIYing board and batten, use a brad nailer (rent for $35-$50/day) instead of hand-nailing. It cuts installation time in half and creates cleaner results.",
+    "Skip the chair rail on board and batten - many modern designs go floor-to-ceiling without a cap rail, which reduces material costs and simplifies installation.",
+    "Combine your wainscoting project with other trim work (crown molding, baseboards) to negotiate better per-foot rates from a contractor.",
+    "Use paintable caulk liberally at seams. It hides minor imperfections cheaply and is the difference between a DIY look and a professional result."
+  ],
+  "contractorQuestions": [
+    { "question": "Can you show me examples of wainscoting projects you've completed in a similar style?", "why": "Wainscoting quality varies enormously with skill level. A portfolio of past work will tell you immediately whether the carpenter can deliver the level of finish you expect." },
+    { "question": "Does your quote include all finishing work - caulking, filling, priming, and painting?", "why": "Many carpenters handle only the carpentry and leave painting to you or a painter. This can add $300-$800 to a whole-room project, so you need to know what's included." },
+    { "question": "How will you handle outlets, switches, and other wall obstructions?", "why": "Electrical boxes need to be extended to sit flush with the new wainscoting surface. Some contractors include this; others charge extra or require you to hire an electrician separately." },
+    { "question": "What material do you recommend for my specific rooms?", "why": "A good carpenter should ask about the room's moisture levels, traffic, and your finish preferences before recommending materials. MDF in a bathroom is a red flag." },
+    { "question": "How do you handle walls that aren't plumb or floors that aren't level?", "why": "This is the most common real-world challenge with wainscoting. An experienced installer will explain how they scribe the baseboard and adjust panel layouts to accommodate imperfections." },
+    { "question": "What's the warranty on your work, and do you handle any settling cracks that appear later?", "why": "Wainscoting seams can open slightly as a house settles, especially in new construction. A one-year warranty with a touch-up visit is standard for quality installers." },
+    { "question": "Will you provide a detailed breakdown showing material costs, labor, and finishing separately?", "why": "This transparency helps you compare bids accurately. A lump-sum quote makes it impossible to tell whether you're overpaying for materials or labor." }
+  ],
+  "relatedProjects": [
+    "crown-molding",
+    "interior-painting",
+    "bathroom-remodel",
+    "full-kitchen-remodel"
+  ],
+  "seo": {
+    "primaryKeyword": "wainscoting installation cost",
+    "secondaryKeywords": [
+      "board and batten cost",
+      "how much does wainscoting cost",
+      "wainscoting cost per linear foot",
+      "board and batten installation price",
+      "wainscoting labor cost",
+      "raised panel wainscoting cost",
+      "wainscoting cost 2026"
+    ],
+    "metaDescription": "Wainscoting and board and batten installation costs $1,000-$5,000 for most homes in 2026. Compare styles, materials, and labor costs with our detailed guide and calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Wainscoting Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/walls-and-ceilings/install-wainscoting/" },
+    { "name": "Fixr - Wainscoting Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/wainscoting-installation" },
+    { "name": "Angi - How Much Does Wainscoting Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-wainscoting-cost.htm" },
+    { "name": "Bob Vila - How Much Does Wainscoting Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/wainscoting-cost/" }
+  ]
+}

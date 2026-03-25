@@ -1,0 +1,59 @@
+{
+  "slug": "driveway-replacement",
+  "title": "Driveway Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your driveway based on material, size, and features.",
+  "projectSlug": "driveway-replacement",
+  "category": "exterior",
+  "nationalAverage": 5000,
+  "sizeInput": {
+    "label": "Driveway Area",
+    "unit": "sq ft",
+    "min": 200,
+    "max": 1500,
+    "step": 50,
+    "default": 480
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 2.50,
+      "laborPerUnit": 2.30,
+      "permitBase": 100,
+      "description": "Gravel or basic asphalt with minimal grading"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 5.00,
+      "laborPerUnit": 4.60,
+      "permitBase": 150,
+      "description": "Standard broom-finish concrete with proper base and expansion joints"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 11.50,
+      "laborPerUnit": 9.40,
+      "permitBase": 200,
+      "description": "Stamped concrete, pavers, or exposed aggregate with decorative borders"
+    }
+  },
+  "options": [
+    { "id": "demolition", "label": "Old Driveway Demolition and Removal", "default": true, "costByTier": { "budget": 400, "midRange": 1200, "premium": 1800 } },
+    { "id": "drainage", "label": "Drainage Improvements", "default": false, "costByTier": { "budget": 200, "midRange": 500, "premium": 1000 } },
+    { "id": "edging", "label": "Decorative Edging or Borders", "default": false, "costByTier": { "budget": 100, "midRange": 400, "premium": 800 } },
+    { "id": "sealing", "label": "Sealer Application", "default": true, "costByTier": { "budget": 75, "midRange": 150, "premium": 300 } },
+    { "id": "apronFlare", "label": "Street Apron or Curb Flare", "default": false, "costByTier": { "budget": 200, "midRange": 500, "premium": 800 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "driveway replacement cost calculator",
+    "metaDescription": "Calculate your driveway replacement cost by material, size, and features. Get instant 2026 estimates for concrete, asphalt, and paver driveways with regional adjustments."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "crown-molding",
+  "title": "Crown Molding Installation Cost Calculator",
+  "description": "Estimate the cost of installing crown molding based on room size, material type, and your location.",
+  "projectSlug": "crown-molding",
+  "category": "painting-walls",
+  "nationalAverage": 1500,
+  "sizeInput": {
+    "label": "Total Linear Feet",
+    "unit": "linear ft",
+    "min": 20,
+    "max": 500,
+    "step": 10,
+    "default": 150
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 2,
+      "laborPerUnit": 3,
+      "permitBase": 0,
+      "description": "MDF or foam molding, simple profile, paint-grade finish"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 4,
+      "laborPerUnit": 5,
+      "permitBase": 0,
+      "description": "Solid pine or poplar, moderate profile, professional painting"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 8,
+      "laborPerUnit": 7,
+      "permitBase": 0,
+      "description": "Hardwood or multi-piece built-up crown, ornate profiles, stain-grade finish"
+    }
+  },
+  "options": [
+    { "id": "painting", "label": "Professional Painting/Finishing", "default": true, "costByTier": { "budget": 100, "midRange": 200, "premium": 400 } },
+    { "id": "oldRemoval", "label": "Remove Existing Molding", "default": false, "costByTier": { "budget": 75, "midRange": 100, "premium": 150 } },
+    { "id": "cornerBlocks", "label": "Decorative Corner Blocks", "default": false, "costByTier": { "budget": 50, "midRange": 100, "premium": 200 } },
+    { "id": "cathedralCeiling", "label": "Cathedral/Vaulted Ceiling", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 600 } },
+    { "id": "multiPiece", "label": "Multi-Piece Built-Up Crown", "default": false, "costByTier": { "budget": 150, "midRange": 300, "premium": 500 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92,
+    "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "crown molding cost calculator",
+    "metaDescription": "Calculate your crown molding installation cost by linear footage, material type, and location. Get instant estimates for budget, mid-range, and premium options."
+  }
+}

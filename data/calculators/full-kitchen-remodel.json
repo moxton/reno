@@ -1,0 +1,59 @@
+{
+  "slug": "full-kitchen-remodel",
+  "title": "Kitchen Remodel Cost Calculator",
+  "description": "Estimate the cost of your kitchen remodel based on size, quality tier, and specific options.",
+  "projectSlug": "full-kitchen-remodel",
+  "category": "kitchen",
+  "nationalAverage": 27000,
+  "sizeInput": {
+    "label": "Kitchen Size",
+    "unit": "sq ft",
+    "min": 50,
+    "max": 400,
+    "step": 10,
+    "default": 150
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 40,
+      "laborPerUnit": 37,
+      "permitBase": 500,
+      "description": "Cosmetic refresh - paint cabinets, laminate countertops, budget appliances"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 107,
+      "laborPerUnit": 93,
+      "permitBase": 800,
+      "description": "Semi-custom cabinets, quartz countertops, mid-range appliances"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 210,
+      "laborPerUnit": 140,
+      "permitBase": 1200,
+      "description": "Custom cabinets, marble countertops, professional-grade appliances"
+    }
+  },
+  "options": [
+    { "id": "appliances", "label": "New Appliances", "default": true, "costByTier": { "budget": 1800, "midRange": 4500, "premium": 15000 } },
+    { "id": "island", "label": "Kitchen Island", "default": false, "costByTier": { "budget": 2000, "midRange": 4500, "premium": 8000 } },
+    { "id": "layoutChange", "label": "Layout Changes (move plumbing/electrical)", "default": false, "costByTier": { "budget": 2500, "midRange": 5000, "premium": 10000 } },
+    { "id": "flooring", "label": "New Flooring", "default": true, "costByTier": { "budget": 800, "midRange": 2000, "premium": 4500 } },
+    { "id": "backsplash", "label": "Backsplash", "default": true, "costByTier": { "budget": 400, "midRange": 1200, "premium": 3000 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "kitchen remodel cost calculator",
+    "metaDescription": "Calculate your kitchen remodel cost based on size, quality tier, and options. Get instant estimates with regional adjustments for 2026."
+  }
+}

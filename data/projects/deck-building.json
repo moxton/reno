@@ -1,0 +1,134 @@
+{
+  "slug": "deck-building",
+  "title": "Composite Deck Building",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 14000,
+    "typicalLow": 9000,
+    "typicalHigh": 22000,
+    "lowEnd": 6000,
+    "highEnd": 35000,
+    "costPerUnit": { "low": 40, "high": 80, "unit": "sq ft", "average": 55 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 4500,
+      "labor": 4000,
+      "permits": 250,
+      "design": 0,
+      "total": 9000,
+      "description": "Entry-level composite (Trex Enhance or Fiberon), ground-level, basic railing, simple rectangular layout, $30-$45/sq ft for 300 sq ft"
+    },
+    "midRange": {
+      "materials": 7500,
+      "labor": 7500,
+      "permits": 350,
+      "design": 650,
+      "total": 16000,
+      "description": "Mid-tier composite (Trex Select or TimberTech), standard height, upgraded railing system, $45-$65/sq ft for 300 sq ft"
+    },
+    "premium": {
+      "materials": 14000,
+      "labor": 12000,
+      "permits": 500,
+      "design": 1500,
+      "total": 28000,
+      "description": "Premium composite (Trex Transcend or Azek), multi-level or elevated, aluminum railing, built-in lighting, $65-$100+/sq ft for 300 sq ft"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Deck Size",
+      "impact": "$3,000 - $15,000+",
+      "description": "Size is the single biggest cost driver. A small 150 sq ft deck runs $6,000-$12,000. A standard 300 sq ft deck lands at $12,000-$20,000. Large decks over 500 sq ft can push $25,000-$40,000. Every additional square foot adds $40-$80 depending on your composite brand and deck complexity."
+    },
+    {
+      "title": "Composite Brand and Product Line",
+      "impact": "$1,500 - $6,000",
+      "description": "Not all composite is created equal. Entry-level lines like Trex Enhance run $5-$7 per square foot for material only. Mid-tier options like Trex Select and TimberTech Edge cost $7-$11. Premium capped polymer boards like Azek and Trex Transcend push $10-$14 per square foot. For a 300 sq ft deck, the material difference between entry and premium is roughly $1,500-$2,100 - but the look and longevity gap is significant."
+    },
+    {
+      "title": "Ground-Level vs. Elevated",
+      "impact": "$2,500 - $12,000",
+      "description": "A ground-level deck sitting on concrete footings is the most affordable build. An elevated deck (second story or steep grade) requires more structural framing, larger posts, additional hardware, and sometimes engineering plans. Expect elevated decks to cost 25-50% more than the same square footage at ground level."
+    },
+    {
+      "title": "Railing",
+      "impact": "$1,800 - $9,000",
+      "description": "Railing typically accounts for 30-45% of total project cost, which surprises most homeowners. Basic pressure-treated wood railing runs $30-$40 per linear foot installed. Composite railing costs $40-$55 per linear foot. Aluminum or cable railing pushes $50-$70 per linear foot. A 300 sq ft deck typically has 50-70 linear feet of railing."
+    },
+    {
+      "title": "Stairs and Multi-Level Design",
+      "impact": "$500 - $4,000",
+      "description": "Each step costs $25-$50 to build. A standard set of 4-5 stairs adds $100-$250. Wide staircases, wraparound steps, or multi-level transitions with landings can push $1,500-$4,000. Curved or angled designs cost even more due to custom cutting and waste."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Trex Enhance", "costPerUnit": "$5-$7/sq ft (material)", "pros": "Most affordable Trex line, good color selection, 25-year warranty", "cons": "Less scratch resistance than premium lines, fewer color options", "bestFor": "Budget-conscious builds where composite is preferred over wood" },
+    { "material": "Trex Select", "costPerUnit": "$7-$9/sq ft (material)", "pros": "Better fade and stain resistance, more natural wood grain, 25-year warranty", "cons": "Mid-range price, still not as premium as Transcend", "bestFor": "Most popular mid-range choice, good balance of price and performance" },
+    { "material": "Trex Transcend", "costPerUnit": "$10-$14/sq ft (material)", "pros": "Best Trex aesthetics, deep wood grain, superior scratch resistance, 25-year warranty", "cons": "Premium pricing, heavy boards", "bestFor": "Premium builds where appearance is a priority" },
+    { "material": "TimberTech / Azek", "costPerUnit": "$7-$12/sq ft (material)", "pros": "Capped polymer (Azek) is virtually maintenance-free, excellent color retention, 30-50 year warranties", "cons": "Higher cost, Azek can feel less wood-like underfoot", "bestFor": "Homeowners wanting maximum longevity and minimal maintenance" },
+    { "material": "Fiberon", "costPerUnit": "$5.50-$9/sq ft (material)", "pros": "Competitive pricing, solid warranty, good color options", "cons": "Less brand recognition, fewer dealer options in some regions", "bestFor": "Value-oriented builds, comparable quality to Trex at a lower price" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, shorter building season drives up demand" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, strict permitting and inspection requirements" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, year-round building season" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive labor market, good contractor availability" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing markets, moderate labor demand" }
+  },
+  "timeline": {
+    "minimum": "3 days",
+    "typical": "5-7 days",
+    "maximum": "2-3 weeks",
+    "phases": [
+      { "name": "Design and permits", "duration": "1-3 weeks" },
+      { "name": "Site preparation and demolition (if replacing)", "duration": "1 day" },
+      { "name": "Foundation and footings", "duration": "1 day" },
+      { "name": "Framing and structural support", "duration": "1-2 days" },
+      { "name": "Decking board installation", "duration": "1-2 days" },
+      { "name": "Railing and stairs", "duration": "1-2 days" },
+      { "name": "Final inspection", "duration": "1 day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Partial",
+    "diySavings": "30-40%",
+    "diyTasks": ["Ground-level deck framing and board installation", "Demolition of existing deck", "Staining or sealing wood framing components", "Installing post caps and decorative accessories", "Simple railing installation on ground-level decks"],
+    "proOnlyTasks": ["Elevated or second-story deck construction", "Engineering plans for complex builds", "Concrete footing installation in difficult soil", "Permit acquisition and code compliance", "Multi-level deck framing"],
+    "diyRisks": "Improperly set footings can shift over time, causing structural failure. Elevated decks built without engineering oversight are a serious safety hazard. Many municipalities require permits and inspections - unpermitted decks can cause problems when you sell your home."
+  },
+  "savingsTips": [
+    "Choose entry-level composite over premium lines. Trex Enhance or Fiberon Basics deliver solid performance at $5-$7/sq ft vs. $10-$14 for premium boards - saving $1,500-$2,100 on a 300 sq ft deck.",
+    "Keep your deck ground-level. Elevated decks cost 25-50% more due to structural framing, taller posts, and engineering requirements.",
+    "Minimize railing where possible. Use built-in bench seating on one or two edges instead of railing - it's cheaper and adds usable seating.",
+    "Stick with a simple rectangular shape. Curves, angles, and multi-level designs create material waste and add labor hours.",
+    "Do your own demolition if replacing an existing deck. Tearing out old decking saves $500-$1,500 in labor costs.",
+    "Buy materials during off-season sales. Late fall and winter pricing on composite decking can be 10-20% lower than spring demand pricing.",
+    "Skip built-in lighting at install time. Surface-mounted solar deck lights cost $50-$150 total vs. $500-$2,000 for wired low-voltage lighting.",
+    "Get quotes in fall or winter. Deck builders are less busy and more willing to negotiate on pricing."
+  ],
+  "contractorQuestions": [
+    { "question": "Do you pull the permits, or is that my responsibility?", "why": "Most jurisdictions require permits for decks. Some contractors include this in their price; others expect you to handle it. Unpermitted work can create issues at resale." },
+    { "question": "What type of footings will you use, and how deep?", "why": "Footing depth depends on your local frost line. Footings that don't extend below the frost line will heave and shift, compromising the entire structure." },
+    { "question": "Are you a certified installer for the composite brand we're using?", "why": "Some composite manufacturers require certified installers for their warranty to remain valid. Trex, TimberTech, and Azek all have installer programs." },
+    { "question": "What's included in the quote - framing lumber, hardware, flashing, all fasteners?", "why": "Hidden costs for joist hangers, structural screws, flashing tape, and hidden fastener systems can add $500-$1,500 that some contractors leave out of initial quotes." },
+    { "question": "Can I see photos of 3 composite deck projects you've completed?", "why": "Composite installs differently than wood. You want a builder who has specific experience with composite materials and their unique requirements." },
+    { "question": "What is the warranty on your labor?", "why": "Material warranties from manufacturers are separate from workmanship warranties. A reputable deck builder should warranty their labor for at least 1-2 years." },
+    { "question": "How will you handle drainage and water management under the deck?", "why": "Poor drainage under a deck leads to moisture problems, mold, and erosion. Proper grading, gravel beds, or under-deck drainage systems prevent long-term issues." }
+  ],
+  "relatedProjects": ["patio-installation", "fence-installation", "exterior-painting", "outdoor-kitchen", "pergola-installation"],
+  "seo": {
+    "primaryKeyword": "deck building cost",
+    "secondaryKeywords": ["composite deck cost", "how much does a deck cost", "Trex deck cost", "cost to build a deck 2026", "deck installation price", "composite decking price per square foot"],
+    "metaDescription": "How much does a composite deck cost in 2026? National average is $14,000 for 300 sq ft. Get detailed cost breakdowns by tier, material comparisons, regional pricing, and an interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/decks-porches-and-ramps/build-a-deck/" },
+    { "name": "DeckBros", "year": 2026, "url": "https://www.deckbros.com/composite-deck-cost/" },
+    { "name": "LumberPlus", "year": 2025, "url": "https://www.fixr.com/costs/build-deck" },
+    { "name": "Angi", "year": 2026, "url": "https://www.angi.com/articles/how-much-does-it-cost-build-deck.htm" },
+    { "name": "Remodeling Magazine Cost vs. Value", "year": 2025, "url": "https://www.jlconline.com/cost-vs-value/2025/" }
+  ]
+}

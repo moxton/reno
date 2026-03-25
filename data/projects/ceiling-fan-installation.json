@@ -1,0 +1,183 @@
+{
+  "slug": "ceiling-fan-installation",
+  "title": "Ceiling Fan Installation",
+  "category": "electrical",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 250,
+    "typicalLow": 150,
+    "typicalHigh": 400,
+    "lowEnd": 100,
+    "highEnd": 600,
+    "costPerUnit": { "low": 150, "high": 400, "unit": "fan", "average": 250 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 75,
+      "labor": 80,
+      "permits": 0,
+      "design": 0,
+      "total": 155,
+      "description": "Basic 42-52 inch fan, replacing an existing light fixture with a fan-rated box already in place, standard pull-chain controls"
+    },
+    "midRange": {
+      "materials": 150,
+      "labor": 100,
+      "permits": 0,
+      "design": 0,
+      "total": 250,
+      "description": "Mid-range fan with light kit and remote control, installing a new fan-rated electrical box, dimmable LED light"
+    },
+    "premium": {
+      "materials": 275,
+      "labor": 150,
+      "permits": 0,
+      "design": 25,
+      "total": 450,
+      "description": "High-end designer fan (Hunter, Minka Aire, or Big Ass Fans), new wiring run, wall control with smart home integration, large-format 60-72 inch blade span"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Existing Wiring and Electrical Box",
+      "impact": "$0 - $250",
+      "description": "If you are replacing an existing ceiling fan, the wiring and fan-rated box are already there - this is the cheapest scenario. Swapping a light fixture for a fan requires upgrading the electrical box to a fan-rated one ($25-$75 in parts, $50-$100 in labor). Running entirely new wiring to a location with no existing fixture adds $150-$250."
+    },
+    {
+      "title": "Ceiling Height and Type",
+      "impact": "$0 - $150",
+      "description": "Standard 8-foot flat ceilings are the easiest and cheapest to work with. Vaulted or cathedral ceilings require an angled mounting adapter ($15-$40) and often a downrod extension ($10-$30), plus extra labor time. Ceilings above 12 feet may require scaffolding or special equipment, adding $50-$150 to labor costs."
+    },
+    {
+      "title": "Fan Quality and Size",
+      "impact": "$50 - $500",
+      "description": "A basic 42-inch fan from a home center runs $50-$100. Mid-range fans with LED lights, remote controls, and DC motors cost $150-$300. Designer fans from brands like Hunter Prestige, Minka Aire, or Modern Forms range from $300-$800. Outdoor-rated wet or damp fans for covered porches cost 20-40% more than equivalent indoor models."
+    },
+    {
+      "title": "Number of Fans",
+      "impact": "$50 - $100 savings per additional fan",
+      "description": "Electricians typically charge less per fan when installing multiples in one visit. A single fan installation might cost $100-$150 in labor. Adding a second fan in the same trip usually runs $75-$120 for labor. If you are doing 3-5 fans throughout the house, expect labor savings of 15-25% per unit compared to individual installations."
+    },
+    {
+      "title": "Controls and Smart Features",
+      "impact": "$0 - $150",
+      "description": "Pull-chain fans cost nothing extra beyond the fan price. Adding a wall control switch runs $30-$60 for the switch plus $50-$100 for installation if new wiring is needed. Smart fan controls that work with Alexa or HomeKit add $50-$100 for the module. Some premium fans include smart controls built in."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Basic Fan (pull chain, no light)",
+      "costPerUnit": "$40 - $80",
+      "pros": "Inexpensive, simple installation, fewer parts to fail",
+      "cons": "No light, inconvenient pull-chain controls, basic appearance",
+      "bestFor": "Bedrooms, garages, utility rooms where budget is the priority"
+    },
+    {
+      "material": "Mid-Range Fan with Light Kit",
+      "costPerUnit": "$100 - $250",
+      "pros": "Integrated LED light, remote control included, quiet DC motor options, good variety of styles",
+      "cons": "Proprietary light bulbs on some models, remote can be lost",
+      "bestFor": "Living rooms, bedrooms, and family rooms in most homes"
+    },
+    {
+      "material": "Designer/High-End Fan",
+      "costPerUnit": "$300 - $800",
+      "pros": "Whisper-quiet DC motor, premium finishes, smart home integration, statement design piece",
+      "cons": "Expensive, replacement parts can be pricey, some styles are trend-dependent",
+      "bestFor": "Main living areas, modern or architect-designed homes, visible focal-point locations"
+    },
+    {
+      "material": "Outdoor/Damp-Rated Fan",
+      "costPerUnit": "$150 - $400",
+      "pros": "Moisture-resistant motor and blades, UL damp or wet rated, handles humidity and temperature swings",
+      "cons": "Fewer style options, higher cost than indoor equivalents, wet-rated fans cost more than damp-rated",
+      "bestFor": "Covered patios, screened porches, sunrooms, outdoor kitchens"
+    },
+    {
+      "material": "Large Format Fan (60-72 inch)",
+      "costPerUnit": "$200 - $600",
+      "pros": "Moves significantly more air, ideal for large or open-concept rooms, fewer fans needed",
+      "cons": "Requires higher ceilings (9+ feet recommended), heavier mounting hardware, may look oversized in small rooms",
+      "bestFor": "Great rooms, open floor plans, rooms over 400 square feet, high ceilings"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher electrician rates in metro areas like NYC, Boston, and DC push labor costs up 15-25%" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "CA, OR, and WA have higher labor costs and some jurisdictions require permits even for fan swaps" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Ceiling fans are extremely popular here, and competitive labor markets keep prices 10-15% below average" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Reasonable electrician rates and lower overhead keep costs 5-15% below the national average" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing populations in CO, UT, and ID mean moderate demand pressure, pushing costs 5-10% above average" }
+  },
+  "timeline": {
+    "minimum": "30 minutes",
+    "typical": "1-2 hours",
+    "maximum": "4 hours",
+    "phases": [
+      { "name": "Assessment and power shutoff", "duration": "10-15 minutes" },
+      { "name": "Remove existing fixture (if applicable)", "duration": "10-20 minutes" },
+      { "name": "Install or upgrade electrical box", "duration": "15-45 minutes" },
+      { "name": "Assemble and mount fan", "duration": "30-60 minutes" },
+      { "name": "Wire connections and testing", "duration": "15-30 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate - replacing an existing fan or swapping a light for a fan on a fan-rated box is a common DIY project for handy homeowners",
+    "diySavings": "40-60% savings on labor ($80-$150 per fan)",
+    "diyTasks": [
+      "Replacing a ceiling fan with a new fan on the same box",
+      "Swapping a light fixture for a fan when a fan-rated box is already installed",
+      "Assembling the fan and mounting bracket",
+      "Installing a remote control receiver inside the fan canopy"
+    ],
+    "proOnlyTasks": [
+      "Running new wiring to a location without an existing fixture",
+      "Installing a fan-rated box in a ceiling with no existing box",
+      "Working with ceilings above 12 feet or complex vaulted ceilings",
+      "Adding a new wall switch or dimmer circuit"
+    ],
+    "diyRisks": "The main risks are electrical shock (always turn off the breaker, not just the switch) and falling from a ladder. A common mistake is mounting a fan on a standard light fixture box - these are not rated for the weight and vibration of a fan and can pull loose from the ceiling, causing injury. Always verify the box is fan-rated before mounting."
+  },
+  "savingsTips": [
+    "Buy fans during holiday sales - Memorial Day, Black Friday, and Labor Day sales often discount fans 30-40%",
+    "Install multiple fans in the same service call to get per-unit labor discounts",
+    "Choose a fan that replaces an existing fixture in the same location to avoid new wiring costs",
+    "Skip the electrician entirely if you are comfortable with basic wiring and have a fan-rated box already in place",
+    "Opt for a remote-controlled fan instead of a wall control to avoid the cost of running new switch wiring",
+    "Consider a fan with integrated LED instead of buying a separate light kit - the combo is usually cheaper",
+    "Check your local utility for energy efficiency rebates on ENERGY STAR rated ceiling fans",
+    "Buy the fan yourself and hire the electrician for installation only - some charge less for labor-only jobs"
+  ],
+  "contractorQuestions": [
+    { "question": "Is the existing electrical box fan-rated?", "why": "Fan-rated boxes are designed to handle the weight (up to 70 lbs) and vibration of a ceiling fan. If the box is not fan-rated, it needs to be replaced before mounting - this is a safety requirement, not optional." },
+    { "question": "Do you charge per fan or per hour?", "why": "Per-fan pricing is more predictable. If hiring by the hour, ask for an estimate of total time. Most fans take 1-2 hours, so an electrician charging $85-$125/hour should quote $85-$250 per fan for straightforward installs." },
+    { "question": "Will you install a fan I have already purchased?", "why": "Some electricians prefer to supply their own fans (with a markup). Others are happy to install homeowner-supplied fans. Clarify this upfront and compare total costs both ways." },
+    { "question": "Does the ceiling need any structural reinforcement?", "why": "Heavy fans (over 35 lbs) or fans on high vaulted ceilings may need additional bracing between joists. This is an easy $50-$100 add-on if caught early, but a problem if discovered mid-install." },
+    { "question": "Can you add a wall switch if I want one later?", "why": "If the fan location only has a single switch, you may want a two-gang switch (one for fan, one for light) later. Ask if the wiring supports this or if it would require running a new cable." },
+    { "question": "What is included in your quote - just installation, or assembly too?", "why": "Some electricians expect the fan to arrive pre-assembled. Others include assembly in their price. Most fans take 20-30 minutes to assemble, so clarify who handles this step." }
+  ],
+  "relatedProjects": [
+    "recessed-lighting",
+    "electrical-panel-upgrade",
+    "ev-charger-installation",
+    "interior-painting"
+  ],
+  "seo": {
+    "primaryKeyword": "ceiling fan installation cost",
+    "secondaryKeywords": [
+      "cost to install ceiling fan",
+      "ceiling fan installation price",
+      "how much to install a ceiling fan",
+      "electrician ceiling fan cost",
+      "ceiling fan with light installation cost",
+      "ceiling fan replacement cost",
+      "ceiling fan installation cost 2026"
+    ],
+    "metaDescription": "Ceiling fan installation costs $150-$400 per fan in 2026, with a national average of $250. See detailed breakdowns by fan type, wiring needs, and regional pricing."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Ceiling Fan Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/electrical/install-a-ceiling-fan/" },
+    { "name": "Fixr - Cost to Install a Ceiling Fan", "year": 2025, "url": "https://www.fixr.com/costs/ceiling-fan-installation" },
+    { "name": "Angi - Ceiling Fan Installation Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-ceiling-fan.htm" },
+    { "name": "Bob Vila - How Much Does Ceiling Fan Installation Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/ceiling-fan-installation-cost/" }
+  ]
+}

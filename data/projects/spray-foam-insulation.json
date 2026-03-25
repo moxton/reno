@@ -1,0 +1,189 @@
+{
+  "slug": "spray-foam-insulation",
+  "title": "Spray Foam Insulation",
+  "category": "hvac-energy",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 3500,
+    "typicalLow": 1500,
+    "typicalHigh": 6500,
+    "lowEnd": 1200,
+    "highEnd": 10000,
+    "costPerUnit": { "low": 1.25, "high": 5.50, "unit": "sq ft", "average": 2.75 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 800,
+      "labor": 600,
+      "permits": 50,
+      "design": 50,
+      "total": 1500,
+      "description": "Open-cell spray foam in an open attic floor or crawl space, 500-800 sq ft, 3-4 inches of coverage (R-13)"
+    },
+    "midRange": {
+      "materials": 1700,
+      "labor": 1300,
+      "permits": 100,
+      "design": 400,
+      "total": 3500,
+      "description": "Closed-cell spray foam on attic roof deck or basement walls, 800-1,200 sq ft, 2-3 inches of coverage (R-13 to R-19)"
+    },
+    "premium": {
+      "materials": 3200,
+      "labor": 2000,
+      "permits": 200,
+      "design": 1100,
+      "total": 6500,
+      "description": "Full closed-cell spray foam application on roof deck and walls, 1,200-1,500 sq ft, 4+ inches (R-26+), with thermal imaging verification"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Open-Cell vs. Closed-Cell",
+      "impact": "$1,000 - $4,000",
+      "description": "Open-cell spray foam costs $1.00-$1.75 per sq ft per inch and provides R-3.7 per inch. Closed-cell costs $1.75-$3.50 per sq ft per inch but delivers R-6.5 per inch. Closed-cell also acts as a vapor barrier and adds structural strength. For a 1,000 sq ft project, the difference between open and closed-cell can be $1,500-$4,000."
+    },
+    {
+      "title": "Thickness and R-Value Target",
+      "impact": "$500 - $3,000",
+      "description": "Each inch of closed-cell foam adds roughly $1.75-$3.50 per sq ft. Getting from R-13 (2 inches closed-cell) to R-26 (4 inches) doubles your material cost. Many building codes require R-19 to R-38 depending on the application and climate zone. Your target R-value is the biggest single cost driver."
+    },
+    {
+      "title": "Application Area",
+      "impact": "$300 - $2,000",
+      "description": "Open wall cavities during new construction or renovation are the cheapest to spray. Attic roof decks cost more due to overhead work. Crawl spaces with limited access add labor time. Rim joists and band boards are small areas but fiddly to reach. Cathedral ceilings and vaulted spaces are the most expensive per square foot due to difficult access."
+    },
+    {
+      "title": "Surface Preparation",
+      "impact": "$200 - $1,500",
+      "description": "Spray foam needs a clean, dry surface. If existing insulation must be removed first, add $1.00-$2.50 per sq ft. Moisture issues need to be resolved before spraying - water remediation can add $500-$2,000. Old homes may need lead paint or asbestos testing before disturbing existing materials."
+    },
+    {
+      "title": "Project Size",
+      "impact": "$200 - $1,000",
+      "description": "Spray foam has a significant mobilization cost - the truck, equipment, and crew setup is roughly the same whether you are spraying 200 or 2,000 sq ft. Small projects under 500 sq ft pay a higher per-square-foot rate ($3.00-$5.50) because the fixed costs are spread over less area. Projects over 1,500 sq ft get the best per-unit pricing."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Open-Cell Spray Foam (0.5 lb density)",
+      "costPerUnit": "$1.00 - $1.75 per sq ft per inch",
+      "pros": "Lower cost, excellent air sealing, good soundproofing, expands to fill irregular cavities",
+      "cons": "Lower R-value per inch, absorbs moisture (not for below-grade), requires vapor retarder in cold climates",
+      "bestFor": "Interior walls for soundproofing, attic roof deck in warm climates, above-grade applications"
+    },
+    {
+      "material": "Closed-Cell Spray Foam (2.0 lb density)",
+      "costPerUnit": "$1.75 - $3.50 per sq ft per inch",
+      "pros": "Highest R-value per inch, vapor barrier, adds structural rigidity, moisture resistant",
+      "cons": "Most expensive option, requires professional installation, off-gases during application",
+      "bestFor": "Basement walls, crawl spaces, attic roof deck in cold climates, thin wall cavities where space is limited"
+    },
+    {
+      "material": "DIY Spray Foam Kits",
+      "costPerUnit": "$1.50 - $2.50 per sq ft",
+      "pros": "No contractor needed, available at home improvement stores, good for small jobs",
+      "cons": "More expensive per sq ft for large areas, harder to apply evenly, limited coverage per kit",
+      "bestFor": "Rim joists, small gaps, band boards, supplemental insulation under 200 sq ft"
+    },
+    {
+      "material": "Hybrid System (Closed-Cell + Blown-In)",
+      "costPerUnit": "$1.50 - $2.50 per sq ft (blended rate)",
+      "pros": "2 inches of closed-cell for air/vapor barrier, then cheaper blown-in to reach target R-value",
+      "cons": "Two-step installation, requires coordination between trades",
+      "bestFor": "Attic roof decks and walls where you want closed-cell benefits at a lower total cost"
+    },
+    {
+      "material": "Low-GWP Spray Foam (HFO-blown)",
+      "costPerUnit": "$2.00 - $4.00 per sq ft per inch",
+      "pros": "99% lower global warming potential than traditional HFC-blown foam, meets green building standards",
+      "cons": "10-15% more expensive, not available from all contractors",
+      "bestFor": "Green building projects, LEED certification, homeowners prioritizing environmental impact"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High R-value requirements and older housing stock drive strong demand. Closed-cell is preferred for moisture control." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California has strict VOC regulations affecting foam formulations. Higher labor rates." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Open-cell foam is often sufficient. Lower labor costs and moderate R-value requirements." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "High insulation demand in winter months. Competitive contractor market keeps prices reasonable." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Cold winters require high R-values. Some areas at altitude have fewer experienced contractors." }
+  },
+  "timeline": {
+    "minimum": "4-6 hours",
+    "typical": "1 day",
+    "maximum": "2-3 days",
+    "phases": [
+      { "name": "Surface preparation and masking", "duration": "1-2 hours" },
+      { "name": "Spray foam application", "duration": "2-4 hours" },
+      { "name": "Curing time (occupants must vacate)", "duration": "12-24 hours" },
+      { "name": "Trimming excess foam and inspection", "duration": "1-2 hours" },
+      { "name": "Covering with thermal barrier if required by code", "duration": "2-4 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Limited - DIY kits work for small areas (rim joists, small gaps) but large-scale spray foam requires professional equipment and training",
+    "diySavings": "30-50% ($600-$2,000) for small projects only",
+    "diyTasks": [
+      "Applying DIY spray foam kits to rim joists and band boards (under 200 sq ft)",
+      "Sealing small gaps and penetrations with canned expanding foam",
+      "Preparing surfaces by removing old insulation and cleaning",
+      "Installing protective coverings and masking"
+    ],
+    "proOnlyTasks": [
+      "Large-scale spray foam application (requires $50,000+ spray rigs)",
+      "Mixing and applying two-component foam at correct temperature and ratios",
+      "Ensuring proper thickness and coverage verification",
+      "Installing thermal barriers (drywall or intumescent coating) per fire code",
+      "Handling and disposing of chemical containers per EPA regulations",
+      "Quality verification with thermal imaging"
+    ],
+    "diyRisks": "Spray foam chemicals (isocyanates) are toxic before curing and can cause severe respiratory damage, skin burns, and allergic sensitization without proper PPE. Improper mixing ratios create foam that never fully cures, off-gasses indefinitely, and must be completely removed. Overapplication can warp framing. Fire code requires thermal barriers over spray foam in living spaces."
+  },
+  "savingsTips": [
+    "Use a hybrid approach - 2 inches of closed-cell for the air/vapor barrier, then cheap blown-in fiberglass to reach your target R-value. This saves 30-40% over full closed-cell.",
+    "Focus spray foam on the highest-impact areas first: rim joists, band boards, and attic air sealing penetrations",
+    "Get quotes from spray foam specialists rather than general insulation contractors - specialists are typically 15-20% cheaper",
+    "Combine spray foam with other insulation work to maximize the mobilization fee value",
+    "Check utility rebates - many offer $0.25-$1.00 per sq ft for spray foam insulation upgrades",
+    "Time the project during a renovation when walls are already open to avoid drywall removal and replacement costs",
+    "For rim joists, DIY spray foam kits ($1.50-$2.50 per sq ft) are cost-effective and manageable for homeowners",
+    "Ask about the Inflation Reduction Act energy efficiency tax credit - spray foam insulation qualifies for up to $1,200 in credits"
+  ],
+  "contractorQuestions": [
+    { "question": "Do you recommend open-cell or closed-cell for my application, and why?", "why": "The right foam type depends on your location (below grade vs. above), climate (moisture management), and R-value target. A contractor who defaults to one type without assessing your situation may not be the best choice." },
+    { "question": "What is the R-value per inch of the product you use, and how many inches will you apply?", "why": "This determines your total R-value. Some contractors apply too thin to cut costs. Ask them to verify thickness in multiple spots during installation." },
+    { "question": "How long must the house be vacated during and after application?", "why": "Spray foam off-gasses during curing. Most products require 24 hours before reoccupancy. Some low-VOC formulations allow faster return. People with chemical sensitivities may need longer." },
+    { "question": "Will you install a thermal barrier over the foam?", "why": "Building codes require a 15-minute thermal barrier (typically 1/2-inch drywall) over spray foam in living spaces. This adds significant cost but is legally required. Some attics and crawl spaces are exempt." },
+    { "question": "What brand and formulation of foam do you use?", "why": "Not all spray foam is equal. Ask for the product data sheet. Better formulations have lower VOCs, better fire ratings, and consistent R-values. Cheap foam can shrink, crack, or off-gas long-term." },
+    { "question": "Do you carry liability insurance and offer a warranty on the installation?", "why": "Spray foam is permanent - if done wrong, removal costs $3-$8 per sq ft. Make sure the contractor has insurance and stands behind their work with at least a 5-year warranty." },
+    { "question": "Will you perform thermal imaging after installation to verify coverage?", "why": "Thermal imaging reveals gaps, thin spots, and missed areas that are invisible to the eye. This step takes 30 minutes and ensures you are getting the coverage you paid for." }
+  ],
+  "relatedProjects": [
+    "attic-insulation",
+    "furnace-replacement",
+    "heat-pump-installation",
+    "window-replacement",
+    "basement-finishing"
+  ],
+  "seo": {
+    "primaryKeyword": "spray foam insulation cost",
+    "secondaryKeywords": [
+      "how much does spray foam insulation cost",
+      "spray foam insulation cost per square foot",
+      "closed cell spray foam cost",
+      "open cell spray foam cost",
+      "spray foam insulation price 2026",
+      "spray foam vs blown-in insulation cost",
+      "spray foam attic insulation cost",
+      "spray foam crawl space cost"
+    ],
+    "metaDescription": "Spray foam insulation costs $1,500-$6,500 in 2026, with a national average of $3,500. Compare open-cell vs. closed-cell costs, see per-square-foot pricing, and use our calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Spray Foam Insulation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/insulation/spray-foam-insulation/" },
+    { "name": "Fixr - Spray Foam Insulation Cost", "year": 2025, "url": "https://www.fixr.com/costs/spray-foam-insulation" },
+    { "name": "Angi - Spray Foam Insulation Cost Guide", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-spray-foam-insulation-cost.htm" },
+    { "name": "HomeGuide - Spray Foam Insulation Cost", "year": 2025, "url": "https://homeguide.com/costs/spray-foam-insulation-cost" },
+    { "name": "U.S. Department of Energy - Spray Foam Insulation", "year": 2025, "url": "https://www.energy.gov/energysaver/spray-foam-insulation" }
+  ]
+}

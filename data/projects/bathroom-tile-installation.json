@@ -1,0 +1,131 @@
+{
+  "slug": "bathroom-tile-installation",
+  "title": "Bathroom Tile Installation (Floor & Wall)",
+  "category": "bathroom",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2800,
+    "typicalLow": 1500,
+    "typicalHigh": 3500,
+    "lowEnd": 800,
+    "highEnd": 7000,
+    "costPerUnit": { "low": 10, "high": 35, "unit": "sq ft", "average": 17 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 500,
+      "labor": 700,
+      "permits": 0,
+      "design": 0,
+      "total": 1200,
+      "description": "Basic ceramic tile on floor only, standard thin-set, simple layout pattern"
+    },
+    "midRange": {
+      "materials": 1200,
+      "labor": 1500,
+      "permits": 0,
+      "design": 100,
+      "total": 2800,
+      "description": "Porcelain tile on floor and shower walls, cement board underlayment, accent strip or border"
+    },
+    "premium": {
+      "materials": 2800,
+      "labor": 3000,
+      "permits": 0,
+      "design": 200,
+      "total": 6000,
+      "description": "Natural stone or large-format porcelain on floors and walls, custom patterns, heated floor prep, premium grout"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Tile Material Choice",
+      "impact": "$1 - $35/sq ft for materials",
+      "description": "Basic ceramic tile starts at $1-$3 per square foot for materials alone. Mid-range porcelain runs $4-$10. Natural stone like marble, travertine, or slate pushes $15-$35 per square foot. For a 75 sq ft bathroom with floor and partial wall coverage (around 120 sq ft total), your material cost alone can range from $120 to $4,200."
+    },
+    {
+      "title": "Tile Size and Pattern",
+      "impact": "$2 - $8/sq ft labor premium",
+      "description": "Large-format tiles (24x24 or bigger) require a perfectly level substrate and cost more to install. Herringbone, chevron, or complex mosaic patterns add $2-$8 per square foot in labor because of all the extra cuts and layout time. A simple straight-lay grid pattern is the most affordable to install."
+    },
+    {
+      "title": "Surface Preparation",
+      "impact": "$300 - $1,500",
+      "description": "If your subfloor has deflection (bounce), your installer needs to add cement board or an uncoupling membrane like Ditra to prevent cracked tiles. Removing old tile adds $2-$5 per square foot for demo. Leveling an uneven floor with self-leveling compound runs $300-$800. These prep costs are easy to overlook but critical."
+    },
+    {
+      "title": "Wall vs. Floor Coverage",
+      "impact": "$800 - $3,000+",
+      "description": "Floor-only tile for a standard bathroom runs $800-$2,000. Adding a tub surround or shower walls pushes the total up $800-$2,500 depending on height. Full floor-to-ceiling wall tile in a master bathroom can add $2,000-$5,000+ to your project."
+    },
+    {
+      "title": "Waterproofing Requirements",
+      "impact": "$200 - $800",
+      "description": "Wet areas like showers and tub surrounds need proper waterproofing - either a liquid membrane like RedGard ($200-$400) or a sheet membrane like Kerdi ($400-$800). Skipping this step is the most common cause of tile failures and water damage. Floor tile in dry areas does not require waterproofing."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Ceramic Tile", "costPerUnit": "$10-$18/sq ft installed", "pros": "Most affordable, huge variety of colors and sizes, easy to cut", "cons": "Less durable than porcelain, higher water absorption rate, can chip", "bestFor": "Budget bathroom floors and dry wall areas" },
+    { "material": "Porcelain Tile", "costPerUnit": "$12-$28/sq ft installed", "pros": "Very durable, low water absorption, works everywhere including showers, wide design range", "cons": "Harder to cut, slightly more expensive than ceramic", "bestFor": "Best all-around choice for bathroom floors and wet areas" },
+    { "material": "Natural Stone (Marble/Travertine)", "costPerUnit": "$20-$50/sq ft installed", "pros": "Stunning luxury appearance, unique veining, high resale appeal", "cons": "Requires regular sealing, can stain and etch, slippery when wet unless honed", "bestFor": "Premium master bathrooms and accent walls" },
+    { "material": "Glass Mosaic Tile", "costPerUnit": "$18-$40/sq ft installed", "pros": "Beautiful light reflection, waterproof, excellent for accent bands and niches", "cons": "Expensive, labor-intensive to install, shows imperfections in substrate", "bestFor": "Shower accent strips, niches, and backsplash areas" },
+    { "material": "Large-Format Porcelain (24x24+)", "costPerUnit": "$15-$35/sq ft installed", "pros": "Fewer grout lines for a cleaner look, modern aesthetic, easier to clean", "cons": "Requires very flat substrate, harder to install, heavier", "bestFor": "Modern bathroom floors and feature walls" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates for skilled tile setters" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest tile installation labor costs nationally" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, strong tile installer availability" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average labor costs, good availability" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate costs, growing demand in expanding markets" }
+  },
+  "timeline": {
+    "minimum": "2 days",
+    "typical": "3-5 days",
+    "maximum": "2 weeks",
+    "phases": [
+      { "name": "Old tile removal and demo", "duration": "1 day" },
+      { "name": "Surface preparation and leveling", "duration": "1 day" },
+      { "name": "Waterproofing (wet areas)", "duration": "1 day" },
+      { "name": "Tile layout and installation", "duration": "2-4 days" },
+      { "name": "Grouting", "duration": "1 day" },
+      { "name": "Caulking and cleanup", "duration": "Half day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate",
+    "diySavings": "40-60%",
+    "diyTasks": ["Floor tile in a dry area with simple straight-lay pattern", "Removing old tile and prepping surfaces", "Grouting and caulking", "Peel-and-stick tile (not recommended for wet areas)"],
+    "proOnlyTasks": ["Shower wall and floor tile (waterproofing is critical)", "Large-format tile installation (requires precision and proper tools)", "Complex patterns like herringbone or mosaic", "Leveling severely uneven substrates", "Heated floor system installation under tile"],
+    "diyRisks": "The biggest risk is waterproofing failures in wet areas. If you tile a shower without proper membrane installation, water will seep behind the tile and cause mold and structural damage - repairs run $3,000-$10,000+. Floor tile on an improperly prepped substrate will crack within months. Uneven tile with lippage looks terrible and is hard to fix without starting over."
+  },
+  "savingsTips": [
+    "Choose porcelain over natural stone. You get a similar high-end look at $12-$28/sq ft installed versus $20-$50 for stone, with less maintenance.",
+    "Use a simple straight-lay pattern. Herringbone and diagonal patterns cost $2-$8 more per square foot in labor due to extra cuts.",
+    "Tile only the shower walls, not the entire bathroom. Full-wall tiling looks great but costs $2,000-$5,000 more than tiling just the wet areas.",
+    "Buy tile during seasonal sales. Big-box stores run major tile promotions in spring and fall with 20-30% off regular prices.",
+    "Do your own demolition. Removing old tile and prepping the substrate saves $300-$800 in labor. Wear proper safety gear and work carefully around plumbing.",
+    "Use accent tile strategically. Instead of covering a whole wall in expensive glass mosaic, use a single accent strip at $15-$25 per linear foot for visual impact.",
+    "Consider larger tiles to reduce grout lines. Fewer grout joints means less labor and lower long-term maintenance costs.",
+    "Shop tile liquidation centers. Overstock and discontinued tiles are often 50-70% off retail with nothing wrong other than limited supply."
+  ],
+  "contractorQuestions": [
+    { "question": "What waterproofing system do you use in the shower area?", "why": "A professional tile installer should immediately name a specific product like Schluter Kerdi, Laticrete Hydro Ban, or RedGard. Vague answers suggest they may skip this critical step." },
+    { "question": "How do you handle an uneven subfloor?", "why": "They should describe checking for flatness with a straightedge and using self-leveling compound or cement board to correct issues. Tiles installed on an uneven surface crack and pop." },
+    { "question": "Do you use spacers or a leveling system?", "why": "Tile leveling systems (like Raimondi or MLT) prevent lippage - that uneven edge where one tile sits higher than the next. This matters most with large-format tiles." },
+    { "question": "What type of grout do you recommend and why?", "why": "Epoxy grout costs more but resists stains and mold far better than cement grout. A knowledgeable installer will recommend the right grout for each area based on use." },
+    { "question": "Can I see photos of similar tile jobs you have completed?", "why": "Tile work quality varies enormously between installers. Photos of finished showers and complex patterns tell you more than any reference call." },
+    { "question": "How do you handle corners and edges?", "why": "Professional options include Schluter trim profiles, bullnose tile, or mitered edges. Raw tile edges in visible areas look unfinished and cheap." }
+  ],
+  "relatedProjects": ["bathroom-remodel", "shower-remodel", "bathroom-vanity-replacement", "hardwood-floor-installation", "vinyl-plank-flooring"],
+  "seo": {
+    "primaryKeyword": "bathroom tile installation cost",
+    "secondaryKeywords": ["cost to tile a bathroom", "bathroom tile cost per square foot", "shower tile installation cost", "bathroom floor tile cost", "tile installation cost 2026"],
+    "metaDescription": "How much does bathroom tile installation cost in 2026? National average is $2,800. Get detailed costs per square foot by tile type, plus a free interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/flooring/install-tile/" },
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/tile-floor-installation" },
+    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-tile.htm" },
+    { "name": "HomeGuide", "year": 2025, "url": "https://homeguide.com/costs/tile-installation-cost" }
+  ]
+}

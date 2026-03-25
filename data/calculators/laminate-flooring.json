@@ -1,0 +1,59 @@
+{
+  "slug": "laminate-flooring",
+  "title": "Laminate Flooring Cost Calculator",
+  "description": "Estimate the cost of installing laminate flooring based on room size, quality tier, and additional options.",
+  "projectSlug": "laminate-flooring",
+  "category": "flooring",
+  "nationalAverage": 3500,
+  "sizeInput": {
+    "label": "Floor Area",
+    "unit": "sq ft",
+    "min": 50,
+    "max": 3000,
+    "step": 50,
+    "default": 500
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 1.50,
+      "laborPerUnit": 2.00,
+      "permitBase": 0,
+      "description": "Basic 6-7mm laminate, AC3 rating, simple patterns, minimal subfloor prep"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 2.50,
+      "laborPerUnit": 3.00,
+      "permitBase": 0,
+      "description": "8-10mm laminate, AC4 rating, embossed texture, includes underlayment and basic prep"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 5.00,
+      "laborPerUnit": 4.40,
+      "permitBase": 0,
+      "description": "12mm+ waterproof laminate, AC5 rating, hand-scraped texture, full subfloor leveling"
+    }
+  },
+  "options": [
+    { "id": "oldFloorRemoval", "label": "Remove Old Flooring", "default": true, "costByTier": { "budget": 150, "midRange": 300, "premium": 500 } },
+    { "id": "upgradeUnderlayment", "label": "Premium Underlayment (Cork/Rubber)", "default": false, "costByTier": { "budget": 100, "midRange": 150, "premium": 250 } },
+    { "id": "subfloorLeveling", "label": "Subfloor Leveling", "default": false, "costByTier": { "budget": 200, "midRange": 400, "premium": 800 } },
+    { "id": "furnitureMoving", "label": "Furniture Moving", "default": false, "costByTier": { "budget": 75, "midRange": 150, "premium": 250 } },
+    { "id": "trimAndTransitions", "label": "New Trim and Transitions", "default": true, "costByTier": { "budget": 100, "midRange": 200, "premium": 400 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10,
+    "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85,
+    "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80,
+    "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25,
+    "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85,
+    "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82,
+    "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "laminate flooring cost calculator",
+    "metaDescription": "Calculate your laminate flooring installation cost instantly. Enter your room size, choose quality tier and options, and get a personalized estimate for 2026."
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "slug": "siding-replacement",
+  "title": "Vinyl Siding Replacement",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 12000,
+    "typicalLow": 7000,
+    "typicalHigh": 18000,
+    "lowEnd": 5000,
+    "highEnd": 25000,
+    "costPerUnit": { "low": 3, "high": 12, "unit": "sq ft", "average": 7 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 3500,
+      "labor": 3200,
+      "permits": 200,
+      "design": 0,
+      "total": 6900,
+      "description": "Economy-grade vinyl (.040 thickness), basic colors, standard installation on a 1,500 sq ft exterior, no insulation backing"
+    },
+    "midRange": {
+      "materials": 5500,
+      "labor": 5200,
+      "permits": 300,
+      "design": 0,
+      "total": 11000,
+      "description": "Mid-grade vinyl (.044 thickness), wider color range, insulated backing, new J-channel and trim on a 1,500 sq ft exterior"
+    },
+    "premium": {
+      "materials": 9000,
+      "labor": 7500,
+      "permits": 350,
+      "design": 650,
+      "total": 17500,
+      "description": "Premium insulated vinyl (.046+ thickness), shake or board-and-batten profiles, architectural trim, house wrap replacement on a 1,500 sq ft exterior"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Siding Grade and Thickness",
+      "impact": "$2,000 - $6,000",
+      "description": "Vinyl siding ranges from .040 economy panels ($2-$3/sq ft installed) to .046+ premium insulated panels ($7-$12/sq ft installed). Thicker panels resist impact damage better, look more realistic, and last longer. The jump from economy to mid-grade (.044) adds about $1.50-$2 per square foot, which on a typical 1,500 sq ft home adds $2,250-$3,000 to your total."
+    },
+    {
+      "title": "Old Siding Removal",
+      "impact": "$1,000 - $3,000",
+      "description": "If your existing siding needs to be stripped before new installation, expect to add $0.50-$1.50 per square foot for removal and disposal. Homes with multiple layers of old siding or those with lead paint (pre-1978 homes) can push removal costs to $2-$3 per square foot due to hazmat handling requirements."
+    },
+    {
+      "title": "House Size and Stories",
+      "impact": "$3,000 - $8,000",
+      "description": "A single-story ranch with 1,200 sq ft of siding is far cheaper to side than a two-story colonial with 2,500 sq ft. Second-story work requires scaffolding ($500-$1,500 rental), and labor rates increase 15-25% for elevated work. Complex rooflines with lots of gables and dormers add even more because each angle requires custom-cut pieces."
+    },
+    {
+      "title": "Trim, Soffit, and Fascia Work",
+      "impact": "$1,500 - $4,000",
+      "description": "Most siding projects also include replacing or wrapping trim, soffits, and fascia in matching aluminum or vinyl. Skipping this work saves money but leaves your home looking mismatched. Budget $1,500-$2,500 for basic aluminum wrapping and $3,000-$4,000 if you need structural soffit and fascia replacement."
+    },
+    {
+      "title": "Insulation and House Wrap",
+      "impact": "$800 - $2,500",
+      "description": "Adding fanfold insulation board or replacing old house wrap (like Tyvek) before new siding installation adds $0.50-$1.50 per square foot but can improve your home's energy efficiency by 10-20%. Insulated-back vinyl panels cost more upfront but eliminate this as a separate line item."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Economy Vinyl (.040)",
+      "costPerUnit": "$2-$4 per sq ft installed",
+      "pros": "Lowest cost, wide availability, easy to replace individual panels",
+      "cons": "Fades faster, more brittle in cold weather, looks flat and plastic",
+      "bestFor": "Rental properties, tight budgets, homes you plan to sell soon"
+    },
+    {
+      "material": "Mid-Grade Vinyl (.044)",
+      "costPerUnit": "$4-$7 per sq ft installed",
+      "pros": "Good durability, better color retention, more realistic wood-grain texture",
+      "cons": "Still less durable than fiber cement or wood, limited architectural styles",
+      "bestFor": "Most homeowners looking for a solid balance of cost and quality"
+    },
+    {
+      "material": "Premium Insulated Vinyl (.046+)",
+      "costPerUnit": "$7-$10 per sq ft installed",
+      "pros": "Built-in insulation, excellent impact resistance, deep wood-grain textures, quieter home",
+      "cons": "Higher upfront cost, fewer contractors experienced with installation",
+      "bestFor": "Long-term homeowners in harsh climates wanting maximum energy savings"
+    },
+    {
+      "material": "Vinyl Shake Panels",
+      "costPerUnit": "$8-$12 per sq ft installed",
+      "pros": "Mimics cedar shake appearance, no maintenance, good curb appeal",
+      "cons": "Most expensive vinyl option, limited to accent areas on many homes",
+      "bestFor": "Craftsman or Cape Cod style homes where shake accents add character"
+    },
+    {
+      "material": "Board-and-Batten Vinyl",
+      "costPerUnit": "$6-$9 per sq ft installed",
+      "pros": "Modern farmhouse look, vertical lines make homes appear taller, low maintenance",
+      "cons": "More complex installation, not ideal for homes with lots of windows breaking up wall space",
+      "bestFor": "Modern farmhouse, contemporary, or transitional style homes"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High labor rates and shorter installation seasons push costs up. CT, MA, and NY metro areas are at the top of this range." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Vinyl siding is less common in CA and the Pacific Northwest, where fiber cement dominates. Fewer vinyl specialists means higher labor rates." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs and year-round installation weather keep prices down. FL and GA are among the most affordable markets for siding work." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Vinyl siding is extremely popular in the Midwest, so competition keeps prices reasonable. OH, IN, and MI tend to be on the lower end." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing populations in CO and UT have increased contractor demand. Altitude and weather can limit installation windows." }
+  },
+  "timeline": {
+    "minimum": "3-5 days",
+    "typical": "1-2 weeks",
+    "maximum": "3-4 weeks",
+    "phases": [
+      { "name": "Old siding removal", "duration": "1-3 days" },
+      { "name": "Sheathing inspection and repair", "duration": "1-2 days" },
+      { "name": "House wrap and insulation", "duration": "1 day" },
+      { "name": "New siding installation", "duration": "3-7 days" },
+      { "name": "Trim, soffit, and fascia finishing", "duration": "1-3 days" },
+      { "name": "Final inspection and cleanup", "duration": "1 day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate - Vinyl siding installation is one of the more DIY-friendly exterior projects, but it requires patience, proper tools, and comfort working on ladders or scaffolding.",
+    "diySavings": "40-50% ($3,000-$6,000 on a typical home)",
+    "diyTasks": [
+      "Removing old siding panels",
+      "Installing house wrap on single-story sections",
+      "Installing starter strips and J-channel",
+      "Hanging siding panels on ground-level walls",
+      "Caulking around windows and doors"
+    ],
+    "proOnlyTasks": [
+      "Second-story and gable-end installation requiring scaffolding",
+      "Repairing rotted sheathing or structural issues",
+      "Proper flashing installation around windows and doors",
+      "Soffit and fascia replacement",
+      "Lead paint abatement on pre-1978 homes"
+    ],
+    "diyRisks": "Improper installation can void manufacturer warranties (most require certified installation for warranty coverage). Incorrect nailing - vinyl must hang loosely to expand and contract - causes buckling and cracking. Water intrusion from poor flashing around windows is the biggest long-term risk."
+  },
+  "savingsTips": [
+    "Get quotes in late fall or winter when siding contractors have slower schedules and may discount 10-15%",
+    "Choose standard horizontal lap siding instead of shake, scallop, or board-and-batten profiles to save $2-$4 per square foot",
+    "Remove old siding yourself to save $1,000-$2,000 in labor costs - just watch for lead paint on pre-1978 homes",
+    "Buy siding during spring sales at big-box stores and have your contractor install materials you provide (some will, some won't)",
+    "Skip the premium color options - standard white and light colors are cheapest and fade less than dark tones",
+    "If only one or two sides of your house face the street, consider using premium siding on visible sides and economy grade on the back",
+    "Bundle your siding project with gutter replacement to negotiate a package discount of 5-10%",
+    "Ask about manufacturer rebates - brands like CertainTeed and Alside run seasonal promotions"
+  ],
+  "contractorQuestions": [
+    {
+      "question": "Will you remove the old siding or install over it?",
+      "why": "Installing over existing siding is cheaper but hides potential sheathing damage and can create moisture problems. Removal costs more but lets you inspect and repair the wall underneath."
+    },
+    {
+      "question": "What brand and thickness of vinyl do you recommend, and why?",
+      "why": "A good contractor will explain the trade-offs between .040, .044, and .046 thickness panels. If they only push the cheapest option or can't name the brand, that's a red flag."
+    },
+    {
+      "question": "How do you handle flashing around windows, doors, and penetrations?",
+      "why": "Water intrusion is the number one cause of siding failure. Proper step flashing and integrated head flashing around every opening is non-negotiable. Ask to see examples from past jobs."
+    },
+    {
+      "question": "Does your installation qualify for the manufacturer's warranty?",
+      "why": "Many premium vinyl siding manufacturers require certified installers for their lifetime warranties. An uncertified installer might leave you with only a basic prorated warranty."
+    },
+    {
+      "question": "Will you replace the house wrap, and is it included in the quote?",
+      "why": "Old or damaged house wrap should be replaced during re-siding. Some contractors skip this step to keep bids low, but it can lead to moisture damage behind the new siding."
+    },
+    {
+      "question": "What is included in trim work - just wrapping, or full replacement?",
+      "why": "Aluminum trim wrapping covers existing wood trim for a clean look. Full replacement costs more but addresses rot. Make sure the quote specifies which approach is being used."
+    },
+    {
+      "question": "How do you handle expansion and contraction with vinyl?",
+      "why": "Vinyl expands significantly with temperature changes. Panels must be hung loosely with nails centered in slots, not driven tight. A contractor who doesn't mention this may not install it correctly."
+    }
+  ],
+  "relatedProjects": ["window-replacement", "gutter-installation", "roof-replacement", "interior-painting", "deck-building"],
+  "seo": {
+    "primaryKeyword": "vinyl siding replacement cost",
+    "secondaryKeywords": [
+      "cost to replace siding on house",
+      "vinyl siding installation cost per square foot",
+      "how much does new siding cost",
+      "siding replacement cost 2026",
+      "vinyl siding cost calculator",
+      "house siding prices",
+      "cheapest siding options",
+      "vinyl siding labor cost"
+    ],
+    "metaDescription": "Vinyl siding replacement costs $5,000-$25,000 in 2026, with most homeowners paying $7,000-$18,000. See cost breakdowns by grade, regional pricing, and use our free calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Siding Installation Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/siding/" },
+    { "name": "Fixr - Cost to Install Vinyl Siding", "year": 2025, "url": "https://www.fixr.com/costs/vinyl-siding-installation" },
+    { "name": "Angi - How Much Does Siding Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-side-house.htm" },
+    { "name": "HomeGuide - Vinyl Siding Cost", "year": 2025, "url": "https://homeguide.com/costs/vinyl-siding-cost" },
+    { "name": "Remodeling Magazine - Cost vs. Value Report", "year": 2025, "url": "https://www.remodeling.hw.net/cost-vs-value/2025/" }
+  ]
+}

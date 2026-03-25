@@ -1,0 +1,193 @@
+{
+  "slug": "swimming-pool",
+  "title": "In-Ground Swimming Pool Installation",
+  "category": "outdoor-living",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 45000,
+    "typicalLow": 20000,
+    "typicalHigh": 80000,
+    "lowEnd": 15000,
+    "highEnd": 120000,
+    "costPerUnit": { "low": 50, "high": 150, "unit": "sq ft", "average": 90 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 10000,
+      "labor": 9000,
+      "permits": 800,
+      "design": 200,
+      "total": 20000,
+      "description": "Vinyl-liner pool (12x24 ft, ~288 sq ft), basic rectangular shape, concrete or vermiculite deck ($0 - deck separate), standard filtration, basic coping"
+    },
+    "midRange": {
+      "materials": 22000,
+      "labor": 18000,
+      "permits": 1500,
+      "design": 3500,
+      "total": 45000,
+      "description": "Fiberglass pool (14x30 ft, ~420 sq ft) or gunite/shotcrete, freeform shape, stamped concrete deck, upgraded filtration, LED lighting, auto cover"
+    },
+    "premium": {
+      "materials": 40000,
+      "labor": 30000,
+      "permits": 2500,
+      "design": 7500,
+      "total": 80000,
+      "description": "Custom gunite/shotcrete pool (16x36 ft, ~576 sq ft), vanishing edge or custom shape, natural stone coping and deck, spa/hot tub, water features, smart controls"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Pool Type and Material",
+      "impact": "$10,000 - $40,000",
+      "description": "Vinyl-liner pools are the most affordable at $20,000-$40,000. They use a prefabricated steel or polymer frame with a custom-fit vinyl liner. Fiberglass pools are mid-range at $30,000-$60,000 and arrive as a pre-formed shell. Gunite (concrete/shotcrete) pools are the most expensive at $40,000-$100,000+ but offer unlimited customization in shape, depth, and features. Each type has distinct trade-offs in lifespan, maintenance costs, and resale value."
+    },
+    {
+      "title": "Pool Size and Depth",
+      "impact": "$5,000 - $30,000",
+      "description": "A small plunge pool (10x20 ft) costs significantly less than a full-size pool (16x36 ft). Every additional square foot of surface area adds $50-$150 depending on pool type. Depth matters too - a pool with a deep end (8 ft) requires more excavation, more water, a larger pump, and higher ongoing operating costs than a uniform 5-foot pool."
+    },
+    {
+      "title": "Site Conditions and Access",
+      "impact": "$2,000 - $15,000",
+      "description": "Flat, open yards with easy equipment access keep costs down. Rocky soil, high water tables, tight access gates, and sloped lots all increase costs substantially. If excavation hits bedrock, blasting or rock hammering adds $5,000-$15,000. A lot with poor access may require a crane ($2,000-$5,000) to place a fiberglass shell."
+    },
+    {
+      "title": "Decking and Coping",
+      "impact": "$3,000 - $20,000",
+      "description": "The area around your pool needs a durable, slip-resistant surface. Brushed concrete is the cheapest at $6-$10 per square foot. Stamped concrete runs $12-$18. Pavers cost $15-$25 per square foot. Natural stone (travertine, bluestone) pushes $20-$40 per square foot. A typical pool deck is 400-800 square feet, so material choice has a major impact on total cost."
+    },
+    {
+      "title": "Features and Upgrades",
+      "impact": "$2,000 - $25,000+",
+      "description": "Standard pools include basic filtration and one skimmer. Popular upgrades include LED color lighting ($700-$1,500), salt chlorine generators ($1,000-$2,500), automatic covers ($5,000-$15,000), water features like waterfalls or bubblers ($1,000-$5,000 each), attached spas ($8,000-$15,000), and smart pool automation systems ($2,000-$5,000). Features add up quickly."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Vinyl Liner",
+      "costPerUnit": "$50 - $75 per sq ft of pool area",
+      "pros": "Lowest upfront cost, smooth non-abrasive surface, quick installation (1-3 weeks), wide range of patterns",
+      "cons": "Liner needs replacement every 7-12 years ($3,000-$6,000), can be punctured, limited shapes, less durable",
+      "bestFor": "Budget-conscious homeowners, simple rectangular designs, anyone prioritizing low initial cost"
+    },
+    {
+      "material": "Fiberglass",
+      "costPerUnit": "$75 - $110 per sq ft of pool area",
+      "pros": "Fast installation (3-5 days for shell), lowest maintenance costs, smooth surface, built-in seats and benches, 25+ year lifespan",
+      "cons": "Limited to manufacturer's shapes and sizes, max width ~16 feet (shipping limits), higher upfront than vinyl, can develop surface osmotic blisters",
+      "bestFor": "Homeowners who want low lifetime maintenance costs, fast installation, and good long-term value"
+    },
+    {
+      "material": "Gunite/Shotcrete (Concrete)",
+      "costPerUnit": "$85 - $150 per sq ft of pool area",
+      "pros": "Unlimited custom shapes and sizes, any depth, most durable (50+ year structure), highest resale value, can add spa and water features easily",
+      "cons": "Highest cost, longest build time (8-16 weeks), rough surface (needs plaster or pebble finish), highest chemical and energy maintenance",
+      "bestFor": "Custom designs, large pools, homeowners who want maximum features and don't mind higher ongoing costs"
+    },
+    {
+      "material": "Plaster Pool Finish (for gunite)",
+      "costPerUnit": "$4 - $8 per sq ft of pool interior",
+      "pros": "Smooth white finish, classic look, most affordable gunite finish, easy to repair",
+      "cons": "Needs resurfacing every 7-12 years, can stain and discolor, rough when it ages",
+      "bestFor": "Budget-friendly gunite pool finish, traditional aesthetic"
+    },
+    {
+      "material": "Pebble/Aggregate Finish (for gunite)",
+      "costPerUnit": "$6 - $14 per sq ft of pool interior",
+      "pros": "Extremely durable (15-20 year lifespan), natural look, multiple color options, hides stains well",
+      "cons": "More expensive than plaster, slightly rough texture, harder to repair spot damage",
+      "bestFor": "Long-lasting finish, natural stone aesthetic, homeowners who want extended time between resurfacings"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Shorter building season and higher labor rates increase costs. Rocky soil in New England often requires excavation surcharges." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Year-round pool use drives strong demand. California permitting and safety requirements add cost, but pools add significant property value." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Highest pool-per-capita region. Strong competition among builders keeps prices below average. Year-round use maximizes value." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Seasonal use (May-September) reduces demand somewhat. Lower labor rates and material costs offset the shorter swimming season." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand in desert communities. Rocky soil conditions common in foothills increase excavation costs." }
+  },
+  "timeline": {
+    "minimum": "4-6 weeks",
+    "typical": "8-12 weeks",
+    "maximum": "16-20 weeks",
+    "phases": [
+      { "name": "Design, permits, and HOA approval", "duration": "2-6 weeks" },
+      { "name": "Excavation", "duration": "1-3 days" },
+      { "name": "Steel reinforcement (gunite) or shell placement (fiberglass)", "duration": "1-5 days" },
+      { "name": "Gunite/shotcrete application (concrete pools)", "duration": "1-2 days" },
+      { "name": "Plumbing and electrical rough-in", "duration": "3-5 days" },
+      { "name": "Tile, coping, and decking", "duration": "1-2 weeks" },
+      { "name": "Interior finish (plaster, pebble, or liner)", "duration": "1-3 days" },
+      { "name": "Equipment installation and startup", "duration": "2-3 days" },
+      { "name": "Fill, chemical balance, and final inspection", "duration": "3-5 days" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Very Low - In-ground pool installation requires heavy excavation equipment, structural engineering, complex plumbing and electrical systems, and strict code compliance. This is not a DIY project. Even experienced contractors typically subcontract portions to specialists.",
+    "diySavings": "5-15% by handling landscaping and minor finishing tasks only",
+    "diyTasks": [
+      "Landscape restoration and planting after pool is complete",
+      "Installing pool fence (if using bolt-down aluminum panels)",
+      "Basic pool equipment maintenance after installation",
+      "Applying deck sealer or stain",
+      "Minor grading and sodding around the pool area"
+    ],
+    "proOnlyTasks": [
+      "Excavation and soil removal",
+      "Structural shell construction (gunite, fiberglass placement, or liner framing)",
+      "Pool plumbing and filtration system installation",
+      "Electrical wiring and bonding (code requirement)",
+      "Gas line for heater installation",
+      "Concrete decking and coping",
+      "Pool interior finishing"
+    ],
+    "diyRisks": "Pool installation involves structural, electrical, plumbing, and safety code requirements that must pass municipal inspection. Improper bonding and grounding of electrical components is a serious electrocution hazard. Structural failures from poor engineering can cause wall collapse. There is essentially no safe way to DIY the core pool installation."
+  },
+  "savingsTips": [
+    "Choose a vinyl-liner pool over fiberglass or gunite. You'll save $10,000-$30,000 upfront on a comparable-size pool, though liner replacement every 7-12 years is an ongoing cost.",
+    "Stick to a simple rectangular shape. Every curve, tanning ledge, and custom feature adds $2,000-$10,000. A clean rectangle is also the most efficient for swimming laps.",
+    "Get quotes in late fall or winter. Pool builders are slowest from October through February and often offer 10-20% off to book jobs for spring installation.",
+    "Skip the attached spa initially. A standalone hot tub ($3,000-$8,000) costs far less than an integrated spa ($8,000-$15,000) and can be added later.",
+    "Use brushed concrete for the deck instead of pavers or natural stone. It's $6-$10/sq ft vs $15-$40, saving $3,000-$15,000 on a typical pool deck.",
+    "Install a salt chlorine generator ($1,000-$2,500) instead of relying on traditional chlorine. It pays for itself within 2-3 years through lower chemical costs and less maintenance time.",
+    "Handle your own landscaping restoration after the pool is in. Grading, sodding, and planting around the finished pool can save $1,000-$3,000.",
+    "Compare at least 3-4 pool builders and check their references thoroughly. Pool construction has wide price variation - the same pool design can vary $10,000-$20,000 between builders."
+  ],
+  "contractorQuestions": [
+    { "question": "Which pool type do you recommend for my yard, and why?", "why": "A good builder should assess your soil conditions, yard access, desired features, and budget before recommending a pool type. If they only build one type, they may push that regardless of what's best for your situation." },
+    { "question": "What is included in your quote, and what isn't?", "why": "Pool quotes are notorious for excluding key items. Make sure the quote covers excavation, decking, electrical, fencing, permits, final grading, and startup. Common exclusions that add thousands: pool fence, gas line for heater, landscape restoration, and permit fees." },
+    { "question": "Can I see 3-5 pools you've completed, and can I talk to those homeowners?", "why": "Pool construction is a major investment with a lot of room for problems. References from past clients are essential. Ask specifically about timeline accuracy, communication, and how the builder handled any issues." },
+    { "question": "What happens if you hit rock, water, or unexpected soil conditions?", "why": "Excavation surprises are common and can add $5,000-$15,000 to the project. Know upfront whether the contract includes a fixed excavation price or whether rock/water removal is billed separately. This is one of the most common sources of pool construction cost overruns." },
+    { "question": "What warranty do you offer on the structure, surface finish, and equipment?", "why": "Look for: structural warranty of 15-25 years (or lifetime for fiberglass), surface finish warranty of 5-10 years, and equipment warranty per manufacturer terms (typically 1-3 years). A strong warranty indicates confidence in their work." },
+    { "question": "What are the ongoing annual costs I should budget for?", "why": "An honest builder will tell you that annual pool maintenance runs $1,200-$3,000 for chemicals, electricity, and routine service. Liner pools need replacement every 7-12 years ($3,000-$6,000). Gunite pools need resurfacing every 10-15 years ($5,000-$12,000). Knowing total cost of ownership prevents sticker shock after purchase." },
+    { "question": "How do you handle the permit and inspection process?", "why": "Pool permits involve building, electrical, plumbing, and fencing inspections. The builder should handle all permits and schedule all inspections. Ask what happens if an inspection fails and who bears the cost of corrections." }
+  ],
+  "relatedProjects": [
+    "outdoor-kitchen",
+    "fence-installation",
+    "deck-building",
+    "patio-installation"
+  ],
+  "seo": {
+    "primaryKeyword": "in-ground pool cost",
+    "secondaryKeywords": [
+      "how much does a pool cost",
+      "in-ground swimming pool cost",
+      "pool installation cost",
+      "cost to build a pool 2026",
+      "gunite pool cost",
+      "fiberglass pool cost",
+      "vinyl liner pool cost",
+      "pool cost per square foot"
+    ],
+    "metaDescription": "In-ground swimming pool installation costs $20,000-$80,000 for most homes in 2026. Compare vinyl, fiberglass, and gunite options with our detailed cost guide and calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - In-Ground Pool Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/swimming-pools-hot-tubs-and-saunas/build-a-swimming-pool/" },
+    { "name": "Fixr - In-Ground Pool Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/build-swimming-pool" },
+    { "name": "Angi - How Much Does a Pool Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-inground-pool.htm" },
+    { "name": "HomeGuide - In-Ground Pool Cost", "year": 2025, "url": "https://homeguide.com/costs/inground-pool-cost" }
+  ]
+}

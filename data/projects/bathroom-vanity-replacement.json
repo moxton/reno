@@ -1,0 +1,131 @@
+{
+  "slug": "bathroom-vanity-replacement",
+  "title": "Bathroom Vanity Replacement",
+  "category": "bathroom",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2000,
+    "typicalLow": 1000,
+    "typicalHigh": 3800,
+    "lowEnd": 400,
+    "highEnd": 8000,
+    "costPerUnit": { "low": 400, "high": 8000, "unit": "unit", "average": 2000 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 350,
+      "labor": 250,
+      "permits": 0,
+      "design": 0,
+      "total": 600,
+      "description": "Stock single vanity from a big-box store with integrated top, basic faucet, same-footprint swap"
+    },
+    "midRange": {
+      "materials": 1200,
+      "labor": 600,
+      "permits": 0,
+      "design": 200,
+      "total": 2000,
+      "description": "Semi-custom vanity with quartz or granite top, undermount sink, quality faucet, new mirror"
+    },
+    "premium": {
+      "materials": 3500,
+      "labor": 1200,
+      "permits": 0,
+      "design": 500,
+      "total": 5200,
+      "description": "Custom or designer vanity, stone countertop, vessel or undermount sink, wall-mounted faucet, custom mirror and lighting"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Vanity Size and Type",
+      "impact": "$200 - $5,000+",
+      "description": "A basic 24-inch stock vanity with an integrated top runs $200-$500. A 48-inch single-sink vanity with a separate countertop costs $500-$1,500. A 60-72 inch double vanity pushes $800-$3,000 for the cabinet alone. Custom or floating vanities from specialty manufacturers start at $2,000 and climb from there."
+    },
+    {
+      "title": "Countertop Material",
+      "impact": "$100 - $2,500",
+      "description": "Integrated cultured marble or laminate tops cost $100-$300. A granite or quartz top for a single vanity runs $300-$800. Custom stone tops for a double vanity cost $600-$1,500. Marble and specialty materials push $1,000-$2,500. The countertop often costs as much as the cabinet itself."
+    },
+    {
+      "title": "Plumbing Modifications",
+      "impact": "$0 - $1,500",
+      "description": "Swapping a vanity in the same footprint with compatible plumbing connections costs nothing extra for plumbing. Changing from a deck-mounted faucet to a wall-mounted one requires opening the wall - add $400-$800. Relocating supply and drain lines for a different vanity size adds $600-$1,500."
+    },
+    {
+      "title": "Single vs. Double Vanity",
+      "impact": "$500 - $3,000 difference",
+      "description": "Upgrading from a single to a double vanity roughly doubles your material cost and adds plumbing for the second sink. A double vanity also requires a wider countertop, a second faucet ($100-$500), and potentially a second mirror. Total add-on for the double conversion runs $1,000-$3,000 beyond the single-vanity price."
+    },
+    {
+      "title": "Installation Complexity",
+      "impact": "$150 - $800",
+      "description": "A basic drop-in vanity replacement takes a plumber 2-3 hours at $150-$350. A wall-mounted floating vanity requires securing a mounting bracket to wall studs and often adjusting drain height - expect $400-$600 in labor. Adding under-cabinet lighting or electrical outlets pushes installation to $500-$800."
+    }
+  ],
+  "materialOptions": [
+    { "material": "Stock Vanity with Integrated Top", "costPerUnit": "$200-$600 per unit", "pros": "Most affordable, quick install, one-piece top eliminates leak points", "cons": "Limited sizes and styles, lower-quality materials, generic look", "bestFor": "Budget updates, rental properties, guest bathrooms" },
+    { "material": "Semi-Custom Vanity with Quartz Top", "costPerUnit": "$800-$2,000 per unit", "pros": "Good quality construction, quartz is durable and stain-resistant, many style options", "cons": "Longer lead time than stock, higher cost, may require template for top", "bestFor": "Most homeowner renovations - best balance of quality and price" },
+    { "material": "Furniture-Style Vanity", "costPerUnit": "$1,000-$3,000 per unit", "pros": "Unique look, high-end feel, often includes legs for easier floor cleaning", "cons": "Less storage than box vanities, legs can complicate plumbing, limited sizes", "bestFor": "Powder rooms and bathrooms where style matters more than storage" },
+    { "material": "Wall-Mounted Floating Vanity", "costPerUnit": "$800-$3,500 per unit", "pros": "Modern clean look, makes small bathrooms feel larger, easy floor cleaning", "cons": "Must mount to studs, plumbing visible if not routed through wall, higher install cost", "bestFor": "Modern and contemporary bathroom designs" },
+    { "material": "Custom-Built Vanity", "costPerUnit": "$2,500-$8,000+ per unit", "pros": "Exact size and style for your space, premium materials, unique design", "cons": "Longest lead time (4-8 weeks), highest cost, requires skilled carpenter", "bestFor": "High-end master bathrooms and oddly-sized spaces" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher plumber hourly rates and material transport costs" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Premium labor market, stricter permit requirements in some cities" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates, competitive contractor market" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average installation costs" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Slightly above national average, rising with population growth" }
+  },
+  "timeline": {
+    "minimum": "3 hours",
+    "typical": "1 day",
+    "maximum": "3 days",
+    "phases": [
+      { "name": "Disconnect and remove old vanity", "duration": "1-2 hours" },
+      { "name": "Wall and floor repair (if needed)", "duration": "1-3 hours" },
+      { "name": "Install new vanity cabinet", "duration": "1-2 hours" },
+      { "name": "Install countertop and sink", "duration": "1-2 hours" },
+      { "name": "Connect plumbing and faucet", "duration": "1-2 hours" },
+      { "name": "Install mirror, lighting, accessories", "duration": "1-2 hours" },
+      { "name": "Caulk, test, and cleanup", "duration": "30 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "High",
+    "diySavings": "50-70%",
+    "diyTasks": ["Remove old vanity", "Install new stock vanity cabinet", "Connect faucet supply lines (compression fittings)", "Install new mirror", "Caulk around countertop and backsplash"],
+    "proOnlyTasks": ["Relocate plumbing supply or drain lines", "Install wall-mounted faucet (requires opening wall)", "Mount floating vanity to studs with proper blocking", "Custom stone countertop templating and installation", "Electrical work for new outlets or under-cabinet lighting"],
+    "diyRisks": "The most common DIY mistake is cross-threading supply line connections or failing to properly tighten drain fittings, which causes slow leaks under the vanity that go unnoticed for weeks. Water damage to the cabinet bottom and flooring below can cost $500-$2,000 to fix. Always test all connections with the water on for 15 minutes before closing up the cabinet."
+  },
+  "savingsTips": [
+    "Buy a stock vanity with an integrated top. One-piece vanities from Home Depot or Lowe's run $200-$600 and eliminate the separate countertop cost entirely.",
+    "Keep the same vanity footprint. Swapping a 36-inch vanity for another 36-inch avoids wall patching, floor repair, and plumbing modifications.",
+    "Shop clearance and floor models. Kitchen and bath showrooms sell display vanities at 30-50% off. These are typically in great condition with minor cosmetic wear.",
+    "Install it yourself if it is a simple swap. A basic vanity replacement with accessible plumbing is one of the more approachable bathroom DIY projects - you save $250-$600 in labor.",
+    "Refinish instead of replacing. If your vanity cabinet is solid wood in good condition, painting it ($50-$150 in materials) and adding a new countertop ($150-$500) costs far less than a full replacement.",
+    "Skip the custom stone top. A prefabricated quartz or cultured marble top for standard vanity sizes costs $150-$400 vs. $600-$1,500 for a custom-templated stone top.",
+    "Reuse your existing faucet if it is in good shape. A quality faucet that fits your new vanity saves $100-$400."
+  ],
+  "contractorQuestions": [
+    { "question": "Will you handle any wall or floor patching needed after removing the old vanity?", "why": "Old vanities often leave gaps in flooring or wall damage. Confirm this is included in the quote so you are not surprised by extra charges." },
+    { "question": "Do I need any plumbing modifications for the new vanity I have selected?", "why": "Different vanity sizes and sink configurations may need drain or supply line adjustments. This is the biggest variable cost, so get it confirmed upfront." },
+    { "question": "How will you handle the drain connection if the new vanity has a different cabinet depth?", "why": "A shallower vanity may require repositioning the P-trap or using an extension. A deeper one may need a shorter tailpiece. Both affect cost." },
+    { "question": "Is disposal of the old vanity included in your price?", "why": "Hauling away an old vanity and countertop can add $50-$150 if not included. Some contractors leave it for you to deal with." },
+    { "question": "Will you install the faucet, mirror, and lighting, or just the vanity?", "why": "Some plumbers only handle the vanity and plumbing connections. You may need a separate handyman or electrician for the mirror, lighting, and accessories." },
+    { "question": "What warranty do you offer on the plumbing connections?", "why": "Leaks from improperly connected supply lines or drains cause water damage. Make sure the installer stands behind their work for at least one year." }
+  ],
+  "relatedProjects": ["bathroom-remodel", "bathroom-tile-installation", "toilet-replacement", "interior-painting"],
+  "seo": {
+    "primaryKeyword": "bathroom vanity replacement cost",
+    "secondaryKeywords": ["cost to replace bathroom vanity", "new bathroom vanity cost", "vanity installation cost", "bathroom vanity and countertop cost", "vanity replacement cost 2026"],
+    "metaDescription": "How much does a bathroom vanity replacement cost in 2026? National average is $2,000. Compare stock vs. custom vanity prices, get a cost calculator, and learn what drives the price."
+  },
+  "sources": [
+    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/bathrooms/install-a-bathroom-vanity/" },
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/vanity-installation" },
+    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-bathroom-vanity.htm" },
+    { "name": "Bob Vila", "year": 2025, "url": "https://www.bobvila.com/articles/bathroom-vanity-installation-cost/" }
+  ]
+}

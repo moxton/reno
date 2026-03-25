@@ -1,0 +1,59 @@
+{
+  "slug": "toilet-replacement",
+  "title": "Toilet Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your toilet based on toilet type, installation complexity, and add-on options.",
+  "projectSlug": "toilet-replacement",
+  "category": "bathroom",
+  "nationalAverage": 500,
+  "sizeInput": {
+    "label": "Number of Toilets",
+    "unit": "unit",
+    "min": 1,
+    "max": 6,
+    "step": 1,
+    "default": 1
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 120,
+      "laborPerUnit": 150,
+      "permitBase": 0,
+      "description": "Basic two-piece round-front toilet, standard swap"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 300,
+      "laborPerUnit": 200,
+      "permitBase": 0,
+      "description": "Comfort-height elongated toilet, WaterSense, new supply line"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 1500,
+      "laborPerUnit": 500,
+      "permitBase": 0,
+      "description": "Smart toilet or wall-mounted with in-wall carrier"
+    }
+  },
+  "options": [
+    { "id": "flangeRepair", "label": "Flange Repair/Replacement", "default": false, "costByTier": { "budget": 75, "midRange": 150, "premium": 250 } },
+    { "id": "subfloorRepair", "label": "Subfloor Repair (Water Damage)", "default": false, "costByTier": { "budget": 200, "midRange": 400, "premium": 600 } },
+    { "id": "bidetSeat", "label": "Bidet Seat Attachment", "default": false, "costByTier": { "budget": 100, "midRange": 300, "premium": 600 } },
+    { "id": "softCloseSeat", "label": "Soft-Close Seat Upgrade", "default": false, "costByTier": { "budget": 25, "midRange": 50, "premium": 100 } },
+    { "id": "oldToiletDisposal", "label": "Old Toilet Hauling/Disposal", "default": true, "costByTier": { "budget": 25, "midRange": 50, "premium": 50 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "toilet replacement cost calculator",
+    "metaDescription": "Calculate your toilet replacement cost by type, installation needs, and add-ons. Instant 2026 estimates with regional pricing for all 50 states."
+  }
+}

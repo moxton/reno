@@ -1,0 +1,186 @@
+{
+  "slug": "french-drain",
+  "title": "French Drain Installation",
+  "category": "basement",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 5000,
+    "typicalLow": 2500,
+    "typicalHigh": 10000,
+    "lowEnd": 1500,
+    "highEnd": 15000,
+    "costPerUnit": { "low": 25, "high": 75, "unit": "linear ft", "average": 45 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 800,
+      "labor": 1500,
+      "permits": 200,
+      "design": 0,
+      "total": 2500,
+      "description": "Exterior French drain, shallow trench (18 inches), corrugated perforated pipe, landscape fabric, gravel backfill, about 50 linear feet"
+    },
+    "midRange": {
+      "materials": 1600,
+      "labor": 3000,
+      "permits": 250,
+      "design": 250,
+      "total": 5100,
+      "description": "Interior perimeter French drain, 100 linear feet along basement walls, rigid PVC pipe, connected to sump pit, concrete cutting and patching"
+    },
+    "premium": {
+      "materials": 3500,
+      "labor": 5500,
+      "permits": 400,
+      "design": 600,
+      "total": 10000,
+      "description": "Full interior and exterior French drain system, 150+ linear feet, commercial-grade drainage board, multiple drain connections, sump pump integration, full waterproofing membrane"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Interior vs Exterior Installation",
+      "impact": "$1,000 - $5,000",
+      "description": "Interior French drains typically cost $40-$75 per linear foot because they require cutting through a concrete basement floor, excavating underneath, and patching the concrete afterward. Exterior French drains run $25-$50 per linear foot and involve trenching along the foundation, which requires heavy equipment and landscaping restoration. Interior drains are more common for existing homes because exterior excavation is more disruptive."
+    },
+    {
+      "title": "Length of Drain Run",
+      "impact": "$1,000 - $6,000",
+      "description": "A short 30-foot drain along one wall might cost $1,200-$2,500. A full perimeter drain (100-150 linear feet for an average basement) runs $4,000-$10,000. Exterior drains around the full foundation perimeter of a 1,500 sq ft home can push $6,000-$12,000 when you factor in equipment, excavation depth, and landscape repair."
+    },
+    {
+      "title": "Depth of Excavation",
+      "impact": "$500 - $2,000",
+      "description": "Exterior French drains need to be deep enough to intercept groundwater before it reaches the foundation. Typical depth is 18-24 inches for yard drainage but 4-6 feet for foundation drainage. Every additional foot of depth increases labor and equipment costs significantly. Rocky soil or high water tables add further complications."
+    },
+    {
+      "title": "Sump Pump Connection",
+      "impact": "$600 - $2,500",
+      "description": "Interior French drains need somewhere to send the collected water. If you already have a sump pump and pit, connection costs $200-$400. If you need a new sump pit and pump, add $600-$1,500 to the project. Most interior French drain installations include sump pump setup since the drain is useless without a way to remove the collected water."
+    },
+    {
+      "title": "Soil Conditions and Access",
+      "impact": "$500 - $3,000",
+      "description": "Clay soil is harder to excavate and drains poorly, which may require wider trenches and more gravel. Rocky soil requires specialized equipment. Tight access around the home's exterior can prevent heavy equipment from reaching work areas, forcing more hand digging. Interior drains in basements with finished floors require demolition and restoration of flooring."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Corrugated Perforated Pipe",
+      "costPerUnit": "$0.50 - $1.50 per linear foot",
+      "pros": "Cheapest option, flexible and easy to install, widely available, good for simple exterior drains",
+      "cons": "Can crush under weight, corrugations trap sediment over time, shorter lifespan (10-15 years)",
+      "bestFor": "Budget exterior yard drainage projects, temporary solutions, shallow installations"
+    },
+    {
+      "material": "Rigid PVC Perforated Pipe",
+      "costPerUnit": "$1.50 - $4 per linear foot",
+      "pros": "Very durable (50+ year lifespan), smooth interior resists clogging, handles high water volume, maintains shape",
+      "cons": "More expensive, requires fittings at every turn, rigid so it can't bend around obstacles",
+      "bestFor": "Interior basement French drains, deep exterior foundation drains, permanent installations"
+    },
+    {
+      "material": "Drain Tile with Filter Sock",
+      "costPerUnit": "$1 - $3 per linear foot",
+      "pros": "Built-in filter prevents sediment infiltration, reduces maintenance, good lifespan",
+      "cons": "Filter sock can clog in very silty soil, moderate cost, not as strong as rigid PVC",
+      "bestFor": "Exterior drains in sandy or loamy soil, mid-budget projects where low maintenance matters"
+    },
+    {
+      "material": "EZflow Drainage Bundle",
+      "costPerUnit": "$3 - $6 per linear foot",
+      "pros": "Pipe pre-wrapped in gravel aggregate, no separate gravel needed, faster installation, consistent drainage",
+      "cons": "More expensive per foot, limited sizes, heavier to handle, not available everywhere",
+      "bestFor": "DIY exterior projects, tight trenches where gravel is hard to place, projects where speed matters"
+    },
+    {
+      "material": "Commercial Drainage Board (Dimple Mat)",
+      "costPerUnit": "$2 - $5 per sq ft of wall coverage",
+      "pros": "Creates air gap against foundation wall, channels water down to drain, protects waterproofing membrane",
+      "cons": "Only used with interior or exterior wall drainage, adds significant cost, requires professional installation",
+      "bestFor": "Comprehensive interior waterproofing systems, used alongside French drains for maximum protection"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High water tables and older homes with stone foundations create strong demand. Rocky soil in New England adds excavation costs." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High labor rates drive costs up. Hillside properties in California often need extensive exterior drainage systems." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs but high water tables and clay soil are common, sometimes requiring more extensive drainage solutions." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Very high demand for French drains due to spring snowmelt and flat terrain that creates poor natural drainage. Competitive contractor pricing." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Snowmelt creates seasonal drainage issues. Rocky soil in mountain communities can increase excavation costs." }
+  },
+  "timeline": {
+    "minimum": "1-2 days",
+    "typical": "2-4 days",
+    "maximum": "5-7 days",
+    "phases": [
+      { "name": "Assessment, design, and permitting", "duration": "3-7 days" },
+      { "name": "Concrete cutting (interior) or excavation setup (exterior)", "duration": "4-8 hours" },
+      { "name": "Trench excavation", "duration": "1-2 days" },
+      { "name": "Pipe and gravel installation", "duration": "1 day" },
+      { "name": "Sump pit and pump connection (if applicable)", "duration": "3-5 hours" },
+      { "name": "Backfill, concrete patching, or landscape restoration", "duration": "1 day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Low to Moderate - Simple exterior yard drains at shallow depths are a reasonable DIY project for physically fit homeowners. Interior basement French drains require concrete cutting, significant excavation, and plumbing knowledge that's beyond most DIYers. Foundation-level exterior drains involve deep excavation that's both dangerous and requires heavy equipment.",
+    "diySavings": "40-60% for exterior yard drains, not recommended for interior foundation drains",
+    "diyTasks": [
+      "Shallow exterior yard drainage (18-24 inch depth)",
+      "Dig trenches in soft soil by hand for short runs (under 40 feet)",
+      "Lay pipe, landscape fabric, and gravel in excavated trenches",
+      "Connect discharge to existing drainage or daylight outlet",
+      "Restore landscaping after installation"
+    ],
+    "proOnlyTasks": [
+      "Interior basement French drain with concrete cutting",
+      "Deep exterior foundation drainage (4-6 feet deep)",
+      "Sump pump pit installation and connection",
+      "Waterproofing membrane application on foundation walls",
+      "Any work near utility lines or structural foundations"
+    ],
+    "diyRisks": "The biggest risk with DIY French drains is improper slope. The drain must maintain a minimum slope of 1% (1 inch per 8 feet) to function. Flat or back-graded sections create standing water in the pipe and eventual failure. Another serious risk is digging near buried utilities. Always call 811 before any excavation. For interior drains, improper concrete cutting can damage the foundation footing."
+  },
+  "savingsTips": [
+    "Get quotes for both interior and exterior solutions. Interior drains are often less expensive because they don't require heavy excavation equipment or landscape restoration.",
+    "If you only have water issues on one wall, a partial drain (30-50 linear feet) costs far less than a full perimeter system and may solve your problem entirely.",
+    "Combine your French drain with sump pump installation as one project. Bundling saves $200-$500 versus hiring separate contractors.",
+    "Schedule the work during dry months (late summer or fall) when contractors are less busy and the water table is lowest, making excavation easier.",
+    "For exterior drains, DIY the landscape restoration yourself. Regrading, reseeding, and replanting after the contractor finishes the drain work saves $300-$800.",
+    "Ask about rigid PVC pipe instead of corrugated. It costs slightly more upfront but lasts 3-4 times longer and resists clogging, saving you from expensive redo work.",
+    "Check with your city about stormwater rebates. Some municipalities offer $500-$2,000 in rebates for drainage improvements that reduce runoff into public systems.",
+    "Get the drain cleaned every 3-5 years ($150-$300) rather than waiting until it clogs and needs replacement ($3,000-$8,000)."
+  ],
+  "contractorQuestions": [
+    { "question": "Do you recommend an interior or exterior French drain for my situation, and why?", "why": "The right approach depends on where water is entering. A contractor who evaluates your specific water intrusion pattern before recommending a solution is more trustworthy than one who defaults to the same approach for every home." },
+    { "question": "What pipe material will you use, and what's the expected lifespan?", "why": "Corrugated pipe is cheaper but clogs more easily and lasts 10-15 years. Rigid PVC costs more but lasts 50+ years. Knowing what you're getting helps you assess the true long-term value." },
+    { "question": "How will you ensure proper slope throughout the drain run?", "why": "The drain must slope at least 1% toward the collection point. A professional should use a laser level to verify grade. Improper slope is the number one reason French drains fail." },
+    { "question": "Is a sump pump included, and what happens to the collected water?", "why": "Water needs somewhere to go. If the drain can't gravity-flow to daylight, you need a sump pump. Make sure the quote addresses the full water removal path, not just the drain pipe." },
+    { "question": "What warranty do you offer, and does it cover drain failure?", "why": "A quality French drain should last 15-30 years. Look for at least a 5-year warranty on workmanship. Some waterproofing companies offer transferable lifetime warranties, which adds real value at resale." },
+    { "question": "Do I need permits for this work, and who handles that?", "why": "Many municipalities require permits for drainage work, especially if it connects to storm sewers or affects neighboring properties. The contractor should handle permits and ensure the installation meets local codes." },
+    { "question": "Will this solve my water problem completely, or is additional waterproofing needed?", "why": "French drains address water at the floor level, but wall seepage may require additional waterproofing treatments. An honest contractor will tell you upfront if the drain alone won't fully solve your issue." }
+  ],
+  "relatedProjects": [
+    "sump-pump",
+    "basement-finishing",
+    "basement-waterproofing"
+  ],
+  "seo": {
+    "primaryKeyword": "french drain installation cost",
+    "secondaryKeywords": [
+      "how much does a french drain cost",
+      "interior french drain cost",
+      "exterior french drain cost",
+      "french drain cost per linear foot",
+      "basement french drain installation",
+      "french drain cost 2026",
+      "french drain vs sump pump cost"
+    ],
+    "metaDescription": "French drain installation costs $2,500-$10,000 for most homes in 2026. Compare interior vs exterior options, materials, and labor costs with our detailed guide and calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - French Drain Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/landscape/install-a-french-drain/" },
+    { "name": "Fixr - French Drain Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/french-drain" },
+    { "name": "Angi - How Much Does a French Drain Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-french-drain-cost.htm" },
+    { "name": "HomeGuide - French Drain Cost", "year": 2025, "url": "https://homeguide.com/costs/french-drain-cost" }
+  ]
+}

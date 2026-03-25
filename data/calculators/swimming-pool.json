@@ -1,0 +1,60 @@
+{
+  "slug": "swimming-pool",
+  "title": "In-Ground Swimming Pool Cost Calculator",
+  "description": "Estimate the cost of an in-ground swimming pool based on size, type, features, and your location.",
+  "projectSlug": "swimming-pool",
+  "category": "outdoor-living",
+  "nationalAverage": 45000,
+  "sizeInput": {
+    "label": "Pool Surface Area",
+    "unit": "sq ft",
+    "min": 150,
+    "max": 1000,
+    "step": 25,
+    "default": 400
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 38,
+      "laborPerUnit": 28,
+      "permitBase": 1000,
+      "description": "Vinyl-liner pool, rectangular, basic filtration, brushed concrete deck"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 58,
+      "laborPerUnit": 45,
+      "permitBase": 2000,
+      "description": "Fiberglass or basic gunite, freeform shape, stamped concrete deck, LED lighting"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 78,
+      "laborPerUnit": 60,
+      "permitBase": 3500,
+      "description": "Custom gunite, vanishing edge, natural stone deck, smart controls"
+    }
+  },
+  "options": [
+    { "id": "heater", "label": "Pool Heater (gas or heat pump)", "default": true, "costByTier": { "budget": 2000, "midRange": 3500, "premium": 5000 } },
+    { "id": "autoCover", "label": "Automatic Safety Cover", "default": false, "costByTier": { "budget": 5000, "midRange": 8000, "premium": 12000 } },
+    { "id": "spa", "label": "Attached Spa/Hot Tub", "default": false, "costByTier": { "budget": 8000, "midRange": 12000, "premium": 18000 } },
+    { "id": "waterFeatures", "label": "Water Features (waterfall, bubblers)", "default": false, "costByTier": { "budget": 1500, "midRange": 3000, "premium": 6000 } },
+    { "id": "saltSystem", "label": "Salt Chlorine Generator", "default": false, "costByTier": { "budget": 1000, "midRange": 1500, "premium": 2500 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92,
+    "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "swimming pool cost calculator",
+    "metaDescription": "Calculate your in-ground swimming pool cost by size, type (vinyl, fiberglass, gunite), features, and location. Get instant budget, mid-range, and premium estimates."
+  }
+}

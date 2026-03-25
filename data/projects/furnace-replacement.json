@@ -1,0 +1,188 @@
+{
+  "slug": "furnace-replacement",
+  "title": "Furnace Replacement",
+  "category": "hvac-energy",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 4500,
+    "typicalLow": 2500,
+    "typicalHigh": 7500,
+    "lowEnd": 2000,
+    "highEnd": 10000,
+    "costPerUnit": { "low": 1.50, "high": 4.50, "unit": "sq ft of home", "average": 2.75 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 1400,
+      "labor": 1200,
+      "permits": 200,
+      "design": 0,
+      "total": 2800,
+      "description": "80% AFUE single-stage gas furnace, basic brand (Goodman or Amana), direct replacement with existing ductwork and venting"
+    },
+    "midRange": {
+      "materials": 2200,
+      "labor": 1700,
+      "permits": 300,
+      "design": 300,
+      "total": 4500,
+      "description": "90-95% AFUE two-stage gas furnace, mid-tier brand (Rheem, Trane, or Carrier), standard installation with smart thermostat"
+    },
+    "premium": {
+      "materials": 4000,
+      "labor": 2300,
+      "permits": 400,
+      "design": 800,
+      "total": 7500,
+      "description": "97-98% AFUE modulating variable-speed gas furnace, premium brand (Lennox or American Standard), with zoning controls and whole-house humidifier"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Furnace Efficiency (AFUE Rating)",
+      "impact": "$800 - $3,000",
+      "description": "AFUE (Annual Fuel Utilization Efficiency) measures how much fuel becomes heat. An 80% AFUE unit wastes 20 cents of every dollar. A 95% AFUE furnace costs $800-$1,500 more upfront but saves $200-$400 per year on gas bills. Top-tier 98% AFUE modulating furnaces add another $1,000-$2,000 but offer the best long-term savings."
+    },
+    {
+      "title": "Furnace Size (BTU Output)",
+      "impact": "$500 - $2,000",
+      "description": "Furnaces are sized by BTU output. A 60,000 BTU unit heats 1,200-1,500 sq ft and costs $1,200-$2,500 for the equipment. An 80,000 BTU unit covers 1,600-2,000 sq ft at $1,500-$3,200. Large 120,000+ BTU units for 2,500+ sq ft homes run $2,200-$4,500. Proper sizing through a Manual J calculation prevents short cycling and cold spots."
+    },
+    {
+      "title": "Venting Changes",
+      "impact": "$300 - $1,500",
+      "description": "An 80% AFUE furnace uses a standard metal chimney flue. Upgrading to a 90%+ high-efficiency unit requires PVC venting through a sidewall, which costs $300-$800 for the venting work. If your chimney flue needs to be abandoned and capped, add another $200-$500."
+    },
+    {
+      "title": "Ductwork Condition",
+      "impact": "$500 - $3,000",
+      "description": "If your existing ductwork is undersized, leaky, or damaged, the new furnace will not perform efficiently. Duct sealing runs $500-$1,200. Partial duct replacement costs $1,000-$2,500. A complete ductwork overhaul for a 2,000 sq ft home runs $3,000-$7,000."
+    },
+    {
+      "title": "Fuel Type Conversion",
+      "impact": "$1,000 - $4,000",
+      "description": "Switching from oil to gas requires a new gas line ($500-$2,000) plus the furnace swap. Converting from electric to gas involves gas line installation and new venting. Switching from gas to electric (heat pump) may need electrical panel upgrades. Staying with your current fuel type is always the cheapest path."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Single-Stage Gas Furnace (80% AFUE)",
+      "costPerUnit": "$2,000 - $3,500 installed",
+      "pros": "Lowest upfront cost, simple and reliable, fewer parts to fail",
+      "cons": "Highest operating costs, louder operation, less even heating",
+      "bestFor": "Mild climates, budget-focused homeowners, homes with high ceilings or poor insulation where efficiency gains are minimal"
+    },
+    {
+      "material": "Two-Stage Gas Furnace (90-96% AFUE)",
+      "costPerUnit": "$3,500 - $5,500 installed",
+      "pros": "Good balance of cost and efficiency, quieter on low stage, more even temperatures",
+      "cons": "Higher upfront cost, requires PVC venting",
+      "bestFor": "Most homeowners in cold climates, the sweet spot of cost vs. performance"
+    },
+    {
+      "material": "Modulating Gas Furnace (97-98% AFUE)",
+      "costPerUnit": "$5,500 - $8,500 installed",
+      "pros": "Lowest operating costs, whisper-quiet, ultra-even heating, best humidity control",
+      "cons": "Highest upfront cost, more complex repairs, longer payback period",
+      "bestFor": "Cold climates with high heating bills, homeowners planning to stay 10+ years"
+    },
+    {
+      "material": "Oil Furnace (83-87% AFUE)",
+      "costPerUnit": "$3,000 - $6,000 installed",
+      "pros": "Produces very hot air, works in areas without natural gas",
+      "cons": "Higher fuel costs, requires oil storage tank, more maintenance",
+      "bestFor": "Rural areas without natural gas service, Northeast homes with existing oil infrastructure"
+    },
+    {
+      "material": "Electric Furnace",
+      "costPerUnit": "$1,500 - $3,500 installed",
+      "pros": "Lowest upfront cost, no combustion or venting, 100% efficient at point of use",
+      "cons": "Very high operating costs in most areas, slow to heat",
+      "bestFor": "Mild climates with low heating needs, areas with very cheap electricity, supplemental heating"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High labor rates and strict code requirements. Oil-to-gas conversions are common and add cost." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California and Washington pushing heat pump mandates; gas furnace installs face additional regulatory costs" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower heating demand means smaller units and simpler installs. Labor rates are below average." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive HVAC market keeps prices down despite high heating demand. Gas is readily available." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Altitude affects combustion ratings - units may need high-altitude kits adding $100-$300" }
+  },
+  "timeline": {
+    "minimum": "4-6 hours",
+    "typical": "1 day",
+    "maximum": "2-3 days",
+    "phases": [
+      { "name": "Old furnace disconnection and removal", "duration": "1-2 hours" },
+      { "name": "New unit positioning and connections", "duration": "2-4 hours" },
+      { "name": "Venting and ductwork modifications", "duration": "1-4 hours" },
+      { "name": "Testing, calibration, and thermostat setup", "duration": "1-2 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Not recommended - furnace replacement involves gas lines, electrical wiring, and combustion venting that require licensed professionals in most jurisdictions",
+    "diySavings": "25-35% ($800-$2,000)",
+    "diyTasks": [
+      "Researching and purchasing the furnace unit directly",
+      "Replacing air filters and basic thermostat swaps",
+      "Cleaning and inspecting visible ductwork",
+      "Removing the old furnace after professional disconnection"
+    ],
+    "proOnlyTasks": [
+      "Gas line connections and leak testing",
+      "Electrical wiring and control board hookups",
+      "Venting installation (both standard and high-efficiency PVC)",
+      "Load calculations and system sizing",
+      "Permit pulling, inspections, and code compliance",
+      "Refrigerant line work if combined with AC"
+    ],
+    "diyRisks": "Gas furnace installation errors can cause carbon monoxide poisoning, gas leaks, house fires, and explosions. Most jurisdictions require licensed HVAC technicians and permits. DIY installation voids virtually all manufacturer warranties and may void your homeowner's insurance."
+  },
+  "savingsTips": [
+    "Get quotes in spring or early fall when HVAC companies are less busy - many offer 10-20% off-season discounts",
+    "Look for manufacturer rebates, which typically run $200-$800 and stack with utility rebates",
+    "Check your utility company for efficiency rebates - many offer $300-$1,000 for high-AFUE units",
+    "Consider buying the furnace unit directly and hiring an HVAC company for install only to save 15-25%",
+    "Choose a two-stage 92-95% AFUE unit for the best cost-to-savings ratio in cold climates",
+    "Bundle with AC replacement - HVAC companies often discount 10-15% when replacing both systems",
+    "Ask about financing - many manufacturers offer 0% APR for 12-36 months through dealer programs",
+    "Skip the extended warranty if your installer offers a workmanship guarantee - manufacturer warranties cover 10-20 years on heat exchangers"
+  ],
+  "contractorQuestions": [
+    { "question": "What size furnace does my home need, and how did you determine that?", "why": "A proper Manual J load calculation accounts for your home's square footage, insulation, windows, and climate. A contractor who just matches your old furnace size may over- or under-size the replacement." },
+    { "question": "What AFUE rating do you recommend, and what is the payback period?", "why": "The most efficient furnace is not always the best value. A good contractor will calculate your estimated annual savings and show you the payback timeline." },
+    { "question": "Will my existing ductwork and venting work with the new unit?", "why": "Upgrading from 80% to 90%+ AFUE requires PVC venting instead of a chimney flue. Undersized ductwork reduces efficiency and comfort regardless of furnace quality." },
+    { "question": "Is the quote all-inclusive - unit, labor, materials, permits, disposal, thermostat?", "why": "HVAC quotes vary wildly in what they include. Some bundle the thermostat and permits; others charge separately for everything." },
+    { "question": "What brand and model are you quoting, and what is the warranty?", "why": "Generic 'high-efficiency furnace' quotes make it impossible to compare. Get the exact model number so you can verify specifications and pricing." },
+    { "question": "Are you licensed and insured, and will you pull the permit?", "why": "Unlicensed HVAC work is illegal in most states. Unpermitted installations can cause problems at home sale and may void insurance coverage." },
+    { "question": "Do you offer a workmanship warranty beyond the manufacturer warranty?", "why": "Manufacturer warranties cover the equipment but not the installation labor. A 1-2 year workmanship guarantee protects you from installation defects." }
+  ],
+  "relatedProjects": [
+    "heat-pump-installation",
+    "central-ac-installation",
+    "ductless-mini-split",
+    "attic-insulation",
+    "smart-thermostat-installation"
+  ],
+  "seo": {
+    "primaryKeyword": "furnace replacement cost",
+    "secondaryKeywords": [
+      "new furnace cost",
+      "how much does a furnace cost",
+      "furnace installation cost",
+      "cost to replace furnace",
+      "gas furnace replacement cost 2026",
+      "high efficiency furnace cost",
+      "furnace replacement cost by size",
+      "HVAC furnace installation price"
+    ],
+    "metaDescription": "Furnace replacement costs $2,500-$7,500 in 2026, with a national average of $4,500. See detailed breakdowns by efficiency, size, and brand plus use our interactive calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Furnace Replacement Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/heating-and-cooling/install-a-furnace/" },
+    { "name": "Fixr - Furnace Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/furnace-installation" },
+    { "name": "Angi - How Much Does a New Furnace Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-new-furnace-cost.htm" },
+    { "name": "HVAC.com - Furnace Cost Guide", "year": 2025, "url": "https://www.hvac.com/heating/furnaces/cost/" },
+    { "name": "U.S. Department of Energy - Furnaces and Boilers", "year": 2025, "url": "https://www.energy.gov/energysaver/furnaces-and-boilers" }
+  ]
+}

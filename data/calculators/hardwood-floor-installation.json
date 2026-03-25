@@ -1,0 +1,59 @@
+{
+  "slug": "hardwood-floor-installation",
+  "title": "Hardwood Floor Installation Cost Calculator",
+  "description": "Estimate the cost of installing hardwood floors based on area, wood type, and finishing options.",
+  "projectSlug": "hardwood-floor-installation",
+  "category": "flooring",
+  "nationalAverage": 6500,
+  "sizeInput": {
+    "label": "Floor Area",
+    "unit": "sq ft",
+    "min": 100,
+    "max": 3000,
+    "step": 50,
+    "default": 500
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 4.00,
+      "laborPerUnit": 3.50,
+      "permitBase": 0,
+      "description": "Engineered hardwood, standard oak, click-lock installation"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 7.00,
+      "laborPerUnit": 5.50,
+      "permitBase": 0,
+      "description": "Solid oak or hickory, nail-down install, site-finished"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 14.00,
+      "laborPerUnit": 8.00,
+      "permitBase": 0,
+      "description": "Wide-plank walnut or exotic species, custom stain, hand-scraped"
+    }
+  },
+  "options": [
+    { "id": "subfloorPrep", "label": "Subfloor Leveling/Prep", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 1200 } },
+    { "id": "oldFloorRemoval", "label": "Remove Old Flooring", "default": true, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } },
+    { "id": "staining", "label": "Custom Stain Color", "default": false, "costByTier": { "budget": 0, "midRange": 600, "premium": 1200 } },
+    { "id": "baseboards", "label": "New Baseboards", "default": false, "costByTier": { "budget": 300, "midRange": 600, "premium": 1200 } },
+    { "id": "stairs", "label": "Staircase (13 steps)", "default": false, "costByTier": { "budget": 800, "midRange": 1500, "premium": 3000 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "hardwood floor installation cost calculator",
+    "metaDescription": "Calculate your hardwood floor installation cost based on area, wood type, and options. Get instant 2026 estimates with regional pricing."
+  }
+}

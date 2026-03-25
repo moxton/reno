@@ -1,0 +1,51 @@
+{
+  "slug": "attic-insulation",
+  "title": "Attic Insulation Cost Calculator",
+  "description": "Estimate the cost of insulating your attic based on size, material type, and target R-value.",
+  "projectSlug": "attic-insulation",
+  "category": "hvac-energy",
+  "nationalAverage": 2000,
+  "sizeInput": {
+    "label": "Attic Size",
+    "unit": "sq ft",
+    "min": 200,
+    "max": 3000,
+    "step": 50,
+    "default": 1000
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 0.55,
+      "laborPerUnit": 0.30,
+      "permitBase": 0,
+      "description": "Blown-in fiberglass top-up to R-38, basic air sealing"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 0.90,
+      "laborPerUnit": 0.60,
+      "permitBase": 50,
+      "description": "Blown-in cellulose to R-49, comprehensive air sealing"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 1.60,
+      "laborPerUnit": 0.90,
+      "permitBase": 100,
+      "description": "Spray foam on roof deck R-38+, full air sealing, ventilation work"
+    }
+  },
+  "options": [
+    { "id": "airSealing", "label": "Comprehensive Air Sealing", "default": true, "costByTier": { "budget": 200, "midRange": 400, "premium": 0 } },
+    { "id": "oldRemoval", "label": "Remove Existing Insulation First", "default": false, "costByTier": { "budget": 800, "midRange": 1000, "premium": 1200 } },
+    { "id": "baffles", "label": "Ventilation Baffles", "default": true, "costByTier": { "budget": 100, "midRange": 150, "premium": 0 } },
+    { "id": "atticHatch", "label": "Insulated Attic Hatch Cover", "default": false, "costByTier": { "budget": 50, "midRange": 75, "premium": 100 } },
+    { "id": "blowerDoor", "label": "Blower Door Test (before and after)", "default": false, "costByTier": { "budget": 200, "midRange": 300, "premium": 400 } }
+  ],
+  "regionalMultipliers": { "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05 },
+  "seo": {
+    "primaryKeyword": "attic insulation cost calculator",
+    "metaDescription": "Calculate your attic insulation cost based on attic size, material type, and your location. Get an instant estimate with our free interactive calculator."
+  }
+}

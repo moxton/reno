@@ -1,0 +1,134 @@
+{
+  "slug": "central-ac-installation",
+  "title": "Central AC Installation",
+  "category": "hvac-energy",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 7500,
+    "typicalLow": 4500,
+    "typicalHigh": 12000,
+    "lowEnd": 3750,
+    "highEnd": 18000,
+    "costPerUnit": { "low": 4500, "high": 14000, "unit": "ton", "average": 7500 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 2800,
+      "labor": 1800,
+      "permits": 200,
+      "design": 0,
+      "total": 5000,
+      "description": "14-15 SEER economy brand (Goodman or Amana), 2.5-3 ton unit, replacement into existing ductwork, standard thermostat"
+    },
+    "midRange": {
+      "materials": 4200,
+      "labor": 2500,
+      "permits": 350,
+      "design": 0,
+      "total": 7500,
+      "description": "16-18 SEER mid-tier brand (Rheem, Trane, or Carrier), 3 ton unit, existing ductwork, programmable or smart thermostat"
+    },
+    "premium": {
+      "materials": 7500,
+      "labor": 3000,
+      "permits": 500,
+      "design": 1000,
+      "total": 12000,
+      "description": "19-21 SEER variable-speed unit, top brand (Lennox or American Standard), 3-4 ton, existing ductwork, smart thermostat, enhanced air filtration"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Unit Size (Tonnage)",
+      "impact": "$3,650 - $14,000",
+      "description": "AC units are sized by tonnage, and the right size depends on your home's square footage, insulation, climate zone, and window exposure. A 1.5-ton unit (for 600-1,000 sq ft) runs $3,650-$6,250 installed. A 3-ton unit (1,500-2,100 sq ft) costs $5,500-$9,500. A 5-ton unit (2,500-3,500 sq ft) pushes $7,800-$14,000. Oversizing wastes energy and money; undersizing leaves you hot. A proper Manual J load calculation is critical."
+    },
+    {
+      "title": "SEER Rating (Efficiency)",
+      "impact": "$1,000 - $6,000",
+      "description": "SEER (Seasonal Energy Efficiency Ratio) measures cooling efficiency. The federal minimum is 14 SEER in northern states and 15 SEER in southern states as of 2023. A 14 SEER unit costs $1,725-$3,600 for the equipment alone. Jumping to 16 SEER adds $1,150-$2,400. An 18 SEER unit runs $4,100-$7,800, and top-tier 20 SEER variable-speed units push $5,750-$9,600. Higher SEER saves on monthly bills, but the payback period is typically 10-15 years."
+    },
+    {
+      "title": "Ductwork Condition",
+      "impact": "$0 - $9,500",
+      "description": "If your existing ductwork is in good shape and properly sized, replacement cost is zero for this component. Duct sealing and minor repairs run $500-$2,000. Full ductwork replacement or a new duct system installation costs $3,600-$9,500 depending on home size and accessibility. New construction or homes without existing ducts will always be at the high end."
+    },
+    {
+      "title": "Brand",
+      "impact": "$500 - $3,000",
+      "description": "Economy brands like Goodman and Amana are budget-friendly and reliable. Mid-tier brands like Rheem, Ruud, and York offer better build quality and warranties. Premium brands like Carrier, Trane, Lennox, and American Standard command the highest prices but come with the best warranties and dealer networks. The brand premium on a 3-ton unit ranges from $500-$3,000."
+    },
+    {
+      "title": "Home Size and Complexity",
+      "impact": "Varies significantly",
+      "description": "Multi-story homes often need zoned systems or multiple units, which can double the cost. Older homes with limited attic or crawl space access increase labor time. Homes requiring electrical panel upgrades to support a new AC system add $1,000-$3,000. The further the condenser unit needs to be from the air handler, the more refrigerant line and labor is required."
+    }
+  ],
+  "materialOptions": [
+    { "material": "14 SEER Unit", "costPerUnit": "$1,725-$3,600 (equipment only)", "pros": "Lowest upfront cost, meets minimum federal standard, reliable performance", "cons": "Highest operating costs, single-stage only, louder operation", "bestFor": "Budget replacements, mild climates, homes you plan to sell soon" },
+    { "material": "16 SEER Unit", "costPerUnit": "$2,875-$6,000 (equipment only)", "pros": "Good efficiency gains over 14 SEER, reasonable payback, quieter operation", "cons": "Mid-range pricing, still single or two-stage", "bestFor": "Best value for most homeowners - sweet spot of cost and efficiency" },
+    { "material": "18 SEER Unit", "costPerUnit": "$4,100-$7,800 (equipment only)", "pros": "Significantly lower utility bills, two-stage or variable-speed, very quiet", "cons": "Higher upfront cost, longer payback period, more complex repairs", "bestFor": "Hot climates with heavy AC usage, homeowners planning to stay long-term" },
+    { "material": "20+ SEER Unit", "costPerUnit": "$5,750-$9,600 (equipment only)", "pros": "Maximum efficiency, variable-speed for precise comfort, whisper-quiet, may qualify for tax credits", "cons": "Highest upfront cost, 10-15 year payback, expensive repairs if needed", "bestFor": "Premium installations, very hot climates, homeowners who prioritize comfort and efficiency" }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, shorter cooling season reduces urgency but not price" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, strict energy codes require higher SEER minimums in some areas" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "High competition among HVAC contractors keeps prices lower, but high demand in summer" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Moderate labor costs, competitive HVAC market" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Dry climate reduces tonnage needs, but labor costs are rising in growing metros" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-2 days",
+    "maximum": "10 days",
+    "phases": [
+      { "name": "Assessment and load calculation", "duration": "1-2 hours" },
+      { "name": "Equipment ordering (if not in stock)", "duration": "3-10 days" },
+      { "name": "Remove old unit and disconnect", "duration": "2-4 hours" },
+      { "name": "Install new condenser and air handler/evaporator coil", "duration": "4-6 hours" },
+      { "name": "Refrigerant line and electrical connections", "duration": "2-3 hours" },
+      { "name": "Thermostat installation and system testing", "duration": "1-2 hours" },
+      { "name": "Ductwork modifications (if needed)", "duration": "1-5 days" },
+      { "name": "Final inspection and permit sign-off", "duration": "1-3 days" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Not Feasible",
+    "diySavings": "0%",
+    "diyTasks": ["Clearing area around existing condenser unit", "Replacing air filters", "Installing a smart thermostat (simple swap)", "Basic condenser pad leveling"],
+    "proOnlyTasks": ["Refrigerant handling (EPA Section 608 certification required)", "Electrical connections to panel and disconnect", "Refrigerant line brazing and pressure testing", "System commissioning and charge verification", "Load calculation and equipment sizing", "Ductwork modification or installation", "Permit acquisition and inspection scheduling"],
+    "diyRisks": "Federal law requires EPA certification to purchase or handle refrigerants. Improper installation voids the manufacturer warranty (typically 5-10 years on parts and compressor). Incorrect refrigerant charge reduces efficiency by 20-30% and can destroy the compressor. Electrical errors create fire hazards. This is not a DIY project."
+  },
+  "savingsTips": [
+    "Get quotes in fall or spring. HVAC companies are slammed in summer heat waves and winter cold snaps. Off-season quotes can be 10-20% lower, and you'll have more scheduling flexibility.",
+    "Choose 16 SEER over 20 SEER for most situations. The payback period on ultra-high-efficiency units is 10-15 years. A 16 SEER unit delivers meaningful savings over 14 SEER with a much shorter payback of 3-5 years.",
+    "Bundle your AC and furnace replacement. If your furnace is over 15 years old, replacing both at the same time saves $500-$1,500 on labor since the technician is already doing the work.",
+    "Check utility rebates and federal tax credits. The Inflation Reduction Act offers tax credits up to $2,000 for high-efficiency heat pumps and AC systems. Many utilities offer $200-$800 rebates on top of that.",
+    "Maintain your existing ductwork if it's under 15 years old and in decent condition. Duct sealing ($500-$2,000) is far cheaper than full replacement ($3,600-$9,500) and captures most of the efficiency gains.",
+    "Get at least 3 quotes. HVAC pricing varies dramatically between companies. We've seen quotes for the same job range from $5,000 to $12,000. The cheapest isn't always best, but comparing helps you spot outliers.",
+    "Ask about contractor rebates. Many manufacturers offer installers volume discounts that good contractors will pass along. Carrier, Trane, and Lennox all run seasonal promotions through their dealer networks.",
+    "Skip the extended warranty if your credit card offers purchase protection. Many credit cards extend manufacturer warranties by 1-2 years at no cost."
+  ],
+  "contractorQuestions": [
+    { "question": "Will you perform a Manual J load calculation to size the unit?", "why": "A load calculation accounts for your home's insulation, windows, orientation, and square footage. Contractors who skip this step and size by 'rule of thumb' often over- or under-size the system, costing you in comfort and efficiency." },
+    { "question": "What brand and model number will you install, and what's the warranty?", "why": "Get the specific model number in writing so you can verify the SEER rating, features, and warranty terms independently. Avoid vague descriptions like 'Carrier 16 SEER' without a model number." },
+    { "question": "Is the quote all-inclusive - permits, disposal, thermostat, line set, pad?", "why": "Some contractors quote just the equipment swap and add line items for the refrigerant line set, thermostat, concrete pad, permit fees, and old unit disposal. These can add $500-$1,500 to a bare-bones quote." },
+    { "question": "Are you licensed and insured for HVAC work in this state?", "why": "HVAC installation requires specific licensing in most states. Verify the license number with your state board. Unlicensed work voids manufacturer warranties and may violate building codes." },
+    { "question": "Will you pull the permit and schedule the inspection?", "why": "Most jurisdictions require permits for AC installation. The permit ensures the work is inspected for safety and code compliance. Some contractors skip permits to save time - this can cause problems at resale." },
+    { "question": "How do you handle refrigerant charge verification?", "why": "Proper refrigerant charge is critical to efficiency and compressor longevity. The technician should weigh in the exact factory-specified charge amount, not estimate by feel or pressure readings alone." },
+    { "question": "What's your labor warranty, separate from the manufacturer warranty?", "why": "Manufacturer warranties cover parts but not the labor to replace them. A good HVAC contractor offers 1-2 years on workmanship. Some offer extended labor warranties for an additional fee." }
+  ],
+  "relatedProjects": ["heat-pump-installation", "furnace-replacement", "attic-insulation", "window-replacement", "ductless-mini-split-installation"],
+  "seo": {
+    "primaryKeyword": "central AC installation cost",
+    "secondaryKeywords": ["how much does central air cost", "AC unit installation price", "central air conditioning cost 2026", "cost to install central air", "HVAC installation cost", "new AC unit cost"],
+    "metaDescription": "How much does central AC installation cost in 2026? National average is $7,500. Get detailed cost breakdowns by SEER rating, tonnage, brand comparisons, regional pricing, and an interactive calculator."
+  },
+  "sources": [
+    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/central-air-conditioning-installation" },
+    { "name": "HVAC.com", "year": 2025, "url": "https://www.hvac.com/cost/central-air-conditioner/" },
+    { "name": "Angi", "year": 2026, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-central-air.htm" },
+    { "name": "HomeGuide", "year": 2026, "url": "https://homeguide.com/costs/central-air-conditioner-cost" },
+    { "name": "Thumbtack", "year": 2025, "url": "https://www.thumbtack.com/p/ac-installation-cost" }
+  ]
+}

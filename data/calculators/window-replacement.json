@@ -1,0 +1,59 @@
+{
+  "slug": "window-replacement",
+  "title": "Window Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing windows based on count, frame material, and glass type.",
+  "projectSlug": "window-replacement",
+  "category": "exterior",
+  "nationalAverage": 750,
+  "sizeInput": {
+    "label": "Number of Windows",
+    "unit": "windows",
+    "min": 1,
+    "max": 30,
+    "step": 1,
+    "default": 10
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 250,
+      "laborPerUnit": 150,
+      "permitBase": 0,
+      "description": "Vinyl frame, double-hung, double-pane clear glass"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 475,
+      "laborPerUnit": 200,
+      "permitBase": 75,
+      "description": "Vinyl/fiberglass frame, Low-E glass with argon fill"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 1000,
+      "laborPerUnit": 300,
+      "permitBase": 100,
+      "description": "Wood/fiberglass frame, triple-pane glass, premium hardware"
+    }
+  },
+  "options": [
+    { "id": "trimWork", "label": "Interior Trim/Casing", "default": true, "costByTier": { "budget": 300, "midRange": 600, "premium": 1200 } },
+    { "id": "exteriorCapping", "label": "Exterior Aluminum Capping", "default": false, "costByTier": { "budget": 400, "midRange": 700, "premium": 1000 } },
+    { "id": "frameRepair", "label": "Frame Rot Repair (3 windows)", "default": false, "costByTier": { "budget": 300, "midRange": 600, "premium": 1000 } },
+    { "id": "bayWindow", "label": "Bay Window Upgrade (1)", "default": false, "costByTier": { "budget": 1500, "midRange": 2500, "premium": 4500 } },
+    { "id": "energyGlass", "label": "Triple-Pane Upgrade", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 0 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.90, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "window replacement cost calculator",
+    "metaDescription": "Calculate your window replacement cost based on count, frame material, and glass type. Get instant 2026 estimates with regional pricing."
+  }
+}

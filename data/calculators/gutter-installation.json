@@ -1,0 +1,59 @@
+{
+  "slug": "gutter-installation",
+  "title": "Gutter Installation Cost Calculator",
+  "description": "Estimate the cost of installing new gutters based on your home's roof perimeter, material choice, and add-on features.",
+  "projectSlug": "gutter-installation",
+  "category": "exterior",
+  "nationalAverage": 2000,
+  "sizeInput": {
+    "label": "Gutter Length",
+    "unit": "linear ft",
+    "min": 50,
+    "max": 400,
+    "step": 10,
+    "default": 150
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 3.00,
+      "laborPerUnit": 3.00,
+      "permitBase": 0,
+      "description": "5-inch aluminum sectional gutters, vinyl downspouts, basic spike hangers"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 5.00,
+      "laborPerUnit": 6.00,
+      "permitBase": 0,
+      "description": "5-inch seamless aluminum, aluminum downspouts, hidden hangers every 24 inches"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 12.00,
+      "laborPerUnit": 9.50,
+      "permitBase": 0,
+      "description": "6-inch seamless copper or zinc, half-round profile, decorative brackets"
+    }
+  },
+  "options": [
+    { "id": "gutterGuards", "label": "Gutter Guards/Leaf Screens", "default": false, "costByTier": { "budget": 200, "midRange": 500, "premium": 1200 } },
+    { "id": "oldGutterRemoval", "label": "Remove Old Gutters", "default": true, "costByTier": { "budget": 100, "midRange": 150, "premium": 200 } },
+    { "id": "fasciaRepair", "label": "Fascia Board Repair (per section)", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 500 } },
+    { "id": "downspoutExtensions", "label": "Underground Downspout Extensions", "default": false, "costByTier": { "budget": 200, "midRange": 400, "premium": 600 } },
+    { "id": "heatingCable", "label": "Gutter Heating Cable (ice prevention)", "default": false, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "gutter installation cost calculator",
+    "metaDescription": "Calculate your gutter installation cost instantly. Enter your gutter length, choose a material, and get a detailed cost estimate for your state."
+  }
+}

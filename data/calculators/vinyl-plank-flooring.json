@@ -1,0 +1,59 @@
+{
+  "slug": "vinyl-plank-flooring",
+  "title": "Vinyl Plank Flooring (LVP) Cost Calculator",
+  "description": "Estimate the cost of installing vinyl plank flooring based on area, quality, and prep work.",
+  "projectSlug": "vinyl-plank-flooring",
+  "category": "flooring",
+  "nationalAverage": 5500,
+  "sizeInput": {
+    "label": "Floor Area",
+    "unit": "sq ft",
+    "min": 100,
+    "max": 3000,
+    "step": 50,
+    "default": 500
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 2.50,
+      "laborPerUnit": 2.00,
+      "permitBase": 0,
+      "description": "Glue-down LVP, basic patterns, thin wear layer"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 5.00,
+      "laborPerUnit": 3.50,
+      "permitBase": 0,
+      "description": "Click-lock LVP, realistic wood look, 20mil wear layer, attached pad"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 8.00,
+      "laborPerUnit": 5.00,
+      "permitBase": 0,
+      "description": "Rigid core SPC, wide planks, 28mil+ wear layer, premium patterns"
+    }
+  },
+  "options": [
+    { "id": "oldFloorRemoval", "label": "Remove Old Flooring", "default": true, "costByTier": { "budget": 200, "midRange": 400, "premium": 600 } },
+    { "id": "subfloorPrep", "label": "Subfloor Leveling", "default": false, "costByTier": { "budget": 400, "midRange": 600, "premium": 900 } },
+    { "id": "baseboards", "label": "New Baseboards/Trim", "default": false, "costByTier": { "budget": 250, "midRange": 500, "premium": 900 } },
+    { "id": "underlayment", "label": "Premium Underlayment", "default": false, "costByTier": { "budget": 150, "midRange": 300, "premium": 0 } },
+    { "id": "transitions", "label": "Transition Strips (5)", "default": true, "costByTier": { "budget": 50, "midRange": 100, "premium": 200 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "vinyl plank flooring cost calculator",
+    "metaDescription": "Calculate your vinyl plank flooring (LVP) installation cost based on area, quality, and options. Get instant 2026 estimates."
+  }
+}

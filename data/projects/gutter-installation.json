@@ -1,0 +1,200 @@
+{
+  "slug": "gutter-installation",
+  "title": "Gutter Installation and Replacement",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2000,
+    "typicalLow": 1000,
+    "typicalHigh": 3500,
+    "lowEnd": 600,
+    "highEnd": 5000,
+    "costPerUnit": { "low": 4, "high": 30, "unit": "linear ft", "average": 10 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 450,
+      "labor": 450,
+      "permits": 0,
+      "design": 0,
+      "total": 900,
+      "description": "5-inch aluminum sectional gutters with vinyl downspouts, basic hangers, standard white or brown finish for 150 linear feet"
+    },
+    "midRange": {
+      "materials": 750,
+      "labor": 900,
+      "permits": 0,
+      "design": 0,
+      "total": 1650,
+      "description": "5-inch seamless aluminum gutters, aluminum downspouts, hidden hangers every 24 inches, leaf screens for 150 linear feet"
+    },
+    "premium": {
+      "materials": 1800,
+      "labor": 1400,
+      "permits": 0,
+      "design": 200,
+      "total": 3400,
+      "description": "6-inch seamless copper or zinc gutters, half-round profile, decorative hangers, premium gutter guards for 150 linear feet"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Gutter Material",
+      "impact": "$300 - $3,000",
+      "description": "Aluminum is the most popular choice at $4-$9 per linear foot installed. It's lightweight, rust-proof, and comes in 25+ colors. Steel gutters run $6-$12 per linear foot and handle heavier snow loads but can rust over time. Copper is the premium option at $18-$30 per linear foot, lasting 50+ years and developing an attractive patina, but the cost is 3-5x aluminum."
+    },
+    {
+      "title": "Seamless vs. Sectional",
+      "impact": "$200 - $800",
+      "description": "Sectional gutters come in 10-foot pre-cut pieces that snap together at joints. They cost $3-$5 per linear foot but are prone to leaking at seams over time. Seamless gutters are custom-formed on-site from a single continuous piece of metal, running $6-$12 per linear foot. The extra cost eliminates leak-prone joints and gives a cleaner look."
+    },
+    {
+      "title": "Number of Stories",
+      "impact": "$200 - $1,000",
+      "description": "Single-story homes are straightforward to gutter. Two-story and three-story homes require extension ladders or lifts, increasing labor costs by 20-40%. Homes taller than two stories may require boom lifts at $200-$400 per day rental, which gets passed to you."
+    },
+    {
+      "title": "Gutter Guards and Leaf Protection",
+      "impact": "$500 - $2,500",
+      "description": "Gutter guards reduce cleaning frequency from twice yearly to once every few years. Mesh screens cost $1-$3 per linear foot. Micro-mesh premium guards like LeafFilter or Gutter Helmet run $15-$25 per linear foot installed but keep out even pine needles and shingle grit. For 150 feet of gutters, guards add $150-$3,750."
+    },
+    {
+      "title": "Old Gutter Removal and Fascia Repair",
+      "impact": "$150 - $1,000",
+      "description": "Removing old gutters adds $1-$2 per linear foot to your project. The bigger concern is what's behind them - rotted fascia boards. If water has been overflowing or leaking behind old gutters, expect fascia board replacement at $6-$20 per linear foot for the damaged sections. Most gutter replacements uncover at least some fascia rot."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Aluminum (Seamless)",
+      "costPerUnit": "$6-$12 per linear ft installed",
+      "pros": "Rust-proof, lightweight, custom-fit with no seams, 25+ color options",
+      "cons": "Can dent from ladders or heavy branches, thinner gauges bend in ice storms",
+      "bestFor": "Most homeowners - best balance of cost, durability, and appearance"
+    },
+    {
+      "material": "Aluminum (Sectional)",
+      "costPerUnit": "$3-$6 per linear ft installed",
+      "pros": "Cheapest option, available at hardware stores, DIY-friendly",
+      "cons": "Joints leak over time, looks less clean, requires more maintenance",
+      "bestFor": "DIY projects, rental properties, or very tight budgets"
+    },
+    {
+      "material": "Steel",
+      "costPerUnit": "$8-$14 per linear ft installed",
+      "pros": "Very strong, handles heavy ice and snow loads, resists denting",
+      "cons": "Will eventually rust even with galvanized coating, heavier to install",
+      "bestFor": "Northern climates with heavy snow and ice, areas with large trees"
+    },
+    {
+      "material": "Copper",
+      "costPerUnit": "$18-$30 per linear ft installed",
+      "pros": "50-75 year lifespan, beautiful patina, adds curb appeal and home value",
+      "cons": "Very expensive, requires specialized soldering, patina takes 1-2 years",
+      "bestFor": "Historic homes, high-end properties, homeowners who want a forever gutter"
+    },
+    {
+      "material": "Zinc",
+      "costPerUnit": "$15-$25 per linear ft installed",
+      "pros": "Self-healing surface resists corrosion, 50+ year lifespan, eco-friendly",
+      "cons": "Expensive, limited color options, fewer installers familiar with it",
+      "bestFor": "Coastal properties or areas with acid rain, architecturally distinctive homes"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High demand for larger 6-inch gutters and gutter heating cables increases project costs. New England's older housing stock often requires fascia repair." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Higher labor costs and fire zone requirements in CA can push gutter costs up. Some areas require ember-resistant gutter covers." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Year-round installation weather and lower labor rates keep costs below average. Heavy rainfall in FL and GA means gutters are essential." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive market keeps prices low. Heavier gauge gutters are recommended for ice and snow loads, adding slightly to material costs." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Mountain homes often need oversized 6-inch gutters for snowmelt. Remote locations in MT and WY can add travel surcharges." }
+  },
+  "timeline": {
+    "minimum": "3-4 hours",
+    "typical": "1 day",
+    "maximum": "2-3 days",
+    "phases": [
+      { "name": "Old gutter removal", "duration": "1-2 hours" },
+      { "name": "Fascia inspection and repair", "duration": "1-4 hours" },
+      { "name": "New gutter fabrication and installation", "duration": "3-6 hours" },
+      { "name": "Downspout installation and routing", "duration": "1-2 hours" },
+      { "name": "Gutter guard installation (if selected)", "duration": "2-4 hours" },
+      { "name": "Testing and cleanup", "duration": "30 minutes" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Moderate for sectional, not recommended for seamless - Sectional gutters from a hardware store can be a weekend DIY project. Seamless gutters require a $10,000+ forming machine that only pros own.",
+    "diySavings": "30-50% ($300-$800 on a typical home with sectional gutters)",
+    "diyTasks": [
+      "Removing old gutters and downspouts",
+      "Installing pre-cut sectional gutter pieces on single-story homes",
+      "Attaching downspouts and extensions",
+      "Installing snap-on gutter screens or mesh guards",
+      "Sealing sectional joints with gutter sealant"
+    ],
+    "proOnlyTasks": [
+      "Seamless gutter fabrication and installation (requires specialized equipment)",
+      "Fascia board replacement on rotted sections",
+      "Multi-story gutter installation requiring scaffolding or boom lifts",
+      "Copper gutter soldering and installation",
+      "Integrating gutters with underground drainage systems"
+    ],
+    "diyRisks": "Working on ladders is the number one cause of fall injuries in home improvement. Improperly sloped gutters pool water and overflow, potentially causing foundation damage. Sectional gutter joints will leak over time without proper sealant application."
+  },
+  "savingsTips": [
+    "Schedule gutter installation in winter or early spring when contractors have less work and may discount 10-20%",
+    "Choose 5-inch aluminum seamless gutters - they handle most homes and cost 30-40% less than 6-inch",
+    "Skip premium gutter guards and install basic mesh screens yourself for $1-$2 per linear foot instead of $15-$25",
+    "Remove old gutters yourself to save $150-$300 in labor",
+    "Bundle gutter installation with a roof replacement to negotiate a package discount",
+    "Ask about leftover material - some gutter companies will use surplus coil stock from bigger jobs at a small discount",
+    "Choose white or brown gutters (standard colors) to avoid custom color upcharges of $0.50-$1 per linear foot",
+    "Get at least 3 quotes - gutter installation pricing varies wildly between companies in the same area"
+  ],
+  "contractorQuestions": [
+    {
+      "question": "Do you use seamless or sectional gutters, and what gauge aluminum?",
+      "why": "Seamless is the standard for professional installation. The gauge matters too - .027 is the industry minimum, but .032 offers significantly better durability for roughly $0.50-$1 more per foot."
+    },
+    {
+      "question": "How do you handle fascia rot or damage discovered during removal?",
+      "why": "Most gutter replacements uncover some rotted fascia. A good contractor will quote fascia repair as a line item so there are no surprises. Make sure the quote addresses how change orders for hidden damage are handled."
+    },
+    {
+      "question": "What slope do you use for gutter runs, and where will you place downspouts?",
+      "why": "Gutters should slope at least 1/4 inch per 10 feet toward downspouts. Poor slope causes pooling and overflow. Downspout placement matters too - they should direct water at least 4 feet from your foundation."
+    },
+    {
+      "question": "Do you include downspout extensions or splash blocks in the quote?",
+      "why": "Downspouts without extensions dump concentrated water right at your foundation. Some quotes include extensions and splash blocks, others don't. This small detail prevents expensive foundation problems."
+    },
+    {
+      "question": "What is your warranty on materials and workmanship?",
+      "why": "Aluminum gutter material typically carries a 20-year manufacturer warranty, but workmanship warranties vary from 1-10 years depending on the installer. The workmanship warranty covers leaks at seams, hangers pulling loose, and improper slope."
+    },
+    {
+      "question": "How many hidden hangers do you install per linear foot?",
+      "why": "Industry standard is one hanger every 24 inches, but in snow country, 18-inch spacing is better. Some budget installers space them 36 inches apart, which leads to sagging gutters within a few years."
+    }
+  ],
+  "relatedProjects": ["roof-replacement", "siding-replacement", "window-replacement", "deck-building", "fence-installation"],
+  "seo": {
+    "primaryKeyword": "gutter installation cost",
+    "secondaryKeywords": [
+      "cost to install gutters",
+      "gutter replacement cost",
+      "seamless gutter installation cost",
+      "how much do gutters cost",
+      "gutter cost per foot",
+      "gutter installation cost 2026",
+      "aluminum gutter installation",
+      "copper gutter cost"
+    ],
+    "metaDescription": "Gutter installation costs $600-$5,000 in 2026, with most homeowners paying $1,000-$3,500. Compare seamless vs. sectional, material options, and get a free cost estimate."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Gutter Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/roofing/install-gutters/" },
+    { "name": "Fixr - Cost to Install Gutters", "year": 2025, "url": "https://www.fixr.com/costs/gutter-installation" },
+    { "name": "Angi - Gutter Installation Cost Guide", "year": 2025, "url": "https://www.angi.com/articles/how-much-do-new-gutters-cost.htm" },
+    { "name": "Bob Vila - How Much Do Gutters Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/gutter-installation-cost/" }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "chimney-repair",
+  "title": "Chimney Repair and Rebuild",
+  "category": "structural",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 2500,
+    "typicalLow": 1000,
+    "typicalHigh": 5000,
+    "lowEnd": 300,
+    "highEnd": 15000,
+    "costPerUnit": { "low": 100, "high": 350, "unit": "linear ft of chimney height", "average": 200 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 300,
+      "labor": 600,
+      "permits": 100,
+      "design": 0,
+      "total": 1000,
+      "description": "Minor repairs: crown repair or replacement, tuckpointing 10-20 sq ft of mortar joints, basic flashing repair, single-story chimney"
+    },
+    "midRange": {
+      "materials": 800,
+      "labor": 1400,
+      "permits": 150,
+      "design": 150,
+      "total": 2500,
+      "description": "Moderate repairs: partial rebuild of top 3-5 feet, new chimney cap, full crown replacement, flashing replacement, liner repair for a two-story chimney"
+    },
+    "premium": {
+      "materials": 2500,
+      "labor": 3500,
+      "permits": 300,
+      "design": 300,
+      "total": 6600,
+      "description": "Major rebuild: full chimney rebuild above roofline (8-12 ft), new stainless steel liner, custom cap, all new flashing, two-story exterior chimney"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Extent of Damage",
+      "impact": "$200 - $8,000",
+      "description": "Minor tuckpointing of a few cracked mortar joints costs $200-$500. Replacing a deteriorated crown runs $300-$800. A partial rebuild of the top 3-5 feet of the chimney costs $1,500-$3,500. A full rebuild from the roofline up can run $4,000-$8,000 or more depending on height. Damage below the roofline that requires interior work pushes costs even higher."
+    },
+    {
+      "title": "Chimney Height and Accessibility",
+      "impact": "$500 - $3,000",
+      "description": "A single-story chimney that is easy to reach from a standard ladder costs the least. A two or three-story chimney requires scaffolding ($500-$1,500 to set up) and takes longer to work on. Chimneys on steep roofs or in tight spaces between buildings add even more to labor costs. Every foot of height adds materials and time."
+    },
+    {
+      "title": "Chimney Liner Condition",
+      "impact": "$500 - $4,000",
+      "description": "If the flue liner is cracked or deteriorated, it must be repaired or replaced before the chimney is safe to use. Patching a clay liner with a sealant costs $500-$1,000. Installing a new stainless steel liner runs $1,500-$4,000 depending on chimney height and diameter. A damaged liner is a fire hazard and most chimney inspectors will flag it."
+    },
+    {
+      "title": "Flashing Repairs",
+      "impact": "$200 - $1,500",
+      "description": "Chimney flashing seals the joint between the chimney and the roof. Resealing existing flashing with roofing cement costs $200-$400. Full flashing replacement with step flashing and a counter-flashing system runs $500-$1,500. Bad flashing is the most common cause of chimney-related roof leaks."
+    },
+    {
+      "title": "Brick and Mortar Matching",
+      "impact": "$100 - $1,000",
+      "description": "Matching existing brick and mortar color matters for appearance. Standard red brick is cheap and easy to match. Historic or specialty brick can cost $2-$5 per brick vs. $0.50-$1.00 for standard. Mortar color matching requires custom tinting that adds $100-$300 to the job. On older homes, using modern Portland cement mortar on soft historic brick can actually cause damage - lime mortar may be required."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Tuckpointing (Mortar Joint Repair)",
+      "costPerUnit": "$5-$25 per sq ft of chimney face",
+      "pros": "Least expensive fix, preserves original brick, extends chimney life 20-30 years",
+      "cons": "Only works if the brick itself is sound, time-consuming, requires skill to match mortar color",
+      "bestFor": "Chimneys with deteriorated mortar joints but solid bricks, typically 15-30 years old"
+    },
+    {
+      "material": "Partial Rebuild (Above Roofline)",
+      "costPerUnit": "$150-$300 per linear ft of height",
+      "pros": "Addresses structural deterioration, new mortar and brick last 50+ years, opportunity to add proper cap and crown",
+      "cons": "More expensive than tuckpointing, requires scaffolding, brick matching can be difficult",
+      "bestFor": "Chimneys where the top section has significant spalling, cracking, or leaning"
+    },
+    {
+      "material": "Full Chimney Rebuild",
+      "costPerUnit": "$200-$350 per linear ft of height",
+      "pros": "Completely new structure, maximum lifespan, can correct design flaws, includes new liner",
+      "cons": "Most expensive option, longer project timeline, may require temporary roof patching",
+      "bestFor": "Severely deteriorated chimneys with structural concerns, or chimneys that have shifted or separated from the house"
+    },
+    {
+      "material": "Stainless Steel Liner Installation",
+      "costPerUnit": "$50-$120 per linear ft of liner",
+      "pros": "Lifetime warranty available, improves draft, reduces creosote buildup, fits inside existing chimney",
+      "cons": "Does not fix exterior deterioration, requires chimney to be structurally sound, adds cost to other repairs",
+      "bestFor": "Chimneys with cracked or deteriorated clay flue liners that are otherwise structurally sound"
+    },
+    {
+      "material": "Chimney Cap and Crown Replacement",
+      "costPerUnit": "$150-$800 per chimney (cap), $300-$800 (crown)",
+      "pros": "Prevents water entry, keeps animals out, relatively inexpensive, extends chimney life significantly",
+      "cons": "Does not fix existing structural damage, cap style must match home aesthetics",
+      "bestFor": "Preventive maintenance or chimneys with water damage caused by a missing or cracked cap/crown"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Older housing stock means more chimney work and experienced masons. However, high demand and short working seasons push prices up." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Seismic requirements may mandate reinforcement during chimney rebuilds. Fewer masonry chimneys overall means fewer specialists and higher rates." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates and year-round working conditions. Less freeze-thaw damage means chimneys generally need less extensive repairs." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Harsh winters cause significant freeze-thaw damage, creating high demand for chimney repair. Competitive contractor market keeps pricing moderate despite heavy demand." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Altitude and temperature extremes accelerate chimney deterioration. Many mountain homes rely on wood-burning fireplaces, keeping chimney repair demand steady." }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "2-4 days",
+    "maximum": "2 weeks",
+    "phases": [
+      { "name": "Inspection and Assessment", "duration": "1-2 hours" },
+      { "name": "Scaffolding Setup (if needed)", "duration": "0.5 day" },
+      { "name": "Demolition of Damaged Section", "duration": "0.5-1 day" },
+      { "name": "Rebuild and Masonry Work", "duration": "1-3 days" },
+      { "name": "Flashing and Waterproofing", "duration": "0.5 day" },
+      { "name": "Cap and Crown Installation", "duration": "0.5 day" },
+      { "name": "Cleanup and Inspection", "duration": "0.5 day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Low to Moderate - Minor tuckpointing and cap replacement are possible for experienced DIYers comfortable working on a roof. Any structural rebuilding requires a professional mason.",
+    "diySavings": "30-50% on minor repairs like tuckpointing and cap installation",
+    "diyTasks": [
+      "Installing a chimney cap (pre-made stainless steel caps are straightforward)",
+      "Minor tuckpointing of accessible mortar joints on single-story chimneys",
+      "Applying waterproof sealant to the chimney exterior",
+      "Cleaning the chimney with a brush kit before a professional inspection",
+      "Painting or sealing a metal chimney chase cover"
+    ],
+    "proOnlyTasks": [
+      "Any structural rebuild or partial rebuild",
+      "Chimney liner installation or replacement",
+      "Flashing replacement (involves roof work)",
+      "Crown replacement with proper drip edge and slope",
+      "Work on two-story or higher chimneys requiring scaffolding",
+      "Assessing structural integrity and determining repair scope"
+    ],
+    "diyRisks": "Working on a chimney means working on your roof, which carries serious fall risk. Beyond safety, improper chimney repair creates fire hazards. A poorly repointed chimney can allow carbon monoxide to leak into living spaces. Using the wrong mortar type on historic brick causes accelerated deterioration. And a bad flashing job leads to hidden water damage in the roof deck and walls that costs thousands to fix later."
+  },
+  "savingsTips": [
+    "Get a Level 2 chimney inspection ($200-$500) before committing to repairs. This camera inspection shows the exact condition of the flue liner and interior, so you only fix what needs fixing.",
+    "Address minor tuckpointing early. Repointing a few cracked joints for $300-$500 now prevents a $3,000-$5,000 rebuild later.",
+    "Install a chimney cap if you do not have one. A $150-$300 cap prevents the water damage that causes most chimney deterioration.",
+    "Schedule work in spring or summer when masons have more availability. Fall is peak season for chimney work and prices reflect the demand.",
+    "If you need a rebuild, consider a partial rebuild (above roofline only) instead of a full rebuild. This typically costs 40-60% less.",
+    "Ask about waterproof sealant application after repairs. A $150-$300 sealant treatment can add 10-15 years of weather protection.",
+    "Bundle chimney work with roof replacement if both are needed. Contractors already on the roof for a reroof can handle flashing and cap work at a lower marginal cost.",
+    "Get three bids from CSIA-certified chimney specialists rather than general contractors. Specialists often price more competitively and catch issues a generalist might miss."
+  ],
+  "contractorQuestions": [
+    {
+      "question": "Are you CSIA (Chimney Safety Institute of America) certified?",
+      "why": "CSIA certification means the contractor has specific training in chimney systems, safety codes, and repair methods. A general mason can do the brick work, but may miss fire safety issues that a chimney specialist would catch."
+    },
+    {
+      "question": "Can you show me photos or video from the chimney inspection?",
+      "why": "A reputable chimney company will use a camera to inspect the flue liner interior and should be willing to show you exactly what needs repair. If they cannot show you the damage, they may be recommending unnecessary work."
+    },
+    {
+      "question": "What type of mortar will you use, and is it appropriate for my brick type?",
+      "why": "Homes built before 1930 often have soft brick that requires lime-based mortar (Type O or K). Using modern Portland cement mortar (Type N or S) on soft historic brick causes the brick to crack and spall. The wrong mortar choice leads to more damage than no repair at all."
+    },
+    {
+      "question": "How will you handle the flashing where the chimney meets the roof?",
+      "why": "Chimney flashing is the number one source of chimney-related leaks. Proper step flashing with counter-flashing embedded in the mortar joints is the correct method. If a contractor mentions using roofing cement or tar as the primary seal, that is a temporary fix at best."
+    },
+    {
+      "question": "Do I need a new chimney liner, and what type do you recommend?",
+      "why": "A cracked liner is a fire and carbon monoxide hazard. Stainless steel liners are the gold standard for wood-burning fireplaces. Aluminum liners work for gas-only appliances at lower cost. The contractor should explain why they recommend a specific liner type."
+    },
+    {
+      "question": "What warranty do you provide on the masonry work and any liner installation?",
+      "why": "Quality masonry work should last 25-50 years. A good contractor offers at least a 5-year workmanship warranty. Stainless steel liner manufacturers often provide lifetime warranties, but the installation warranty from the contractor matters too."
+    },
+    {
+      "question": "Will you pull the necessary permits and schedule inspections?",
+      "why": "Chimney rebuilds typically require a building permit. Liner installations may require a permit depending on jurisdiction. An unpermitted chimney repair can create problems at home sale and may not meet fire safety codes."
+    }
+  ],
+  "relatedProjects": [
+    "roof-replacement",
+    "chimney-rebuild",
+    "fireplace-installation",
+    "exterior-painting",
+    "foundation-repair"
+  ],
+  "seo": {
+    "primaryKeyword": "chimney repair cost",
+    "secondaryKeywords": [
+      "chimney rebuild cost",
+      "chimney tuckpointing cost",
+      "chimney liner cost",
+      "chimney cap replacement cost",
+      "chimney crown repair cost",
+      "chimney repair cost 2026",
+      "how much does chimney repair cost",
+      "chimney repair cost per foot"
+    ],
+    "metaDescription": "Chimney repair costs $1,000-$5,000 in 2026, with a national average of $2,500. See cost breakdowns for tuckpointing, rebuilds, liners, and caps, plus use our free calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Chimney Repair Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/fireplaces-and-chimneys/repair-a-chimney/" },
+    { "name": "Fixr - Chimney Repair Cost", "year": 2025, "url": "https://www.fixr.com/costs/chimney-repair" },
+    { "name": "Angi - Chimney Repair Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-chimney-repair-cost.htm" },
+    { "name": "Bob Vila - Chimney Repair Cost", "year": 2025, "url": "https://www.bobvila.com/articles/chimney-repair-cost/" }
+  ]
+}

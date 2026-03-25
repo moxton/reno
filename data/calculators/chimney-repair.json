@@ -1,0 +1,60 @@
+{
+  "slug": "chimney-repair",
+  "title": "Chimney Repair Cost Calculator",
+  "description": "Estimate the cost of repairing or rebuilding your chimney based on chimney height, repair scope, and your location.",
+  "projectSlug": "chimney-repair",
+  "category": "structural",
+  "nationalAverage": 2500,
+  "sizeInput": {
+    "label": "Chimney Height Above Roofline",
+    "unit": "linear ft",
+    "min": 2,
+    "max": 20,
+    "step": 1,
+    "default": 6
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 30,
+      "laborPerUnit": 60,
+      "permitBase": 100,
+      "description": "Tuckpointing and minor repairs, crown patching, basic cap installation"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 80,
+      "laborPerUnit": 150,
+      "permitBase": 150,
+      "description": "Partial rebuild (top 3-5 ft), new crown, new cap, flashing replacement"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 150,
+      "laborPerUnit": 250,
+      "permitBase": 300,
+      "description": "Full rebuild above roofline, new stainless steel liner, custom cap, all new flashing"
+    }
+  },
+  "options": [
+    { "id": "liner", "label": "Stainless Steel Liner", "default": false, "costByTier": { "budget": 1500, "midRange": 2500, "premium": 0 } },
+    { "id": "flashing", "label": "Full Flashing Replacement", "default": true, "costByTier": { "budget": 300, "midRange": 0, "premium": 0 } },
+    { "id": "cap", "label": "Chimney Cap (Stainless Steel)", "default": true, "costByTier": { "budget": 150, "midRange": 250, "premium": 400 } },
+    { "id": "scaffolding", "label": "Scaffolding (2+ Story)", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 1200 } },
+    { "id": "waterproofing", "label": "Waterproof Sealant Application", "default": false, "costByTier": { "budget": 150, "midRange": 250, "premium": 350 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92,
+    "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "chimney repair cost calculator",
+    "metaDescription": "Calculate chimney repair or rebuild costs. Enter chimney height, repair scope, and location for an instant estimate with itemized breakdown."
+  }
+}

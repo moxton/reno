@@ -1,0 +1,201 @@
+{
+  "slug": "retaining-wall",
+  "title": "Retaining Wall Construction",
+  "category": "exterior",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 5500,
+    "typicalLow": 3000,
+    "typicalHigh": 10000,
+    "lowEnd": 1500,
+    "highEnd": 20000,
+    "costPerUnit": { "low": 20, "high": 85, "unit": "linear ft", "average": 45 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 1500,
+      "labor": 1200,
+      "permits": 200,
+      "design": 0,
+      "total": 2900,
+      "description": "Interlocking concrete block (Allan Block or similar), 3 ft tall, 50 linear feet, no engineering required, basic gravel backfill and drainage"
+    },
+    "midRange": {
+      "materials": 2800,
+      "labor": 2700,
+      "permits": 350,
+      "design": 500,
+      "total": 6350,
+      "description": "Natural stone or premium block, 4 ft tall, 50 linear feet, geogrid reinforcement, proper drainage system, landscape-ready cap"
+    },
+    "premium": {
+      "materials": 5500,
+      "labor": 4500,
+      "permits": 500,
+      "design": 1500,
+      "total": 12000,
+      "description": "Natural stone or poured concrete, 6 ft tall, 50 linear feet, engineered design, full drainage system, geogrid layers, rebar reinforcement"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Wall Height",
+      "impact": "$1,500 - $10,000",
+      "description": "Wall height is the single biggest cost driver. A 2-foot wall is a straightforward DIY project at $15-$25 per linear foot. At 4 feet, you need geogrid reinforcement and proper engineering, pushing costs to $35-$55 per linear foot. Walls over 4 feet typically require a structural engineer's stamp ($500-$2,000) and reinforcement that can double material costs. Every additional foot of height adds roughly 30-50% to your per-foot cost."
+    },
+    {
+      "title": "Wall Material",
+      "impact": "$1,000 - $5,000",
+      "description": "Interlocking concrete blocks (like Allan Block or Versa-Lok) are the most cost-effective at $12-$25 per face square foot. Natural stone (fieldstone, limestone, bluestone) runs $25-$50 per face square foot and requires skilled masons. Poured concrete with rebar is the strongest option at $20-$40 per face square foot but needs formwork. Timber walls are cheapest ($10-$15/face sq ft) but only last 10-15 years."
+    },
+    {
+      "title": "Site Conditions and Access",
+      "impact": "$500 - $3,000",
+      "description": "If heavy equipment (mini excavator, skid steer) can drive right up to your wall location, costs stay lower. Sites with limited access - steep slopes, narrow side yards, or no truck access - may require hand-carrying materials and hand-digging, adding 30-50% to labor costs. Rocky soil or high water tables also increase excavation time and may require dewatering."
+    },
+    {
+      "title": "Drainage System",
+      "impact": "$400 - $1,500",
+      "description": "Every retaining wall needs proper drainage or it will fail. At minimum, you need a perforated drain pipe in a gravel bed behind the wall base ($5-$10 per linear foot). More complex walls need weep holes, filter fabric, and layered gravel backfill. Skipping drainage is the most common cause of retaining wall failure - hydrostatic pressure from trapped water will push any wall over eventually."
+    },
+    {
+      "title": "Engineering and Permits",
+      "impact": "$500 - $2,500",
+      "description": "Most municipalities require permits for retaining walls over 4 feet tall. Many require a licensed structural engineer's design for walls over 4 feet, which costs $500-$2,000 depending on complexity. Some jurisdictions measure wall height from the bottom of the footing, not ground level, so a wall that looks 3.5 feet tall above grade might technically be 5 feet and trigger permit requirements."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Interlocking Concrete Block",
+      "costPerUnit": "$20-$35 per linear ft (3 ft height)",
+      "pros": "Most cost-effective, uniform appearance, no mortar needed, excellent drainage integration",
+      "cons": "Limited style options, can look repetitive on long runs, cheaper blocks fade in UV",
+      "bestFor": "Most residential applications, garden terracing, functional retaining up to 4 feet"
+    },
+    {
+      "material": "Natural Stone (Fieldstone/Limestone)",
+      "costPerUnit": "$40-$70 per linear ft (3 ft height)",
+      "pros": "Beautiful natural appearance, ages well, each wall is unique, excellent curb appeal",
+      "cons": "Expensive, labor-intensive to install, requires skilled mason, irregular shapes need more backfill",
+      "bestFor": "Front-yard walls visible from the street, upscale properties, blending with natural landscapes"
+    },
+    {
+      "material": "Poured Concrete",
+      "costPerUnit": "$30-$55 per linear ft (3 ft height)",
+      "pros": "Strongest option, smooth modern appearance, can be formed to any shape, can add decorative finishes",
+      "cons": "Requires formwork, longest installation time, cracks need repair, utilitarian appearance without finishing",
+      "bestFor": "Tall walls over 6 feet, commercial-grade strength needs, modern or contemporary home styles"
+    },
+    {
+      "material": "Timber/Landscape Ties",
+      "costPerUnit": "$15-$25 per linear ft (3 ft height)",
+      "pros": "Cheapest option, easy DIY installation, natural look, quick to build",
+      "cons": "Shortest lifespan (10-15 years), rots even when treated, not recommended above 4 feet, can attract termites",
+      "bestFor": "Garden terracing, short-term solutions, rural properties, DIY projects under 3 feet"
+    },
+    {
+      "material": "Boulder Wall",
+      "costPerUnit": "$35-$60 per linear ft (3 ft height)",
+      "pros": "Very natural appearance, extremely durable, minimal maintenance, no mortar needed",
+      "cons": "Requires heavy equipment to place, less precise than block, takes up more ground space, limited height",
+      "bestFor": "Wooded or natural settings, lakeside properties, slopes where a rustic look fits the landscape"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Rocky soil in New England increases excavation costs. Frost line depths of 42-48 inches require deeper footings than southern regions." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Seismic requirements in CA and the Pacific Northwest add engineering costs. Hillside properties in CA are the highest-cost retaining wall projects in the country." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Mild frost lines and generally soft soil reduce excavation costs. Year-round construction season keeps labor rates lower." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Flat terrain means fewer retaining walls are needed, but those built on Midwest clay soils require extra drainage attention." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Steep mountain lots in CO and UT often need taller walls. Rocky soil and limited access add to excavation costs." }
+  },
+  "timeline": {
+    "minimum": "2-3 days",
+    "typical": "1-2 weeks",
+    "maximum": "3-4 weeks",
+    "phases": [
+      { "name": "Engineering and permits (if required)", "duration": "1-3 weeks" },
+      { "name": "Excavation and base preparation", "duration": "1-2 days" },
+      { "name": "Drainage system installation", "duration": "1 day" },
+      { "name": "Wall construction", "duration": "2-7 days" },
+      { "name": "Backfill, compaction, and grading", "duration": "1-2 days" },
+      { "name": "Cap installation and finishing", "duration": "1 day" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Good for walls under 3 feet, not recommended above 4 feet - Short interlocking block walls are one of the most popular DIY landscape projects. Walls over 4 feet require engineering knowledge and heavy equipment.",
+    "diySavings": "40-60% ($1,200-$3,500 on a typical 50 linear foot wall under 3 feet)",
+    "diyTasks": [
+      "Building interlocking block walls under 3 feet tall",
+      "Excavating and leveling the base trench",
+      "Laying compacted gravel base",
+      "Installing perforated drain pipe",
+      "Backfilling with drainage gravel",
+      "Setting wall cap blocks with adhesive"
+    ],
+    "proOnlyTasks": [
+      "Walls over 4 feet requiring engineering and geogrid reinforcement",
+      "Natural stone masonry and mortar work",
+      "Poured concrete walls requiring formwork and rebar",
+      "Walls on steep slopes or unstable soil",
+      "Any wall requiring a structural engineer's stamp"
+    ],
+    "diyRisks": "A failed retaining wall is not just an eyesore - it's dangerous. Walls that collapse can damage property, injure people, and create liability. The most common DIY mistakes are inadequate base preparation (not deep enough, not level, not compacted), skipping drainage, and not using geogrid reinforcement on walls over 3 feet. A 4-foot wall holds back roughly 1,000 pounds of soil per linear foot."
+  },
+  "savingsTips": [
+    "Build a terraced system of two 3-foot walls instead of one 6-foot wall to avoid engineering requirements and permit costs",
+    "Use interlocking concrete block instead of natural stone - the cost is often half and installation is faster",
+    "Source block locally - shipping heavy materials long distances adds significant cost",
+    "DIY walls under 3 feet tall are very achievable and save 40-60% on labor",
+    "Schedule construction in late fall or winter for potential contractor discounts of 10-15%",
+    "Rent a mini excavator ($200-$350/day) for base preparation instead of hiring a separate excavation crew",
+    "Buy block and gravel in bulk from a landscape supply yard rather than a big-box store to save 15-25%",
+    "Consider gabion baskets (wire cages filled with stone) as a cost-effective alternative to solid stone walls"
+  ],
+  "contractorQuestions": [
+    {
+      "question": "Do I need a structural engineer for this wall height, and is that included in your quote?",
+      "why": "Walls over 4 feet almost always need engineering. Some contractors include engineering in their bid, others add it separately. Clarify this upfront to avoid a surprise $500-$2,000 charge."
+    },
+    {
+      "question": "What drainage system will you install behind the wall?",
+      "why": "Every retaining wall needs drainage. A contractor who doesn't mention drainage, or who skips it to lower the bid, is setting you up for wall failure. At minimum, expect a perforated pipe in a gravel bed with filter fabric."
+    },
+    {
+      "question": "Will you use geogrid reinforcement, and how many layers?",
+      "why": "Geogrid layers tied back into the hillside are what give taller walls their strength. A 4-foot block wall typically needs 1-2 geogrid layers. Each layer costs $1-$3 per square foot but prevents the wall from sliding or tipping."
+    },
+    {
+      "question": "How deep will the base footing be, and what compaction method do you use?",
+      "why": "The base is everything. A proper base is 6-8 inches of compacted gravel below grade. The first course of block should be partially buried. Contractors who skim on base depth and compaction build walls that shift and fail."
+    },
+    {
+      "question": "What happens if you hit rock, utilities, or unexpected soil conditions during excavation?",
+      "why": "Surprises underground are common with retaining wall projects. Get a clear answer on how change orders for unexpected conditions are handled before signing the contract."
+    },
+    {
+      "question": "Do you carry liability insurance, and what's your warranty on the wall?",
+      "why": "Retaining walls hold back tons of soil and can cause serious damage if they fail. Make sure the contractor carries at least $1 million in general liability. Workmanship warranties should be 5-10 years minimum for a properly built wall."
+    }
+  ],
+  "relatedProjects": ["patio-installation", "fence-installation", "deck-building", "stamped-concrete", "siding-replacement"],
+  "seo": {
+    "primaryKeyword": "retaining wall cost",
+    "secondaryKeywords": [
+      "cost to build a retaining wall",
+      "retaining wall cost per linear foot",
+      "retaining wall installation cost",
+      "retaining wall cost 2026",
+      "concrete block retaining wall cost",
+      "stone retaining wall cost",
+      "how much does a retaining wall cost",
+      "retaining wall cost calculator"
+    ],
+    "metaDescription": "Retaining wall construction costs $1,500-$20,000 in 2026, with most homeowners paying $3,000-$10,000. See costs by material, height, and region with our free calculator."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Retaining Wall Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/landscape/build-a-retaining-wall/" },
+    { "name": "Fixr - Cost to Build a Retaining Wall", "year": 2025, "url": "https://www.fixr.com/costs/retaining-wall" },
+    { "name": "HomeGuide - Retaining Wall Cost Guide", "year": 2025, "url": "https://homeguide.com/costs/retaining-wall-cost" },
+    { "name": "Angi - How Much Does a Retaining Wall Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-build-retaining-wall.htm" }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "slug": "whole-house-rewiring",
+  "title": "Whole-House Rewiring",
+  "category": "electrical",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 8000,
+    "typicalLow": 3500,
+    "typicalHigh": 15000,
+    "lowEnd": 2500,
+    "highEnd": 25000,
+    "costPerUnit": { "low": 3, "high": 8, "unit": "sq ft", "average": 5 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 1500,
+      "labor": 2500,
+      "permits": 300,
+      "design": 0,
+      "total": 4300,
+      "description": "Small home (under 1,200 sq ft), accessible wiring paths, basic NM-B copper wiring, standard outlets and switches, code-minimum circuit count"
+    },
+    "midRange": {
+      "materials": 3000,
+      "labor": 4500,
+      "permits": 400,
+      "design": 200,
+      "total": 8100,
+      "description": "Average home (1,500-2,000 sq ft), mix of accessible and closed walls, AFCI/GFCI breakers throughout, dedicated circuits for kitchen and laundry, 200-amp panel"
+    },
+    "premium": {
+      "materials": 5500,
+      "labor": 7500,
+      "permits": 500,
+      "design": 500,
+      "total": 14000,
+      "description": "Large home (2,500+ sq ft), complete drywall removal and replacement, structured wiring for data and entertainment, smart panel, whole-home surge protection, subpanels"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Home Size",
+      "impact": "$2,500 - $25,000",
+      "description": "This is the primary cost driver. A 1,000 sq ft home with simple layout might cost $3,500-$5,500 to rewire. A 2,000 sq ft two-story home runs $7,000-$12,000. Large homes over 3,000 sq ft can reach $15,000-$25,000. The cost per square foot generally decreases with size because fixed costs (panel, permits, setup) are spread across more area."
+    },
+    {
+      "title": "Wall and Ceiling Access",
+      "impact": "$1,000 - $8,000",
+      "description": "This is where rewiring costs vary most dramatically. If an electrician can access wiring through an unfinished basement below and an attic above, they can fish new wires without opening walls. In homes with finished basements, slab foundations, or no attic access, walls and ceilings must be opened - and then repaired. Drywall repair and painting can add $2,000-$8,000 depending on how many walls are opened."
+    },
+    {
+      "title": "Existing Wiring Type",
+      "impact": "$500 - $3,000",
+      "description": "Homes with knob-and-tube wiring (pre-1940s) are the most expensive to rewire because the old wiring must be fully removed or abandoned in place, and every circuit is replaced. Aluminum wiring (1960s-1970s) can sometimes be remediated with copper pigtails at each connection point ($50-$75 per outlet) rather than full replacement. Older copper wiring that is just undersized is the simplest - new wire is pulled alongside and the old wire is abandoned."
+    },
+    {
+      "title": "Number of Circuits and Outlets",
+      "impact": "$1,000 - $5,000",
+      "description": "Modern code requires far more circuits than homes built before 1980. Kitchens need at least two 20-amp small appliance circuits. Bathrooms need dedicated GFCI circuits. Each bedroom needs an arc-fault protected circuit. A modern 2,000 sq ft home typically has 20-30 circuits vs the 8-12 circuits found in many older homes. More circuits means more wire, more breakers, and more labor."
+    },
+    {
+      "title": "Panel Upgrade",
+      "impact": "$0 - $2,500",
+      "description": "Most rewiring projects include a panel upgrade because the existing panel is too small for modern circuit counts. If the panel was recently upgraded and has capacity, this cost is zero. Going from 100 to 200 amps adds $1,000-$2,000. Going from 60 amps (common in pre-1960s homes) to 200 amps costs $1,500-$2,500 including new service entrance cable and meter base."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Standard NM-B (Romex) Copper Wiring",
+      "costPerUnit": "$0.50 - $1.50 per foot",
+      "pros": "Industry standard, easy for electricians to work with, affordable, meets all residential codes",
+      "cons": "Cannot be used in exposed locations or conduit runs, not suitable for outdoor or wet locations",
+      "bestFor": "Interior walls, most residential rewiring projects"
+    },
+    {
+      "material": "MC (Metal Clad) Cable",
+      "costPerUnit": "$1.50 - $3.00 per foot",
+      "pros": "Built-in metal armor for protection, required in some jurisdictions (Chicago, NYC), good for exposed runs",
+      "cons": "More expensive, harder to work with, heavier, requires special connectors",
+      "bestFor": "Exposed basement runs, jurisdictions requiring metal-clad wiring, commercial-style installations"
+    },
+    {
+      "material": "THWN Wire in Conduit",
+      "costPerUnit": "$2.00 - $4.00 per foot (wire + conduit)",
+      "pros": "Wires can be replaced without opening walls, maximum protection, required for outdoor and garage applications",
+      "cons": "Most expensive option, requires conduit installation, more labor intensive",
+      "bestFor": "Outdoor runs, garage wiring, unfinished basement exposed wiring, industrial aesthetics"
+    },
+    {
+      "material": "14 AWG Wire (15-amp circuits)",
+      "costPerUnit": "$0.30 - $0.60 per foot",
+      "pros": "Lighter, easier to pull, less expensive, adequate for lighting and general-purpose outlets",
+      "cons": "Limited to 15-amp circuits, not suitable for high-draw appliances or kitchen outlets",
+      "bestFor": "Bedroom and living room lighting circuits, general-purpose outlet circuits"
+    },
+    {
+      "material": "12 AWG Wire (20-amp circuits)",
+      "costPerUnit": "$0.50 - $0.90 per foot",
+      "pros": "Handles 20-amp loads, required for kitchen and bathroom circuits, more future-proof",
+      "cons": "Slightly more expensive and stiffer to work with than 14 AWG",
+      "bestFor": "Kitchen small-appliance circuits, bathroom circuits, garage circuits, home office circuits"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Older housing stock means more rewiring demand. High labor rates in the Boston-NYC-DC corridor push costs 15-25% above average." },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California Title 24, strict permitting, and high electrician wages add 20-35%. Earthquake retrofitting may be required simultaneously." },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates and easier access (many homes on crawl spaces) keep costs 10-15% below the national average." },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive labor markets and many homes with accessible basements make rewiring 5-15% cheaper than average." },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Fewer older homes needing rewiring, but growing demand and skilled labor shortages push costs 5-10% above average." }
+  },
+  "timeline": {
+    "minimum": "3-5 days",
+    "typical": "1-2 weeks",
+    "maximum": "3-4 weeks",
+    "phases": [
+      { "name": "Inspection and planning", "duration": "1-2 days" },
+      { "name": "Permit application and approval", "duration": "1-2 weeks" },
+      { "name": "Panel upgrade (if needed)", "duration": "1 day" },
+      { "name": "Rough-in wiring (new circuits)", "duration": "3-7 days" },
+      { "name": "Device installation (outlets, switches)", "duration": "1-2 days" },
+      { "name": "Inspection", "duration": "1-3 business days" },
+      { "name": "Drywall repair and painting (if walls were opened)", "duration": "2-5 days" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "Not recommended - whole-house rewiring requires a licensed electrician for permits, inspections, and safety",
+    "diySavings": "N/A - most jurisdictions require licensed electricians for full rewiring permits",
+    "diyTasks": [
+      "Removing outlet and switch covers before the electrician arrives",
+      "Moving furniture away from walls to provide access",
+      "Removing and reinstalling baseboards if needed for access",
+      "Patching and painting drywall after the electrical work is complete",
+      "Labeling circuit preferences and desired outlet locations"
+    ],
+    "proOnlyTasks": [
+      "All wiring removal and installation",
+      "Panel upgrade and circuit terminations",
+      "Running wire through walls, ceilings, and floors",
+      "Installing outlets, switches, and fixtures",
+      "Pulling permits and scheduling inspections",
+      "Load calculations and circuit design"
+    ],
+    "diyRisks": "Whole-house rewiring involves working with live service entrance cables (even with the main breaker off, the service cables remain energized at 240V), running wire through concealed spaces where mistakes are invisible, and creating connections that must be perfect for decades. A single loose connection can cause an arc fault and house fire years later. This is not a DIY project under any circumstances."
+  },
+  "savingsTips": [
+    "If your home has an accessible attic and unfinished basement, the electrician can fish most wires without opening walls - saving thousands in drywall repair",
+    "Get quotes from at least four electricians - pricing varies widely for rewiring because each contractor approaches access differently",
+    "Ask if the old wiring can be abandoned in place rather than fully removed - pulling old wire out costs extra and is often unnecessary",
+    "Do your own drywall repair and painting after the electrical work is done to save $2,000-$5,000 on a whole-house project",
+    "Bundle the rewiring with a panel upgrade - the incremental cost to upgrade the panel during rewiring is much less than doing it separately",
+    "Plan all future electrical needs now (EV charger circuit, home office, kitchen remodel) to avoid paying for a second round of work later",
+    "Check if your homeowner's insurance offers a discount for upgrading from knob-and-tube or aluminum wiring - some insurers reduce premiums by 10-20%",
+    "Schedule the work during the electrician's slower season (typically late fall through early spring) for better pricing and availability"
+  ],
+  "contractorQuestions": [
+    { "question": "How will you access the wiring without destroying my walls?", "why": "The best electricians have strategies for minimizing wall damage - fishing from attic and basement, using flex bits, and making small strategic openings. An electrician who immediately says 'we will need to open all the walls' may not have the experience to do it efficiently." },
+    { "question": "Does the quote include drywall repair and painting?", "why": "Some electricians include patching in their quote; others leave open walls for you or a drywall contractor to finish. Get this in writing. The repair and paint work can add 20-30% to the total project cost." },
+    { "question": "How many circuits will the new system have?", "why": "A modern home needs 20-30+ circuits. Ask for a circuit schedule showing every circuit, what it feeds, and its amperage. Compare this across bids to make sure you are comparing equal scopes of work." },
+    { "question": "Will you remove the old wiring or abandon it in place?", "why": "Removing old wiring is cleaner but costs more. Abandoning it in place is standard practice and safe as long as it is fully disconnected at both ends. Some insurance companies or home inspectors prefer complete removal." },
+    { "question": "What is the rough-in inspection process?", "why": "Rewiring requires a rough-in inspection before walls are closed up, and a final inspection after devices are installed. Ask the electrician to coordinate the inspection schedule so you are not waiting weeks between phases." },
+    { "question": "Will you be doing the work yourself or using a crew?", "why": "Whole-house rewiring is labor intensive. A solo electrician may take 2-3 weeks on a medium home. A crew of 2-3 can finish in 1 week. Ask who is doing the work and their experience level." },
+    { "question": "Is the existing grounding system adequate, or does it need upgrading?", "why": "Many older homes have inadequate grounding. The rewiring quote should include proper grounding - two ground rods, bonding to water pipes, and an equipment grounding conductor in every circuit. This is not optional for code compliance." }
+  ],
+  "relatedProjects": [
+    "electrical-panel-upgrade",
+    "ev-charger-installation",
+    "recessed-lighting",
+    "ceiling-fan-installation"
+  ],
+  "seo": {
+    "primaryKeyword": "whole house rewiring cost",
+    "secondaryKeywords": [
+      "cost to rewire a house",
+      "home rewiring cost",
+      "house rewiring cost per square foot",
+      "how much to rewire a house",
+      "rewiring old house cost",
+      "electrical rewiring cost",
+      "whole house rewiring cost 2026",
+      "knob and tube replacement cost"
+    ],
+    "metaDescription": "Whole-house rewiring costs $3,500-$15,000 in 2026, with a national average of $8,000. See detailed breakdowns by home size, wiring type, and regional pricing."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Cost to Rewire a House", "year": 2025, "url": "https://www.homeadvisor.com/cost/electrical/rewire-a-house/" },
+    { "name": "Fixr - Cost to Rewire a House", "year": 2025, "url": "https://www.fixr.com/costs/rewire-house" },
+    { "name": "Angi - How Much Does It Cost to Rewire a House?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-rewire-house.htm" },
+    { "name": "HomeGuide - House Rewiring Cost", "year": 2025, "url": "https://homeguide.com/costs/cost-to-rewire-a-house" }
+  ]
+}

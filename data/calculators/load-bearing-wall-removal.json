@@ -1,0 +1,60 @@
+{
+  "slug": "load-bearing-wall-removal",
+  "title": "Load-Bearing Wall Removal Cost Calculator",
+  "description": "Estimate the cost of removing a load-bearing wall based on wall length, beam type, and your location.",
+  "projectSlug": "load-bearing-wall-removal",
+  "category": "structural",
+  "nationalAverage": 3500,
+  "sizeInput": {
+    "label": "Wall Length",
+    "unit": "linear ft",
+    "min": 4,
+    "max": 30,
+    "step": 1,
+    "default": 12
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 30,
+      "laborPerUnit": 80,
+      "permitBase": 200,
+      "description": "LVL beam, short span, minimal mechanical rerouting, basic drywall patch"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 55,
+      "laborPerUnit": 140,
+      "permitBase": 350,
+      "description": "LVL or steel beam, moderate span, some electrical/plumbing rerouting, full finish"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 90,
+      "laborPerUnit": 200,
+      "permitBase": 500,
+      "description": "Steel I-beam, long span, significant mechanical rerouting, concealed flush beam finish"
+    }
+  },
+  "options": [
+    { "id": "steel_beam", "label": "Steel I-Beam (vs. LVL)", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 0 } },
+    { "id": "electrical_reroute", "label": "Electrical Rerouting", "default": true, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } },
+    { "id": "plumbing_reroute", "label": "Plumbing Rerouting", "default": false, "costByTier": { "budget": 500, "midRange": 1000, "premium": 1500 } },
+    { "id": "structural_engineering", "label": "Structural Engineering Plan", "default": true, "costByTier": { "budget": 300, "midRange": 500, "premium": 1200 } },
+    { "id": "flush_ceiling", "label": "Flush Ceiling Finish (Concealed Beam)", "default": false, "costByTier": { "budget": 800, "midRange": 1200, "premium": 1500 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92,
+    "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "load bearing wall removal cost calculator",
+    "metaDescription": "Calculate the cost of removing a load-bearing wall. Enter wall length, beam type, and location for an instant estimate with itemized breakdown."
+  }
+}

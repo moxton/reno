@@ -1,0 +1,59 @@
+{
+  "slug": "kitchen-backsplash",
+  "title": "Kitchen Backsplash Cost Calculator",
+  "description": "Estimate the cost of your kitchen backsplash based on tile type, area, and pattern complexity.",
+  "projectSlug": "kitchen-backsplash",
+  "category": "kitchen",
+  "nationalAverage": 1500,
+  "sizeInput": {
+    "label": "Backsplash Area",
+    "unit": "sq ft",
+    "min": 10,
+    "max": 80,
+    "step": 5,
+    "default": 30
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 5,
+      "laborPerUnit": 10,
+      "permitBase": 0,
+      "description": "Ceramic subway tile in a basic grid pattern"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 15,
+      "laborPerUnit": 22,
+      "permitBase": 0,
+      "description": "Porcelain or glass tile in herringbone or stacked pattern"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 40,
+      "laborPerUnit": 38,
+      "permitBase": 0,
+      "description": "Natural stone or handmade tiles with complex mosaic patterns"
+    }
+  },
+  "options": [
+    { "id": "removal", "label": "Old Backsplash Removal", "default": false, "costByTier": { "budget": 150, "midRange": 250, "premium": 350 } },
+    { "id": "wallRepair", "label": "Drywall Repair After Removal", "default": false, "costByTier": { "budget": 100, "midRange": 150, "premium": 200 } },
+    { "id": "focalWall", "label": "Behind-Range Accent Feature", "default": false, "costByTier": { "budget": 75, "midRange": 200, "premium": 500 } },
+    { "id": "groutSeal", "label": "Premium Grout and Sealing", "default": false, "costByTier": { "budget": 50, "midRange": 100, "premium": 200 } },
+    { "id": "trimPieces", "label": "Edge Trim and Bullnose", "default": true, "costByTier": { "budget": 40, "midRange": 80, "premium": 150 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "kitchen backsplash cost calculator",
+    "metaDescription": "Calculate your kitchen backsplash installation cost by tile type, area size, and pattern. Get instant 2026 estimates with regional adjustments."
+  }
+}

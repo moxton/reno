@@ -1,0 +1,51 @@
+{
+  "slug": "water-heater-replacement",
+  "title": "Water Heater Replacement Cost Calculator",
+  "description": "Estimate the cost of replacing your water heater based on type, size, and installation complexity.",
+  "projectSlug": "water-heater-replacement",
+  "category": "plumbing",
+  "nationalAverage": 1500,
+  "sizeInput": {
+    "label": "Tank Size",
+    "unit": "gallons",
+    "min": 30,
+    "max": 80,
+    "step": 10,
+    "default": 50
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 8.00,
+      "laborPerUnit": 4.50,
+      "permitBase": 50,
+      "description": "Standard electric tank, basic brand, same-location swap"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 14.00,
+      "laborPerUnit": 8.00,
+      "permitBase": 100,
+      "description": "Gas or electric tank, mid-tier brand, updated connections"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 24.00,
+      "laborPerUnit": 11.00,
+      "permitBase": 150,
+      "description": "High-efficiency or hybrid heat pump, premium brand, expanded capacity"
+    }
+  },
+  "options": [
+    { "id": "fuelSwitch", "label": "Switch Fuel Type (gas to electric or vice versa)", "default": false, "costByTier": { "budget": 500, "midRange": 800, "premium": 1200 } },
+    { "id": "expansionTank", "label": "Expansion Tank (code requirement)", "default": true, "costByTier": { "budget": 75, "midRange": 100, "premium": 150 } },
+    { "id": "newVenting", "label": "Updated Venting (gas units)", "default": false, "costByTier": { "budget": 200, "midRange": 350, "premium": 500 } },
+    { "id": "drainPan", "label": "Drain Pan and Overflow Line", "default": false, "costByTier": { "budget": 50, "midRange": 75, "premium": 100 } },
+    { "id": "disposal", "label": "Old Unit Removal and Disposal", "default": true, "costByTier": { "budget": 50, "midRange": 75, "premium": 100 } }
+  ],
+  "regionalMultipliers": { "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20, "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88, "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22, "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05, "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88, "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85, "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05 },
+  "seo": {
+    "primaryKeyword": "water heater replacement cost calculator",
+    "metaDescription": "Calculate your water heater replacement cost based on tank size, fuel type, and your location. Get an instant estimate with our free interactive calculator."
+  }
+}

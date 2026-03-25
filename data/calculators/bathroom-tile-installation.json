@@ -1,0 +1,59 @@
+{
+  "slug": "bathroom-tile-installation",
+  "title": "Bathroom Tile Installation Cost Calculator",
+  "description": "Estimate the cost of tiling your bathroom floor and walls based on area, tile type, and project options.",
+  "projectSlug": "bathroom-tile-installation",
+  "category": "bathroom",
+  "nationalAverage": 2800,
+  "sizeInput": {
+    "label": "Tile Area",
+    "unit": "sq ft",
+    "min": 20,
+    "max": 300,
+    "step": 5,
+    "default": 100
+  },
+  "tiers": {
+    "budget": {
+      "label": "Budget",
+      "materialPerUnit": 5,
+      "laborPerUnit": 7,
+      "permitBase": 0,
+      "description": "Ceramic tile, simple layout, floor only"
+    },
+    "midRange": {
+      "label": "Mid-Range",
+      "materialPerUnit": 10,
+      "laborPerUnit": 15,
+      "permitBase": 0,
+      "description": "Porcelain tile, floor and shower walls, accent strip"
+    },
+    "premium": {
+      "label": "Premium",
+      "materialPerUnit": 22,
+      "laborPerUnit": 28,
+      "permitBase": 0,
+      "description": "Natural stone or large-format tile, custom patterns, full walls"
+    }
+  },
+  "options": [
+    { "id": "oldTileRemoval", "label": "Remove Existing Tile", "default": true, "costByTier": { "budget": 200, "midRange": 350, "premium": 500 } },
+    { "id": "waterproofing", "label": "Shower Waterproofing", "default": true, "costByTier": { "budget": 200, "midRange": 400, "premium": 800 } },
+    { "id": "floorLeveling", "label": "Subfloor Leveling", "default": false, "costByTier": { "budget": 300, "midRange": 500, "premium": 800 } },
+    { "id": "heatedFloor", "label": "In-Floor Heating Mat", "default": false, "costByTier": { "budget": 600, "midRange": 1000, "premium": 1800 } },
+    { "id": "accentTile", "label": "Decorative Accent Band", "default": false, "costByTier": { "budget": 100, "midRange": 250, "premium": 600 } }
+  ],
+  "regionalMultipliers": {
+    "AL": 0.85, "AK": 1.30, "AZ": 0.95, "AR": 0.82, "CA": 1.30, "CO": 1.08, "CT": 1.20,
+    "DE": 1.10, "FL": 0.92, "GA": 0.88, "HI": 1.40, "ID": 1.05, "IL": 1.05, "IN": 0.88,
+    "IA": 0.85, "KS": 0.85, "KY": 0.85, "LA": 0.85, "ME": 1.12, "MD": 1.15, "MA": 1.22,
+    "MI": 0.90, "MN": 1.00, "MS": 0.80, "MO": 0.88, "MT": 1.05, "NE": 0.85, "NV": 1.05,
+    "NH": 1.15, "NJ": 1.20, "NM": 0.95, "NY": 1.25, "NC": 0.88, "ND": 0.90, "OH": 0.88,
+    "OK": 0.82, "OR": 1.12, "PA": 1.05, "RI": 1.18, "SC": 0.85, "SD": 0.85, "TN": 0.85,
+    "TX": 0.90, "UT": 1.05, "VT": 1.15, "VA": 1.05, "WA": 1.20, "WV": 0.82, "WI": 0.92, "WY": 1.05
+  },
+  "seo": {
+    "primaryKeyword": "bathroom tile installation cost calculator",
+    "metaDescription": "Calculate your bathroom tile installation cost by area, tile type, and options. Get instant estimates with regional pricing for 2026."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "slug": "laminate-flooring",
+  "title": "Laminate Flooring Installation",
+  "category": "flooring",
+  "lastUpdated": "2026-03-25",
+  "costSummary": {
+    "nationalAverage": 3500,
+    "typicalLow": 2000,
+    "typicalHigh": 6000,
+    "lowEnd": 1500,
+    "highEnd": 8000,
+    "costPerUnit": { "low": 3, "high": 10, "unit": "sq ft", "average": 7 }
+  },
+  "costBreakdown": {
+    "budget": {
+      "materials": 750,
+      "labor": 1000,
+      "permits": 0,
+      "design": 0,
+      "total": 1750,
+      "description": "Basic 6-7mm laminate, AC3 rating, simple wood-grain pattern, click-lock floating installation over existing subfloor with minimal prep"
+    },
+    "midRange": {
+      "materials": 1250,
+      "labor": 1500,
+      "permits": 0,
+      "design": 0,
+      "total": 2750,
+      "description": "Mid-grade 8-10mm laminate, AC4 rating, realistic embossed texture, includes underlayment, basic subfloor prep, and transition strips"
+    },
+    "premium": {
+      "materials": 2500,
+      "labor": 2200,
+      "permits": 0,
+      "design": 0,
+      "total": 4700,
+      "description": "Premium 12mm+ laminate, AC5 commercial rating, hand-scraped or wire-brushed texture, waterproof core, full subfloor leveling, custom transitions, and furniture moving"
+    }
+  },
+  "costFactors": [
+    {
+      "title": "Laminate Thickness and Quality Rating",
+      "impact": "$1.50 - $5.00 per sq ft",
+      "description": "Thicker laminate (10-12mm) with higher AC ratings costs more but handles foot traffic better and feels more solid underfoot. Budget 6mm planks run $1-$2 per sq ft for materials, while premium 12mm+ planks with waterproof cores hit $4-$6 per sq ft."
+    },
+    {
+      "title": "Subfloor Condition and Prep Work",
+      "impact": "$200 - $1,500",
+      "description": "Laminate flooring demands a flat, clean subfloor. Minor leveling with self-leveling compound costs $200-$500. If you have severe unevenness, moisture issues, or need to install plywood underlayment over concrete, expect $800-$1,500 in extra prep costs."
+    },
+    {
+      "title": "Old Flooring Removal and Disposal",
+      "impact": "$150 - $800",
+      "description": "Removing existing carpet is cheap at $0.50-$1 per sq ft. Pulling up old tile or hardwood is more labor-intensive at $1.50-$3 per sq ft. Disposal fees add $50-$150 depending on your area. Some installers include basic carpet removal in their quote."
+    },
+    {
+      "title": "Room Layout Complexity",
+      "impact": "$200 - $1,000",
+      "description": "Open rectangular rooms are the cheapest to install. Hallways, L-shaped rooms, closets, and areas with many doorways require more cuts and transitions. Expect a 10-20% labor premium for complex layouts. Staircase installation adds $20-$40 per step."
+    },
+    {
+      "title": "Underlayment Selection",
+      "impact": "$75 - $400",
+      "description": "Some laminate comes with attached underlayment, saving $0.15-$0.30 per sq ft. Separate standard foam underlayment costs $0.15-$0.30 per sq ft. Upgraded cork or rubber underlayment for sound dampening runs $0.50-$0.80 per sq ft, which matters in upstairs rooms or condos with noise requirements."
+    }
+  ],
+  "materialOptions": [
+    {
+      "material": "Basic Laminate (6-7mm, AC3)",
+      "costPerUnit": "$1.00 - $2.00 per sq ft",
+      "pros": "Lowest cost, easy DIY installation, decent appearance for light-use areas",
+      "cons": "Thinner feel underfoot, lower durability, limited moisture resistance, shorter lifespan (10-15 years)",
+      "bestFor": "Bedrooms, guest rooms, rental properties, and budget-conscious homeowners"
+    },
+    {
+      "material": "Mid-Grade Laminate (8-10mm, AC4)",
+      "costPerUnit": "$2.00 - $3.50 per sq ft",
+      "pros": "Good balance of price and performance, realistic textures, handles moderate traffic well",
+      "cons": "Still not waterproof (water-resistant options available), can sound hollow without quality underlayment",
+      "bestFor": "Living rooms, dining rooms, home offices, and most general living spaces"
+    },
+    {
+      "material": "Premium Laminate (12mm+, AC5)",
+      "costPerUnit": "$3.50 - $6.00 per sq ft",
+      "pros": "Solid feel underfoot, commercial-grade durability, realistic wood appearance, many waterproof options",
+      "cons": "Higher cost approaches engineered hardwood pricing, still not real wood",
+      "bestFor": "High-traffic areas, kitchens, entryways, and homeowners wanting near-hardwood appearance"
+    },
+    {
+      "material": "Waterproof Laminate",
+      "costPerUnit": "$3.00 - $5.50 per sq ft",
+      "pros": "Can handle moisture and spills, works in kitchens and basements, tight-locking seams",
+      "cons": "Premium price, fewer style options than standard laminate, some brands overstate waterproof claims",
+      "bestFor": "Kitchens, laundry rooms, basements, bathrooms (limited), and homes with pets or kids"
+    },
+    {
+      "material": "Wide Plank Laminate (7\"+ width)",
+      "costPerUnit": "$2.50 - $5.00 per sq ft",
+      "pros": "Modern, upscale look, fewer seams, mimics trendy wide-plank hardwood styles",
+      "cons": "Requires flatter subfloor, more waste from wider cuts, can show subfloor imperfections more easily",
+      "bestFor": "Open-concept living areas, modern or farmhouse design styles, homeowners prioritizing aesthetics"
+    }
+  ],
+  "regionalMultipliers": {
+    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates in metro areas like NYC, Boston, and Philadelphia push installation costs up 15-25%" },
+    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California, Oregon, and Washington have elevated labor and material transport costs, especially in the Bay Area and LA" },
+    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower cost of living and competitive installer market keep prices 10-15% below the national average" },
+    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Affordable labor rates and lower overhead reduce costs 5-15% in most metro areas" },
+    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing housing markets in Denver, Salt Lake City, and Boise push costs slightly above average" }
+  },
+  "timeline": {
+    "minimum": "1 day",
+    "typical": "1-2 days",
+    "maximum": "3-4 days",
+    "phases": [
+      { "name": "Old flooring removal", "duration": "0.5-1 day" },
+      { "name": "Subfloor prep and leveling", "duration": "0.5-1 day" },
+      { "name": "Underlayment installation", "duration": "1-2 hours" },
+      { "name": "Laminate plank installation", "duration": "1-2 days" },
+      { "name": "Transitions, trim, and cleanup", "duration": "2-4 hours" }
+    ]
+  },
+  "diyVsPro": {
+    "diyFeasibility": "High - laminate is one of the most DIY-friendly flooring options thanks to click-lock installation systems that require no glue or nails",
+    "diySavings": "40-50% ($700-$1,500 on a typical 500 sq ft project)",
+    "diyTasks": [
+      "Measuring and ordering materials (add 10% for waste)",
+      "Removing old carpet or vinyl flooring",
+      "Installing foam or cork underlayment",
+      "Cutting and clicking planks together",
+      "Installing quarter-round trim and transitions"
+    ],
+    "proOnlyTasks": [
+      "Significant subfloor leveling or repair",
+      "Asbestos tile removal (requires licensed abatement)",
+      "Staircase laminate installation",
+      "Radiant heat subfloor modifications"
+    ],
+    "diyRisks": "The main risks are poor subfloor prep leading to squeaky or uneven floors, incorrect expansion gap sizing causing buckling in humidity changes, and improper moisture barrier placement on concrete subfloors. Mistakes here often mean pulling up and re-doing sections."
+  },
+  "savingsTips": [
+    "Buy laminate during holiday sales (Memorial Day, Black Friday, Labor Day) when big-box stores discount flooring 20-30%",
+    "Choose a laminate with attached underlayment to save $0.15-$0.30 per sq ft on separate underlayment",
+    "Do your own demolition and old flooring removal to save $150-$500 in labor",
+    "Order 10% extra for waste rather than 15-20% - laminate cuts cleanly with minimal waste in rectangular rooms",
+    "Skip the contractor markup by hiring an independent installer directly through local flooring Facebook groups or Nextdoor",
+    "Consider AC4-rated laminate instead of AC5 for residential use - the durability difference rarely matters in a home setting",
+    "Negotiate free installation promotions at Home Depot or Lowe's, which periodically offer free basic install with material purchase",
+    "Use laminate in common areas and cheaper carpet in bedrooms to reduce the total project cost"
+  ],
+  "contractorQuestions": [
+    { "question": "Does your quote include subfloor prep, or is that an additional charge?", "why": "Many installers quote low and then add $200-$800 for subfloor leveling once they start work. Get this in writing upfront." },
+    { "question": "What is your waste factor, and will you return unused boxes?", "why": "Some installers order 15-20% extra and keep the leftovers. A 10% waste factor is standard for most rooms. Ensure unused full boxes are returnable." },
+    { "question": "Are transitions, quarter-round, and trim included in the labor price?", "why": "Trim work can add $200-$400 if quoted separately. Some installers include it, others charge per linear foot for transitions and shoe molding." },
+    { "question": "How do you handle doors and door jambs?", "why": "Proper installation requires undercutting door casings so laminate slides underneath. Skipping this step leaves visible gaps. Confirm this is included." },
+    { "question": "Do you carry liability insurance and workers' comp?", "why": "If an uninsured installer damages your subfloor or is injured in your home, you could be liable. Ask to see current certificates." },
+    { "question": "What warranty do you offer on the installation labor?", "why": "The manufacturer covers the product, but installation defects like gaps, buckling, or squeaks are on the installer. Look for at least a 1-year labor warranty." },
+    { "question": "Will you move furniture, and is that included in the price?", "why": "Some installers expect rooms cleared before arrival. Others charge $50-$150 per room for furniture moving. Clarify expectations to avoid surprises on install day." }
+  ],
+  "relatedProjects": [
+    "vinyl-plank-flooring",
+    "hardwood-floor-installation",
+    "carpet-installation",
+    "epoxy-garage-floor"
+  ],
+  "seo": {
+    "primaryKeyword": "laminate flooring installation cost",
+    "secondaryKeywords": [
+      "how much does laminate flooring cost",
+      "laminate flooring cost per square foot",
+      "laminate floor installation price",
+      "cost to install laminate flooring 2026",
+      "laminate vs vinyl plank cost",
+      "cheap laminate flooring installation",
+      "laminate flooring labor cost",
+      "best laminate flooring for the money"
+    ],
+    "metaDescription": "Laminate flooring installation costs $3-$10 per square foot in 2026. Get a detailed cost breakdown by quality tier, plus a free calculator to estimate your project."
+  },
+  "sources": [
+    { "name": "HomeAdvisor - Laminate Flooring Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/flooring/install-laminate-flooring/" },
+    { "name": "Fixr - Laminate Flooring Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/laminate-flooring-installation" },
+    { "name": "Angi - How Much Does Laminate Flooring Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-laminate-flooring.htm" },
+    { "name": "HomeGuide - Laminate Flooring Cost", "year": 2025, "url": "https://homeguide.com/costs/laminate-flooring-cost" },
+    { "name": "Remodeling Magazine - Cost vs. Value Report", "year": 2025, "url": "https://www.remodeling.hw.net/cost-vs-value/2025/" }
+  ]
+}
