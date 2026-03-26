@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata = {
   title: 'About Us',
   description: 'Learn about Home Project Cost Guide - our mission, methodology, and commitment to providing accurate, research-backed home improvement cost data.',
+  alternates: { canonical: 'https://homeprojectcostguide.com/about/' },
 };
 
 export default function AboutPage() {

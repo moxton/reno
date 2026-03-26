@@ -6,6 +6,12 @@ import { formatCurrency } from '@/app/lib/formatters';
 export const metadata = {
   title: 'Home Improvement Cost Calculators',
   description: 'Free interactive cost calculators for kitchen remodels, bathroom remodels, roofing, flooring, painting, and more. Get instant estimates based on your project size, quality, and location.',
+  openGraph: {
+    title: 'Home Improvement Cost Calculators',
+    description: 'Free interactive cost calculators for 50+ home improvement projects. Get instant estimates.',
+    url: 'https://homeprojectcostguide.com/calculators/',
+  },
+  alternates: { canonical: 'https://homeprojectcostguide.com/calculators/' },
 };
 
 const categoryLabels = {

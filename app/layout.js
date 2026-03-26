@@ -22,10 +22,17 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Home Project Cost Guide',
+    images: [{ url: '/og-image.svg', width: 1200, height: 630, alt: 'Home Project Cost Guide' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.svg'],
   },
   icons: {
     icon: '/favicon.svg',
+    apple: '/apple-touch-icon.svg',
   },
+  manifest: '/manifest.json',
 };
 
 const organizationSchema = {
@@ -53,10 +60,17 @@ const websiteSchema = {
   },
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#1B2A4A',
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

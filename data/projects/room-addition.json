@@ -9,7 +9,12 @@
     "typicalHigh": 100000,
     "lowEnd": 20000,
     "highEnd": 150000,
-    "costPerUnit": { "low": 100, "high": 300, "unit": "sq ft", "average": 200 }
+    "costPerUnit": {
+      "low": 100,
+      "high": 300,
+      "unit": "sq ft",
+      "average": 200
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,25 +107,74 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High labor rates and strict building codes push costs up. Expect $125-$375 per sq ft in metro Boston, NYC, and DC areas." },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California seismic requirements, high labor costs, and permitting delays add significant cost. Bay Area and LA additions routinely exceed $300 per sq ft." },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates and fewer weather complications keep costs down. Typical range is $85-$250 per sq ft in most SE metro areas." },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Affordable labor markets and competitive contractor pools. Deeper frost lines add slightly to foundation costs but overall prices stay moderate." },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing population and contractor demand push prices slightly above national average. Energy code requirements in Colorado and Utah add insulation costs." }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "High labor rates and strict building codes push costs up. Expect $125-$375 per sq ft in metro Boston, NYC, and DC areas."
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "California seismic requirements, high labor costs, and permitting delays add significant cost. Bay Area and LA additions routinely exceed $300 per sq ft."
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor rates and fewer weather complications keep costs down. Typical range is $85-$250 per sq ft in most SE metro areas."
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Affordable labor markets and competitive contractor pools. Deeper frost lines add slightly to foundation costs but overall prices stay moderate."
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Growing population and contractor demand push prices slightly above national average. Energy code requirements in Colorado and Utah add insulation costs."
+    }
   },
   "timeline": {
     "minimum": "6 weeks",
     "typical": "10-14 weeks",
     "maximum": "6 months",
     "phases": [
-      { "name": "Design and Permits", "duration": "3-6 weeks" },
-      { "name": "Site Prep and Foundation", "duration": "1-2 weeks" },
-      { "name": "Framing", "duration": "1-2 weeks" },
-      { "name": "Roofing and Exterior", "duration": "1-2 weeks" },
-      { "name": "Rough-in (Electrical, Plumbing, HVAC)", "duration": "1-2 weeks" },
-      { "name": "Insulation and Drywall", "duration": "1-2 weeks" },
-      { "name": "Interior Finishes", "duration": "2-3 weeks" },
-      { "name": "Final Inspections and Punch List", "duration": "1 week" }
+      {
+        "name": "Design and Permits",
+        "duration": "3-6 weeks"
+      },
+      {
+        "name": "Site Prep and Foundation",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Framing",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Roofing and Exterior",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Rough-in (Electrical, Plumbing, HVAC)",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Insulation and Drywall",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Interior Finishes",
+        "duration": "2-3 weeks"
+      },
+      {
+        "name": "Final Inspections and Punch List",
+        "duration": "1 week"
+      }
     ]
   },
   "diyVsPro": {
@@ -186,7 +240,6 @@
   ],
   "relatedProjects": [
     "load-bearing-wall-removal",
-    "foundation-repair",
     "roof-replacement",
     "window-replacement",
     "interior-painting"
@@ -206,10 +259,30 @@
     "metaDescription": "Room addition costs $25,000-$100,000 in 2026, with a national average of $55,000. See cost breakdowns by size, materials, and region, plus use our free calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - Room Addition Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/additions-and-remodels/build-an-addition/" },
-    { "name": "Fixr - Room Addition Cost", "year": 2025, "url": "https://www.fixr.com/costs/room-addition" },
-    { "name": "Angi - How Much Does a Home Addition Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-build-addition.htm" },
-    { "name": "HomeGuide - Home Addition Cost", "year": 2025, "url": "https://homeguide.com/costs/home-addition-cost" },
-    { "name": "Remodeling Magazine - Cost vs. Value Report", "year": 2025, "url": "https://www.remodeling.hw.net/cost-vs-value/2025/" }
+    {
+      "name": "HomeAdvisor - Room Addition Cost Guide",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/additions-and-remodels/build-an-addition/"
+    },
+    {
+      "name": "Fixr - Room Addition Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/room-addition"
+    },
+    {
+      "name": "Angi - How Much Does a Home Addition Cost?",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-it-cost-build-addition.htm"
+    },
+    {
+      "name": "HomeGuide - Home Addition Cost",
+      "year": 2025,
+      "url": "https://homeguide.com/costs/home-addition-cost"
+    },
+    {
+      "name": "Remodeling Magazine - Cost vs. Value Report",
+      "year": 2025,
+      "url": "https://www.remodeling.hw.net/cost-vs-value/2025/"
+    }
   ]
 }

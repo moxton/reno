@@ -5,10 +5,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navLinks = [
-  { href: '/projects/', label: 'Projects' },
+  { href: '/projects/', label: 'Cost Guides' },
   { href: '/calculators/', label: 'Calculators' },
+  { href: '/compare/', label: 'Compare' },
+  { href: '/cost-by-zip/', label: 'Cost by ZIP' },
   { href: '/blog/', label: 'Blog' },
-  { href: '/about/', label: 'About' },
 ];
 
 export default function Header() {

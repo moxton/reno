@@ -10,9 +10,26 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const post = getPostBySlug(params.slug);
   if (!post) return {};
+  const description = post.seo?.metaDescription || post.excerpt;
   return {
     title: post.title,
-    description: post.seo?.metaDescription || post.excerpt,
+    description,
+    openGraph: {
+      title: post.title,
+      description,
+      type: 'article',
+      publishedTime: post.publishedDate,
+      modifiedTime: post.publishedDate,
+      url: `https://homeprojectcostguide.com/blog/${post.slug}/`,
+    },
+    twitter: {
+      card: 'summary',
+      title: post.title,
+      description,
+    },
+    alternates: {
+      canonical: `https://homeprojectcostguide.com/blog/${post.slug}/`,
+    },
   };
 }
 
@@ -33,8 +50,29 @@ export default function BlogPostPage({ params }) {
     .filter(p => p.slug !== post.slug)
     .slice(0, 3);
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.seo?.metaDescription || post.excerpt,
+    datePublished: post.publishedDate,
+    dateModified: post.publishedDate,
+    author: { '@type': 'Organization', name: 'Home Project Cost Guide' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Home Project Cost Guide',
+      url: 'https://homeprojectcostguide.com',
+      logo: { '@type': 'ImageObject', url: 'https://homeprojectcostguide.com/favicon.svg' },
+    },
+    mainEntityOfPage: `https://homeprojectcostguide.com/blog/${post.slug}/`,
+  };
+
   return (
     <div className="py-10 sm:py-14">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <div className="section-width section-padding">
         <Breadcrumbs
           items={[
@@ -44,7 +82,8 @@ export default function BlogPostPage({ params }) {
           ]}
         />
 
-        <article className="mt-6 max-w-3xl">
+        <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <article className="lg:col-span-2">
           {/* Post Header */}
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
@@ -60,6 +99,9 @@ export default function BlogPostPage({ params }) {
             {post.subtitle && (
               <p className="mt-3 text-lg text-muted">{post.subtitle}</p>
             )}
+            <p className="mt-2 text-xs text-muted-light">
+              Last updated: {new Date(post.publishedDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+            </p>
           </div>
 
           {/* Key Takeaways */}
@@ -82,14 +124,14 @@ export default function BlogPostPage({ params }) {
           {/* Post Content */}
           <div className="prose-custom">
             {post.sections.map((section, i) => (
-              <section key={i} className="mb-10">
+              <section key={i} className={`mb-6 ${i % 2 === 1 ? 'bg-gray-50/50 rounded-lg p-5 -mx-1' : 'py-4'}`}>
                 {section.heading && (
-                  <h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')} className="text-xl sm:text-2xl font-bold text-primary mb-4">
+                  <h2 id={section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')} className="text-xl sm:text-2xl font-bold text-primary mb-4 scroll-mt-24">
                     {section.heading}
                   </h2>
                 )}
                 {section.paragraphs && section.paragraphs.map((p, j) => (
-                  <p key={j} className="text-text leading-relaxed mb-4 text-[15px]">{p}</p>
+                  <p key={j} className="text-text leading-relaxed mb-4 text-[15px] max-w-prose">{p}</p>
                 ))}
                 {section.table && (
                   <div className="overflow-x-auto mb-4">
@@ -132,9 +174,9 @@ export default function BlogPostPage({ params }) {
             ))}
           </div>
 
-          {/* Internal Links */}
+          {/* Internal Links (mobile only - shown in sidebar on desktop) */}
           {post.relatedProjects && post.relatedProjects.length > 0 && (
-            <div className="border-t border-gray-200 pt-8 mt-10">
+            <div className="border-t border-gray-200 pt-8 mt-10 lg:hidden">
               <h2 className="text-lg font-semibold text-primary mb-4">Related Cost Guides</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {post.relatedProjects.map((proj, i) => (
@@ -157,8 +199,51 @@ export default function BlogPostPage({ params }) {
           )}
         </article>
 
-        {/* More Posts */}
-        <div className="mt-16 border-t border-gray-200 pt-10">
+          {/* Sidebar - Table of Contents */}
+          <div className="lg:col-span-1">
+            <div className="lg:sticky lg:top-24">
+              {/* Key Takeaways (sidebar version on desktop) */}
+              <nav className="bg-white rounded-xl border border-gray-100 p-5 hidden lg:block">
+                <h3 className="text-sm font-semibold text-primary mb-3">On This Page</h3>
+                <ul className="space-y-2 text-xs text-muted">
+                  {post.sections.filter(s => s.heading).map((section, i) => {
+                    const id = section.heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+                    return (
+                      <li key={i}>
+                        <a href={`#${id}`} className="hover:text-accent transition-colors block py-0.5">
+                          {section.heading}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+
+              {/* Related Cost Guides in sidebar */}
+              {post.relatedProjects && post.relatedProjects.length > 0 && (
+                <div className="mt-6 bg-white rounded-xl border border-gray-100 p-5 hidden lg:block">
+                  <h3 className="text-sm font-semibold text-primary mb-3">Related Cost Guides</h3>
+                  <ul className="space-y-2">
+                    {post.relatedProjects.map((proj, i) => (
+                      <li key={i}>
+                        <Link href={proj.href} className="text-xs text-muted hover:text-accent transition-colors block py-0.5">
+                          {proj.title}
+                          {proj.subtitle && <span className="text-muted-light ml-1">- {proj.subtitle}</span>}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {/* More Posts - full width */}
+      <div className="mt-16 border-t border-gray-200 bg-gray-50/60">
+        <div className="section-width section-padding py-10">
           <h2 className="text-xl font-semibold text-primary mb-6">More from the Blog</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {relatedPosts.map((rp) => (

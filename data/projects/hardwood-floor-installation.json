@@ -9,7 +9,12 @@
     "typicalHigh": 12000,
     "lowEnd": 3000,
     "highEnd": 12500,
-    "costPerUnit": { "low": 6, "high": 25, "unit": "sq ft", "average": 13 }
+    "costPerUnit": {
+      "low": 6,
+      "high": 25,
+      "unit": "sq ft",
+      "average": 13
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -65,39 +70,137 @@
     }
   ],
   "materialOptions": [
-    { "material": "Red Oak (Solid)", "costPerUnit": "$3-$7/sq ft", "pros": "Most popular species, takes stain well, widely available, durable", "cons": "Prominent grain pattern not for everyone, softer than white oak", "bestFor": "Most homes, traditional or transitional styles" },
-    { "material": "White Oak (Solid)", "costPerUnit": "$4-$10/sq ft", "pros": "Harder than red oak, water-resistant, modern aesthetic, ages beautifully", "cons": "More expensive, limited stain options due to tight grain", "bestFor": "Modern and farmhouse styles, high-traffic areas" },
-    { "material": "Maple (Solid)", "costPerUnit": "$4-$9/sq ft", "pros": "Very hard and durable, light clean look, resists denting", "cons": "Does not take stain evenly, can yellow over time", "bestFor": "Contemporary spaces, light-colored floor plans" },
-    { "material": "Cherry (Solid)", "costPerUnit": "$5-$12/sq ft", "pros": "Rich warm color, darkens beautifully with age, elegant grain", "cons": "Soft wood that dents easily, expensive, darkens significantly", "bestFor": "Formal rooms, traditional homes" },
-    { "material": "Walnut (Solid)", "costPerUnit": "$7-$15/sq ft", "pros": "Rich dark color, premium look, unique grain patterns", "cons": "Most expensive domestic species, softer than oak, shows scratches", "bestFor": "Premium remodels, statement floors" },
-    { "material": "Engineered Hardwood", "costPerUnit": "$3-$14/sq ft", "pros": "Works over concrete and radiant heat, more stable in humidity, wide plank options", "cons": "Can only be refinished 1-2 times (vs. 5+ for solid), quality varies widely", "bestFor": "Basements, condos, over concrete, radiant heat systems" },
-    { "material": "Bamboo", "costPerUnit": "$4.50-$6.50/sq ft", "pros": "Eco-friendly, very hard (strand-woven), affordable mid-range option", "cons": "Can scratch, limited color options, quality varies by manufacturer", "bestFor": "Eco-conscious homeowners, modern spaces" }
+    {
+      "material": "Red Oak (Solid)",
+      "costPerUnit": "$3-$7/sq ft",
+      "pros": "Most popular species, takes stain well, widely available, durable",
+      "cons": "Prominent grain pattern not for everyone, softer than white oak",
+      "bestFor": "Most homes, traditional or transitional styles"
+    },
+    {
+      "material": "White Oak (Solid)",
+      "costPerUnit": "$4-$10/sq ft",
+      "pros": "Harder than red oak, water-resistant, modern aesthetic, ages beautifully",
+      "cons": "More expensive, limited stain options due to tight grain",
+      "bestFor": "Modern and farmhouse styles, high-traffic areas"
+    },
+    {
+      "material": "Maple (Solid)",
+      "costPerUnit": "$4-$9/sq ft",
+      "pros": "Very hard and durable, light clean look, resists denting",
+      "cons": "Does not take stain evenly, can yellow over time",
+      "bestFor": "Contemporary spaces, light-colored floor plans"
+    },
+    {
+      "material": "Cherry (Solid)",
+      "costPerUnit": "$5-$12/sq ft",
+      "pros": "Rich warm color, darkens beautifully with age, elegant grain",
+      "cons": "Soft wood that dents easily, expensive, darkens significantly",
+      "bestFor": "Formal rooms, traditional homes"
+    },
+    {
+      "material": "Walnut (Solid)",
+      "costPerUnit": "$7-$15/sq ft",
+      "pros": "Rich dark color, premium look, unique grain patterns",
+      "cons": "Most expensive domestic species, softer than oak, shows scratches",
+      "bestFor": "Premium remodels, statement floors"
+    },
+    {
+      "material": "Engineered Hardwood",
+      "costPerUnit": "$3-$14/sq ft",
+      "pros": "Works over concrete and radiant heat, more stable in humidity, wide plank options",
+      "cons": "Can only be refinished 1-2 times (vs. 5+ for solid), quality varies widely",
+      "bestFor": "Basements, condos, over concrete, radiant heat systems"
+    },
+    {
+      "material": "Bamboo",
+      "costPerUnit": "$4.50-$6.50/sq ft",
+      "pros": "Eco-friendly, very hard (strand-woven), affordable mid-range option",
+      "cons": "Can scratch, limited color options, quality varies by manufacturer",
+      "bestFor": "Eco-conscious homeowners, modern spaces"
+    }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, especially in metro areas" },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, strict building standards" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates, strong contractor availability" },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average labor costs, good material availability" },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing demand pushing labor costs up" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Higher labor rates, especially in metro areas"
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "Highest labor costs, strict building standards"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor rates, strong contractor availability"
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Below-average labor costs, good material availability"
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Growing demand pushing labor costs up"
+    }
   },
   "timeline": {
     "minimum": "1 day",
     "typical": "1-3 days",
     "maximum": "5-7 days",
     "phases": [
-      { "name": "Acclimation (wood sits in your home)", "duration": "3-5 days" },
-      { "name": "Old flooring removal (if needed)", "duration": "0.5-1 day" },
-      { "name": "Subfloor prep and leveling", "duration": "0.5-1 day" },
-      { "name": "Installation", "duration": "1-3 days" },
-      { "name": "Staining and finishing (if unfinished)", "duration": "2-3 days" },
-      { "name": "Trim and transitions", "duration": "0.5 day" }
+      {
+        "name": "Acclimation (wood sits in your home)",
+        "duration": "3-5 days"
+      },
+      {
+        "name": "Old flooring removal (if needed)",
+        "duration": "0.5-1 day"
+      },
+      {
+        "name": "Subfloor prep and leveling",
+        "duration": "0.5-1 day"
+      },
+      {
+        "name": "Installation",
+        "duration": "1-3 days"
+      },
+      {
+        "name": "Staining and finishing (if unfinished)",
+        "duration": "2-3 days"
+      },
+      {
+        "name": "Trim and transitions",
+        "duration": "0.5 day"
+      }
     ]
   },
   "diyVsPro": {
     "diyFeasibility": "Partial",
     "diySavings": "40-60%",
-    "diyTasks": ["Floating/click-lock engineered floor installation", "Furniture removal and room prep", "Old carpet or vinyl removal", "Baseboard and trim removal and reinstallation", "Cleaning and finishing touches"],
-    "proOnlyTasks": ["Nail-down solid hardwood installation", "Subfloor leveling and repair", "Staircase installation", "Sanding and finishing unfinished hardwood", "Complex patterns (herringbone, chevron)", "Glue-down installation over concrete"],
+    "diyTasks": [
+      "Floating/click-lock engineered floor installation",
+      "Furniture removal and room prep",
+      "Old carpet or vinyl removal",
+      "Baseboard and trim removal and reinstallation",
+      "Cleaning and finishing touches"
+    ],
+    "proOnlyTasks": [
+      "Nail-down solid hardwood installation",
+      "Subfloor leveling and repair",
+      "Staircase installation",
+      "Sanding and finishing unfinished hardwood",
+      "Complex patterns (herringbone, chevron)",
+      "Glue-down installation over concrete"
+    ],
     "diyRisks": "Improper acclimation causes gaps or buckling within months. Bad subfloor prep leads to squeaks and uneven floors. Nail gun mistakes split planks and waste material. Floating floors are genuinely DIY-friendly, but nail-down and glue-down installations require experience and specialized tools to get right."
   },
   "savingsTips": [
@@ -111,24 +214,72 @@
     "Shop remnants and closeout lots. Flooring distributors sell discontinued colors and overstocked lots at 30-50% off."
   ],
   "contractorQuestions": [
-    { "question": "What installation method do you recommend for my subfloor, and why?", "why": "The right method depends on your subfloor type (plywood, concrete, existing flooring). A good installer will inspect before quoting." },
-    { "question": "How long do you acclimate the wood before installation?", "why": "Hardwood needs 3-5 days to adjust to your home's humidity. Skipping this step causes gaps or buckling. If a contractor says they'll install same-day delivery, that's a red flag." },
-    { "question": "What's included in your per-square-foot price?", "why": "Some quotes include only installation. Subfloor prep, old flooring removal, trim work, and transitions may be extra. Get a fully loaded number." },
-    { "question": "Do you warranty your installation against gaps, squeaks, and buckling?", "why": "Reputable installers offer 1-2 year workmanship warranties. Manufacturer warranties cover materials only, not installation defects." },
-    { "question": "How do you handle transitions between rooms and flooring types?", "why": "Clean transitions between hardwood and tile or carpet make or break the finished look. Ask to see examples of their transition work." },
-    { "question": "What's your moisture testing protocol for the subfloor?", "why": "Moisture is the number one enemy of hardwood floors. Professionals should test subfloor moisture content before installing. If they don't mention it, ask." },
-    { "question": "Are you licensed and insured, and can you provide references for similar jobs?", "why": "Flooring installation doesn't require a license in every state, but insurance protects you if something goes wrong. References for hardwood specifically matter - it's different from tile or carpet." }
+    {
+      "question": "What installation method do you recommend for my subfloor, and why?",
+      "why": "The right method depends on your subfloor type (plywood, concrete, existing flooring). A good installer will inspect before quoting."
+    },
+    {
+      "question": "How long do you acclimate the wood before installation?",
+      "why": "Hardwood needs 3-5 days to adjust to your home's humidity. Skipping this step causes gaps or buckling. If a contractor says they'll install same-day delivery, that's a red flag."
+    },
+    {
+      "question": "What's included in your per-square-foot price?",
+      "why": "Some quotes include only installation. Subfloor prep, old flooring removal, trim work, and transitions may be extra. Get a fully loaded number."
+    },
+    {
+      "question": "Do you warranty your installation against gaps, squeaks, and buckling?",
+      "why": "Reputable installers offer 1-2 year workmanship warranties. Manufacturer warranties cover materials only, not installation defects."
+    },
+    {
+      "question": "How do you handle transitions between rooms and flooring types?",
+      "why": "Clean transitions between hardwood and tile or carpet make or break the finished look. Ask to see examples of their transition work."
+    },
+    {
+      "question": "What's your moisture testing protocol for the subfloor?",
+      "why": "Moisture is the number one enemy of hardwood floors. Professionals should test subfloor moisture content before installing. If they don't mention it, ask."
+    },
+    {
+      "question": "Are you licensed and insured, and can you provide references for similar jobs?",
+      "why": "Flooring installation doesn't require a license in every state, but insurance protects you if something goes wrong. References for hardwood specifically matter - it's different from tile or carpet."
+    }
   ],
-  "relatedProjects": ["vinyl-plank-flooring", "carpet-installation", "hardwood-refinishing", "interior-painting"],
+  "relatedProjects": [
+    "vinyl-plank-flooring",
+    "carpet-installation",
+    "laminate-flooring",
+    "interior-painting"
+  ],
   "seo": {
     "primaryKeyword": "hardwood floor installation cost",
-    "secondaryKeywords": ["hardwood flooring cost per square foot", "how much does hardwood flooring cost", "cost to install hardwood floors", "hardwood floor installation price", "hardwood flooring cost 2026"],
+    "secondaryKeywords": [
+      "hardwood flooring cost per square foot",
+      "how much does hardwood flooring cost",
+      "cost to install hardwood floors",
+      "hardwood floor installation price",
+      "hardwood flooring cost 2026"
+    ],
     "metaDescription": "How much does hardwood floor installation cost in 2026? National average is $6,500 for 500 sq ft ($13/sq ft). Get cost breakdowns by wood species, installation method, and tier with our interactive calculator."
   },
   "sources": [
-    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/hardwood-floor-installation" },
-    { "name": "BigBroHardwood", "year": 2025, "url": "https://bigbrohardwood.com/hardwood-flooring-installation-cost/" },
-    { "name": "Homewyse", "year": 2026, "url": "https://www.homewyse.com/costs/cost-of-hardwood-flooring.html" },
-    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-hardwood-floors.htm" }
+    {
+      "name": "Fixr",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/hardwood-floor-installation"
+    },
+    {
+      "name": "BigBroHardwood",
+      "year": 2025,
+      "url": "https://bigbrohardwood.com/hardwood-flooring-installation-cost/"
+    },
+    {
+      "name": "Homewyse",
+      "year": 2026,
+      "url": "https://www.homewyse.com/costs/cost-of-hardwood-flooring.html"
+    },
+    {
+      "name": "Angi",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-it-cost-install-hardwood-floors.htm"
+    }
   ]
 }

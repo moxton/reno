@@ -9,7 +9,12 @@
     "typicalHigh": 5000,
     "lowEnd": 300,
     "highEnd": 15000,
-    "costPerUnit": { "low": 100, "high": 350, "unit": "linear ft of chimney height", "average": 200 }
+    "costPerUnit": {
+      "low": 100,
+      "high": 350,
+      "unit": "linear ft of chimney height",
+      "average": 200
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,24 +107,70 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Older housing stock means more chimney work and experienced masons. However, high demand and short working seasons push prices up." },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Seismic requirements may mandate reinforcement during chimney rebuilds. Fewer masonry chimneys overall means fewer specialists and higher rates." },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates and year-round working conditions. Less freeze-thaw damage means chimneys generally need less extensive repairs." },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Harsh winters cause significant freeze-thaw damage, creating high demand for chimney repair. Competitive contractor market keeps pricing moderate despite heavy demand." },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Altitude and temperature extremes accelerate chimney deterioration. Many mountain homes rely on wood-burning fireplaces, keeping chimney repair demand steady." }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Older housing stock means more chimney work and experienced masons. However, high demand and short working seasons push prices up."
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "Seismic requirements may mandate reinforcement during chimney rebuilds. Fewer masonry chimneys overall means fewer specialists and higher rates."
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor rates and year-round working conditions. Less freeze-thaw damage means chimneys generally need less extensive repairs."
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Harsh winters cause significant freeze-thaw damage, creating high demand for chimney repair. Competitive contractor market keeps pricing moderate despite heavy demand."
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Altitude and temperature extremes accelerate chimney deterioration. Many mountain homes rely on wood-burning fireplaces, keeping chimney repair demand steady."
+    }
   },
   "timeline": {
     "minimum": "1 day",
     "typical": "2-4 days",
     "maximum": "2 weeks",
     "phases": [
-      { "name": "Inspection and Assessment", "duration": "1-2 hours" },
-      { "name": "Scaffolding Setup (if needed)", "duration": "0.5 day" },
-      { "name": "Demolition of Damaged Section", "duration": "0.5-1 day" },
-      { "name": "Rebuild and Masonry Work", "duration": "1-3 days" },
-      { "name": "Flashing and Waterproofing", "duration": "0.5 day" },
-      { "name": "Cap and Crown Installation", "duration": "0.5 day" },
-      { "name": "Cleanup and Inspection", "duration": "0.5 day" }
+      {
+        "name": "Inspection and Assessment",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Scaffolding Setup (if needed)",
+        "duration": "0.5 day"
+      },
+      {
+        "name": "Demolition of Damaged Section",
+        "duration": "0.5-1 day"
+      },
+      {
+        "name": "Rebuild and Masonry Work",
+        "duration": "1-3 days"
+      },
+      {
+        "name": "Flashing and Waterproofing",
+        "duration": "0.5 day"
+      },
+      {
+        "name": "Cap and Crown Installation",
+        "duration": "0.5 day"
+      },
+      {
+        "name": "Cleanup and Inspection",
+        "duration": "0.5 day"
+      }
     ]
   },
   "diyVsPro": {
@@ -184,10 +235,8 @@
   ],
   "relatedProjects": [
     "roof-replacement",
-    "chimney-rebuild",
-    "fireplace-installation",
     "exterior-painting",
-    "foundation-repair"
+    "load-bearing-wall-removal"
   ],
   "seo": {
     "primaryKeyword": "chimney repair cost",
@@ -204,9 +253,25 @@
     "metaDescription": "Chimney repair costs $1,000-$5,000 in 2026, with a national average of $2,500. See cost breakdowns for tuckpointing, rebuilds, liners, and caps, plus use our free calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - Chimney Repair Cost Guide", "year": 2025, "url": "https://www.homeadvisor.com/cost/fireplaces-and-chimneys/repair-a-chimney/" },
-    { "name": "Fixr - Chimney Repair Cost", "year": 2025, "url": "https://www.fixr.com/costs/chimney-repair" },
-    { "name": "Angi - Chimney Repair Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-chimney-repair-cost.htm" },
-    { "name": "Bob Vila - Chimney Repair Cost", "year": 2025, "url": "https://www.bobvila.com/articles/chimney-repair-cost/" }
+    {
+      "name": "HomeAdvisor - Chimney Repair Cost Guide",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/fireplaces-and-chimneys/repair-a-chimney/"
+    },
+    {
+      "name": "Fixr - Chimney Repair Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/chimney-repair"
+    },
+    {
+      "name": "Angi - Chimney Repair Cost",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-chimney-repair-cost.htm"
+    },
+    {
+      "name": "Bob Vila - Chimney Repair Cost",
+      "year": 2025,
+      "url": "https://www.bobvila.com/articles/chimney-repair-cost/"
+    }
   ]
 }

@@ -9,7 +9,12 @@
     "typicalHigh": 12000,
     "lowEnd": 3750,
     "highEnd": 18000,
-    "costPerUnit": { "low": 4500, "high": 14000, "unit": "ton", "average": 7500 }
+    "costPerUnit": {
+      "low": 4500,
+      "high": 14000,
+      "unit": "ton",
+      "average": 7500
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -65,38 +70,124 @@
     }
   ],
   "materialOptions": [
-    { "material": "14 SEER Unit", "costPerUnit": "$1,725-$3,600 (equipment only)", "pros": "Lowest upfront cost, meets minimum federal standard, reliable performance", "cons": "Highest operating costs, single-stage only, louder operation", "bestFor": "Budget replacements, mild climates, homes you plan to sell soon" },
-    { "material": "16 SEER Unit", "costPerUnit": "$2,875-$6,000 (equipment only)", "pros": "Good efficiency gains over 14 SEER, reasonable payback, quieter operation", "cons": "Mid-range pricing, still single or two-stage", "bestFor": "Best value for most homeowners - sweet spot of cost and efficiency" },
-    { "material": "18 SEER Unit", "costPerUnit": "$4,100-$7,800 (equipment only)", "pros": "Significantly lower utility bills, two-stage or variable-speed, very quiet", "cons": "Higher upfront cost, longer payback period, more complex repairs", "bestFor": "Hot climates with heavy AC usage, homeowners planning to stay long-term" },
-    { "material": "20+ SEER Unit", "costPerUnit": "$5,750-$9,600 (equipment only)", "pros": "Maximum efficiency, variable-speed for precise comfort, whisper-quiet, may qualify for tax credits", "cons": "Highest upfront cost, 10-15 year payback, expensive repairs if needed", "bestFor": "Premium installations, very hot climates, homeowners who prioritize comfort and efficiency" }
+    {
+      "material": "14 SEER Unit",
+      "costPerUnit": "$1,725-$3,600 (equipment only)",
+      "pros": "Lowest upfront cost, meets minimum federal standard, reliable performance",
+      "cons": "Highest operating costs, single-stage only, louder operation",
+      "bestFor": "Budget replacements, mild climates, homes you plan to sell soon"
+    },
+    {
+      "material": "16 SEER Unit",
+      "costPerUnit": "$2,875-$6,000 (equipment only)",
+      "pros": "Good efficiency gains over 14 SEER, reasonable payback, quieter operation",
+      "cons": "Mid-range pricing, still single or two-stage",
+      "bestFor": "Best value for most homeowners - sweet spot of cost and efficiency"
+    },
+    {
+      "material": "18 SEER Unit",
+      "costPerUnit": "$4,100-$7,800 (equipment only)",
+      "pros": "Significantly lower utility bills, two-stage or variable-speed, very quiet",
+      "cons": "Higher upfront cost, longer payback period, more complex repairs",
+      "bestFor": "Hot climates with heavy AC usage, homeowners planning to stay long-term"
+    },
+    {
+      "material": "20+ SEER Unit",
+      "costPerUnit": "$5,750-$9,600 (equipment only)",
+      "pros": "Maximum efficiency, variable-speed for precise comfort, whisper-quiet, may qualify for tax credits",
+      "cons": "Highest upfront cost, 10-15 year payback, expensive repairs if needed",
+      "bestFor": "Premium installations, very hot climates, homeowners who prioritize comfort and efficiency"
+    }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, shorter cooling season reduces urgency but not price" },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs, strict energy codes require higher SEER minimums in some areas" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "High competition among HVAC contractors keeps prices lower, but high demand in summer" },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Moderate labor costs, competitive HVAC market" },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Dry climate reduces tonnage needs, but labor costs are rising in growing metros" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Higher labor rates, shorter cooling season reduces urgency but not price"
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "Highest labor costs, strict energy codes require higher SEER minimums in some areas"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "High competition among HVAC contractors keeps prices lower, but high demand in summer"
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Moderate labor costs, competitive HVAC market"
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Dry climate reduces tonnage needs, but labor costs are rising in growing metros"
+    }
   },
   "timeline": {
     "minimum": "1 day",
     "typical": "1-2 days",
     "maximum": "10 days",
     "phases": [
-      { "name": "Assessment and load calculation", "duration": "1-2 hours" },
-      { "name": "Equipment ordering (if not in stock)", "duration": "3-10 days" },
-      { "name": "Remove old unit and disconnect", "duration": "2-4 hours" },
-      { "name": "Install new condenser and air handler/evaporator coil", "duration": "4-6 hours" },
-      { "name": "Refrigerant line and electrical connections", "duration": "2-3 hours" },
-      { "name": "Thermostat installation and system testing", "duration": "1-2 hours" },
-      { "name": "Ductwork modifications (if needed)", "duration": "1-5 days" },
-      { "name": "Final inspection and permit sign-off", "duration": "1-3 days" }
+      {
+        "name": "Assessment and load calculation",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Equipment ordering (if not in stock)",
+        "duration": "3-10 days"
+      },
+      {
+        "name": "Remove old unit and disconnect",
+        "duration": "2-4 hours"
+      },
+      {
+        "name": "Install new condenser and air handler/evaporator coil",
+        "duration": "4-6 hours"
+      },
+      {
+        "name": "Refrigerant line and electrical connections",
+        "duration": "2-3 hours"
+      },
+      {
+        "name": "Thermostat installation and system testing",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Ductwork modifications (if needed)",
+        "duration": "1-5 days"
+      },
+      {
+        "name": "Final inspection and permit sign-off",
+        "duration": "1-3 days"
+      }
     ]
   },
   "diyVsPro": {
     "diyFeasibility": "Not Feasible",
     "diySavings": "0%",
-    "diyTasks": ["Clearing area around existing condenser unit", "Replacing air filters", "Installing a smart thermostat (simple swap)", "Basic condenser pad leveling"],
-    "proOnlyTasks": ["Refrigerant handling (EPA Section 608 certification required)", "Electrical connections to panel and disconnect", "Refrigerant line brazing and pressure testing", "System commissioning and charge verification", "Load calculation and equipment sizing", "Ductwork modification or installation", "Permit acquisition and inspection scheduling"],
+    "diyTasks": [
+      "Clearing area around existing condenser unit",
+      "Replacing air filters",
+      "Installing a smart thermostat (simple swap)",
+      "Basic condenser pad leveling"
+    ],
+    "proOnlyTasks": [
+      "Refrigerant handling (EPA Section 608 certification required)",
+      "Electrical connections to panel and disconnect",
+      "Refrigerant line brazing and pressure testing",
+      "System commissioning and charge verification",
+      "Load calculation and equipment sizing",
+      "Ductwork modification or installation",
+      "Permit acquisition and inspection scheduling"
+    ],
     "diyRisks": "Federal law requires EPA certification to purchase or handle refrigerants. Improper installation voids the manufacturer warranty (typically 5-10 years on parts and compressor). Incorrect refrigerant charge reduces efficiency by 20-30% and can destroy the compressor. Electrical errors create fire hazards. This is not a DIY project."
   },
   "savingsTips": [
@@ -110,25 +201,79 @@
     "Skip the extended warranty if your credit card offers purchase protection. Many credit cards extend manufacturer warranties by 1-2 years at no cost."
   ],
   "contractorQuestions": [
-    { "question": "Will you perform a Manual J load calculation to size the unit?", "why": "A load calculation accounts for your home's insulation, windows, orientation, and square footage. Contractors who skip this step and size by 'rule of thumb' often over- or under-size the system, costing you in comfort and efficiency." },
-    { "question": "What brand and model number will you install, and what's the warranty?", "why": "Get the specific model number in writing so you can verify the SEER rating, features, and warranty terms independently. Avoid vague descriptions like 'Carrier 16 SEER' without a model number." },
-    { "question": "Is the quote all-inclusive - permits, disposal, thermostat, line set, pad?", "why": "Some contractors quote just the equipment swap and add line items for the refrigerant line set, thermostat, concrete pad, permit fees, and old unit disposal. These can add $500-$1,500 to a bare-bones quote." },
-    { "question": "Are you licensed and insured for HVAC work in this state?", "why": "HVAC installation requires specific licensing in most states. Verify the license number with your state board. Unlicensed work voids manufacturer warranties and may violate building codes." },
-    { "question": "Will you pull the permit and schedule the inspection?", "why": "Most jurisdictions require permits for AC installation. The permit ensures the work is inspected for safety and code compliance. Some contractors skip permits to save time - this can cause problems at resale." },
-    { "question": "How do you handle refrigerant charge verification?", "why": "Proper refrigerant charge is critical to efficiency and compressor longevity. The technician should weigh in the exact factory-specified charge amount, not estimate by feel or pressure readings alone." },
-    { "question": "What's your labor warranty, separate from the manufacturer warranty?", "why": "Manufacturer warranties cover parts but not the labor to replace them. A good HVAC contractor offers 1-2 years on workmanship. Some offer extended labor warranties for an additional fee." }
+    {
+      "question": "Will you perform a Manual J load calculation to size the unit?",
+      "why": "A load calculation accounts for your home's insulation, windows, orientation, and square footage. Contractors who skip this step and size by 'rule of thumb' often over- or under-size the system, costing you in comfort and efficiency."
+    },
+    {
+      "question": "What brand and model number will you install, and what's the warranty?",
+      "why": "Get the specific model number in writing so you can verify the SEER rating, features, and warranty terms independently. Avoid vague descriptions like 'Carrier 16 SEER' without a model number."
+    },
+    {
+      "question": "Is the quote all-inclusive - permits, disposal, thermostat, line set, pad?",
+      "why": "Some contractors quote just the equipment swap and add line items for the refrigerant line set, thermostat, concrete pad, permit fees, and old unit disposal. These can add $500-$1,500 to a bare-bones quote."
+    },
+    {
+      "question": "Are you licensed and insured for HVAC work in this state?",
+      "why": "HVAC installation requires specific licensing in most states. Verify the license number with your state board. Unlicensed work voids manufacturer warranties and may violate building codes."
+    },
+    {
+      "question": "Will you pull the permit and schedule the inspection?",
+      "why": "Most jurisdictions require permits for AC installation. The permit ensures the work is inspected for safety and code compliance. Some contractors skip permits to save time - this can cause problems at resale."
+    },
+    {
+      "question": "How do you handle refrigerant charge verification?",
+      "why": "Proper refrigerant charge is critical to efficiency and compressor longevity. The technician should weigh in the exact factory-specified charge amount, not estimate by feel or pressure readings alone."
+    },
+    {
+      "question": "What's your labor warranty, separate from the manufacturer warranty?",
+      "why": "Manufacturer warranties cover parts but not the labor to replace them. A good HVAC contractor offers 1-2 years on workmanship. Some offer extended labor warranties for an additional fee."
+    }
   ],
-  "relatedProjects": ["heat-pump-installation", "furnace-replacement", "attic-insulation", "window-replacement", "ductless-mini-split-installation"],
+  "relatedProjects": [
+    "heat-pump-installation",
+    "furnace-replacement",
+    "attic-insulation",
+    "window-replacement",
+    "ductless-mini-split"
+  ],
   "seo": {
     "primaryKeyword": "central AC installation cost",
-    "secondaryKeywords": ["how much does central air cost", "AC unit installation price", "central air conditioning cost 2026", "cost to install central air", "HVAC installation cost", "new AC unit cost"],
+    "secondaryKeywords": [
+      "how much does central air cost",
+      "AC unit installation price",
+      "central air conditioning cost 2026",
+      "cost to install central air",
+      "HVAC installation cost",
+      "new AC unit cost"
+    ],
     "metaDescription": "How much does central AC installation cost in 2026? National average is $7,500. Get detailed cost breakdowns by SEER rating, tonnage, brand comparisons, regional pricing, and an interactive calculator."
   },
   "sources": [
-    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/central-air-conditioning-installation" },
-    { "name": "HVAC.com", "year": 2025, "url": "https://www.hvac.com/cost/central-air-conditioner/" },
-    { "name": "Angi", "year": 2026, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-central-air.htm" },
-    { "name": "HomeGuide", "year": 2026, "url": "https://homeguide.com/costs/central-air-conditioner-cost" },
-    { "name": "Thumbtack", "year": 2025, "url": "https://www.thumbtack.com/p/ac-installation-cost" }
+    {
+      "name": "Fixr",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/central-air-conditioning-installation"
+    },
+    {
+      "name": "HVAC.com",
+      "year": 2025,
+      "url": "https://www.hvac.com/cost/central-air-conditioner/"
+    },
+    {
+      "name": "Angi",
+      "year": 2026,
+      "url": "https://www.angi.com/articles/how-much-does-it-cost-install-central-air.htm"
+    },
+    {
+      "name": "HomeGuide",
+      "year": 2026,
+      "url": "https://homeguide.com/costs/central-air-conditioner-cost"
+    },
+    {
+      "name": "Thumbtack",
+      "year": 2025,
+      "url": "https://www.thumbtack.com/p/ac-installation-cost"
+    }
   ]
 }

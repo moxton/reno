@@ -26,15 +26,63 @@
         "Here's what you'll actually pay in 2026, including materials and professional installation. These are national averages for a typical 150-square-foot kitchen."
       ],
       "table": {
-        "headers": ["Flooring Type", "Material Cost/Sq Ft", "Installed Cost/Sq Ft", "Total for 150 Sq Ft Kitchen", "Lifespan"],
+        "headers": [
+          "Flooring Type",
+          "Material Cost/Sq Ft",
+          "Installed Cost/Sq Ft",
+          "Total for 150 Sq Ft Kitchen",
+          "Lifespan"
+        ],
         "rows": [
-          ["Luxury Vinyl Plank (LVP)", "$2-$5", "$3-$7", "$450-$1,050", "15-25 years"],
-          ["Porcelain/Ceramic Tile", "$3-$10", "$8-$15", "$1,200-$2,250", "50+ years"],
-          ["Hardwood (Solid)", "$5-$10", "$8-$14", "$1,200-$2,100", "25-100 years"],
-          ["Engineered Hardwood", "$4-$8", "$7-$12", "$1,050-$1,800", "20-40 years"],
-          ["Laminate", "$1-$3", "$3-$5", "$450-$750", "10-20 years"],
-          ["Natural Stone (Marble/Slate)", "$7-$20", "$15-$30", "$2,250-$4,500", "50+ years"],
-          ["Polished Concrete", "$3-$8", "$6-$12", "$900-$1,800", "50+ years"]
+          [
+            "Luxury Vinyl Plank (LVP)",
+            "$2-$5",
+            "$3-$7",
+            "$450-$1,050",
+            "15-25 years"
+          ],
+          [
+            "Porcelain/Ceramic Tile",
+            "$3-$10",
+            "$8-$15",
+            "$1,200-$2,250",
+            "50+ years"
+          ],
+          [
+            "Hardwood (Solid)",
+            "$5-$10",
+            "$8-$14",
+            "$1,200-$2,100",
+            "25-100 years"
+          ],
+          [
+            "Engineered Hardwood",
+            "$4-$8",
+            "$7-$12",
+            "$1,050-$1,800",
+            "20-40 years"
+          ],
+          [
+            "Laminate",
+            "$1-$3",
+            "$3-$5",
+            "$450-$750",
+            "10-20 years"
+          ],
+          [
+            "Natural Stone (Marble/Slate)",
+            "$7-$20",
+            "$15-$30",
+            "$2,250-$4,500",
+            "50+ years"
+          ],
+          [
+            "Polished Concrete",
+            "$3-$8",
+            "$6-$12",
+            "$900-$1,800",
+            "50+ years"
+          ]
         ]
       }
     },
@@ -68,12 +116,37 @@
         "The risk in kitchens is water damage. Solid hardwood swells, cups, and warps when exposed to standing water. The area around your sink and dishwasher is especially vulnerable. Engineered hardwood handles moisture better because its plywood core resists warping, making it the smarter choice for kitchens."
       ],
       "table": {
-        "headers": ["Hardwood Type", "Water Resistance", "Installed Cost/Sq Ft", "Best For"],
+        "headers": [
+          "Hardwood Type",
+          "Water Resistance",
+          "Installed Cost/Sq Ft",
+          "Best For"
+        ],
         "rows": [
-          ["Solid Oak", "Poor", "$8-$12", "Kitchens with no dishwasher leaks"],
-          ["Solid Hickory", "Poor", "$9-$14", "High-traffic kitchens (hardest domestic wood)"],
-          ["Engineered Oak", "Moderate", "$7-$11", "Most kitchens - best balance of looks and performance"],
-          ["Engineered Hickory", "Moderate", "$8-$12", "Busy kitchens with kids and pets"]
+          [
+            "Solid Oak",
+            "Poor",
+            "$8-$12",
+            "Kitchens with no dishwasher leaks"
+          ],
+          [
+            "Solid Hickory",
+            "Poor",
+            "$9-$14",
+            "High-traffic kitchens (hardest domestic wood)"
+          ],
+          [
+            "Engineered Oak",
+            "Moderate",
+            "$7-$11",
+            "Most kitchens - best balance of looks and performance"
+          ],
+          [
+            "Engineered Hickory",
+            "Moderate",
+            "$8-$12",
+            "Busy kitchens with kids and pets"
+          ]
         ]
       }
     },
@@ -107,15 +180,71 @@
         "This is where the differences really show up. Here's how each flooring type performs on the factors that matter most in a kitchen."
       ],
       "table": {
-        "headers": ["Flooring Type", "Durability (1-5)", "Water Resistance (1-5)", "Comfort Underfoot (1-5)", "Maintenance Level", "Resale Appeal"],
+        "headers": [
+          "Flooring Type",
+          "Durability (1-5)",
+          "Water Resistance (1-5)",
+          "Comfort Underfoot (1-5)",
+          "Maintenance Level",
+          "Resale Appeal"
+        ],
         "rows": [
-          ["LVP", "4", "5", "4", "Low", "Moderate"],
-          ["Porcelain Tile", "5", "5", "2", "Low-Medium", "High"],
-          ["Solid Hardwood", "3", "2", "4", "Medium-High", "Very High"],
-          ["Engineered Hardwood", "3", "3", "4", "Medium", "High"],
-          ["Laminate", "3", "2", "3", "Low", "Low"],
-          ["Natural Stone", "5", "3", "2", "High", "Very High"],
-          ["Polished Concrete", "5", "5", "1", "Low", "Moderate"]
+          [
+            "LVP",
+            "4",
+            "5",
+            "4",
+            "Low",
+            "Moderate"
+          ],
+          [
+            "Porcelain Tile",
+            "5",
+            "5",
+            "2",
+            "Low-Medium",
+            "High"
+          ],
+          [
+            "Solid Hardwood",
+            "3",
+            "2",
+            "4",
+            "Medium-High",
+            "Very High"
+          ],
+          [
+            "Engineered Hardwood",
+            "3",
+            "3",
+            "4",
+            "Medium",
+            "High"
+          ],
+          [
+            "Laminate",
+            "3",
+            "2",
+            "3",
+            "Low",
+            "Low"
+          ],
+          [
+            "Natural Stone",
+            "5",
+            "3",
+            "2",
+            "High",
+            "Very High"
+          ],
+          [
+            "Polished Concrete",
+            "5",
+            "5",
+            "1",
+            "Low",
+            "Moderate"
+          ]
         ]
       }
     },
@@ -139,15 +268,55 @@
         "Labor is typically 40-60% of your total flooring cost. Here's what installation alone costs per square foot in 2026, not counting materials."
       ],
       "table": {
-        "headers": ["Flooring Type", "Labor Cost/Sq Ft", "DIY Difficulty", "DIY Savings Potential"],
+        "headers": [
+          "Flooring Type",
+          "Labor Cost/Sq Ft",
+          "DIY Difficulty",
+          "DIY Savings Potential"
+        ],
         "rows": [
-          ["LVP (click-lock)", "$1-$3", "Easy", "$150-$450 on 150 sq ft kitchen"],
-          ["Porcelain Tile", "$4-$8", "Hard", "$600-$1,200 (not recommended for beginners)"],
-          ["Hardwood", "$3-$6", "Moderate-Hard", "$450-$900"],
-          ["Engineered Hardwood", "$3-$5", "Moderate", "$450-$750"],
-          ["Laminate", "$1-$2", "Easy", "$150-$300"],
-          ["Natural Stone", "$6-$12", "Very Hard", "Not recommended - too easy to crack expensive stone"],
-          ["Polished Concrete", "$3-$6", "Professional only", "$0 - this requires specialized equipment"]
+          [
+            "LVP (click-lock)",
+            "$1-$3",
+            "Easy",
+            "$150-$450 on 150 sq ft kitchen"
+          ],
+          [
+            "Porcelain Tile",
+            "$4-$8",
+            "Hard",
+            "$600-$1,200 (not recommended for beginners)"
+          ],
+          [
+            "Hardwood",
+            "$3-$6",
+            "Moderate-Hard",
+            "$450-$900"
+          ],
+          [
+            "Engineered Hardwood",
+            "$3-$5",
+            "Moderate",
+            "$450-$750"
+          ],
+          [
+            "Laminate",
+            "$1-$2",
+            "Easy",
+            "$150-$300"
+          ],
+          [
+            "Natural Stone",
+            "$6-$12",
+            "Very Hard",
+            "Not recommended - too easy to crack expensive stone"
+          ],
+          [
+            "Polished Concrete",
+            "$3-$6",
+            "Professional only",
+            "$0 - this requires specialized equipment"
+          ]
         ]
       },
       "callout": "Don't forget subfloor prep. If your subfloor is uneven, you'll need leveling compound ($1-$3 per square foot) before any flooring goes down. Old flooring removal adds another $1-$2 per square foot."
@@ -172,8 +341,8 @@
       "subtitle": "See cost breakdown"
     },
     {
-      "title": "Tile Flooring Installation",
-      "href": "/projects/flooring/tile-flooring-installation/",
+      "title": "Laminate Flooring Installation",
+      "href": "/projects/flooring/laminate-flooring/",
       "subtitle": "See cost breakdown"
     }
   ],

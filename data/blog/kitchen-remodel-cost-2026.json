@@ -25,11 +25,27 @@
         "Think of these tiers as frameworks, not hard rules. Most real projects blend elements from different tiers. You might splurge on countertops but save on flooring, for example."
       ],
       "table": {
-        "headers": ["Tier", "Cost Range", "What You Get"],
+        "headers": [
+          "Tier",
+          "Cost Range",
+          "What You Get"
+        ],
         "rows": [
-          ["Budget Refresh", "$15,000-$30,000", "Reface or paint cabinets, laminate countertops, new hardware, basic appliance upgrades, fresh paint, updated lighting"],
-          ["Mid-Range Remodel", "$30,000-$75,000", "New semi-custom cabinets, quartz or granite countertops, tile backsplash, mid-range appliances, new flooring, updated plumbing fixtures"],
-          ["Premium Renovation", "$75,000-$150,000+", "Custom cabinets, premium stone countertops, high-end appliances, hardwood or large-format tile flooring, structural changes, custom lighting design"]
+          [
+            "Budget Refresh",
+            "$15,000-$30,000",
+            "Reface or paint cabinets, laminate countertops, new hardware, basic appliance upgrades, fresh paint, updated lighting"
+          ],
+          [
+            "Mid-Range Remodel",
+            "$30,000-$75,000",
+            "New semi-custom cabinets, quartz or granite countertops, tile backsplash, mid-range appliances, new flooring, updated plumbing fixtures"
+          ],
+          [
+            "Premium Renovation",
+            "$75,000-$150,000+",
+            "Custom cabinets, premium stone countertops, high-end appliances, hardwood or large-format tile flooring, structural changes, custom lighting design"
+          ]
         ]
       }
     },
@@ -39,18 +55,84 @@
         "Here's where your money actually goes. Cabinets eat the biggest chunk of almost every kitchen budget, followed closely by labor. Understanding this breakdown helps you make smarter tradeoffs."
       ],
       "table": {
-        "headers": ["Component", "Budget Tier", "Mid-Range Tier", "Premium Tier", "% of Total"],
+        "headers": [
+          "Component",
+          "Budget Tier",
+          "Mid-Range Tier",
+          "Premium Tier",
+          "% of Total"
+        ],
         "rows": [
-          ["Cabinets", "$3,000-$6,000", "$8,000-$18,000", "$20,000-$45,000", "25-35%"],
-          ["Countertops", "$1,500-$3,000", "$4,000-$9,000", "$10,000-$25,000", "10-15%"],
-          ["Flooring", "$1,200-$2,500", "$2,500-$5,000", "$5,000-$12,000", "7-10%"],
-          ["Appliances", "$2,000-$4,000", "$5,000-$12,000", "$15,000-$35,000", "15-20%"],
-          ["Plumbing & Fixtures", "$1,000-$2,000", "$2,500-$5,000", "$5,000-$10,000", "5-8%"],
-          ["Electrical & Lighting", "$800-$2,000", "$2,000-$5,000", "$5,000-$12,000", "5-8%"],
-          ["Backsplash", "$500-$1,200", "$1,500-$3,500", "$3,500-$8,000", "3-5%"],
-          ["Labor", "$4,000-$8,000", "$10,000-$20,000", "$20,000-$40,000", "25-35%"],
-          ["Permits & Design", "$500-$1,000", "$1,000-$3,000", "$3,000-$8,000", "3-5%"],
-          ["Total", "$15,000-$30,000", "$30,000-$75,000", "$75,000-$150,000+", "100%"]
+          [
+            "Cabinets",
+            "$3,000-$6,000",
+            "$8,000-$18,000",
+            "$20,000-$45,000",
+            "25-35%"
+          ],
+          [
+            "Countertops",
+            "$1,500-$3,000",
+            "$4,000-$9,000",
+            "$10,000-$25,000",
+            "10-15%"
+          ],
+          [
+            "Flooring",
+            "$1,200-$2,500",
+            "$2,500-$5,000",
+            "$5,000-$12,000",
+            "7-10%"
+          ],
+          [
+            "Appliances",
+            "$2,000-$4,000",
+            "$5,000-$12,000",
+            "$15,000-$35,000",
+            "15-20%"
+          ],
+          [
+            "Plumbing & Fixtures",
+            "$1,000-$2,000",
+            "$2,500-$5,000",
+            "$5,000-$10,000",
+            "5-8%"
+          ],
+          [
+            "Electrical & Lighting",
+            "$800-$2,000",
+            "$2,000-$5,000",
+            "$5,000-$12,000",
+            "5-8%"
+          ],
+          [
+            "Backsplash",
+            "$500-$1,200",
+            "$1,500-$3,500",
+            "$3,500-$8,000",
+            "3-5%"
+          ],
+          [
+            "Labor",
+            "$4,000-$8,000",
+            "$10,000-$20,000",
+            "$20,000-$40,000",
+            "25-35%"
+          ],
+          [
+            "Permits & Design",
+            "$500-$1,000",
+            "$1,000-$3,000",
+            "$3,000-$8,000",
+            "3-5%"
+          ],
+          [
+            "Total",
+            "$15,000-$30,000",
+            "$30,000-$75,000",
+            "$75,000-$150,000+",
+            "100%"
+          ]
         ]
       }
     },
@@ -73,18 +155,73 @@
         "Where you live has a massive impact on your total cost. Labor rates, permit fees, and even material delivery costs vary significantly across the country. A mid-range kitchen remodel that costs $50,000 in Indianapolis could easily run $70,000 in Boston."
       ],
       "table": {
-        "headers": ["Region", "Cost Multiplier", "Mid-Range Remodel Estimate", "Key Factor"],
+        "headers": [
+          "Region",
+          "Cost Multiplier",
+          "Mid-Range Remodel Estimate",
+          "Key Factor"
+        ],
         "rows": [
-          ["San Francisco / Bay Area", "+30-40%", "$65,000-$105,000", "Highest labor rates in the country, strict permitting"],
-          ["New York Metro", "+25-35%", "$62,000-$100,000", "High labor costs, material delivery challenges"],
-          ["Boston / Northeast", "+15-25%", "$57,000-$94,000", "Strong labor demand, older home complexities"],
-          ["Los Angeles / SoCal", "+20-30%", "$60,000-$97,000", "High labor costs, seismic requirements"],
-          ["Seattle / Pacific NW", "+15-25%", "$57,000-$94,000", "Growing demand, moderate labor premium"],
-          ["Chicago / Midwest", "-5-10%", "$45,000-$71,000", "Lower labor rates, competitive contractor market"],
-          ["Dallas / Texas", "-5-10%", "$45,000-$71,000", "Lower labor costs, fewer permit requirements"],
-          ["Atlanta / Southeast", "-10-15%", "$42,000-$67,000", "Lower cost of living, available labor pool"],
-          ["Phoenix / Mountain West", "+0-10%", "$50,000-$82,000", "Growing demand pushing costs up"],
-          ["Rural Areas", "-15-25%", "$37,000-$63,000", "Lower labor rates but fewer contractor options"]
+          [
+            "San Francisco / Bay Area",
+            "+30-40%",
+            "$65,000-$105,000",
+            "Highest labor rates in the country, strict permitting"
+          ],
+          [
+            "New York Metro",
+            "+25-35%",
+            "$62,000-$100,000",
+            "High labor costs, material delivery challenges"
+          ],
+          [
+            "Boston / Northeast",
+            "+15-25%",
+            "$57,000-$94,000",
+            "Strong labor demand, older home complexities"
+          ],
+          [
+            "Los Angeles / SoCal",
+            "+20-30%",
+            "$60,000-$97,000",
+            "High labor costs, seismic requirements"
+          ],
+          [
+            "Seattle / Pacific NW",
+            "+15-25%",
+            "$57,000-$94,000",
+            "Growing demand, moderate labor premium"
+          ],
+          [
+            "Chicago / Midwest",
+            "-5-10%",
+            "$45,000-$71,000",
+            "Lower labor rates, competitive contractor market"
+          ],
+          [
+            "Dallas / Texas",
+            "-5-10%",
+            "$45,000-$71,000",
+            "Lower labor costs, fewer permit requirements"
+          ],
+          [
+            "Atlanta / Southeast",
+            "-10-15%",
+            "$42,000-$67,000",
+            "Lower cost of living, available labor pool"
+          ],
+          [
+            "Phoenix / Mountain West",
+            "+0-10%",
+            "$50,000-$82,000",
+            "Growing demand pushing costs up"
+          ],
+          [
+            "Rural Areas",
+            "-15-25%",
+            "$37,000-$63,000",
+            "Lower labor rates but fewer contractor options"
+          ]
         ]
       },
       "callout": "These multipliers are estimates based on 2025-2026 cost data from HomeAdvisor, HomeGuide, and BLS wage statistics. Your actual costs will depend on your specific location and the contractors available in your area."
@@ -127,11 +264,31 @@
         "Set realistic expectations. You will not have a functional kitchen for weeks, and possibly months. Plan for alternative cooking and eating arrangements."
       ],
       "table": {
-        "headers": ["Remodel Scope", "Planning & Design", "Construction", "Total Timeline"],
+        "headers": [
+          "Remodel Scope",
+          "Planning & Design",
+          "Construction",
+          "Total Timeline"
+        ],
         "rows": [
-          ["Budget Refresh", "1-2 weeks", "2-4 weeks", "3-6 weeks"],
-          ["Mid-Range Remodel", "2-4 weeks", "6-10 weeks", "8-14 weeks"],
-          ["Premium Renovation", "4-8 weeks", "10-16 weeks", "14-24 weeks"]
+          [
+            "Budget Refresh",
+            "1-2 weeks",
+            "2-4 weeks",
+            "3-6 weeks"
+          ],
+          [
+            "Mid-Range Remodel",
+            "2-4 weeks",
+            "6-10 weeks",
+            "8-14 weeks"
+          ],
+          [
+            "Premium Renovation",
+            "4-8 weeks",
+            "10-16 weeks",
+            "14-24 weeks"
+          ]
         ]
       },
       "callout": "Custom cabinets are the biggest timeline driver. Lead times for custom cabinetry run 8-14 weeks in 2026. Order early. Semi-custom and stock cabinets typically ship in 2-4 weeks."
@@ -178,11 +335,6 @@
       "title": "Countertop Replacement",
       "href": "/projects/kitchen/countertop-replacement/",
       "subtitle": "Compare materials and costs"
-    },
-    {
-      "title": "Kitchen Cabinet Refacing",
-      "href": "/projects/kitchen/kitchen-cabinet-refacing/",
-      "subtitle": "Save 50-70% vs. new cabinets"
     }
   ],
   "seo": {

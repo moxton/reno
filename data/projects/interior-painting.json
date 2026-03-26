@@ -9,7 +9,12 @@
     "typicalHigh": 11000,
     "lowEnd": 2000,
     "highEnd": 20000,
-    "costPerUnit": { "low": 2, "high": 10, "unit": "sq ft", "average": 4 }
+    "costPerUnit": {
+      "low": 2,
+      "high": 10,
+      "unit": "sq ft",
+      "average": 4
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -65,37 +70,123 @@
     }
   ],
   "materialOptions": [
-    { "material": "Builder Grade Paint", "costPerUnit": "$15-$25/gallon", "pros": "Cheapest option, fine for rentals or quick refreshes", "cons": "Poor coverage (needs more coats), fades faster, harder to clean", "bestFor": "Rental properties, temporary refreshes, closets and utility rooms" },
-    { "material": "Mid-Range Paint (Behr, PPG)", "costPerUnit": "$30-$50/gallon", "pros": "Good coverage in 1-2 coats, washable, wide color selection, paint-and-primer combos available", "cons": "Not as durable as premium, some colors need extra coats", "bestFor": "Most whole-house painting projects, best value for homeowners" },
-    { "material": "Premium Paint (Benjamin Moore, Sherwin-Williams)", "costPerUnit": "$50-$80+/gallon", "pros": "Excellent coverage, extremely durable and washable, rich color depth, best color accuracy", "cons": "Expensive, overkill for low-traffic areas", "bestFor": "High-traffic areas, kitchens, bathrooms, homes where you want the finish to last 10+ years" },
-    { "material": "Zero-VOC / Low-VOC Paint", "costPerUnit": "$35-$70/gallon", "pros": "No harmful fumes, safe for occupied homes, eco-friendly", "cons": "Some formulations sacrifice durability, slightly higher cost", "bestFor": "Nurseries, bedrooms, homes with children or pets, painting while living in the home" },
-    { "material": "Cabinet/Trim Paint (Enamel)", "costPerUnit": "$40-$80/gallon", "pros": "Hard durable finish, self-leveling, washable, resists chipping", "cons": "Longer dry time, more technique-sensitive, higher cost", "bestFor": "Trim, baseboards, doors, cabinets - any high-touch surface" }
+    {
+      "material": "Builder Grade Paint",
+      "costPerUnit": "$15-$25/gallon",
+      "pros": "Cheapest option, fine for rentals or quick refreshes",
+      "cons": "Poor coverage (needs more coats), fades faster, harder to clean",
+      "bestFor": "Rental properties, temporary refreshes, closets and utility rooms"
+    },
+    {
+      "material": "Mid-Range Paint (Behr, PPG)",
+      "costPerUnit": "$30-$50/gallon",
+      "pros": "Good coverage in 1-2 coats, washable, wide color selection, paint-and-primer combos available",
+      "cons": "Not as durable as premium, some colors need extra coats",
+      "bestFor": "Most whole-house painting projects, best value for homeowners"
+    },
+    {
+      "material": "Premium Paint (Benjamin Moore, Sherwin-Williams)",
+      "costPerUnit": "$50-$80+/gallon",
+      "pros": "Excellent coverage, extremely durable and washable, rich color depth, best color accuracy",
+      "cons": "Expensive, overkill for low-traffic areas",
+      "bestFor": "High-traffic areas, kitchens, bathrooms, homes where you want the finish to last 10+ years"
+    },
+    {
+      "material": "Zero-VOC / Low-VOC Paint",
+      "costPerUnit": "$35-$70/gallon",
+      "pros": "No harmful fumes, safe for occupied homes, eco-friendly",
+      "cons": "Some formulations sacrifice durability, slightly higher cost",
+      "bestFor": "Nurseries, bedrooms, homes with children or pets, painting while living in the home"
+    },
+    {
+      "material": "Cabinet/Trim Paint (Enamel)",
+      "costPerUnit": "$40-$80/gallon",
+      "pros": "Hard durable finish, self-leveling, washable, resists chipping",
+      "cons": "Longer dry time, more technique-sensitive, higher cost",
+      "bestFor": "Trim, baseboards, doors, cabinets - any high-touch surface"
+    }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates in metro areas like NYC and Boston" },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest painter wages nationally, strong VOC regulations" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, large contractor pool" },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Below-average labor rates, competitive market" },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Rising costs in growing metro areas" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Higher labor rates in metro areas like NYC and Boston"
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "Highest painter wages nationally, strong VOC regulations"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor costs, large contractor pool"
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Below-average labor rates, competitive market"
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Rising costs in growing metro areas"
+    }
   },
   "timeline": {
     "minimum": "2 days",
     "typical": "3-5 days",
     "maximum": "7-10 days",
     "phases": [
-      { "name": "Color consultation and paint selection", "duration": "1-3 days" },
-      { "name": "Prep work (taping, patching, priming)", "duration": "1-2 days" },
-      { "name": "Ceiling painting (if included)", "duration": "0.5-1 day" },
-      { "name": "Wall painting (2 coats)", "duration": "1-3 days" },
-      { "name": "Trim and detail work (if included)", "duration": "1-2 days" },
-      { "name": "Touch-ups and cleanup", "duration": "0.5 day" }
+      {
+        "name": "Color consultation and paint selection",
+        "duration": "1-3 days"
+      },
+      {
+        "name": "Prep work (taping, patching, priming)",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Ceiling painting (if included)",
+        "duration": "0.5-1 day"
+      },
+      {
+        "name": "Wall painting (2 coats)",
+        "duration": "1-3 days"
+      },
+      {
+        "name": "Trim and detail work (if included)",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Touch-ups and cleanup",
+        "duration": "0.5 day"
+      }
     ]
   },
   "diyVsPro": {
     "diyFeasibility": "Very feasible",
     "diySavings": "70-85%",
-    "diyTasks": ["All wall and ceiling painting", "Taping and masking", "Patching small holes and cracks", "Priming stains and repairs", "Moving furniture and laying drop cloths", "Painting closets, utility rooms, and low-visibility areas"],
-    "proOnlyTasks": ["High cathedral ceilings and stairwells (safety risk)", "Extensive drywall repair and skim coating", "Lead paint abatement in pre-1978 homes", "Spray finishing for large areas or cabinets", "Wallpaper removal with plaster repair"],
+    "diyTasks": [
+      "All wall and ceiling painting",
+      "Taping and masking",
+      "Patching small holes and cracks",
+      "Priming stains and repairs",
+      "Moving furniture and laying drop cloths",
+      "Painting closets, utility rooms, and low-visibility areas"
+    ],
+    "proOnlyTasks": [
+      "High cathedral ceilings and stairwells (safety risk)",
+      "Extensive drywall repair and skim coating",
+      "Lead paint abatement in pre-1978 homes",
+      "Spray finishing for large areas or cabinets",
+      "Wallpaper removal with plaster repair"
+    ],
     "diyRisks": "The main risk is time and quality, not safety. A professional crew paints a 2,000 sq ft house in 3-5 days - most homeowners take 2-4 weekends. Poor taping leads to messy edges. Skipping primer over patches leaves visible spots. The DIY savings are real ($3,000-$6,000 on a typical house), but only if you're willing to invest the time and do proper prep."
   },
   "savingsTips": [
@@ -109,24 +200,72 @@
     "Supply the paint yourself. Some painters mark up paint 20-30%. Buy it yourself during a sale and save $200-$500 on a whole-house job."
   ],
   "contractorQuestions": [
-    { "question": "What's included in your quote - walls only, or walls, ceilings, and trim?", "why": "The scope difference between walls-only and all-surfaces can double the price. Make sure you're comparing apples to apples between quotes." },
-    { "question": "How many coats are included, and what prep work is in the price?", "why": "Some quotes assume one coat with no prep. A proper job includes patching, sanding, priming problem areas, and two coats of finish paint." },
-    { "question": "What paint brand and product line will you use?", "why": "There's a huge quality difference between builder-grade and premium paint. If a quote seems low, they may be using cheap paint that won't hold up." },
-    { "question": "How do you protect floors, furniture, and fixtures?", "why": "Professional painters should use drop cloths, plastic sheeting, and proper masking. Paint drips on hardwood floors or countertops are expensive mistakes." },
-    { "question": "Do you include moving furniture back, or is that my responsibility?", "why": "Some crews move furniture to the center and cover it. Others expect empty rooms. Clarify this upfront to avoid day-of surprises." },
-    { "question": "How do you handle touch-ups after the job?", "why": "Good painters do a walkthrough and fix any missed spots, drips, or uneven coverage before final payment. Get this in writing." },
-    { "question": "Are your workers employees or subcontractors, and are they insured?", "why": "If an uninsured subcontractor falls off a ladder in your home, you could be liable. Verify insurance coverage before work begins." }
+    {
+      "question": "What's included in your quote - walls only, or walls, ceilings, and trim?",
+      "why": "The scope difference between walls-only and all-surfaces can double the price. Make sure you're comparing apples to apples between quotes."
+    },
+    {
+      "question": "How many coats are included, and what prep work is in the price?",
+      "why": "Some quotes assume one coat with no prep. A proper job includes patching, sanding, priming problem areas, and two coats of finish paint."
+    },
+    {
+      "question": "What paint brand and product line will you use?",
+      "why": "There's a huge quality difference between builder-grade and premium paint. If a quote seems low, they may be using cheap paint that won't hold up."
+    },
+    {
+      "question": "How do you protect floors, furniture, and fixtures?",
+      "why": "Professional painters should use drop cloths, plastic sheeting, and proper masking. Paint drips on hardwood floors or countertops are expensive mistakes."
+    },
+    {
+      "question": "Do you include moving furniture back, or is that my responsibility?",
+      "why": "Some crews move furniture to the center and cover it. Others expect empty rooms. Clarify this upfront to avoid day-of surprises."
+    },
+    {
+      "question": "How do you handle touch-ups after the job?",
+      "why": "Good painters do a walkthrough and fix any missed spots, drips, or uneven coverage before final payment. Get this in writing."
+    },
+    {
+      "question": "Are your workers employees or subcontractors, and are they insured?",
+      "why": "If an uninsured subcontractor falls off a ladder in your home, you could be liable. Verify insurance coverage before work begins."
+    }
   ],
-  "relatedProjects": ["exterior-painting", "drywall-repair", "full-kitchen-remodel", "bathroom-remodel"],
+  "relatedProjects": [
+    "exterior-painting",
+    "crown-molding",
+    "full-kitchen-remodel",
+    "bathroom-remodel"
+  ],
   "seo": {
     "primaryKeyword": "interior painting cost",
-    "secondaryKeywords": ["house painting cost interior", "how much does it cost to paint a house interior", "interior painting price per square foot", "cost to paint inside of house", "interior painting cost 2026"],
+    "secondaryKeywords": [
+      "house painting cost interior",
+      "how much does it cost to paint a house interior",
+      "interior painting price per square foot",
+      "cost to paint inside of house",
+      "interior painting cost 2026"
+    ],
     "metaDescription": "How much does interior painting cost in 2026? National average is $7,500 for a 2,000 sq ft home. Get detailed cost breakdowns by scope, paint quality, and tier with our interactive calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/painting/paint-an-interior/" },
-    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/interior-house-painting" },
-    { "name": "Angi", "year": 2026, "url": "https://www.angi.com/articles/how-much-does-it-cost-paint-room.htm" },
-    { "name": "HomeGuide", "year": 2025, "url": "https://homeguide.com/costs/cost-to-paint-interior-of-house" }
+    {
+      "name": "HomeAdvisor",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/painting/paint-an-interior/"
+    },
+    {
+      "name": "Fixr",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/interior-house-painting"
+    },
+    {
+      "name": "Angi",
+      "year": 2026,
+      "url": "https://www.angi.com/articles/how-much-does-it-cost-paint-room.htm"
+    },
+    {
+      "name": "HomeGuide",
+      "year": 2025,
+      "url": "https://homeguide.com/costs/cost-to-paint-interior-of-house"
+    }
   ]
 }

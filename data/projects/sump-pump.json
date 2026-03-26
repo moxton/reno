@@ -9,7 +9,12 @@
     "typicalHigh": 2500,
     "lowEnd": 400,
     "highEnd": 4000,
-    "costPerUnit": { "low": 600, "high": 2500, "unit": "unit", "average": 1200 }
+    "costPerUnit": {
+      "low": 600,
+      "high": 2500,
+      "unit": "unit",
+      "average": 1200
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,22 +107,62 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High water tables in many Northeast areas drive strong demand for sump pumps. Plumbing labor rates are well above average." },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High plumbing labor rates, though sump pump demand is lower in drier climates. Seismic areas may have specific code requirements." },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor rates but many homes are on slabs without basements, reducing demand for traditional sump pumps." },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Very high sump pump demand due to high water tables, spring snowmelt, and frequent storms. Competitive pricing from many contractors." },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Moderate demand. Snowmelt runoff creates seasonal need in foothill communities." }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "High water tables in many Northeast areas drive strong demand for sump pumps. Plumbing labor rates are well above average."
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "High plumbing labor rates, though sump pump demand is lower in drier climates. Seismic areas may have specific code requirements."
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor rates but many homes are on slabs without basements, reducing demand for traditional sump pumps."
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Very high sump pump demand due to high water tables, spring snowmelt, and frequent storms. Competitive pricing from many contractors."
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Moderate demand. Snowmelt runoff creates seasonal need in foothill communities."
+    }
   },
   "timeline": {
     "minimum": "3-4 hours",
     "typical": "1 day",
     "maximum": "2 days",
     "phases": [
-      { "name": "Assessment and pit location planning", "duration": "1-2 hours" },
-      { "name": "Sump pit excavation (if new pit needed)", "duration": "2-4 hours" },
-      { "name": "Pump installation and plumbing connections", "duration": "2-3 hours" },
-      { "name": "Discharge line routing and installation", "duration": "1-3 hours" },
-      { "name": "Testing and system verification", "duration": "30-60 minutes" }
+      {
+        "name": "Assessment and pit location planning",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Sump pit excavation (if new pit needed)",
+        "duration": "2-4 hours"
+      },
+      {
+        "name": "Pump installation and plumbing connections",
+        "duration": "2-3 hours"
+      },
+      {
+        "name": "Discharge line routing and installation",
+        "duration": "1-3 hours"
+      },
+      {
+        "name": "Testing and system verification",
+        "duration": "30-60 minutes"
+      }
     ]
   },
   "diyVsPro": {
@@ -150,17 +195,35 @@
     "Maintain your pump annually by pouring a bucket of water into the pit to test the float switch. A $0 maintenance step that prevents expensive failures."
   ],
   "contractorQuestions": [
-    { "question": "What size pump do you recommend for my home, and how did you determine that?", "why": "A good plumber should assess your water table, pit size, and drainage needs before recommending a pump. If they suggest a specific size without evaluating your situation, they may be defaulting to a one-size-fits-all approach." },
-    { "question": "Where will the discharge line exit, and how far from the foundation?", "why": "The discharge point must be at least 10 feet from your foundation per most codes. A poorly placed discharge line sends water right back toward your basement, defeating the entire purpose." },
-    { "question": "Do I need a permit for this installation, and is that included?", "why": "Sump pump permits vary by municipality. Some require plumbing permits ($50-$150), especially for new installations. Make sure the contractor handles the permit and any required inspections." },
-    { "question": "Do you recommend a battery backup, and what type?", "why": "Any honest plumber will recommend battery backup for areas with power outages. If they try to skip it, they may be cutting corners. Ask about battery vs. water-powered options for your situation." },
-    { "question": "What's the warranty on the pump and your labor?", "why": "Most quality pumps carry 3-5 year manufacturer warranties. Labor should have at least a 1-year warranty. Some plumbers offer service plans that include annual testing for $75-$150." },
-    { "question": "Will this sump pump handle my current water issues, or do I also need interior drainage?", "why": "A sump pump only removes water that reaches the pit. If water is seeping through walls or cracks before reaching the pit, you may need an interior French drain system, which is a much larger project." }
+    {
+      "question": "What size pump do you recommend for my home, and how did you determine that?",
+      "why": "A good plumber should assess your water table, pit size, and drainage needs before recommending a pump. If they suggest a specific size without evaluating your situation, they may be defaulting to a one-size-fits-all approach."
+    },
+    {
+      "question": "Where will the discharge line exit, and how far from the foundation?",
+      "why": "The discharge point must be at least 10 feet from your foundation per most codes. A poorly placed discharge line sends water right back toward your basement, defeating the entire purpose."
+    },
+    {
+      "question": "Do I need a permit for this installation, and is that included?",
+      "why": "Sump pump permits vary by municipality. Some require plumbing permits ($50-$150), especially for new installations. Make sure the contractor handles the permit and any required inspections."
+    },
+    {
+      "question": "Do you recommend a battery backup, and what type?",
+      "why": "Any honest plumber will recommend battery backup for areas with power outages. If they try to skip it, they may be cutting corners. Ask about battery vs. water-powered options for your situation."
+    },
+    {
+      "question": "What's the warranty on the pump and your labor?",
+      "why": "Most quality pumps carry 3-5 year manufacturer warranties. Labor should have at least a 1-year warranty. Some plumbers offer service plans that include annual testing for $75-$150."
+    },
+    {
+      "question": "Will this sump pump handle my current water issues, or do I also need interior drainage?",
+      "why": "A sump pump only removes water that reaches the pit. If water is seeping through walls or cracks before reaching the pit, you may need an interior French drain system, which is a much larger project."
+    }
   ],
   "relatedProjects": [
     "french-drain",
     "basement-finishing",
-    "basement-waterproofing"
+    "tankless-water-heater"
   ],
   "seo": {
     "primaryKeyword": "sump pump installation cost",
@@ -176,9 +239,25 @@
     "metaDescription": "Sump pump installation costs $600-$2,500 for most homes in 2026. Compare pump types, backup options, and labor costs with our detailed guide and interactive calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - Sump Pump Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/plumbing/install-a-sump-pump/" },
-    { "name": "Fixr - Sump Pump Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/sump-pump-installation" },
-    { "name": "Angi - How Much Does a Sump Pump Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-sump-pump-cost.htm" },
-    { "name": "HomeGuide - Sump Pump Cost", "year": 2025, "url": "https://homeguide.com/costs/sump-pump-installation-cost" }
+    {
+      "name": "HomeAdvisor - Sump Pump Installation Cost",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/plumbing/install-a-sump-pump/"
+    },
+    {
+      "name": "Fixr - Sump Pump Installation Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/sump-pump-installation"
+    },
+    {
+      "name": "Angi - How Much Does a Sump Pump Cost?",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-sump-pump-cost.htm"
+    },
+    {
+      "name": "HomeGuide - Sump Pump Cost",
+      "year": 2025,
+      "url": "https://homeguide.com/costs/sump-pump-installation-cost"
+    }
   ]
 }

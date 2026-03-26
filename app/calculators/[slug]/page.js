@@ -13,9 +13,20 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const calc = getCalculatorBySlug(params.slug);
   if (!calc) return {};
+  const description = calc.seo?.metaDescription || calc.description;
   return {
     title: calc.title,
-    description: calc.seo?.metaDescription || calc.description,
+    description,
+    openGraph: {
+      title: calc.title,
+      description,
+      type: 'website',
+      url: `https://homeprojectcostguide.com/calculators/${calc.slug}/`,
+    },
+    twitter: { card: 'summary', title: calc.title, description },
+    alternates: {
+      canonical: `https://homeprojectcostguide.com/calculators/${calc.slug}/`,
+    },
   };
 }
 
@@ -40,6 +51,7 @@ export default function CalculatorPage({ params }) {
         <div className="mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-primary">{calc.title}</h1>
           <p className="mt-2 text-lg text-muted max-w-2xl">{calc.description}</p>
+          <p className="mt-1 text-xs text-muted-light">Last updated: March 25, 2026</p>
         </div>
 
         {/* Calculator */}

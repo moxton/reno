@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#1B2A4A"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#1B2A4A" stroke="#D4A853" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M600 160L480 230h24v80h36v-40h24v40h36V230h24L600 160z" fill="#D4A853"/>
+  <text x="600" y="370" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="white">Home Project Cost Guide</text>
+  <text x="600" y="420" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#D4A853">Know what it costs before you call a contractor.</text>
+  <text x="600" y="480" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">200+ project cost guides - Interactive calculators - Regional pricing</text>
+</svg>

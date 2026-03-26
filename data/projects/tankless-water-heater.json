@@ -9,7 +9,12 @@
     "typicalHigh": 5000,
     "lowEnd": 1200,
     "highEnd": 6500,
-    "costPerUnit": { "low": 1500, "high": 5000, "unit": "unit", "average": 3000 }
+    "costPerUnit": {
+      "low": 1500,
+      "high": 5000,
+      "unit": "unit",
+      "average": 3000
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,21 +107,58 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Cold inlet water temperatures (40-50F) require higher-capacity units. Higher labor rates add to cost." },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High labor rates and seismic requirements. California's Title 24 energy code may require specific efficiency levels." },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Warmer inlet water (65-75F) means smaller units work well. Lower labor costs." },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Cold inlet water needs high-capacity units, but labor rates are competitive." },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Altitude affects gas combustion - units may need high-altitude adjustments. Cold inlet water drives up sizing needs." }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Cold inlet water temperatures (40-50F) require higher-capacity units. Higher labor rates add to cost."
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "High labor rates and seismic requirements. California's Title 24 energy code may require specific efficiency levels."
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Warmer inlet water (65-75F) means smaller units work well. Lower labor costs."
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Cold inlet water needs high-capacity units, but labor rates are competitive."
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Altitude affects gas combustion - units may need high-altitude adjustments. Cold inlet water drives up sizing needs."
+    }
   },
   "timeline": {
     "minimum": "4-6 hours",
     "typical": "1 day",
     "maximum": "2-3 days",
     "phases": [
-      { "name": "Old water heater removal", "duration": "1-2 hours" },
-      { "name": "Gas line and venting installation", "duration": "2-4 hours" },
-      { "name": "Unit mounting and connection", "duration": "1-2 hours" },
-      { "name": "Testing and temperature calibration", "duration": "30-60 minutes" }
+      {
+        "name": "Old water heater removal",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Gas line and venting installation",
+        "duration": "2-4 hours"
+      },
+      {
+        "name": "Unit mounting and connection",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Testing and temperature calibration",
+        "duration": "30-60 minutes"
+      }
     ]
   },
   "diyVsPro": {
@@ -149,19 +191,39 @@
     "Schedule installation in spring or summer when plumbers are less busy with emergency heating calls"
   ],
   "contractorQuestions": [
-    { "question": "What flow rate (GPM) do I need for my household's peak demand?", "why": "The plumber should calculate your peak simultaneous demand (shower + dishwasher + washing machine, for example) and recommend a unit that handles it. Undersized units deliver lukewarm water under heavy use." },
-    { "question": "Is my gas line adequate, or does it need upgrading?", "why": "Tankless units need higher gas volume than tank heaters. An undersized gas line causes the unit to underperform or shut down. This upgrade can add $200-$1,500 to the project." },
-    { "question": "What venting option do you recommend, and why?", "why": "Direct vent through a wall is cheapest. Power vent through the roof costs more. Exterior mounting eliminates venting. Your plumber should explain the tradeoffs for your home's layout." },
-    { "question": "How will cold inlet water temperatures affect performance?", "why": "In northern climates, inlet water can be 40-50F, requiring much more heating power. A unit rated at 7 GPM in Florida may only deliver 4 GPM in Minnesota. Make sure the sizing accounts for your local water temperature." },
-    { "question": "Do you recommend a recirculation system?", "why": "Without recirculation, you wait 15-30 seconds for hot water at distant fixtures. A recirculation pump ($200-$600) solves this but adds complexity and a small energy cost." },
-    { "question": "What maintenance will the unit need, and how often?", "why": "Tankless units need annual flushing to remove mineral scale, especially in hard water areas. Some require a vinegar flush every 6-12 months. Ask what is involved and whether they offer a maintenance plan." },
-    { "question": "What is the total warranty - unit, heat exchanger, and labor?", "why": "Good tankless units have 10-15 year heat exchanger warranties and 5-year parts warranties. But labor warranties vary by installer. Get the full picture in writing." }
+    {
+      "question": "What flow rate (GPM) do I need for my household's peak demand?",
+      "why": "The plumber should calculate your peak simultaneous demand (shower + dishwasher + washing machine, for example) and recommend a unit that handles it. Undersized units deliver lukewarm water under heavy use."
+    },
+    {
+      "question": "Is my gas line adequate, or does it need upgrading?",
+      "why": "Tankless units need higher gas volume than tank heaters. An undersized gas line causes the unit to underperform or shut down. This upgrade can add $200-$1,500 to the project."
+    },
+    {
+      "question": "What venting option do you recommend, and why?",
+      "why": "Direct vent through a wall is cheapest. Power vent through the roof costs more. Exterior mounting eliminates venting. Your plumber should explain the tradeoffs for your home's layout."
+    },
+    {
+      "question": "How will cold inlet water temperatures affect performance?",
+      "why": "In northern climates, inlet water can be 40-50F, requiring much more heating power. A unit rated at 7 GPM in Florida may only deliver 4 GPM in Minnesota. Make sure the sizing accounts for your local water temperature."
+    },
+    {
+      "question": "Do you recommend a recirculation system?",
+      "why": "Without recirculation, you wait 15-30 seconds for hot water at distant fixtures. A recirculation pump ($200-$600) solves this but adds complexity and a small energy cost."
+    },
+    {
+      "question": "What maintenance will the unit need, and how often?",
+      "why": "Tankless units need annual flushing to remove mineral scale, especially in hard water areas. Some require a vinegar flush every 6-12 months. Ask what is involved and whether they offer a maintenance plan."
+    },
+    {
+      "question": "What is the total warranty - unit, heat exchanger, and labor?",
+      "why": "Good tankless units have 10-15 year heat exchanger warranties and 5-year parts warranties. But labor warranties vary by installer. Get the full picture in writing."
+    }
   ],
   "relatedProjects": [
     "water-heater-replacement",
-    "whole-house-repiping",
-    "water-softener-installation",
-    "gas-line-installation",
+    "sump-pump",
+    "furnace-replacement",
     "bathroom-remodel"
   ],
   "seo": {
@@ -179,10 +241,30 @@
     "metaDescription": "Tankless water heater installation costs $1,500-$5,000 in 2026, with a national average of $3,000. Compare gas vs. electric, see cost breakdowns, and use our calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - Tankless Water Heater Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/plumbing/install-a-tankless-water-heater/" },
-    { "name": "Fixr - Tankless Water Heater Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/tankless-water-heater" },
-    { "name": "Bob Vila - How Much Does a Tankless Water Heater Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/tankless-water-heater-cost/" },
-    { "name": "Angi - Tankless Water Heater Installation Cost", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-go-tankless.htm" },
-    { "name": "U.S. Department of Energy - Tankless Water Heaters", "year": 2025, "url": "https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters" }
+    {
+      "name": "HomeAdvisor - Tankless Water Heater Cost",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/plumbing/install-a-tankless-water-heater/"
+    },
+    {
+      "name": "Fixr - Tankless Water Heater Installation Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/tankless-water-heater"
+    },
+    {
+      "name": "Bob Vila - How Much Does a Tankless Water Heater Cost?",
+      "year": 2025,
+      "url": "https://www.bobvila.com/articles/tankless-water-heater-cost/"
+    },
+    {
+      "name": "Angi - Tankless Water Heater Installation Cost",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-it-cost-go-tankless.htm"
+    },
+    {
+      "name": "U.S. Department of Energy - Tankless Water Heaters",
+      "year": 2025,
+      "url": "https://www.energy.gov/energysaver/tankless-or-demand-type-water-heaters"
+    }
   ]
 }

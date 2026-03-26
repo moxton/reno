@@ -26,18 +26,84 @@
         "Here's a side-by-side comparison of what common projects cost when you do them yourself versus hiring a professional. DIY costs include materials, tools you'd need to buy, and rental equipment. Pro costs include everything."
       ],
       "table": {
-        "headers": ["Project", "DIY Cost", "Pro Cost", "DIY Savings", "DIY Difficulty"],
+        "headers": [
+          "Project",
+          "DIY Cost",
+          "Pro Cost",
+          "DIY Savings",
+          "DIY Difficulty"
+        ],
         "rows": [
-          ["Interior painting (3 rooms)", "$300-$500", "$1,500-$3,000", "60-75%", "Easy"],
-          ["Laminate flooring (500 sq ft)", "$1,500-$2,500", "$3,000-$5,000", "45-55%", "Moderate"],
-          ["Tile backsplash", "$200-$500", "$800-$1,600", "55-70%", "Moderate"],
-          ["Hardwood floor refinishing (500 sq ft)", "$500-$900", "$2,000-$3,500", "65-75%", "Moderate-Hard"],
-          ["Fence installation (150 linear ft)", "$1,500-$3,000", "$3,500-$7,000", "50-60%", "Moderate"],
-          ["Deck building (200 sq ft)", "$2,500-$5,000", "$6,000-$12,000", "50-60%", "Hard"],
-          ["Bathroom tile (floor + shower)", "$800-$1,500", "$3,000-$6,000", "65-75%", "Hard"],
-          ["Toilet replacement", "$150-$400", "$350-$700", "40-55%", "Easy"],
-          ["Electrical panel upgrade", "$800-$1,200 (materials)", "$1,800-$3,500", "Don't DIY", "Dangerous"],
-          ["Drywall installation (room)", "$300-$600", "$1,200-$2,500", "55-70%", "Moderate-Hard"]
+          [
+            "Interior painting (3 rooms)",
+            "$300-$500",
+            "$1,500-$3,000",
+            "60-75%",
+            "Easy"
+          ],
+          [
+            "Laminate flooring (500 sq ft)",
+            "$1,500-$2,500",
+            "$3,000-$5,000",
+            "45-55%",
+            "Moderate"
+          ],
+          [
+            "Tile backsplash",
+            "$200-$500",
+            "$800-$1,600",
+            "55-70%",
+            "Moderate"
+          ],
+          [
+            "Hardwood floor refinishing (500 sq ft)",
+            "$500-$900",
+            "$2,000-$3,500",
+            "65-75%",
+            "Moderate-Hard"
+          ],
+          [
+            "Fence installation (150 linear ft)",
+            "$1,500-$3,000",
+            "$3,500-$7,000",
+            "50-60%",
+            "Moderate"
+          ],
+          [
+            "Deck building (200 sq ft)",
+            "$2,500-$5,000",
+            "$6,000-$12,000",
+            "50-60%",
+            "Hard"
+          ],
+          [
+            "Bathroom tile (floor + shower)",
+            "$800-$1,500",
+            "$3,000-$6,000",
+            "65-75%",
+            "Hard"
+          ],
+          [
+            "Toilet replacement",
+            "$150-$400",
+            "$350-$700",
+            "40-55%",
+            "Easy"
+          ],
+          [
+            "Electrical panel upgrade",
+            "$800-$1,200 (materials)",
+            "$1,800-$3,500",
+            "Don't DIY",
+            "Dangerous"
+          ],
+          [
+            "Drywall installation (room)",
+            "$300-$600",
+            "$1,200-$2,500",
+            "55-70%",
+            "Moderate-Hard"
+          ]
         ]
       },
       "callout": "DIY savings percentages assume you already own basic tools (drill, saw, level, etc). If you need to buy tools from scratch, subtract $200-$800 from your savings depending on the project."
@@ -80,15 +146,47 @@
         "The YouTube video shows the project cost as 'materials only.' But your real DIY cost includes a lot more than materials. Here's what to add to your honest DIY budget."
       ],
       "table": {
-        "headers": ["Hidden Cost", "Typical Range", "Notes"],
+        "headers": [
+          "Hidden Cost",
+          "Typical Range",
+          "Notes"
+        ],
         "rows": [
-          ["Tool purchases", "$100-$800", "Tile saw, miter saw, nail gun, etc. You may only use them once."],
-          ["Tool rentals", "$50-$200 per day", "Floor sander, plate compactor, concrete mixer"],
-          ["Material waste (mistakes)", "10-20% extra", "You'll cut wrong, buy wrong, or break something. Budget extra materials."],
-          ["Return trips to the hardware store", "$20-$50 in gas + time", "The average DIY project requires 3-5 trips. Not a joke."],
-          ["Dumpster or disposal fees", "$200-$600", "You still have to haul away demo debris"],
-          ["Your time (opportunity cost)", "$25-$75/hour equivalent", "A 40-hour DIY project at $50/hour opportunity cost = $2,000"],
-          ["Fixing mistakes", "Varies widely", "Cracked tile, uneven flooring, or a failed plumbing connection can cost more to fix than the original pro quote"]
+          [
+            "Tool purchases",
+            "$100-$800",
+            "Tile saw, miter saw, nail gun, etc. You may only use them once."
+          ],
+          [
+            "Tool rentals",
+            "$50-$200 per day",
+            "Floor sander, plate compactor, concrete mixer"
+          ],
+          [
+            "Material waste (mistakes)",
+            "10-20% extra",
+            "You'll cut wrong, buy wrong, or break something. Budget extra materials."
+          ],
+          [
+            "Return trips to the hardware store",
+            "$20-$50 in gas + time",
+            "The average DIY project requires 3-5 trips. Not a joke."
+          ],
+          [
+            "Dumpster or disposal fees",
+            "$200-$600",
+            "You still have to haul away demo debris"
+          ],
+          [
+            "Your time (opportunity cost)",
+            "$25-$75/hour equivalent",
+            "A 40-hour DIY project at $50/hour opportunity cost = $2,000"
+          ],
+          [
+            "Fixing mistakes",
+            "Varies widely",
+            "Cracked tile, uneven flooring, or a failed plumbing connection can cost more to fix than the original pro quote"
+          ]
         ]
       }
     },
@@ -112,15 +210,63 @@
         "Here's a simple formula: take the pro cost, subtract the DIY cost, then divide by the hours you'll spend. That's your effective hourly wage for DIY. If it's under $15-$20 per hour, hiring a pro is probably the better call."
       ],
       "table": {
-        "headers": ["Project", "Pro Cost", "DIY Cost", "DIY Hours", "Your Effective Hourly Wage"],
+        "headers": [
+          "Project",
+          "Pro Cost",
+          "DIY Cost",
+          "DIY Hours",
+          "Your Effective Hourly Wage"
+        ],
         "rows": [
-          ["Paint 3 rooms", "$2,000", "$400", "20 hours", "$80/hour - great DIY value"],
-          ["Install LVP flooring (500 sq ft)", "$4,000", "$2,000", "16 hours", "$125/hour - excellent DIY value"],
-          ["Build a fence (150 ft)", "$5,500", "$2,500", "40 hours", "$75/hour - solid DIY value"],
-          ["Tile bathroom floor + shower", "$4,500", "$1,200", "50 hours", "$66/hour - good if you enjoy it"],
-          ["Build a deck (200 sq ft)", "$9,000", "$4,000", "60 hours", "$83/hour - good but hard work"],
-          ["Refinish hardwood floors", "$2,800", "$700", "30 hours", "$70/hour - good but physically brutal"],
-          ["Full bathroom remodel (DIY everything)", "$18,000", "$8,000", "200+ hours", "$50/hour - but 2-3 months of your life"]
+          [
+            "Paint 3 rooms",
+            "$2,000",
+            "$400",
+            "20 hours",
+            "$80/hour - great DIY value"
+          ],
+          [
+            "Install LVP flooring (500 sq ft)",
+            "$4,000",
+            "$2,000",
+            "16 hours",
+            "$125/hour - excellent DIY value"
+          ],
+          [
+            "Build a fence (150 ft)",
+            "$5,500",
+            "$2,500",
+            "40 hours",
+            "$75/hour - solid DIY value"
+          ],
+          [
+            "Tile bathroom floor + shower",
+            "$4,500",
+            "$1,200",
+            "50 hours",
+            "$66/hour - good if you enjoy it"
+          ],
+          [
+            "Build a deck (200 sq ft)",
+            "$9,000",
+            "$4,000",
+            "60 hours",
+            "$83/hour - good but hard work"
+          ],
+          [
+            "Refinish hardwood floors",
+            "$2,800",
+            "$700",
+            "30 hours",
+            "$70/hour - good but physically brutal"
+          ],
+          [
+            "Full bathroom remodel (DIY everything)",
+            "$18,000",
+            "$8,000",
+            "200+ hours",
+            "$50/hour - but 2-3 months of your life"
+          ]
         ]
       }
     },
@@ -178,7 +324,7 @@
     },
     {
       "title": "Interior Painting",
-      "href": "/projects/painting/interior-painting/",
+      "href": "/projects/painting-walls/interior-painting/",
       "subtitle": "See cost breakdown"
     }
   ],

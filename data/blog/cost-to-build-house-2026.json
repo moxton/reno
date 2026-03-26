@@ -26,14 +26,56 @@
         "Bigger homes cost more in total but less per square foot. That's because certain fixed costs (permits, site work, foundation, HVAC system, kitchen, bathrooms) get spread over more square footage. Here's what to expect across common home sizes."
       ],
       "table": {
-        "headers": ["Home Size", "Budget Build ($150/sq ft)", "Mid-Range Build ($200/sq ft)", "Premium Build ($250/sq ft)", "Custom/Luxury ($350+/sq ft)"],
+        "headers": [
+          "Home Size",
+          "Budget Build ($150/sq ft)",
+          "Mid-Range Build ($200/sq ft)",
+          "Premium Build ($250/sq ft)",
+          "Custom/Luxury ($350+/sq ft)"
+        ],
         "rows": [
-          ["1,500 sq ft", "$225,000", "$300,000", "$375,000", "$525,000+"],
-          ["2,000 sq ft", "$300,000", "$400,000", "$500,000", "$700,000+"],
-          ["2,500 sq ft", "$375,000", "$500,000", "$625,000", "$875,000+"],
-          ["3,000 sq ft", "$450,000", "$600,000", "$750,000", "$1,050,000+"],
-          ["3,500 sq ft", "$525,000", "$700,000", "$875,000", "$1,225,000+"],
-          ["4,000 sq ft", "$600,000", "$800,000", "$1,000,000", "$1,400,000+"]
+          [
+            "1,500 sq ft",
+            "$225,000",
+            "$300,000",
+            "$375,000",
+            "$525,000+"
+          ],
+          [
+            "2,000 sq ft",
+            "$300,000",
+            "$400,000",
+            "$500,000",
+            "$700,000+"
+          ],
+          [
+            "2,500 sq ft",
+            "$375,000",
+            "$500,000",
+            "$625,000",
+            "$875,000+"
+          ],
+          [
+            "3,000 sq ft",
+            "$450,000",
+            "$600,000",
+            "$750,000",
+            "$1,050,000+"
+          ],
+          [
+            "3,500 sq ft",
+            "$525,000",
+            "$700,000",
+            "$875,000",
+            "$1,225,000+"
+          ],
+          [
+            "4,000 sq ft",
+            "$600,000",
+            "$800,000",
+            "$1,000,000",
+            "$1,400,000+"
+          ]
         ]
       },
       "callout": "Budget builds use builder-grade finishes, standard layouts, and basic systems. Mid-range includes upgraded countertops, hardwood in main areas, and better fixtures. Premium means custom cabinetry, high-end appliances, and upgraded systems throughout."
@@ -45,17 +87,67 @@
         "Here are the regional cost multipliers for 2026 based on construction cost index data."
       ],
       "table": {
-        "headers": ["Region", "Cost Multiplier", "Avg Cost Per Sq Ft", "Key Cost Drivers"],
+        "headers": [
+          "Region",
+          "Cost Multiplier",
+          "Avg Cost Per Sq Ft",
+          "Key Cost Drivers"
+        ],
         "rows": [
-          ["Pacific Northwest (WA, OR)", "+20-30%", "$190-$300", "High labor costs, strict energy codes"],
-          ["California", "+30-50%", "$200-$350", "Extreme labor costs, seismic requirements, lengthy permits"],
-          ["Northeast (NY, NJ, CT, MA)", "+20-35%", "$190-$320", "High labor, energy code requirements, shorter building season"],
-          ["Mid-Atlantic (PA, MD, VA)", "+5-15%", "$160-$270", "Moderate labor, variable permit timelines"],
-          ["Southeast (NC, SC, GA, FL, TN)", "-5-15%", "$130-$220", "Lower labor, longer building season, less restrictive codes"],
-          ["Midwest (OH, IN, IL, MI, MN)", "-5-15%", "$135-$225", "Lower labor, but shorter building season in north"],
-          ["Mountain West (CO, UT, MT, ID)", "+5-15%", "$155-$270", "Growing demand, some material transport costs"],
-          ["Texas", "-5-10%", "$135-$230", "Lower labor, fewer regulations, but extreme heat codes increasing"],
-          ["Southwest (AZ, NM, NV)", "0-10%", "$145-$250", "Growing demand, water infrastructure requirements"]
+          [
+            "Pacific Northwest (WA, OR)",
+            "+20-30%",
+            "$190-$300",
+            "High labor costs, strict energy codes"
+          ],
+          [
+            "California",
+            "+30-50%",
+            "$200-$350",
+            "Extreme labor costs, seismic requirements, lengthy permits"
+          ],
+          [
+            "Northeast (NY, NJ, CT, MA)",
+            "+20-35%",
+            "$190-$320",
+            "High labor, energy code requirements, shorter building season"
+          ],
+          [
+            "Mid-Atlantic (PA, MD, VA)",
+            "+5-15%",
+            "$160-$270",
+            "Moderate labor, variable permit timelines"
+          ],
+          [
+            "Southeast (NC, SC, GA, FL, TN)",
+            "-5-15%",
+            "$130-$220",
+            "Lower labor, longer building season, less restrictive codes"
+          ],
+          [
+            "Midwest (OH, IN, IL, MI, MN)",
+            "-5-15%",
+            "$135-$225",
+            "Lower labor, but shorter building season in north"
+          ],
+          [
+            "Mountain West (CO, UT, MT, ID)",
+            "+5-15%",
+            "$155-$270",
+            "Growing demand, some material transport costs"
+          ],
+          [
+            "Texas",
+            "-5-10%",
+            "$135-$230",
+            "Lower labor, fewer regulations, but extreme heat codes increasing"
+          ],
+          [
+            "Southwest (AZ, NM, NV)",
+            "0-10%",
+            "$145-$250",
+            "Growing demand, water infrastructure requirements"
+          ]
         ]
       }
     },
@@ -65,17 +157,67 @@
         "Understanding where the money goes during construction helps you make better decisions about where to splurge and where to save. Here's a detailed breakdown of how your construction dollar gets allocated across each phase."
       ],
       "table": {
-        "headers": ["Construction Phase", "% of Total Cost", "Cost for $400,000 Build", "What's Included"],
+        "headers": [
+          "Construction Phase",
+          "% of Total Cost",
+          "Cost for $400,000 Build",
+          "What's Included"
+        ],
         "rows": [
-          ["Site work & foundation", "10-15%", "$40,000-$60,000", "Excavation, grading, concrete foundation, waterproofing"],
-          ["Framing", "15-20%", "$60,000-$80,000", "Lumber, trusses, sheathing, structural labor"],
-          ["Exterior finishes", "10-15%", "$40,000-$60,000", "Roofing, siding, windows, doors, exterior trim"],
-          ["Plumbing", "7-10%", "$28,000-$40,000", "Supply lines, drain/waste/vent, fixtures, water heater"],
-          ["Electrical", "7-10%", "$28,000-$40,000", "Wiring, panel, outlets, switches, fixtures, smart home prep"],
-          ["HVAC", "7-10%", "$28,000-$40,000", "Furnace/AC, ductwork, ventilation, thermostats"],
-          ["Insulation & drywall", "5-8%", "$20,000-$32,000", "Wall and attic insulation, drywall hang/tape/finish"],
-          ["Interior finishes", "20-25%", "$80,000-$100,000", "Flooring, cabinets, countertops, paint, trim, doors"],
-          ["Final details", "5-8%", "$20,000-$32,000", "Appliances, fixtures, hardware, landscaping, driveway, cleanup"]
+          [
+            "Site work & foundation",
+            "10-15%",
+            "$40,000-$60,000",
+            "Excavation, grading, concrete foundation, waterproofing"
+          ],
+          [
+            "Framing",
+            "15-20%",
+            "$60,000-$80,000",
+            "Lumber, trusses, sheathing, structural labor"
+          ],
+          [
+            "Exterior finishes",
+            "10-15%",
+            "$40,000-$60,000",
+            "Roofing, siding, windows, doors, exterior trim"
+          ],
+          [
+            "Plumbing",
+            "7-10%",
+            "$28,000-$40,000",
+            "Supply lines, drain/waste/vent, fixtures, water heater"
+          ],
+          [
+            "Electrical",
+            "7-10%",
+            "$28,000-$40,000",
+            "Wiring, panel, outlets, switches, fixtures, smart home prep"
+          ],
+          [
+            "HVAC",
+            "7-10%",
+            "$28,000-$40,000",
+            "Furnace/AC, ductwork, ventilation, thermostats"
+          ],
+          [
+            "Insulation & drywall",
+            "5-8%",
+            "$20,000-$32,000",
+            "Wall and attic insulation, drywall hang/tape/finish"
+          ],
+          [
+            "Interior finishes",
+            "20-25%",
+            "$80,000-$100,000",
+            "Flooring, cabinets, countertops, paint, trim, doors"
+          ],
+          [
+            "Final details",
+            "5-8%",
+            "$20,000-$32,000",
+            "Appliances, fixtures, hardware, landscaping, driveway, cleanup"
+          ]
         ]
       },
       "callout": "Interior finishes are the single biggest variable in your budget. The difference between laminate countertops and quartzite, or between carpet and hardwood, can swing your total cost by $30,000-$80,000 on a 2,500 sq ft home."
@@ -87,16 +229,52 @@
         "Land cost is the obvious one, but site prep, permits, architectural plans, and utility connections add up fast. Budget $50,000-$150,000 for these pre-construction costs on top of your building budget."
       ],
       "table": {
-        "headers": ["Pre-Construction Cost", "Typical Range", "Notes"],
+        "headers": [
+          "Pre-Construction Cost",
+          "Typical Range",
+          "Notes"
+        ],
         "rows": [
-          ["Land purchase", "$10,000-$500,000+", "Varies enormously by location. Rural lots: $10,000-$50,000. Suburban: $50,000-$200,000. Urban/coastal: $150,000-$500,000+"],
-          ["Architectural plans", "$5,000-$25,000", "Stock plans: $1,000-$3,000. Custom design: $10,000-$25,000+"],
-          ["Survey and soil testing", "$1,000-$5,000", "Required before permits. Soil test determines foundation type."],
-          ["Building permits", "$2,000-$15,000", "Varies wildly by municipality. California and Northeast tend to be highest."],
-          ["Impact and connection fees", "$3,000-$20,000", "Sewer/water tap fees, school impact fees, utility connection charges"],
-          ["Site clearing and grading", "$3,000-$15,000", "Tree removal, grading, erosion control"],
-          ["Driveway and road access", "$3,000-$20,000", "If your lot doesn't have road frontage, this gets expensive quickly"],
-          ["Construction loan costs", "$3,000-$10,000", "Origination fees, inspection fees, higher interest during construction"]
+          [
+            "Land purchase",
+            "$10,000-$500,000+",
+            "Varies enormously by location. Rural lots: $10,000-$50,000. Suburban: $50,000-$200,000. Urban/coastal: $150,000-$500,000+"
+          ],
+          [
+            "Architectural plans",
+            "$5,000-$25,000",
+            "Stock plans: $1,000-$3,000. Custom design: $10,000-$25,000+"
+          ],
+          [
+            "Survey and soil testing",
+            "$1,000-$5,000",
+            "Required before permits. Soil test determines foundation type."
+          ],
+          [
+            "Building permits",
+            "$2,000-$15,000",
+            "Varies wildly by municipality. California and Northeast tend to be highest."
+          ],
+          [
+            "Impact and connection fees",
+            "$3,000-$20,000",
+            "Sewer/water tap fees, school impact fees, utility connection charges"
+          ],
+          [
+            "Site clearing and grading",
+            "$3,000-$15,000",
+            "Tree removal, grading, erosion control"
+          ],
+          [
+            "Driveway and road access",
+            "$3,000-$20,000",
+            "If your lot doesn't have road frontage, this gets expensive quickly"
+          ],
+          [
+            "Construction loan costs",
+            "$3,000-$10,000",
+            "Origination fees, inspection fees, higher interest during construction"
+          ]
         ]
       }
     },
@@ -106,15 +284,63 @@
         "The type of build you choose has a massive impact on both cost and timeline. Each approach has real tradeoffs, and the right choice depends on your budget, timeline, and how particular you are about design."
       ],
       "table": {
-        "headers": ["Factor", "Production Builder", "Semi-Custom", "Full Custom", "Modular/Prefab"],
+        "headers": [
+          "Factor",
+          "Production Builder",
+          "Semi-Custom",
+          "Full Custom",
+          "Modular/Prefab"
+        ],
         "rows": [
-          ["Cost per sq ft", "$140-$200", "$180-$250", "$250-$400+", "$120-$200"],
-          ["Timeline", "4-8 months", "6-10 months", "10-18 months", "3-6 months"],
-          ["Design flexibility", "Choose from set floor plans", "Modify existing plans", "Anything you want", "Choose from catalog, limited mods"],
-          ["Quality control", "Consistent, builder-grade", "Better finishes, same structure", "Varies by builder", "Factory-controlled, very consistent"],
-          ["Land", "Usually included in price", "You provide or they help find", "You provide", "You provide"],
-          ["Warranty", "1-2 year builder warranty", "1-2 year", "Varies, negotiate", "Manufacturer warranty + builder"],
-          ["Best for", "Budget-conscious, quick timeline", "Want some personalization", "Specific vision, flexible timeline", "Budget + speed priority"]
+          [
+            "Cost per sq ft",
+            "$140-$200",
+            "$180-$250",
+            "$250-$400+",
+            "$120-$200"
+          ],
+          [
+            "Timeline",
+            "4-8 months",
+            "6-10 months",
+            "10-18 months",
+            "3-6 months"
+          ],
+          [
+            "Design flexibility",
+            "Choose from set floor plans",
+            "Modify existing plans",
+            "Anything you want",
+            "Choose from catalog, limited mods"
+          ],
+          [
+            "Quality control",
+            "Consistent, builder-grade",
+            "Better finishes, same structure",
+            "Varies by builder",
+            "Factory-controlled, very consistent"
+          ],
+          [
+            "Land",
+            "Usually included in price",
+            "You provide or they help find",
+            "You provide",
+            "You provide"
+          ],
+          [
+            "Warranty",
+            "1-2 year builder warranty",
+            "1-2 year",
+            "Varies, negotiate",
+            "Manufacturer warranty + builder"
+          ],
+          [
+            "Best for",
+            "Budget-conscious, quick timeline",
+            "Want some personalization",
+            "Specific vision, flexible timeline",
+            "Budget + speed priority"
+          ]
         ]
       },
       "callout": "Modular construction has improved dramatically in quality and design options. In 2026, modular homes can be nearly indistinguishable from site-built homes, and they're typically 10-20% cheaper with a faster timeline. Worth exploring if your area allows them."
@@ -139,18 +365,62 @@
         "Not every dollar in your build carries the same weight. Some things are nearly impossible to change later, and others are easy to upgrade down the road. Spend strategically."
       ],
       "table": {
-        "headers": ["Category", "Recommendation", "Why"],
+        "headers": [
+          "Category",
+          "Recommendation",
+          "Why"
+        ],
         "rows": [
-          ["Foundation & structural", "Don't cut corners", "Literally impossible to upgrade later. Get this right."],
-          ["Insulation & air sealing", "Splurge", "Pays for itself in energy savings. Much harder to add after walls are closed."],
-          ["Windows", "Go mid-range or better", "Bad windows leak energy for decades. Replacement is expensive and disruptive."],
-          ["Electrical capacity & layout", "Splurge on capacity, save on fixtures", "Run extra circuits and outlets now (cheap during construction). Light fixtures can be swapped anytime."],
-          ["Plumbing rough-in", "Add extra rough-ins", "Adding a rough-in during construction costs $500-$1,000. Adding one later costs $3,000-$8,000."],
-          ["Kitchen cabinets", "Go mid-range", "Budget cabinets fail in 5-10 years. Premium cabinets are overkill. Mid-range lasts 20+ years."],
-          ["Countertops", "OK to save here", "Easy to replace in 10 years when styles change. Start with mid-range quartz."],
-          ["Flooring", "Splurge in main areas, save in bedrooms", "Hardwood in living areas, carpet in bedrooms. Smart split that saves $5,000-$10,000."],
-          ["Paint", "Save", "The cheapest thing to change later. Go builder-grade and repaint in colors you love after move-in."],
-          ["Landscaping", "Save now, improve later", "Basic grading and sod/seed is fine. Mature landscaping can come over time."]
+          [
+            "Foundation & structural",
+            "Don't cut corners",
+            "Literally impossible to upgrade later. Get this right."
+          ],
+          [
+            "Insulation & air sealing",
+            "Splurge",
+            "Pays for itself in energy savings. Much harder to add after walls are closed."
+          ],
+          [
+            "Windows",
+            "Go mid-range or better",
+            "Bad windows leak energy for decades. Replacement is expensive and disruptive."
+          ],
+          [
+            "Electrical capacity & layout",
+            "Splurge on capacity, save on fixtures",
+            "Run extra circuits and outlets now (cheap during construction). Light fixtures can be swapped anytime."
+          ],
+          [
+            "Plumbing rough-in",
+            "Add extra rough-ins",
+            "Adding a rough-in during construction costs $500-$1,000. Adding one later costs $3,000-$8,000."
+          ],
+          [
+            "Kitchen cabinets",
+            "Go mid-range",
+            "Budget cabinets fail in 5-10 years. Premium cabinets are overkill. Mid-range lasts 20+ years."
+          ],
+          [
+            "Countertops",
+            "OK to save here",
+            "Easy to replace in 10 years when styles change. Start with mid-range quartz."
+          ],
+          [
+            "Flooring",
+            "Splurge in main areas, save in bedrooms",
+            "Hardwood in living areas, carpet in bedrooms. Smart split that saves $5,000-$10,000."
+          ],
+          [
+            "Paint",
+            "Save",
+            "The cheapest thing to change later. Go builder-grade and repaint in colors you love after move-in."
+          ],
+          [
+            "Landscaping",
+            "Save now, improve later",
+            "Basic grading and sod/seed is fine. Mature landscaping can come over time."
+          ]
         ]
       }
     },
@@ -161,16 +431,52 @@
         "Here's a typical timeline breakdown for a standard 2,500 sq ft production or semi-custom home."
       ],
       "table": {
-        "headers": ["Phase", "Duration", "What Happens"],
+        "headers": [
+          "Phase",
+          "Duration",
+          "What Happens"
+        ],
         "rows": [
-          ["Pre-construction", "1-3 months", "Plans finalized, permits pulled, financing secured"],
-          ["Site work & foundation", "2-4 weeks", "Excavation, footings, foundation pour, curing"],
-          ["Framing", "2-4 weeks", "Walls, roof structure, sheathing, windows/doors set"],
-          ["Rough-ins", "3-5 weeks", "Plumbing, electrical, HVAC ductwork, insulation inspection"],
-          ["Insulation & drywall", "2-3 weeks", "Insulation install, drywall hang, tape, mud, sand"],
-          ["Interior finishes", "4-6 weeks", "Cabinets, counters, flooring, trim, paint, fixtures"],
-          ["Final details", "2-3 weeks", "Appliances, hardware, final electrical/plumbing, punch list"],
-          ["Inspections & close", "1-2 weeks", "Final inspections, certificate of occupancy, landscaping"]
+          [
+            "Pre-construction",
+            "1-3 months",
+            "Plans finalized, permits pulled, financing secured"
+          ],
+          [
+            "Site work & foundation",
+            "2-4 weeks",
+            "Excavation, footings, foundation pour, curing"
+          ],
+          [
+            "Framing",
+            "2-4 weeks",
+            "Walls, roof structure, sheathing, windows/doors set"
+          ],
+          [
+            "Rough-ins",
+            "3-5 weeks",
+            "Plumbing, electrical, HVAC ductwork, insulation inspection"
+          ],
+          [
+            "Insulation & drywall",
+            "2-3 weeks",
+            "Insulation install, drywall hang, tape, mud, sand"
+          ],
+          [
+            "Interior finishes",
+            "4-6 weeks",
+            "Cabinets, counters, flooring, trim, paint, fixtures"
+          ],
+          [
+            "Final details",
+            "2-3 weeks",
+            "Appliances, hardware, final electrical/plumbing, punch list"
+          ],
+          [
+            "Inspections & close",
+            "1-2 weeks",
+            "Final inspections, certificate of occupancy, landscaping"
+          ]
         ]
       }
     },
@@ -193,13 +499,43 @@
         "Construction loans in 2026 require 20-25% down (based on the total project cost including land), carry higher interest rates (7-9%), and disburse funds in stages as construction milestones are met. Once the home is complete, the construction loan converts to a permanent mortgage or you refinance."
       ],
       "table": {
-        "headers": ["Loan Type", "Down Payment", "Rate (2026)", "How It Works"],
+        "headers": [
+          "Loan Type",
+          "Down Payment",
+          "Rate (2026)",
+          "How It Works"
+        ],
         "rows": [
-          ["Construction-to-permanent", "20-25%", "7-8.5%", "Single close. Converts to mortgage at completion. Simplest option."],
-          ["Construction-only loan", "20-25%", "7.5-9%", "Separate construction and permanent loans. More flexibility but two closings."],
-          ["Owner-builder loan", "25-30%", "8-10%", "If you're acting as your own GC. Harder to qualify, higher rates."],
-          ["FHA construction loan", "3.5%", "6.5-8%", "Lower down payment but strict requirements and slower process."],
-          ["VA construction loan", "0%", "6-7.5%", "Available to veterans. No down payment but limited lender options."]
+          [
+            "Construction-to-permanent",
+            "20-25%",
+            "7-8.5%",
+            "Single close. Converts to mortgage at completion. Simplest option."
+          ],
+          [
+            "Construction-only loan",
+            "20-25%",
+            "7.5-9%",
+            "Separate construction and permanent loans. More flexibility but two closings."
+          ],
+          [
+            "Owner-builder loan",
+            "25-30%",
+            "8-10%",
+            "If you're acting as your own GC. Harder to qualify, higher rates."
+          ],
+          [
+            "FHA construction loan",
+            "3.5%",
+            "6.5-8%",
+            "Lower down payment but strict requirements and slower process."
+          ],
+          [
+            "VA construction loan",
+            "0%",
+            "6-7.5%",
+            "Available to veterans. No down payment but limited lender options."
+          ]
         ]
       },
       "callout": "Budget for 6-12 months of interest-only payments during construction. On a $400,000 construction loan at 8%, that's $2,667 per month in interest alone - plus whatever you're paying for current housing. Make sure your budget can handle both."
@@ -231,7 +567,7 @@
     },
     {
       "title": "Central AC Installation",
-      "href": "/projects/hvac/central-ac-installation/",
+      "href": "/projects/hvac-energy/central-ac-installation/",
       "subtitle": "See cost breakdown"
     }
   ],

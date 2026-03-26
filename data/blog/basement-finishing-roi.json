@@ -26,11 +26,31 @@
         "Basement finishing costs vary widely based on scope, finishes, and whether you are adding plumbing or egress windows. Here is what to expect at each tier in 2026."
       ],
       "table": {
-        "headers": ["Scope", "Cost Range", "Cost per Sq Ft", "What's Included"],
+        "headers": [
+          "Scope",
+          "Cost Range",
+          "Cost per Sq Ft",
+          "What's Included"
+        ],
         "rows": [
-          ["Basic (800 sq ft)", "$18,000-$30,000", "$22-$38", "Drywall, drop ceiling, LVP flooring, basic lighting, paint, no bathroom"],
-          ["Mid-Range (1,000 sq ft)", "$35,000-$55,000", "$35-$55", "Drywall, recessed lighting, LVP or carpet, half bath, built-in storage"],
-          ["High-End (1,200 sq ft)", "$60,000-$100,000+", "$50-$85+", "Full bath, wet bar or kitchenette, home theater, custom built-ins, heated floors"]
+          [
+            "Basic (800 sq ft)",
+            "$18,000-$30,000",
+            "$22-$38",
+            "Drywall, drop ceiling, LVP flooring, basic lighting, paint, no bathroom"
+          ],
+          [
+            "Mid-Range (1,000 sq ft)",
+            "$35,000-$55,000",
+            "$35-$55",
+            "Drywall, recessed lighting, LVP or carpet, half bath, built-in storage"
+          ],
+          [
+            "High-End (1,200 sq ft)",
+            "$60,000-$100,000+",
+            "$50-$85+",
+            "Full bath, wet bar or kitchenette, home theater, custom built-ins, heated floors"
+          ]
         ]
       }
     },
@@ -40,20 +60,85 @@
         "Understanding where the money goes helps you prioritize spending and identify where to save. Framing and drywall are the foundation of every finished basement. Everything else is a menu of options."
       ],
       "table": {
-        "headers": ["Component", "Budget", "Mid-Range", "High-End"],
+        "headers": [
+          "Component",
+          "Budget",
+          "Mid-Range",
+          "High-End"
+        ],
         "rows": [
-          ["Framing (walls, soffits)", "$2,500-$4,000", "$3,500-$5,500", "$5,000-$8,000"],
-          ["Insulation", "$1,500-$2,500", "$2,000-$3,500", "$3,000-$5,000"],
-          ["Drywall (install and finish)", "$3,000-$5,000", "$4,500-$7,000", "$6,000-$9,000"],
-          ["Flooring", "$2,000-$4,000", "$3,500-$6,000", "$5,000-$10,000"],
-          ["Ceiling", "$1,500-$3,000", "$2,500-$4,500", "$4,000-$7,000"],
-          ["Electrical (lighting, outlets)", "$2,000-$4,000", "$3,500-$6,000", "$5,000-$10,000"],
-          ["Plumbing (if adding bathroom)", "N/A", "$4,000-$8,000", "$6,000-$12,000"],
-          ["HVAC extension", "$1,000-$2,500", "$2,000-$4,000", "$3,000-$6,000"],
-          ["Egress window", "N/A", "$2,500-$5,000", "$3,500-$6,000"],
-          ["Paint and trim", "$1,500-$2,500", "$2,000-$3,500", "$3,000-$5,000"],
-          ["Permits", "$200-$500", "$500-$1,500", "$1,000-$2,000"],
-          ["Total", "$18,000-$30,000", "$35,000-$55,000", "$60,000-$100,000+"]
+          [
+            "Framing (walls, soffits)",
+            "$2,500-$4,000",
+            "$3,500-$5,500",
+            "$5,000-$8,000"
+          ],
+          [
+            "Insulation",
+            "$1,500-$2,500",
+            "$2,000-$3,500",
+            "$3,000-$5,000"
+          ],
+          [
+            "Drywall (install and finish)",
+            "$3,000-$5,000",
+            "$4,500-$7,000",
+            "$6,000-$9,000"
+          ],
+          [
+            "Flooring",
+            "$2,000-$4,000",
+            "$3,500-$6,000",
+            "$5,000-$10,000"
+          ],
+          [
+            "Ceiling",
+            "$1,500-$3,000",
+            "$2,500-$4,500",
+            "$4,000-$7,000"
+          ],
+          [
+            "Electrical (lighting, outlets)",
+            "$2,000-$4,000",
+            "$3,500-$6,000",
+            "$5,000-$10,000"
+          ],
+          [
+            "Plumbing (if adding bathroom)",
+            "N/A",
+            "$4,000-$8,000",
+            "$6,000-$12,000"
+          ],
+          [
+            "HVAC extension",
+            "$1,000-$2,500",
+            "$2,000-$4,000",
+            "$3,000-$6,000"
+          ],
+          [
+            "Egress window",
+            "N/A",
+            "$2,500-$5,000",
+            "$3,500-$6,000"
+          ],
+          [
+            "Paint and trim",
+            "$1,500-$2,500",
+            "$2,000-$3,500",
+            "$3,000-$5,000"
+          ],
+          [
+            "Permits",
+            "$200-$500",
+            "$500-$1,500",
+            "$1,000-$2,000"
+          ],
+          [
+            "Total",
+            "$18,000-$30,000",
+            "$35,000-$55,000",
+            "$60,000-$100,000+"
+          ]
         ]
       }
     },
@@ -63,15 +148,55 @@
         "Not all basement improvements return equal value. Some features punch well above their cost at resale, while others are mostly for personal enjoyment. Here is how the most common basement features stack up."
       ],
       "table": {
-        "headers": ["Feature", "Typical Cost", "Estimated ROI at Resale", "Notes"],
+        "headers": [
+          "Feature",
+          "Typical Cost",
+          "Estimated ROI at Resale",
+          "Notes"
+        ],
         "rows": [
-          ["Basic finish (open plan, no bath)", "$18,000-$30,000", "60-65%", "Adds usable square footage but lower value without bath"],
-          ["Full bathroom addition", "$8,000-$15,000", "80-90%", "Highest ROI basement feature. Adds real functionality"],
-          ["Bedroom with egress window", "$5,000-$10,000 (window + framing)", "75-85%", "Qualifies space as legal bedroom on listing"],
-          ["Wet bar or kitchenette", "$5,000-$15,000", "50-60%", "Nice to have, but niche appeal limits resale value"],
-          ["Home theater", "$10,000-$30,000", "40-50%", "Highly personal. Tech becomes outdated quickly"],
-          ["Home gym space", "$2,000-$5,000 (space prep only)", "65-75%", "Flexible space that appeals to many buyers"],
-          ["Built-in storage/closets", "$1,500-$4,000", "70-80%", "Practical and universally valued"]
+          [
+            "Basic finish (open plan, no bath)",
+            "$18,000-$30,000",
+            "60-65%",
+            "Adds usable square footage but lower value without bath"
+          ],
+          [
+            "Full bathroom addition",
+            "$8,000-$15,000",
+            "80-90%",
+            "Highest ROI basement feature. Adds real functionality"
+          ],
+          [
+            "Bedroom with egress window",
+            "$5,000-$10,000 (window + framing)",
+            "75-85%",
+            "Qualifies space as legal bedroom on listing"
+          ],
+          [
+            "Wet bar or kitchenette",
+            "$5,000-$15,000",
+            "50-60%",
+            "Nice to have, but niche appeal limits resale value"
+          ],
+          [
+            "Home theater",
+            "$10,000-$30,000",
+            "40-50%",
+            "Highly personal. Tech becomes outdated quickly"
+          ],
+          [
+            "Home gym space",
+            "$2,000-$5,000 (space prep only)",
+            "65-75%",
+            "Flexible space that appeals to many buyers"
+          ],
+          [
+            "Built-in storage/closets",
+            "$1,500-$4,000",
+            "70-80%",
+            "Practical and universally valued"
+          ]
         ]
       },
       "callout": "The single best thing you can do for basement ROI is add a full bathroom. It transforms the space from bonus storage into legitimate living area."
@@ -106,21 +231,54 @@
     {
       "heading": "Basement Finishing vs. Other Home Investments",
       "paragraphs": [
-        "How does a basement finish compare to other projects competing for the same budget? Here is a side-by-side comparison for a $40,000-$50,000 budget."
+        "Basement finishing offers the best cost-per-square-foot value of any project on this list. If you need more space and your basement is dry and tall enough, it is almost always the most cost-effective option."
       ],
       "table": {
-        "headers": ["Project", "Cost", "ROI at Resale", "Sq Ft Added", "Daily Use Value"],
+        "headers": [
+          "Project",
+          "Cost",
+          "ROI at Resale",
+          "Sq Ft Added",
+          "Daily Use Value"
+        ],
         "rows": [
-          ["Basement finish (mid-range)", "$40,000-$55,000", "70-75%", "800-1,200", "High - daily living space"],
-          ["Minor kitchen remodel", "$28,000-$40,000", "80-85%", "0", "Very high - used daily"],
-          ["Primary bathroom remodel", "$30,000-$45,000", "55-65%", "0", "High - used daily"],
-          ["Deck addition (composite)", "$20,000-$40,000", "60-70%", "200-400 (outdoor)", "Seasonal"],
-          ["Room addition", "$80,000-$200,000", "50-60%", "200-400", "High - but 2x-4x the cost"]
+          [
+            "Basement finish (mid-range)",
+            "$40,000-$55,000",
+            "70-75%",
+            "800-1,200",
+            "High - daily living space"
+          ],
+          [
+            "Minor kitchen remodel",
+            "$28,000-$40,000",
+            "80-85%",
+            "0",
+            "Very high - used daily"
+          ],
+          [
+            "Primary bathroom remodel",
+            "$30,000-$45,000",
+            "55-65%",
+            "0",
+            "High - used daily"
+          ],
+          [
+            "Deck addition (composite)",
+            "$20,000-$40,000",
+            "60-70%",
+            "200-400 (outdoor)",
+            "Seasonal"
+          ],
+          [
+            "Room addition",
+            "$80,000-$200,000",
+            "50-60%",
+            "200-400",
+            "High - but 2x-4x the cost"
+          ]
         ]
-      },
-      "paragraphs": [
-        "Basement finishing offers the best cost-per-square-foot value of any project on this list. If you need more space and your basement is dry and tall enough, it is almost always the most cost-effective option."
-      ]
+      }
     },
     {
       "heading": "Best Basement Designs for Resale Value",
@@ -142,16 +300,70 @@
         "A fully DIY basement finish can cost 40-60% less than hiring a contractor, but it takes most homeowners 3-6 months of weekends. Some components are good DIY candidates, others should always be left to licensed professionals."
       ],
       "table": {
-        "headers": ["Task", "DIY Feasible?", "Pro Cost", "DIY Cost", "Notes"],
+        "headers": [
+          "Task",
+          "DIY Feasible?",
+          "Pro Cost",
+          "DIY Cost",
+          "Notes"
+        ],
         "rows": [
-          ["Framing walls", "Yes", "$2,500-$5,000", "$800-$1,500 (materials)", "Straightforward if walls are square"],
-          ["Insulation (batt)", "Yes", "$1,500-$3,000", "$500-$1,000 (materials)", "Easy but itchy. Wear full PPE"],
-          ["Drywall hanging", "Maybe", "$3,000-$6,000", "$800-$1,500 (materials)", "Possible but hard to get right. Finishing is the hard part"],
-          ["Electrical rough-in", "No", "$2,500-$5,000", "N/A", "Must be done by licensed electrician"],
-          ["Plumbing rough-in", "No", "$3,000-$8,000", "N/A", "Must be done by licensed plumber"],
-          ["Flooring (LVP)", "Yes", "$3,000-$6,000", "$1,500-$3,000 (materials)", "Click-lock LVP is very DIY-friendly"],
-          ["Painting", "Yes", "$1,500-$3,000", "$200-$500 (materials)", "Best bang-for-buck DIY task"],
-          ["Trim and baseboards", "Yes", "$1,000-$2,500", "$300-$700 (materials)", "Requires miter saw and patience"]
+          [
+            "Framing walls",
+            "Yes",
+            "$2,500-$5,000",
+            "$800-$1,500 (materials)",
+            "Straightforward if walls are square"
+          ],
+          [
+            "Insulation (batt)",
+            "Yes",
+            "$1,500-$3,000",
+            "$500-$1,000 (materials)",
+            "Easy but itchy. Wear full PPE"
+          ],
+          [
+            "Drywall hanging",
+            "Maybe",
+            "$3,000-$6,000",
+            "$800-$1,500 (materials)",
+            "Possible but hard to get right. Finishing is the hard part"
+          ],
+          [
+            "Electrical rough-in",
+            "No",
+            "$2,500-$5,000",
+            "N/A",
+            "Must be done by licensed electrician"
+          ],
+          [
+            "Plumbing rough-in",
+            "No",
+            "$3,000-$8,000",
+            "N/A",
+            "Must be done by licensed plumber"
+          ],
+          [
+            "Flooring (LVP)",
+            "Yes",
+            "$3,000-$6,000",
+            "$1,500-$3,000 (materials)",
+            "Click-lock LVP is very DIY-friendly"
+          ],
+          [
+            "Painting",
+            "Yes",
+            "$1,500-$3,000",
+            "$200-$500 (materials)",
+            "Best bang-for-buck DIY task"
+          ],
+          [
+            "Trim and baseboards",
+            "Yes",
+            "$1,000-$2,500",
+            "$300-$700 (materials)",
+            "Requires miter saw and patience"
+          ]
         ]
       }
     },
@@ -162,17 +374,57 @@
         "The biggest delays come from permit approvals (2-4 weeks in many jurisdictions), inspection scheduling, and material lead times for special-order items. Order your egress windows, vanity, and any custom features at least 4-6 weeks before you need them."
       ],
       "table": {
-        "headers": ["Phase", "Professional Timeline", "DIY Timeline"],
+        "headers": [
+          "Phase",
+          "Professional Timeline",
+          "DIY Timeline"
+        ],
         "rows": [
-          ["Permits and planning", "2-4 weeks", "2-4 weeks"],
-          ["Framing and rough-in", "1-2 weeks", "2-4 weekends"],
-          ["Electrical and plumbing rough-in", "3-5 days", "N/A (hire pro)"],
-          ["Insulation and inspection", "2-3 days + inspection wait", "1-2 weekends + inspection wait"],
-          ["Drywall", "1-2 weeks (including mud/tape)", "3-5 weekends"],
-          ["Flooring", "2-4 days", "1-2 weekends"],
-          ["Paint and trim", "3-5 days", "2-3 weekends"],
-          ["Fixtures and finish", "2-3 days", "1-2 weekends"],
-          ["Total", "4-8 weeks", "3-6 months"]
+          [
+            "Permits and planning",
+            "2-4 weeks",
+            "2-4 weeks"
+          ],
+          [
+            "Framing and rough-in",
+            "1-2 weeks",
+            "2-4 weekends"
+          ],
+          [
+            "Electrical and plumbing rough-in",
+            "3-5 days",
+            "N/A (hire pro)"
+          ],
+          [
+            "Insulation and inspection",
+            "2-3 days + inspection wait",
+            "1-2 weekends + inspection wait"
+          ],
+          [
+            "Drywall",
+            "1-2 weeks (including mud/tape)",
+            "3-5 weekends"
+          ],
+          [
+            "Flooring",
+            "2-4 days",
+            "1-2 weekends"
+          ],
+          [
+            "Paint and trim",
+            "3-5 days",
+            "2-3 weekends"
+          ],
+          [
+            "Fixtures and finish",
+            "2-3 days",
+            "1-2 weekends"
+          ],
+          [
+            "Total",
+            "4-8 weeks",
+            "3-6 months"
+          ]
         ]
       }
     },
@@ -192,8 +444,8 @@
       "subtitle": "See cost breakdown"
     },
     {
-      "title": "Basement Waterproofing",
-      "href": "/projects/basement/basement-waterproofing/",
+      "title": "French Drain Installation",
+      "href": "/projects/basement/french-drain/",
       "subtitle": "See cost breakdown"
     }
   ],

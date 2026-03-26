@@ -9,7 +9,12 @@
     "typicalHigh": 7500,
     "lowEnd": 2000,
     "highEnd": 10000,
-    "costPerUnit": { "low": 1.50, "high": 4.50, "unit": "sq ft of home", "average": 2.75 }
+    "costPerUnit": {
+      "low": 1.5,
+      "high": 4.5,
+      "unit": "sq ft of home",
+      "average": 2.75
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,21 +107,58 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High labor rates and strict code requirements. Oil-to-gas conversions are common and add cost." },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California and Washington pushing heat pump mandates; gas furnace installs face additional regulatory costs" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower heating demand means smaller units and simpler installs. Labor rates are below average." },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Competitive HVAC market keeps prices down despite high heating demand. Gas is readily available." },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Altitude affects combustion ratings - units may need high-altitude kits adding $100-$300" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "High labor rates and strict code requirements. Oil-to-gas conversions are common and add cost."
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "California and Washington pushing heat pump mandates; gas furnace installs face additional regulatory costs"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower heating demand means smaller units and simpler installs. Labor rates are below average."
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Competitive HVAC market keeps prices down despite high heating demand. Gas is readily available."
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Altitude affects combustion ratings - units may need high-altitude kits adding $100-$300"
+    }
   },
   "timeline": {
     "minimum": "4-6 hours",
     "typical": "1 day",
     "maximum": "2-3 days",
     "phases": [
-      { "name": "Old furnace disconnection and removal", "duration": "1-2 hours" },
-      { "name": "New unit positioning and connections", "duration": "2-4 hours" },
-      { "name": "Venting and ductwork modifications", "duration": "1-4 hours" },
-      { "name": "Testing, calibration, and thermostat setup", "duration": "1-2 hours" }
+      {
+        "name": "Old furnace disconnection and removal",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "New unit positioning and connections",
+        "duration": "2-4 hours"
+      },
+      {
+        "name": "Venting and ductwork modifications",
+        "duration": "1-4 hours"
+      },
+      {
+        "name": "Testing, calibration, and thermostat setup",
+        "duration": "1-2 hours"
+      }
     ]
   },
   "diyVsPro": {
@@ -149,20 +191,40 @@
     "Skip the extended warranty if your installer offers a workmanship guarantee - manufacturer warranties cover 10-20 years on heat exchangers"
   ],
   "contractorQuestions": [
-    { "question": "What size furnace does my home need, and how did you determine that?", "why": "A proper Manual J load calculation accounts for your home's square footage, insulation, windows, and climate. A contractor who just matches your old furnace size may over- or under-size the replacement." },
-    { "question": "What AFUE rating do you recommend, and what is the payback period?", "why": "The most efficient furnace is not always the best value. A good contractor will calculate your estimated annual savings and show you the payback timeline." },
-    { "question": "Will my existing ductwork and venting work with the new unit?", "why": "Upgrading from 80% to 90%+ AFUE requires PVC venting instead of a chimney flue. Undersized ductwork reduces efficiency and comfort regardless of furnace quality." },
-    { "question": "Is the quote all-inclusive - unit, labor, materials, permits, disposal, thermostat?", "why": "HVAC quotes vary wildly in what they include. Some bundle the thermostat and permits; others charge separately for everything." },
-    { "question": "What brand and model are you quoting, and what is the warranty?", "why": "Generic 'high-efficiency furnace' quotes make it impossible to compare. Get the exact model number so you can verify specifications and pricing." },
-    { "question": "Are you licensed and insured, and will you pull the permit?", "why": "Unlicensed HVAC work is illegal in most states. Unpermitted installations can cause problems at home sale and may void insurance coverage." },
-    { "question": "Do you offer a workmanship warranty beyond the manufacturer warranty?", "why": "Manufacturer warranties cover the equipment but not the installation labor. A 1-2 year workmanship guarantee protects you from installation defects." }
+    {
+      "question": "What size furnace does my home need, and how did you determine that?",
+      "why": "A proper Manual J load calculation accounts for your home's square footage, insulation, windows, and climate. A contractor who just matches your old furnace size may over- or under-size the replacement."
+    },
+    {
+      "question": "What AFUE rating do you recommend, and what is the payback period?",
+      "why": "The most efficient furnace is not always the best value. A good contractor will calculate your estimated annual savings and show you the payback timeline."
+    },
+    {
+      "question": "Will my existing ductwork and venting work with the new unit?",
+      "why": "Upgrading from 80% to 90%+ AFUE requires PVC venting instead of a chimney flue. Undersized ductwork reduces efficiency and comfort regardless of furnace quality."
+    },
+    {
+      "question": "Is the quote all-inclusive - unit, labor, materials, permits, disposal, thermostat?",
+      "why": "HVAC quotes vary wildly in what they include. Some bundle the thermostat and permits; others charge separately for everything."
+    },
+    {
+      "question": "What brand and model are you quoting, and what is the warranty?",
+      "why": "Generic 'high-efficiency furnace' quotes make it impossible to compare. Get the exact model number so you can verify specifications and pricing."
+    },
+    {
+      "question": "Are you licensed and insured, and will you pull the permit?",
+      "why": "Unlicensed HVAC work is illegal in most states. Unpermitted installations can cause problems at home sale and may void insurance coverage."
+    },
+    {
+      "question": "Do you offer a workmanship warranty beyond the manufacturer warranty?",
+      "why": "Manufacturer warranties cover the equipment but not the installation labor. A 1-2 year workmanship guarantee protects you from installation defects."
+    }
   ],
   "relatedProjects": [
     "heat-pump-installation",
     "central-ac-installation",
     "ductless-mini-split",
-    "attic-insulation",
-    "smart-thermostat-installation"
+    "attic-insulation"
   ],
   "seo": {
     "primaryKeyword": "furnace replacement cost",
@@ -179,10 +241,30 @@
     "metaDescription": "Furnace replacement costs $2,500-$7,500 in 2026, with a national average of $4,500. See detailed breakdowns by efficiency, size, and brand plus use our interactive calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - Furnace Replacement Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/heating-and-cooling/install-a-furnace/" },
-    { "name": "Fixr - Furnace Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/furnace-installation" },
-    { "name": "Angi - How Much Does a New Furnace Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-new-furnace-cost.htm" },
-    { "name": "HVAC.com - Furnace Cost Guide", "year": 2025, "url": "https://www.hvac.com/heating/furnaces/cost/" },
-    { "name": "U.S. Department of Energy - Furnaces and Boilers", "year": 2025, "url": "https://www.energy.gov/energysaver/furnaces-and-boilers" }
+    {
+      "name": "HomeAdvisor - Furnace Replacement Cost",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/heating-and-cooling/install-a-furnace/"
+    },
+    {
+      "name": "Fixr - Furnace Installation Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/furnace-installation"
+    },
+    {
+      "name": "Angi - How Much Does a New Furnace Cost?",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-new-furnace-cost.htm"
+    },
+    {
+      "name": "HVAC.com - Furnace Cost Guide",
+      "year": 2025,
+      "url": "https://www.hvac.com/heating/furnaces/cost/"
+    },
+    {
+      "name": "U.S. Department of Energy - Furnaces and Boilers",
+      "year": 2025,
+      "url": "https://www.energy.gov/energysaver/furnaces-and-boilers"
+    }
   ]
 }

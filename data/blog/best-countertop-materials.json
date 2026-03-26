@@ -25,16 +25,88 @@
         "Here's the full side-by-side for 2026. Costs include materials and professional installation for a typical 30-square-foot kitchen countertop area."
       ],
       "table": {
-        "headers": ["Material", "Installed Cost/Sq Ft", "Total (30 Sq Ft)", "Durability (1-5)", "Heat Resistance", "Stain Resistance", "Maintenance"],
+        "headers": [
+          "Material",
+          "Installed Cost/Sq Ft",
+          "Total (30 Sq Ft)",
+          "Durability (1-5)",
+          "Heat Resistance",
+          "Stain Resistance",
+          "Maintenance"
+        ],
         "rows": [
-          ["Granite", "$40-$100", "$1,200-$3,000", "5", "Excellent", "Good (if sealed)", "Seal yearly"],
-          ["Quartz", "$50-$120", "$1,500-$3,600", "5", "Moderate", "Excellent", "Virtually none"],
-          ["Marble", "$75-$150", "$2,250-$4,500", "3", "Good", "Poor", "High - seal often"],
-          ["Quartzite", "$70-$150", "$2,100-$4,500", "5", "Excellent", "Good (if sealed)", "Seal 1-2x/year"],
-          ["Butcher Block", "$30-$70", "$900-$2,100", "3", "Poor", "Poor", "Oil monthly"],
-          ["Laminate", "$15-$40", "$450-$1,200", "2", "Poor", "Moderate", "Virtually none"],
-          ["Concrete", "$65-$135", "$1,950-$4,050", "4", "Good", "Moderate (if sealed)", "Seal + wax regularly"],
-          ["Soapstone", "$70-$120", "$2,100-$3,600", "4", "Excellent", "Good", "Oil periodically"]
+          [
+            "Granite",
+            "$40-$100",
+            "$1,200-$3,000",
+            "5",
+            "Excellent",
+            "Good (if sealed)",
+            "Seal yearly"
+          ],
+          [
+            "Quartz",
+            "$50-$120",
+            "$1,500-$3,600",
+            "5",
+            "Moderate",
+            "Excellent",
+            "Virtually none"
+          ],
+          [
+            "Marble",
+            "$75-$150",
+            "$2,250-$4,500",
+            "3",
+            "Good",
+            "Poor",
+            "High - seal often"
+          ],
+          [
+            "Quartzite",
+            "$70-$150",
+            "$2,100-$4,500",
+            "5",
+            "Excellent",
+            "Good (if sealed)",
+            "Seal 1-2x/year"
+          ],
+          [
+            "Butcher Block",
+            "$30-$70",
+            "$900-$2,100",
+            "3",
+            "Poor",
+            "Poor",
+            "Oil monthly"
+          ],
+          [
+            "Laminate",
+            "$15-$40",
+            "$450-$1,200",
+            "2",
+            "Poor",
+            "Moderate",
+            "Virtually none"
+          ],
+          [
+            "Concrete",
+            "$65-$135",
+            "$1,950-$4,050",
+            "4",
+            "Good",
+            "Moderate (if sealed)",
+            "Seal + wax regularly"
+          ],
+          [
+            "Soapstone",
+            "$70-$120",
+            "$2,100-$3,600",
+            "4",
+            "Excellent",
+            "Good",
+            "Oil periodically"
+          ]
         ]
       },
       "callout": "A \"typical\" kitchen has about 30 square feet of countertop. L-shaped kitchens run 25-35 square feet, U-shaped kitchens 35-50 square feet. Island countertops add another 12-20 square feet."
@@ -60,11 +132,27 @@
         "The one weakness: heat. Quartz resin can discolor or crack from sustained contact with very hot pans (above 300 degrees F). Always use trivets. This isn't a deal-breaker for most people, but if you regularly pull cast iron out of a 500-degree oven and set it on the counter, granite or quartzite is a better fit."
       ],
       "table": {
-        "headers": ["Quartz Price Tier", "Cost/Sq Ft Installed", "What You Get"],
+        "headers": [
+          "Quartz Price Tier",
+          "Cost/Sq Ft Installed",
+          "What You Get"
+        ],
         "rows": [
-          ["Budget", "$40-$55", "Basic colors, thinner slabs, big-box store brands"],
-          ["Mid-Range", "$60-$90", "Caesarstone, Silestone, wide color selection, standard edge profiles"],
-          ["Premium", "$90-$120+", "Cambria, exotic patterns, marble-look veining, custom edges"]
+          [
+            "Budget",
+            "$40-$55",
+            "Basic colors, thinner slabs, big-box store brands"
+          ],
+          [
+            "Mid-Range",
+            "$60-$90",
+            "Caesarstone, Silestone, wide color selection, standard edge profiles"
+          ],
+          [
+            "Premium",
+            "$90-$120+",
+            "Cambria, exotic patterns, marble-look veining, custom edges"
+          ]
         ]
       }
     },
@@ -144,17 +232,57 @@
         "The per-square-foot price is just the starting point. Several factors can push your final countertop bill 20-40% higher than the base material cost."
       ],
       "table": {
-        "headers": ["Hidden Cost", "Typical Range", "Applies To"],
+        "headers": [
+          "Hidden Cost",
+          "Typical Range",
+          "Applies To"
+        ],
         "rows": [
-          ["Sink cutout", "$150-$400", "All stone and quartz"],
-          ["Cooktop cutout", "$200-$400", "All stone and quartz"],
-          ["Edge profile upgrade", "$10-$30/linear foot", "Stone and quartz (ogee, bullnose, waterfall)"],
-          ["Backsplash (matching)", "$20-$50/linear foot", "Stone and quartz"],
-          ["Seam placement", "$0-$200", "Stone and quartz (more seams = more cost)"],
-          ["Old countertop removal", "$200-$500", "All materials"],
-          ["Plumbing disconnect/reconnect", "$150-$400", "All materials (sink and dishwasher)"],
-          ["Support brackets for overhangs", "$100-$300", "Stone, quartz, concrete (islands with seating)"],
-          ["Template visit", "$0-$200", "Stone and quartz (some fabricators charge separately)"]
+          [
+            "Sink cutout",
+            "$150-$400",
+            "All stone and quartz"
+          ],
+          [
+            "Cooktop cutout",
+            "$200-$400",
+            "All stone and quartz"
+          ],
+          [
+            "Edge profile upgrade",
+            "$10-$30/linear foot",
+            "Stone and quartz (ogee, bullnose, waterfall)"
+          ],
+          [
+            "Backsplash (matching)",
+            "$20-$50/linear foot",
+            "Stone and quartz"
+          ],
+          [
+            "Seam placement",
+            "$0-$200",
+            "Stone and quartz (more seams = more cost)"
+          ],
+          [
+            "Old countertop removal",
+            "$200-$500",
+            "All materials"
+          ],
+          [
+            "Plumbing disconnect/reconnect",
+            "$150-$400",
+            "All materials (sink and dishwasher)"
+          ],
+          [
+            "Support brackets for overhangs",
+            "$100-$300",
+            "Stone, quartz, concrete (islands with seating)"
+          ],
+          [
+            "Template visit",
+            "$0-$200",
+            "Stone and quartz (some fabricators charge separately)"
+          ]
         ]
       },
       "callout": "Always ask for an all-in quote that includes cutouts, edge profiles, backsplash, removal, and installation. A \"$60 per square foot\" quote that doesn't include cutouts and edges can easily become $85 per square foot when the final bill arrives."
@@ -180,8 +308,8 @@
       "subtitle": "See cost breakdown"
     },
     {
-      "title": "Kitchen Island Installation",
-      "href": "/projects/kitchen/kitchen-island-installation/",
+      "title": "Kitchen Backsplash Installation",
+      "href": "/projects/kitchen/kitchen-backsplash/",
       "subtitle": "See cost breakdown"
     }
   ],

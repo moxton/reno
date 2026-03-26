@@ -9,7 +9,12 @@
     "typicalHigh": 10000,
     "lowEnd": 1500,
     "highEnd": 15000,
-    "costPerUnit": { "low": 25, "high": 75, "unit": "linear ft", "average": 45 }
+    "costPerUnit": {
+      "low": 25,
+      "high": 75,
+      "unit": "linear ft",
+      "average": 45
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,23 +107,66 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "High water tables and older homes with stone foundations create strong demand. Rocky soil in New England adds excavation costs." },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "High labor rates drive costs up. Hillside properties in California often need extensive exterior drainage systems." },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs but high water tables and clay soil are common, sometimes requiring more extensive drainage solutions." },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Very high demand for French drains due to spring snowmelt and flat terrain that creates poor natural drainage. Competitive contractor pricing." },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Snowmelt creates seasonal drainage issues. Rocky soil in mountain communities can increase excavation costs." }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "High water tables and older homes with stone foundations create strong demand. Rocky soil in New England adds excavation costs."
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "High labor rates drive costs up. Hillside properties in California often need extensive exterior drainage systems."
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor costs but high water tables and clay soil are common, sometimes requiring more extensive drainage solutions."
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Very high demand for French drains due to spring snowmelt and flat terrain that creates poor natural drainage. Competitive contractor pricing."
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Snowmelt creates seasonal drainage issues. Rocky soil in mountain communities can increase excavation costs."
+    }
   },
   "timeline": {
     "minimum": "1-2 days",
     "typical": "2-4 days",
     "maximum": "5-7 days",
     "phases": [
-      { "name": "Assessment, design, and permitting", "duration": "3-7 days" },
-      { "name": "Concrete cutting (interior) or excavation setup (exterior)", "duration": "4-8 hours" },
-      { "name": "Trench excavation", "duration": "1-2 days" },
-      { "name": "Pipe and gravel installation", "duration": "1 day" },
-      { "name": "Sump pit and pump connection (if applicable)", "duration": "3-5 hours" },
-      { "name": "Backfill, concrete patching, or landscape restoration", "duration": "1 day" }
+      {
+        "name": "Assessment, design, and permitting",
+        "duration": "3-7 days"
+      },
+      {
+        "name": "Concrete cutting (interior) or excavation setup (exterior)",
+        "duration": "4-8 hours"
+      },
+      {
+        "name": "Trench excavation",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Pipe and gravel installation",
+        "duration": "1 day"
+      },
+      {
+        "name": "Sump pit and pump connection (if applicable)",
+        "duration": "3-5 hours"
+      },
+      {
+        "name": "Backfill, concrete patching, or landscape restoration",
+        "duration": "1 day"
+      }
     ]
   },
   "diyVsPro": {
@@ -151,18 +199,39 @@
     "Get the drain cleaned every 3-5 years ($150-$300) rather than waiting until it clogs and needs replacement ($3,000-$8,000)."
   ],
   "contractorQuestions": [
-    { "question": "Do you recommend an interior or exterior French drain for my situation, and why?", "why": "The right approach depends on where water is entering. A contractor who evaluates your specific water intrusion pattern before recommending a solution is more trustworthy than one who defaults to the same approach for every home." },
-    { "question": "What pipe material will you use, and what's the expected lifespan?", "why": "Corrugated pipe is cheaper but clogs more easily and lasts 10-15 years. Rigid PVC costs more but lasts 50+ years. Knowing what you're getting helps you assess the true long-term value." },
-    { "question": "How will you ensure proper slope throughout the drain run?", "why": "The drain must slope at least 1% toward the collection point. A professional should use a laser level to verify grade. Improper slope is the number one reason French drains fail." },
-    { "question": "Is a sump pump included, and what happens to the collected water?", "why": "Water needs somewhere to go. If the drain can't gravity-flow to daylight, you need a sump pump. Make sure the quote addresses the full water removal path, not just the drain pipe." },
-    { "question": "What warranty do you offer, and does it cover drain failure?", "why": "A quality French drain should last 15-30 years. Look for at least a 5-year warranty on workmanship. Some waterproofing companies offer transferable lifetime warranties, which adds real value at resale." },
-    { "question": "Do I need permits for this work, and who handles that?", "why": "Many municipalities require permits for drainage work, especially if it connects to storm sewers or affects neighboring properties. The contractor should handle permits and ensure the installation meets local codes." },
-    { "question": "Will this solve my water problem completely, or is additional waterproofing needed?", "why": "French drains address water at the floor level, but wall seepage may require additional waterproofing treatments. An honest contractor will tell you upfront if the drain alone won't fully solve your issue." }
+    {
+      "question": "Do you recommend an interior or exterior French drain for my situation, and why?",
+      "why": "The right approach depends on where water is entering. A contractor who evaluates your specific water intrusion pattern before recommending a solution is more trustworthy than one who defaults to the same approach for every home."
+    },
+    {
+      "question": "What pipe material will you use, and what's the expected lifespan?",
+      "why": "Corrugated pipe is cheaper but clogs more easily and lasts 10-15 years. Rigid PVC costs more but lasts 50+ years. Knowing what you're getting helps you assess the true long-term value."
+    },
+    {
+      "question": "How will you ensure proper slope throughout the drain run?",
+      "why": "The drain must slope at least 1% toward the collection point. A professional should use a laser level to verify grade. Improper slope is the number one reason French drains fail."
+    },
+    {
+      "question": "Is a sump pump included, and what happens to the collected water?",
+      "why": "Water needs somewhere to go. If the drain can't gravity-flow to daylight, you need a sump pump. Make sure the quote addresses the full water removal path, not just the drain pipe."
+    },
+    {
+      "question": "What warranty do you offer, and does it cover drain failure?",
+      "why": "A quality French drain should last 15-30 years. Look for at least a 5-year warranty on workmanship. Some waterproofing companies offer transferable lifetime warranties, which adds real value at resale."
+    },
+    {
+      "question": "Do I need permits for this work, and who handles that?",
+      "why": "Many municipalities require permits for drainage work, especially if it connects to storm sewers or affects neighboring properties. The contractor should handle permits and ensure the installation meets local codes."
+    },
+    {
+      "question": "Will this solve my water problem completely, or is additional waterproofing needed?",
+      "why": "French drains address water at the floor level, but wall seepage may require additional waterproofing treatments. An honest contractor will tell you upfront if the drain alone won't fully solve your issue."
+    }
   ],
   "relatedProjects": [
     "sump-pump",
     "basement-finishing",
-    "basement-waterproofing"
+    "bathroom-remodel"
   ],
   "seo": {
     "primaryKeyword": "french drain installation cost",
@@ -178,9 +247,25 @@
     "metaDescription": "French drain installation costs $2,500-$10,000 for most homes in 2026. Compare interior vs exterior options, materials, and labor costs with our detailed guide and calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - French Drain Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/landscape/install-a-french-drain/" },
-    { "name": "Fixr - French Drain Installation Cost", "year": 2025, "url": "https://www.fixr.com/costs/french-drain" },
-    { "name": "Angi - How Much Does a French Drain Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-french-drain-cost.htm" },
-    { "name": "HomeGuide - French Drain Cost", "year": 2025, "url": "https://homeguide.com/costs/french-drain-cost" }
+    {
+      "name": "HomeAdvisor - French Drain Cost",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/landscape/install-a-french-drain/"
+    },
+    {
+      "name": "Fixr - French Drain Installation Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/french-drain"
+    },
+    {
+      "name": "Angi - How Much Does a French Drain Cost?",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-french-drain-cost.htm"
+    },
+    {
+      "name": "HomeGuide - French Drain Cost",
+      "year": 2025,
+      "url": "https://homeguide.com/costs/french-drain-cost"
+    }
   ]
 }

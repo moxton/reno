@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Our Methodology',
   description: 'How Home Project Cost Guide researches and calculates home improvement costs. Our data sources, methodology, regional adjustments, and update process explained.',
+  alternates: { canonical: 'https://homeprojectcostguide.com/methodology/' },
 };
 
 export default function MethodologyPage() {

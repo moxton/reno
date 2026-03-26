@@ -13,9 +13,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const category = getCategoryBySlug(params.category);
   if (!category) return {};
+  const title = `${category.name} Costs & Prices`;
+  const description = `How much does ${category.name.toLowerCase()} work cost? Browse ${category.projectCount}+ ${category.name.toLowerCase()} project cost guides with detailed breakdowns, calculators, and regional pricing.`;
   return {
-    title: `${category.name} Costs & Prices`,
-    description: `How much does ${category.name.toLowerCase()} work cost? Browse ${category.projectCount}+ ${category.name.toLowerCase()} project cost guides with detailed breakdowns, calculators, and regional pricing.`,
+    title,
+    description,
+    openGraph: { title, description, url: `https://homeprojectcostguide.com/projects/${params.category}/` },
+    alternates: { canonical: `https://homeprojectcostguide.com/projects/${params.category}/` },
   };
 }
 

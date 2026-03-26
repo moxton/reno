@@ -26,13 +26,49 @@
         "The Remodeling Magazine Cost vs. Value Report has tracked renovation ROI annually since 1988. It's the most cited source in the industry, based on surveys of real estate professionals across 150 U.S. markets. Here's what the most recent data shows for kitchen projects."
       ],
       "table": {
-        "headers": ["Remodel Type", "Average Cost", "Average Resale Value Added", "ROI (Cost Recovery)", "Trend"],
+        "headers": [
+          "Remodel Type",
+          "Average Cost",
+          "Average Resale Value Added",
+          "ROI (Cost Recovery)",
+          "Trend"
+        ],
         "rows": [
-          ["Minor Kitchen Remodel (mid-range)", "$27,000-$35,000", "$22,000-$27,000", "75-80%", "Stable - consistently the best kitchen ROI"],
-          ["Major Kitchen Remodel (mid-range)", "$45,000-$80,000", "$30,000-$48,000", "55-65%", "Declining slightly as costs rise faster than value added"],
-          ["Major Kitchen Remodel (upscale)", "$80,000-$160,000", "$40,000-$72,000", "40-55%", "Lowest kitchen ROI - diminishing returns on luxury spending"],
-          ["Cabinet Refacing Only", "$8,000-$15,000", "$7,000-$12,000", "70-85%", "Rising - buyers respond well to updated cabinet looks"],
-          ["Countertop Upgrade Only", "$4,000-$10,000", "$3,000-$7,500", "65-75%", "Strong returns, especially quartz and granite"]
+          [
+            "Minor Kitchen Remodel (mid-range)",
+            "$27,000-$35,000",
+            "$22,000-$27,000",
+            "75-80%",
+            "Stable - consistently the best kitchen ROI"
+          ],
+          [
+            "Major Kitchen Remodel (mid-range)",
+            "$45,000-$80,000",
+            "$30,000-$48,000",
+            "55-65%",
+            "Declining slightly as costs rise faster than value added"
+          ],
+          [
+            "Major Kitchen Remodel (upscale)",
+            "$80,000-$160,000",
+            "$40,000-$72,000",
+            "40-55%",
+            "Lowest kitchen ROI - diminishing returns on luxury spending"
+          ],
+          [
+            "Cabinet Refacing Only",
+            "$8,000-$15,000",
+            "$7,000-$12,000",
+            "70-85%",
+            "Rising - buyers respond well to updated cabinet looks"
+          ],
+          [
+            "Countertop Upgrade Only",
+            "$4,000-$10,000",
+            "$3,000-$7,500",
+            "65-75%",
+            "Strong returns, especially quartz and granite"
+          ]
         ]
       },
       "callout": "ROI percentages represent cost recovery at resale, not profit. A 75% ROI on a $30,000 project means you recoup $22,500 in added home value. You're still 'out' $7,500 in pure financial terms. But you also got to enjoy the kitchen for years."
@@ -68,16 +104,70 @@
         "If you can't afford a full remodel, targeting individual upgrades with the highest ROI makes sense. Not all kitchen improvements are created equal when it comes to resale value."
       ],
       "table": {
-        "headers": ["Upgrade", "Typical Cost", "Estimated Value Added", "ROI", "Why It Works"],
+        "headers": [
+          "Upgrade",
+          "Typical Cost",
+          "Estimated Value Added",
+          "ROI",
+          "Why It Works"
+        ],
         "rows": [
-          ["Cabinet painting/refacing", "$5,000-$12,000", "$4,500-$10,000", "80-90%", "Biggest visual impact for the dollar"],
-          ["New hardware (pulls & knobs)", "$150-$600", "$200-$500", "80-100%", "Tiny cost, noticeable modern touch"],
-          ["Quartz countertops", "$4,000-$9,000", "$3,000-$7,000", "70-80%", "Buyers expect stone countertops in 2026"],
-          ["Updated lighting", "$800-$3,000", "$600-$2,200", "70-80%", "Changes the entire feel of the space"],
-          ["New backsplash", "$1,500-$3,500", "$1,000-$2,500", "65-75%", "Looks intentional and finished"],
-          ["Mid-range appliance package", "$3,000-$8,000", "$2,000-$5,000", "60-70%", "Functional upgrade buyers appreciate"],
-          ["Luxury appliance package", "$15,000-$35,000", "$5,000-$12,000", "30-40%", "Over-investment for most markets"],
-          ["Custom cabinetry", "$20,000-$45,000", "$8,000-$18,000", "35-45%", "Personal taste rarely recoups"]
+          [
+            "Cabinet painting/refacing",
+            "$5,000-$12,000",
+            "$4,500-$10,000",
+            "80-90%",
+            "Biggest visual impact for the dollar"
+          ],
+          [
+            "New hardware (pulls & knobs)",
+            "$150-$600",
+            "$200-$500",
+            "80-100%",
+            "Tiny cost, noticeable modern touch"
+          ],
+          [
+            "Quartz countertops",
+            "$4,000-$9,000",
+            "$3,000-$7,000",
+            "70-80%",
+            "Buyers expect stone countertops in 2026"
+          ],
+          [
+            "Updated lighting",
+            "$800-$3,000",
+            "$600-$2,200",
+            "70-80%",
+            "Changes the entire feel of the space"
+          ],
+          [
+            "New backsplash",
+            "$1,500-$3,500",
+            "$1,000-$2,500",
+            "65-75%",
+            "Looks intentional and finished"
+          ],
+          [
+            "Mid-range appliance package",
+            "$3,000-$8,000",
+            "$2,000-$5,000",
+            "60-70%",
+            "Functional upgrade buyers appreciate"
+          ],
+          [
+            "Luxury appliance package",
+            "$15,000-$35,000",
+            "$5,000-$12,000",
+            "30-40%",
+            "Over-investment for most markets"
+          ],
+          [
+            "Custom cabinetry",
+            "$20,000-$45,000",
+            "$8,000-$18,000",
+            "35-45%",
+            "Personal taste rarely recoups"
+          ]
         ]
       }
     },
@@ -95,13 +185,37 @@
         "Your local real estate market significantly affects kitchen remodel ROI. The same renovation returns different percentages depending on your home's price point and neighborhood."
       ],
       "table": {
-        "headers": ["Market Scenario", "Expected ROI", "Why"],
+        "headers": [
+          "Market Scenario",
+          "Expected ROI",
+          "Why"
+        ],
         "rows": [
-          ["Entry-level home in appreciating neighborhood", "80-100%", "Bringing a dated kitchen up to neighborhood standards removes buyer objections and captures full value"],
-          ["Mid-range home in stable suburb", "60-75%", "Good returns, especially if comparable homes have updated kitchens"],
-          ["High-end home in luxury market", "45-60%", "Buyers in this tier expect quality kitchens but won't pay extra for your specific taste"],
-          ["Most expensive home on the block", "35-50%", "You're already at the price ceiling. There's limited room for the market to reward your investment"],
-          ["Rental property", "Varies widely", "Focus on durability and tenant appeal over premium finishes. Laminate and LVP outperform marble and hardwood for rentals"]
+          [
+            "Entry-level home in appreciating neighborhood",
+            "80-100%",
+            "Bringing a dated kitchen up to neighborhood standards removes buyer objections and captures full value"
+          ],
+          [
+            "Mid-range home in stable suburb",
+            "60-75%",
+            "Good returns, especially if comparable homes have updated kitchens"
+          ],
+          [
+            "High-end home in luxury market",
+            "45-60%",
+            "Buyers in this tier expect quality kitchens but won't pay extra for your specific taste"
+          ],
+          [
+            "Most expensive home on the block",
+            "35-50%",
+            "You're already at the price ceiling. There's limited room for the market to reward your investment"
+          ],
+          [
+            "Rental property",
+            "Varies widely",
+            "Focus on durability and tenant appeal over premium finishes. Laminate and LVP outperform marble and hardwood for rentals"
+          ]
         ]
       },
       "callout": "The golden rule: don't over-improve for your neighborhood. If every kitchen on your street has laminate counters and builder-grade cabinets, a $100,000 luxury renovation won't come back to you. Match or slightly exceed the neighborhood standard."
@@ -142,18 +256,73 @@
         "How does a kitchen remodel stack up against other renovations for ROI? Here's the comparison using 2025-2026 data."
       ],
       "table": {
-        "headers": ["Project", "Average Cost", "Average ROI", "Notes"],
+        "headers": [
+          "Project",
+          "Average Cost",
+          "Average ROI",
+          "Notes"
+        ],
         "rows": [
-          ["Garage door replacement", "$4,000-$5,500", "90-100%", "Consistently the highest ROI renovation"],
-          ["Minor kitchen remodel", "$27,000-$35,000", "75-80%", "Best ROI among major interior projects"],
-          ["Siding replacement (fiber cement)", "$18,000-$25,000", "70-80%", "Strong curb appeal return"],
-          ["Window replacement (vinyl)", "$18,000-$25,000", "65-75%", "Steady performer"],
-          ["Bathroom remodel (mid-range)", "$25,000-$40,000", "60-70%", "Good but below kitchen returns"],
-          ["Major kitchen remodel", "$45,000-$80,000", "55-65%", "Diminishing returns vs. minor"],
-          ["Deck addition (composite)", "$22,000-$35,000", "55-65%", "Market dependent"],
-          ["Primary suite addition", "$125,000-$200,000", "45-55%", "High cost limits ROI percentage"],
-          ["Backyard patio", "$8,000-$15,000", "50-60%", "Regional variation is high"],
-          ["Swimming pool", "$50,000-$100,000", "30-50%", "Can actually decrease value in some markets"]
+          [
+            "Garage door replacement",
+            "$4,000-$5,500",
+            "90-100%",
+            "Consistently the highest ROI renovation"
+          ],
+          [
+            "Minor kitchen remodel",
+            "$27,000-$35,000",
+            "75-80%",
+            "Best ROI among major interior projects"
+          ],
+          [
+            "Siding replacement (fiber cement)",
+            "$18,000-$25,000",
+            "70-80%",
+            "Strong curb appeal return"
+          ],
+          [
+            "Window replacement (vinyl)",
+            "$18,000-$25,000",
+            "65-75%",
+            "Steady performer"
+          ],
+          [
+            "Bathroom remodel (mid-range)",
+            "$25,000-$40,000",
+            "60-70%",
+            "Good but below kitchen returns"
+          ],
+          [
+            "Major kitchen remodel",
+            "$45,000-$80,000",
+            "55-65%",
+            "Diminishing returns vs. minor"
+          ],
+          [
+            "Deck addition (composite)",
+            "$22,000-$35,000",
+            "55-65%",
+            "Market dependent"
+          ],
+          [
+            "Primary suite addition",
+            "$125,000-$200,000",
+            "45-55%",
+            "High cost limits ROI percentage"
+          ],
+          [
+            "Backyard patio",
+            "$8,000-$15,000",
+            "50-60%",
+            "Regional variation is high"
+          ],
+          [
+            "Swimming pool",
+            "$50,000-$100,000",
+            "30-50%",
+            "Can actually decrease value in some markets"
+          ]
         ]
       }
     },
@@ -173,14 +342,9 @@
       "subtitle": "See full cost breakdown and calculator"
     },
     {
-      "title": "Kitchen Cabinet Refacing",
-      "href": "/projects/kitchen/kitchen-cabinet-refacing/",
-      "subtitle": "The highest-ROI kitchen upgrade"
-    },
-    {
       "title": "Countertop Replacement",
       "href": "/projects/kitchen/countertop-replacement/",
-      "subtitle": "Compare materials and costs"
+      "subtitle": "See cost breakdown"
     }
   ],
   "seo": {

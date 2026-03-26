@@ -9,7 +9,12 @@
     "typicalHigh": 2500,
     "lowEnd": 600,
     "highEnd": 3500,
-    "costPerUnit": { "low": 800, "high": 2500, "unit": "unit", "average": 1500 }
+    "costPerUnit": {
+      "low": 800,
+      "high": 2500,
+      "unit": "unit",
+      "average": 1500
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -102,21 +107,58 @@
     }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates and stricter code requirements drive up costs in the Northeast corridor" },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "California seismic bracing requirements and high labor costs push prices up significantly" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs and less stringent code requirements keep prices below average" },
-    "midwest": { "label": "Midwest", "min": 0.85, "max": 0.95, "note": "Moderate labor costs and straightforward installations keep prices competitive" },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing populations in Denver, Salt Lake, and Boise have pushed labor rates up slightly" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Higher labor rates and stricter code requirements drive up costs in the Northeast corridor"
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "California seismic bracing requirements and high labor costs push prices up significantly"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor costs and less stringent code requirements keep prices below average"
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.85,
+      "max": 0.95,
+      "note": "Moderate labor costs and straightforward installations keep prices competitive"
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Growing populations in Denver, Salt Lake, and Boise have pushed labor rates up slightly"
+    }
   },
   "timeline": {
     "minimum": "2-3 hours",
     "typical": "4-6 hours",
     "maximum": "1-2 days",
     "phases": [
-      { "name": "Assessment and old unit removal", "duration": "1-2 hours" },
-      { "name": "Connections and code upgrades", "duration": "1-2 hours" },
-      { "name": "New unit installation", "duration": "1-2 hours" },
-      { "name": "Testing and cleanup", "duration": "30-60 minutes" }
+      {
+        "name": "Assessment and old unit removal",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Connections and code upgrades",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "New unit installation",
+        "duration": "1-2 hours"
+      },
+      {
+        "name": "Testing and cleanup",
+        "duration": "30-60 minutes"
+      }
     ]
   },
   "diyVsPro": {
@@ -148,17 +190,34 @@
     "Get at least three quotes and ask each plumber to itemize materials, labor, and permit costs separately"
   ],
   "contractorQuestions": [
-    { "question": "What size water heater do you recommend for my household, and why?", "why": "Oversizing wastes money upfront and on energy bills. Undersizing means cold showers. A good plumber will ask about your peak usage before recommending a size." },
-    { "question": "Is my current venting adequate for the new unit?", "why": "Newer gas water heaters often require different venting than older models. Power-vent and direct-vent upgrades can add $300-$800 to the project." },
-    { "question": "Will the installation require any code upgrades?", "why": "Expansion tanks, seismic straps, drain pans, and updated gas connectors may be required by current code even if your old unit did not have them." },
-    { "question": "What is included in your quote - unit, labor, permits, disposal?", "why": "Some quotes include the water heater; others assume you will buy it separately. Make sure you know exactly what is covered to compare quotes accurately." },
-    { "question": "How long is the warranty, and does your installation affect it?", "why": "Most tanks come with 6-12 year warranties, but improper installation can void them. Ask if the plumber is certified by the manufacturer." },
-    { "question": "Do you pull permits and schedule inspections?", "why": "Many areas require permits for water heater replacement. Unpermitted work can cause problems when you sell your home." }
+    {
+      "question": "What size water heater do you recommend for my household, and why?",
+      "why": "Oversizing wastes money upfront and on energy bills. Undersizing means cold showers. A good plumber will ask about your peak usage before recommending a size."
+    },
+    {
+      "question": "Is my current venting adequate for the new unit?",
+      "why": "Newer gas water heaters often require different venting than older models. Power-vent and direct-vent upgrades can add $300-$800 to the project."
+    },
+    {
+      "question": "Will the installation require any code upgrades?",
+      "why": "Expansion tanks, seismic straps, drain pans, and updated gas connectors may be required by current code even if your old unit did not have them."
+    },
+    {
+      "question": "What is included in your quote - unit, labor, permits, disposal?",
+      "why": "Some quotes include the water heater; others assume you will buy it separately. Make sure you know exactly what is covered to compare quotes accurately."
+    },
+    {
+      "question": "How long is the warranty, and does your installation affect it?",
+      "why": "Most tanks come with 6-12 year warranties, but improper installation can void them. Ask if the plumber is certified by the manufacturer."
+    },
+    {
+      "question": "Do you pull permits and schedule inspections?",
+      "why": "Many areas require permits for water heater replacement. Unpermitted work can cause problems when you sell your home."
+    }
   ],
   "relatedProjects": [
     "tankless-water-heater",
-    "whole-house-repiping",
-    "water-softener-installation",
+    "sump-pump",
     "heat-pump-installation",
     "central-ac-installation"
   ],
@@ -177,10 +236,30 @@
     "metaDescription": "Water heater replacement costs $800-$3,500 in 2026, with a national average of $1,500. Get detailed cost breakdowns by type, size, and region plus an interactive calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor - Water Heater Installation Cost", "year": 2025, "url": "https://www.homeadvisor.com/cost/plumbing/install-a-water-heater/" },
-    { "name": "Fixr - Water Heater Replacement Cost", "year": 2025, "url": "https://www.fixr.com/costs/water-heater-installation" },
-    { "name": "Angi - How Much Does Water Heater Installation Cost?", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-it-cost-install-water-heater.htm" },
-    { "name": "Bob Vila - How Much Does a Water Heater Cost?", "year": 2025, "url": "https://www.bobvila.com/articles/water-heater-cost/" },
-    { "name": "U.S. Department of Energy - Water Heating", "year": 2025, "url": "https://www.energy.gov/energysaver/water-heating" }
+    {
+      "name": "HomeAdvisor - Water Heater Installation Cost",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/plumbing/install-a-water-heater/"
+    },
+    {
+      "name": "Fixr - Water Heater Replacement Cost",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/water-heater-installation"
+    },
+    {
+      "name": "Angi - How Much Does Water Heater Installation Cost?",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-it-cost-install-water-heater.htm"
+    },
+    {
+      "name": "Bob Vila - How Much Does a Water Heater Cost?",
+      "year": 2025,
+      "url": "https://www.bobvila.com/articles/water-heater-cost/"
+    },
+    {
+      "name": "U.S. Department of Energy - Water Heating",
+      "year": 2025,
+      "url": "https://www.energy.gov/energysaver/water-heating"
+    }
   ]
 }

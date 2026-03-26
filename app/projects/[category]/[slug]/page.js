@@ -16,10 +16,89 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const data = getFullProjectData(params.slug);
   if (!data) return {};
+  const title = `${data.title} Cost in 2026: What to Expect`;
+  const description = data.seo?.metaDescription || `How much does a ${data.title.toLowerCase()} cost? Get detailed cost breakdowns, regional pricing, and expert tips.`;
   return {
-    title: `${data.title} Cost in 2026: What to Expect`,
-    description: data.seo?.metaDescription || `How much does a ${data.title.toLowerCase()} cost? Get detailed cost breakdowns, regional pricing, and expert tips.`,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      publishedTime: data.lastUpdated,
+      modifiedTime: data.lastUpdated,
+      url: `https://homeprojectcostguide.com/projects/${data.category}/${data.slug}/`,
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
+    alternates: {
+      canonical: `https://homeprojectcostguide.com/projects/${data.category}/${data.slug}/`,
+    },
   };
+}
+
+function buildProjectSchema(data) {
+  const baseUrl = 'https://homeprojectcostguide.com';
+  const schemas = [];
+
+  // HowTo schema
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: `How to Budget for a ${data.title}`,
+    description: `Cost guide for ${data.title.toLowerCase()} projects. National average: $${data.costSummary.nationalAverage.toLocaleString()}.`,
+    totalTime: data.timeline?.typical ? `P${data.timeline.typical.replace(/[^0-9]/g, '')}D` : undefined,
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      minValue: data.costSummary.typicalLow,
+      maxValue: data.costSummary.typicalHigh,
+    },
+    step: (data.timeline?.phases || []).map((phase, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: phase.name,
+      text: `${phase.name} - typically takes ${phase.duration}`,
+    })),
+  });
+
+  // FAQPage schema from contractor questions
+  if (data.contractorQuestions?.length > 0) {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: data.contractorQuestions.map(q => ({
+        '@type': 'Question',
+        name: q.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: q.why,
+        },
+      })),
+    });
+  }
+
+  // Article schema
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${data.title} Cost in 2026: What to Expect`,
+    datePublished: data.lastUpdated,
+    dateModified: data.lastUpdated,
+    author: { '@type': 'Organization', name: 'Home Project Cost Guide' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Home Project Cost Guide',
+      url: baseUrl,
+      logo: { '@type': 'ImageObject', url: `${baseUrl}/favicon.svg` },
+    },
+    mainEntityOfPage: `${baseUrl}/projects/${data.category}/${data.slug}/`,
+  });
+
+  return schemas;
 }
 
 export default function ProjectPage({ params }) {
@@ -28,9 +107,17 @@ export default function ProjectPage({ params }) {
 
   const category = getCategoryBySlug(data.category);
   const cs = data.costSummary;
+  const schemas = buildProjectSchema(data);
 
   return (
     <div className="py-10 sm:py-14">
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <div className="section-width section-padding">
         <Breadcrumbs
           items={[

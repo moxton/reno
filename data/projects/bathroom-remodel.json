@@ -9,7 +9,12 @@
     "typicalHigh": 18000,
     "lowEnd": 2500,
     "highEnd": 55000,
-    "costPerUnit": { "low": 75, "high": 275, "unit": "sq ft", "average": 120 }
+    "costPerUnit": {
+      "low": 75,
+      "high": 275,
+      "unit": "sq ft",
+      "average": 120
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -65,39 +70,131 @@
     }
   ],
   "materialOptions": [
-    { "material": "Ceramic Tile", "costPerUnit": "$10-$20/sq ft installed", "pros": "Most affordable tile option, wide variety of colors and styles", "cons": "Less durable than porcelain, can chip more easily", "bestFor": "Budget and mid-range remodels" },
-    { "material": "Porcelain Tile", "costPerUnit": "$12-$30/sq ft installed", "pros": "Very durable, low water absorption, works for floors and walls", "cons": "Harder to cut and install than ceramic, higher cost", "bestFor": "Most popular mid-range choice for wet areas" },
-    { "material": "Natural Stone Tile", "costPerUnit": "$20-$50/sq ft installed", "pros": "Luxury look, unique patterns, high resale value", "cons": "Requires sealing, can stain, higher maintenance", "bestFor": "Premium remodels and accent features" },
-    { "material": "Fiberglass Shower Surround", "costPerUnit": "$300-$1,000 installed", "pros": "Fast install, waterproof, low cost", "cons": "Looks budget, limited design options, yellows over time", "bestFor": "Budget remodels, rental properties" },
-    { "material": "Custom Tile Shower", "costPerUnit": "$2,500-$10,000 installed", "pros": "Fully customizable design, premium look, durable", "cons": "Expensive, longer install time, requires proper waterproofing", "bestFor": "Mid-range to premium remodels" }
+    {
+      "material": "Ceramic Tile",
+      "costPerUnit": "$10-$20/sq ft installed",
+      "pros": "Most affordable tile option, wide variety of colors and styles",
+      "cons": "Less durable than porcelain, can chip more easily",
+      "bestFor": "Budget and mid-range remodels"
+    },
+    {
+      "material": "Porcelain Tile",
+      "costPerUnit": "$12-$30/sq ft installed",
+      "pros": "Very durable, low water absorption, works for floors and walls",
+      "cons": "Harder to cut and install than ceramic, higher cost",
+      "bestFor": "Most popular mid-range choice for wet areas"
+    },
+    {
+      "material": "Natural Stone Tile",
+      "costPerUnit": "$20-$50/sq ft installed",
+      "pros": "Luxury look, unique patterns, high resale value",
+      "cons": "Requires sealing, can stain, higher maintenance",
+      "bestFor": "Premium remodels and accent features"
+    },
+    {
+      "material": "Fiberglass Shower Surround",
+      "costPerUnit": "$300-$1,000 installed",
+      "pros": "Fast install, waterproof, low cost",
+      "cons": "Looks budget, limited design options, yellows over time",
+      "bestFor": "Budget remodels, rental properties"
+    },
+    {
+      "material": "Custom Tile Shower",
+      "costPerUnit": "$2,500-$10,000 installed",
+      "pros": "Fully customizable design, premium look, durable",
+      "cons": "Expensive, longer install time, requires proper waterproofing",
+      "bestFor": "Mid-range to premium remodels"
+    }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, stricter codes" },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs nationally, strict permitting" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, year-round availability" },
-    "midwest": { "label": "Midwest", "min": 0.80, "max": 0.90, "note": "Lowest costs nationally, good contractor availability" },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing markets, rising labor demand" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Higher labor rates, stricter codes"
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "Highest labor costs nationally, strict permitting"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor costs, year-round availability"
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.8,
+      "max": 0.9,
+      "note": "Lowest costs nationally, good contractor availability"
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Growing markets, rising labor demand"
+    }
   },
   "timeline": {
     "minimum": "2 weeks",
     "typical": "2-4 weeks",
     "maximum": "6-8 weeks",
     "phases": [
-      { "name": "Planning & design", "duration": "1-2 weeks" },
-      { "name": "Demolition", "duration": "1-2 days" },
-      { "name": "Plumbing rough-in", "duration": "2-4 days" },
-      { "name": "Electrical rough-in", "duration": "1-2 days" },
-      { "name": "Tile and flooring installation", "duration": "3-7 days" },
-      { "name": "Vanity and fixture installation", "duration": "1-2 days" },
-      { "name": "Final plumbing connections and testing", "duration": "1-2 days" },
-      { "name": "Final punch list and cleanup", "duration": "1 day" }
+      {
+        "name": "Planning & design",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Demolition",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Plumbing rough-in",
+        "duration": "2-4 days"
+      },
+      {
+        "name": "Electrical rough-in",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Tile and flooring installation",
+        "duration": "3-7 days"
+      },
+      {
+        "name": "Vanity and fixture installation",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Final plumbing connections and testing",
+        "duration": "1-2 days"
+      },
+      {
+        "name": "Final punch list and cleanup",
+        "duration": "1 day"
+      }
     ]
   },
   "diyVsPro": {
     "diyFeasibility": "Partial",
     "diySavings": "20-35%",
-    "diyTasks": ["Painting walls and ceiling", "Replacing hardware and accessories", "Simple vanity swap (same footprint)", "Installing a new toilet", "Demolition (with caution)"],
-    "proOnlyTasks": ["Plumbing relocations and rough-in", "Shower pan and waterproofing", "Tile installation in wet areas", "Electrical work and GFCI circuits", "Heated floor system installation", "Frameless glass shower door installation"],
+    "diyTasks": [
+      "Painting walls and ceiling",
+      "Replacing hardware and accessories",
+      "Simple vanity swap (same footprint)",
+      "Installing a new toilet",
+      "Demolition (with caution)"
+    ],
+    "proOnlyTasks": [
+      "Plumbing relocations and rough-in",
+      "Shower pan and waterproofing",
+      "Tile installation in wet areas",
+      "Electrical work and GFCI circuits",
+      "Heated floor system installation",
+      "Frameless glass shower door installation"
+    ],
     "diyRisks": "Waterproofing mistakes are the biggest risk. A poorly sealed shower will leak into walls and subfloor, causing mold and structural damage that costs $3,000-$10,000+ to remediate. Plumbing errors can flood your home, and improper electrical work in a wet environment is a serious safety hazard."
   },
   "savingsTips": [
@@ -111,24 +208,72 @@
     "Choose a standard toilet over a wall-mounted model. Standard toilets run $150-$400 installed vs. $1,000-$2,500 for wall-mounted units that require in-wall carriers."
   ],
   "contractorQuestions": [
-    { "question": "What waterproofing method do you use in the shower area?", "why": "Proper waterproofing (Kerdi membrane, RedGard, or similar) is critical. If a contractor can't explain their waterproofing system in detail, that's a red flag." },
-    { "question": "How do you handle mold or water damage discovered during demo?", "why": "Mold behind old tile and rotted subfloors are common surprises. You need to know their process and pricing for remediation before work begins." },
-    { "question": "Will you inspect the subfloor before tiling?", "why": "Tile installed on a weak or uneven subfloor will crack. A good contractor checks for deflection and levelness and will add cement board or replace damaged sections." },
-    { "question": "What ventilation improvements do you recommend?", "why": "Proper bathroom ventilation prevents future mold issues. A contractor who doesn't mention upgrading your exhaust fan may be cutting corners." },
-    { "question": "What's your payment schedule?", "why": "Red flag if they want more than 10-15% upfront. Standard is a deposit, then progress payments tied to milestones like rough-in completion and tile completion." },
-    { "question": "Are you licensed, insured, and bonded?", "why": "Verify their license number with your state licensing board. Insurance protects you if a worker is injured in your home." },
-    { "question": "What warranty do you offer on labor and waterproofing?", "why": "Most reputable contractors offer 1-2 year warranties on workmanship. Waterproofing failures can be catastrophic, so ask specifically about that coverage." }
+    {
+      "question": "What waterproofing method do you use in the shower area?",
+      "why": "Proper waterproofing (Kerdi membrane, RedGard, or similar) is critical. If a contractor can't explain their waterproofing system in detail, that's a red flag."
+    },
+    {
+      "question": "How do you handle mold or water damage discovered during demo?",
+      "why": "Mold behind old tile and rotted subfloors are common surprises. You need to know their process and pricing for remediation before work begins."
+    },
+    {
+      "question": "Will you inspect the subfloor before tiling?",
+      "why": "Tile installed on a weak or uneven subfloor will crack. A good contractor checks for deflection and levelness and will add cement board or replace damaged sections."
+    },
+    {
+      "question": "What ventilation improvements do you recommend?",
+      "why": "Proper bathroom ventilation prevents future mold issues. A contractor who doesn't mention upgrading your exhaust fan may be cutting corners."
+    },
+    {
+      "question": "What's your payment schedule?",
+      "why": "Red flag if they want more than 10-15% upfront. Standard is a deposit, then progress payments tied to milestones like rough-in completion and tile completion."
+    },
+    {
+      "question": "Are you licensed, insured, and bonded?",
+      "why": "Verify their license number with your state licensing board. Insurance protects you if a worker is injured in your home."
+    },
+    {
+      "question": "What warranty do you offer on labor and waterproofing?",
+      "why": "Most reputable contractors offer 1-2 year warranties on workmanship. Waterproofing failures can be catastrophic, so ask specifically about that coverage."
+    }
   ],
-  "relatedProjects": ["shower-replacement", "vinyl-plank-flooring", "full-kitchen-remodel", "interior-painting"],
+  "relatedProjects": [
+    "shower-remodel",
+    "vinyl-plank-flooring",
+    "full-kitchen-remodel",
+    "interior-painting"
+  ],
   "seo": {
     "primaryKeyword": "bathroom remodel cost",
-    "secondaryKeywords": ["bathroom renovation cost", "how much does a bathroom remodel cost", "bathroom remodel price", "cost to remodel bathroom", "bathroom remodel cost 2026"],
+    "secondaryKeywords": [
+      "bathroom renovation cost",
+      "how much does a bathroom remodel cost",
+      "bathroom remodel price",
+      "cost to remodel bathroom",
+      "bathroom remodel cost 2026"
+    ],
     "metaDescription": "How much does a bathroom remodel cost in 2026? National average is $12,000. Get detailed cost breakdowns by tier, material comparisons, regional pricing, and an interactive calculator."
   },
   "sources": [
-    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/bathroom-remodeling" },
-    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/bathrooms/remodel-a-bathroom/" },
-    { "name": "HomeLight", "year": 2026, "url": "https://www.homelight.com/blog/cost-to-remodel-a-bathroom/" },
-    { "name": "Angi", "year": 2025, "url": "https://www.angi.com/articles/how-much-does-bathroom-remodel-cost.htm" }
+    {
+      "name": "Fixr",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/bathroom-remodeling"
+    },
+    {
+      "name": "HomeAdvisor",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/bathrooms/remodel-a-bathroom/"
+    },
+    {
+      "name": "HomeLight",
+      "year": 2026,
+      "url": "https://www.homelight.com/blog/cost-to-remodel-a-bathroom/"
+    },
+    {
+      "name": "Angi",
+      "year": 2025,
+      "url": "https://www.angi.com/articles/how-much-does-bathroom-remodel-cost.htm"
+    }
   ]
 }

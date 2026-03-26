@@ -9,7 +9,12 @@
     "typicalHigh": 41500,
     "lowEnd": 10000,
     "highEnd": 130000,
-    "costPerUnit": { "low": 75, "high": 250, "unit": "sq ft", "average": 150 }
+    "costPerUnit": {
+      "low": 75,
+      "high": 250,
+      "unit": "sq ft",
+      "average": 150
+    }
   },
   "costBreakdown": {
     "budget": {
@@ -65,39 +70,131 @@
     }
   ],
   "materialOptions": [
-    { "material": "Laminate Countertops", "costPerUnit": "$20-$50/sq ft", "pros": "Most affordable, many styles available", "cons": "Less durable, can chip, lower resale impact", "bestFor": "Budget remodels, rental properties" },
-    { "material": "Granite Countertops", "costPerUnit": "$40-$200/sq ft", "pros": "Natural stone, heat resistant, high-end look", "cons": "Requires sealing every 1-3 years, can crack", "bestFor": "Mid-range to premium remodels" },
-    { "material": "Quartz Countertops", "costPerUnit": "$50-$200/sq ft", "pros": "Low maintenance, consistent color, very durable", "cons": "Not heat-proof, premium price", "bestFor": "Most popular mid-range to premium choice" },
-    { "material": "Marble Countertops", "costPerUnit": "$100-$250/sq ft", "pros": "Luxury aesthetic, unique veining, high resale value", "cons": "Stains easily, scratches, requires significant maintenance", "bestFor": "Premium remodels, statement pieces" },
-    { "material": "Butcher Block Countertops", "costPerUnit": "$35-$200/sq ft", "pros": "Warm look, food-safe surface, repairable", "cons": "Requires monthly oiling, can harbor bacteria if not maintained", "bestFor": "Farmhouse or traditional kitchen styles" }
+    {
+      "material": "Laminate Countertops",
+      "costPerUnit": "$20-$50/sq ft",
+      "pros": "Most affordable, many styles available",
+      "cons": "Less durable, can chip, lower resale impact",
+      "bestFor": "Budget remodels, rental properties"
+    },
+    {
+      "material": "Granite Countertops",
+      "costPerUnit": "$40-$200/sq ft",
+      "pros": "Natural stone, heat resistant, high-end look",
+      "cons": "Requires sealing every 1-3 years, can crack",
+      "bestFor": "Mid-range to premium remodels"
+    },
+    {
+      "material": "Quartz Countertops",
+      "costPerUnit": "$50-$200/sq ft",
+      "pros": "Low maintenance, consistent color, very durable",
+      "cons": "Not heat-proof, premium price",
+      "bestFor": "Most popular mid-range to premium choice"
+    },
+    {
+      "material": "Marble Countertops",
+      "costPerUnit": "$100-$250/sq ft",
+      "pros": "Luxury aesthetic, unique veining, high resale value",
+      "cons": "Stains easily, scratches, requires significant maintenance",
+      "bestFor": "Premium remodels, statement pieces"
+    },
+    {
+      "material": "Butcher Block Countertops",
+      "costPerUnit": "$35-$200/sq ft",
+      "pros": "Warm look, food-safe surface, repairable",
+      "cons": "Requires monthly oiling, can harbor bacteria if not maintained",
+      "bestFor": "Farmhouse or traditional kitchen styles"
+    }
   ],
   "regionalMultipliers": {
-    "northeast": { "label": "Northeast", "min": 1.15, "max": 1.25, "note": "Higher labor rates, stricter codes" },
-    "westCoast": { "label": "West Coast", "min": 1.20, "max": 1.35, "note": "Highest labor costs nationally, strict permitting" },
-    "southeast": { "label": "Southeast", "min": 0.85, "max": 0.90, "note": "Lower labor costs, year-round availability" },
-    "midwest": { "label": "Midwest", "min": 0.80, "max": 0.90, "note": "Lowest costs nationally, good contractor availability" },
-    "mountainWest": { "label": "Mountain West", "min": 1.05, "max": 1.10, "note": "Growing markets, rising labor demand" }
+    "northeast": {
+      "label": "Northeast",
+      "min": 1.15,
+      "max": 1.25,
+      "note": "Higher labor rates, stricter codes"
+    },
+    "westCoast": {
+      "label": "West Coast",
+      "min": 1.2,
+      "max": 1.35,
+      "note": "Highest labor costs nationally, strict permitting"
+    },
+    "southeast": {
+      "label": "Southeast",
+      "min": 0.85,
+      "max": 0.9,
+      "note": "Lower labor costs, year-round availability"
+    },
+    "midwest": {
+      "label": "Midwest",
+      "min": 0.8,
+      "max": 0.9,
+      "note": "Lowest costs nationally, good contractor availability"
+    },
+    "mountainWest": {
+      "label": "Mountain West",
+      "min": 1.05,
+      "max": 1.1,
+      "note": "Growing markets, rising labor demand"
+    }
   },
   "timeline": {
     "minimum": "3 weeks",
     "typical": "6-10 weeks",
     "maximum": "12-16 weeks",
     "phases": [
-      { "name": "Planning & design", "duration": "2-4 weeks" },
-      { "name": "Demolition", "duration": "2-5 days" },
-      { "name": "Rough plumbing & electrical", "duration": "1-2 weeks" },
-      { "name": "Drywall & painting", "duration": "1 week" },
-      { "name": "Cabinet installation", "duration": "1-2 weeks" },
-      { "name": "Countertops & backsplash", "duration": "1 week" },
-      { "name": "Appliances & final connections", "duration": "2-3 days" },
-      { "name": "Final punch list", "duration": "2-3 days" }
+      {
+        "name": "Planning & design",
+        "duration": "2-4 weeks"
+      },
+      {
+        "name": "Demolition",
+        "duration": "2-5 days"
+      },
+      {
+        "name": "Rough plumbing & electrical",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Drywall & painting",
+        "duration": "1 week"
+      },
+      {
+        "name": "Cabinet installation",
+        "duration": "1-2 weeks"
+      },
+      {
+        "name": "Countertops & backsplash",
+        "duration": "1 week"
+      },
+      {
+        "name": "Appliances & final connections",
+        "duration": "2-3 days"
+      },
+      {
+        "name": "Final punch list",
+        "duration": "2-3 days"
+      }
     ]
   },
   "diyVsPro": {
     "diyFeasibility": "Partial",
     "diySavings": "15-30%",
-    "diyTasks": ["Painting cabinets or walls", "Installing hardware", "Simple backsplash tile", "Installing LVP or laminate flooring", "Demolition (with caution)"],
-    "proOnlyTasks": ["Plumbing relocations", "Electrical panel or circuit work", "Gas line work", "Structural changes (wall removal)", "Cabinet installation (for warranty)", "Countertop templating and install"],
+    "diyTasks": [
+      "Painting cabinets or walls",
+      "Installing hardware",
+      "Simple backsplash tile",
+      "Installing LVP or laminate flooring",
+      "Demolition (with caution)"
+    ],
+    "proOnlyTasks": [
+      "Plumbing relocations",
+      "Electrical panel or circuit work",
+      "Gas line work",
+      "Structural changes (wall removal)",
+      "Cabinet installation (for warranty)",
+      "Countertop templating and install"
+    ],
     "diyRisks": "Plumbing mistakes can cause water damage costing thousands. Electrical errors are a fire hazard. Improper cabinet installation voids manufacturer warranties and can result in sagging or falling cabinets."
   },
   "savingsTips": [
@@ -111,25 +208,78 @@
     "Choose a single-basin undermount sink. They're $150-$400 and look premium without the $800+ price tag of specialty sinks."
   ],
   "contractorQuestions": [
-    { "question": "What's included in your quote - and what's not?", "why": "Some contractors exclude permits, appliance installation, or dumpster fees. Getting this in writing prevents surprise costs." },
-    { "question": "How do you handle unexpected issues like water damage or outdated wiring?", "why": "Hidden problems are common behind old cabinets. You need to know their policy for change orders before signing." },
-    { "question": "Can I see 3 recent kitchen projects you've completed?", "why": "Photos and references for similar-scope projects tell you more than any sales pitch." },
-    { "question": "Who will be on-site daily, and who is my point of contact?", "why": "Many contractors run multiple jobs. You want to know who's actually supervising your project." },
-    { "question": "What's your payment schedule?", "why": "Red flag if they want more than 10-15% upfront. Standard is a deposit, then progress payments tied to milestones." },
-    { "question": "Are you licensed, insured, and bonded?", "why": "Verify their license number with your state licensing board. Insurance protects you if a worker is injured in your home." },
-    { "question": "What warranty do you offer on labor?", "why": "Most reputable contractors offer 1-2 year warranties on workmanship. Material warranties are separate." }
+    {
+      "question": "What's included in your quote - and what's not?",
+      "why": "Some contractors exclude permits, appliance installation, or dumpster fees. Getting this in writing prevents surprise costs."
+    },
+    {
+      "question": "How do you handle unexpected issues like water damage or outdated wiring?",
+      "why": "Hidden problems are common behind old cabinets. You need to know their policy for change orders before signing."
+    },
+    {
+      "question": "Can I see 3 recent kitchen projects you've completed?",
+      "why": "Photos and references for similar-scope projects tell you more than any sales pitch."
+    },
+    {
+      "question": "Who will be on-site daily, and who is my point of contact?",
+      "why": "Many contractors run multiple jobs. You want to know who's actually supervising your project."
+    },
+    {
+      "question": "What's your payment schedule?",
+      "why": "Red flag if they want more than 10-15% upfront. Standard is a deposit, then progress payments tied to milestones."
+    },
+    {
+      "question": "Are you licensed, insured, and bonded?",
+      "why": "Verify their license number with your state licensing board. Insurance protects you if a worker is injured in your home."
+    },
+    {
+      "question": "What warranty do you offer on labor?",
+      "why": "Most reputable contractors offer 1-2 year warranties on workmanship. Material warranties are separate."
+    }
   ],
-  "relatedProjects": ["kitchen-countertop-replacement", "kitchen-cabinet-refacing", "interior-painting", "hardwood-floor-installation", "vinyl-plank-flooring"],
+  "relatedProjects": [
+    "countertop-replacement",
+    "kitchen-backsplash",
+    "interior-painting",
+    "hardwood-floor-installation",
+    "vinyl-plank-flooring"
+  ],
   "seo": {
     "primaryKeyword": "kitchen remodel cost",
-    "secondaryKeywords": ["kitchen renovation cost", "how much does a kitchen remodel cost", "kitchen remodel price", "cost to remodel kitchen", "kitchen remodel cost 2026"],
+    "secondaryKeywords": [
+      "kitchen renovation cost",
+      "how much does a kitchen remodel cost",
+      "kitchen remodel price",
+      "cost to remodel kitchen",
+      "kitchen remodel cost 2026"
+    ],
     "metaDescription": "How much does a kitchen remodel cost in 2026? National average is $27,000. Get detailed cost breakdowns by tier, material comparisons, regional pricing, and an interactive calculator."
   },
   "sources": [
-    { "name": "HomeAdvisor", "year": 2025, "url": "https://www.homeadvisor.com/cost/kitchens/remodel-a-kitchen/" },
-    { "name": "Bob Vila", "year": 2025, "url": "https://www.bobvila.com/articles/kitchen-remodel-cost/" },
-    { "name": "Fixr", "year": 2025, "url": "https://www.fixr.com/costs/kitchen-remodeling" },
-    { "name": "HomeLight / Angi", "year": 2026, "url": "https://www.homelight.com/blog/how-much-to-remodel-a-kitchen/" },
-    { "name": "Remodeling Magazine Cost vs. Value", "year": 2025, "url": "https://www.jlconline.com/cost-vs-value/2025/" }
+    {
+      "name": "HomeAdvisor",
+      "year": 2025,
+      "url": "https://www.homeadvisor.com/cost/kitchens/remodel-a-kitchen/"
+    },
+    {
+      "name": "Bob Vila",
+      "year": 2025,
+      "url": "https://www.bobvila.com/articles/kitchen-remodel-cost/"
+    },
+    {
+      "name": "Fixr",
+      "year": 2025,
+      "url": "https://www.fixr.com/costs/kitchen-remodeling"
+    },
+    {
+      "name": "HomeLight / Angi",
+      "year": 2026,
+      "url": "https://www.homelight.com/blog/how-much-to-remodel-a-kitchen/"
+    },
+    {
+      "name": "Remodeling Magazine Cost vs. Value",
+      "year": 2025,
+      "url": "https://www.jlconline.com/cost-vs-value/2025/"
+    }
   ]
 }

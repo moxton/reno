@@ -27,12 +27,37 @@
       ],
       "callout": "Pro tip: Contact contractors in September or October to schedule a January-February start. You will get better pricing and more attention from the crew.",
       "table": {
-        "headers": ["Season", "Demand Level", "Typical Discount", "Best For"],
+        "headers": [
+          "Season",
+          "Demand Level",
+          "Typical Discount",
+          "Best For"
+        ],
         "rows": [
-          ["Nov-Feb", "Low", "10-20% off labor", "Kitchens, bathrooms, basements, painting"],
-          ["Mar-Apr", "Rising", "5-10% off labor", "Interior work before spring rush"],
-          ["May-Sep", "Peak", "No discount, premium pricing", "Exterior projects (weather dependent)"],
-          ["Oct", "Declining", "5-15% off labor", "Last chance for exterior, good for interior"]
+          [
+            "Nov-Feb",
+            "Low",
+            "10-20% off labor",
+            "Kitchens, bathrooms, basements, painting"
+          ],
+          [
+            "Mar-Apr",
+            "Rising",
+            "5-10% off labor",
+            "Interior work before spring rush"
+          ],
+          [
+            "May-Sep",
+            "Peak",
+            "No discount, premium pricing",
+            "Exterior projects (weather dependent)"
+          ],
+          [
+            "Oct",
+            "Declining",
+            "5-15% off labor",
+            "Last chance for exterior, good for interior"
+          ]
         ]
       }
     },
@@ -51,17 +76,67 @@
         "The key is to only self-source items you have fully researched and measured. Nothing burns goodwill with your contractor faster than wrong-size tiles showing up on install day."
       ],
       "table": {
-        "headers": ["Material", "Typical Contractor Markup", "Good to Self-Source?", "Potential Savings"],
+        "headers": [
+          "Material",
+          "Typical Contractor Markup",
+          "Good to Self-Source?",
+          "Potential Savings"
+        ],
         "rows": [
-          ["Tile (floor and wall)", "20-30%", "Yes", "$500-$2,000"],
-          ["Light fixtures", "25-35%", "Yes", "$200-$1,500"],
-          ["Cabinet hardware", "25-40%", "Yes", "$100-$400"],
-          ["Faucets and fixtures", "20-30%", "Yes", "$200-$800"],
-          ["Appliances", "10-20%", "Yes (buy during sales)", "$500-$2,000"],
-          ["Paint", "15-25%", "Yes", "$100-$300"],
-          ["Cabinets", "15-25%", "Maybe (complex logistics)", "$1,000-$4,000"],
-          ["Lumber and framing", "10-15%", "No (let contractor handle)", "Not worth the hassle"],
-          ["Electrical and plumbing rough-in", "10-20%", "No (code compliance issues)", "Not worth the risk"]
+          [
+            "Tile (floor and wall)",
+            "20-30%",
+            "Yes",
+            "$500-$2,000"
+          ],
+          [
+            "Light fixtures",
+            "25-35%",
+            "Yes",
+            "$200-$1,500"
+          ],
+          [
+            "Cabinet hardware",
+            "25-40%",
+            "Yes",
+            "$100-$400"
+          ],
+          [
+            "Faucets and fixtures",
+            "20-30%",
+            "Yes",
+            "$200-$800"
+          ],
+          [
+            "Appliances",
+            "10-20%",
+            "Yes (buy during sales)",
+            "$500-$2,000"
+          ],
+          [
+            "Paint",
+            "15-25%",
+            "Yes",
+            "$100-$300"
+          ],
+          [
+            "Cabinets",
+            "15-25%",
+            "Maybe (complex logistics)",
+            "$1,000-$4,000"
+          ],
+          [
+            "Lumber and framing",
+            "10-15%",
+            "No (let contractor handle)",
+            "Not worth the hassle"
+          ],
+          [
+            "Electrical and plumbing rough-in",
+            "10-20%",
+            "No (code compliance issues)",
+            "Not worth the risk"
+          ]
         ]
       },
       "callout": "If you self-source materials, confirm exact specs with your contractor first. Get the model number, dimensions, and quantity in writing before you order anything."
@@ -86,13 +161,49 @@
         "Professional demolition on a kitchen remodel runs $1,500-$4,000. On a bathroom, $800-$2,000. You can do it for the cost of a dumpster rental ($300-$500) and a weekend of work. Just be sure to leave anything involving plumbing disconnection, electrical, or load-bearing walls to the professionals."
       ],
       "table": {
-        "headers": ["Demo Task", "Pro Cost", "DIY Cost", "Savings", "DIY Difficulty"],
+        "headers": [
+          "Demo Task",
+          "Pro Cost",
+          "DIY Cost",
+          "Savings",
+          "DIY Difficulty"
+        ],
         "rows": [
-          ["Remove kitchen cabinets", "$500-$1,200", "$0 (labor) + $300 dumpster", "$200-$900", "Easy"],
-          ["Remove tile flooring", "$3-$5/sq ft", "$50 tool rental", "$400-$1,500", "Moderate"],
-          ["Remove carpet", "$1-$2/sq ft", "$0", "$200-$600", "Easy"],
-          ["Strip wallpaper", "$1-$3/sq ft", "$30 in supplies", "$200-$800", "Tedious but easy"],
-          ["Gut bathroom", "$800-$2,000", "$300 dumpster", "$500-$1,700", "Moderate"]
+          [
+            "Remove kitchen cabinets",
+            "$500-$1,200",
+            "$0 (labor) + $300 dumpster",
+            "$200-$900",
+            "Easy"
+          ],
+          [
+            "Remove tile flooring",
+            "$3-$5/sq ft",
+            "$50 tool rental",
+            "$400-$1,500",
+            "Moderate"
+          ],
+          [
+            "Remove carpet",
+            "$1-$2/sq ft",
+            "$0",
+            "$200-$600",
+            "Easy"
+          ],
+          [
+            "Strip wallpaper",
+            "$1-$3/sq ft",
+            "$30 in supplies",
+            "$200-$800",
+            "Tedious but easy"
+          ],
+          [
+            "Gut bathroom",
+            "$800-$2,000",
+            "$300 dumpster",
+            "$500-$1,700",
+            "Moderate"
+          ]
         ]
       }
     },
@@ -103,13 +214,49 @@
         "The trick is knowing where to splurge and where to save. Spend on items you touch every day (faucets, cabinet hardware, countertops). Save on items that are purely visual or structural."
       ],
       "table": {
-        "headers": ["Premium Choice", "Cost/Sq Ft", "Smart Alternative", "Cost/Sq Ft", "Savings on 200 Sq Ft"],
+        "headers": [
+          "Premium Choice",
+          "Cost/Sq Ft",
+          "Smart Alternative",
+          "Cost/Sq Ft",
+          "Savings on 200 Sq Ft"
+        ],
         "rows": [
-          ["Solid hardwood", "$8-$14", "Luxury vinyl plank", "$3-$6", "$1,000-$1,600"],
-          ["Marble countertop", "$75-$150", "Quartz", "$50-$75", "$1,250-$3,750 (on 50 sq ft)"],
-          ["Custom cabinets", "$500-$1,200/LF", "Semi-custom or RTA", "$150-$400/LF", "$5,000-$12,000"],
-          ["Natural stone tile", "$10-$30", "Porcelain look-alike", "$3-$8", "$1,400-$4,400"],
-          ["Solid wood door", "$800-$2,500", "Fiberglass with wood grain", "$300-$800", "$500-$1,700 per door"]
+          [
+            "Solid hardwood",
+            "$8-$14",
+            "Luxury vinyl plank",
+            "$3-$6",
+            "$1,000-$1,600"
+          ],
+          [
+            "Marble countertop",
+            "$75-$150",
+            "Quartz",
+            "$50-$75",
+            "$1,250-$3,750 (on 50 sq ft)"
+          ],
+          [
+            "Custom cabinets",
+            "$500-$1,200/LF",
+            "Semi-custom or RTA",
+            "$150-$400/LF",
+            "$5,000-$12,000"
+          ],
+          [
+            "Natural stone tile",
+            "$10-$30",
+            "Porcelain look-alike",
+            "$3-$8",
+            "$1,400-$4,400"
+          ],
+          [
+            "Solid wood door",
+            "$800-$2,500",
+            "Fiberglass with wood grain",
+            "$300-$800",
+            "$500-$1,700 per door"
+          ]
         ]
       }
     },
@@ -120,14 +267,49 @@
         "A typical general contractor charges 10-20% overhead and 10-15% profit on top of direct costs. That is normal and fair. What you want to avoid is double markup, where a GC marks up a subcontractor's bid that already includes the sub's own profit margin."
       ],
       "table": {
-        "headers": ["Cost Component", "Typical Percentage", "What It Covers", "Can You Reduce It?"],
+        "headers": [
+          "Cost Component",
+          "Typical Percentage",
+          "What It Covers",
+          "Can You Reduce It?"
+        ],
         "rows": [
-          ["Materials", "30-40% of total", "All physical products installed", "Yes - self-source selectively"],
-          ["Labor (direct)", "30-40% of total", "Crew wages, payroll taxes, workers comp", "Limited - off-season timing helps"],
-          ["Overhead", "10-20% of subtotal", "Insurance, vehicle, office, tools, licensing", "No - this is cost of doing business"],
-          ["Profit", "10-15% of subtotal", "Contractor's income", "Slightly - competitive bidding helps"],
-          ["Subcontractor markup", "10-20% on sub work", "GC coordination of plumbing, electrical, etc.", "Yes - hire subs directly if you manage the project"],
-          ["Permits and fees", "1-5% of total", "Building department fees", "No - required by code"]
+          [
+            "Materials",
+            "30-40% of total",
+            "All physical products installed",
+            "Yes - self-source selectively"
+          ],
+          [
+            "Labor (direct)",
+            "30-40% of total",
+            "Crew wages, payroll taxes, workers comp",
+            "Limited - off-season timing helps"
+          ],
+          [
+            "Overhead",
+            "10-20% of subtotal",
+            "Insurance, vehicle, office, tools, licensing",
+            "No - this is cost of doing business"
+          ],
+          [
+            "Profit",
+            "10-15% of subtotal",
+            "Contractor's income",
+            "Slightly - competitive bidding helps"
+          ],
+          [
+            "Subcontractor markup",
+            "10-20% on sub work",
+            "GC coordination of plumbing, electrical, etc.",
+            "Yes - hire subs directly if you manage the project"
+          ],
+          [
+            "Permits and fees",
+            "1-5% of total",
+            "Building department fees",
+            "No - required by code"
+          ]
         ]
       }
     },
@@ -172,16 +354,52 @@
         "Here is what these strategies look like in practice on a $50,000 mid-range kitchen remodel."
       ],
       "table": {
-        "headers": ["Strategy", "Estimated Savings", "Effort Required"],
+        "headers": [
+          "Strategy",
+          "Estimated Savings",
+          "Effort Required"
+        ],
         "rows": [
-          ["Off-season scheduling", "$2,500-$5,000", "Low - just timing"],
-          ["Keep existing layout", "$3,000-$8,000", "Low - design decision"],
-          ["Self-source finish materials", "$1,500-$4,000", "Medium - research and ordering"],
-          ["DIY demolition", "$1,500-$3,500", "High - physical labor"],
-          ["Smart material substitutions", "$2,000-$8,000", "Medium - research"],
-          ["Self-manage project", "$5,000-$10,000", "Very high - significant time commitment"],
-          ["Competitive bidding", "$1,000-$3,000", "Medium - getting and comparing quotes"],
-          ["Total potential savings", "$16,500-$41,500", "Varies"]
+          [
+            "Off-season scheduling",
+            "$2,500-$5,000",
+            "Low - just timing"
+          ],
+          [
+            "Keep existing layout",
+            "$3,000-$8,000",
+            "Low - design decision"
+          ],
+          [
+            "Self-source finish materials",
+            "$1,500-$4,000",
+            "Medium - research and ordering"
+          ],
+          [
+            "DIY demolition",
+            "$1,500-$3,500",
+            "High - physical labor"
+          ],
+          [
+            "Smart material substitutions",
+            "$2,000-$8,000",
+            "Medium - research"
+          ],
+          [
+            "Self-manage project",
+            "$5,000-$10,000",
+            "Very high - significant time commitment"
+          ],
+          [
+            "Competitive bidding",
+            "$1,000-$3,000",
+            "Medium - getting and comparing quotes"
+          ],
+          [
+            "Total potential savings",
+            "$16,500-$41,500",
+            "Varies"
+          ]
         ]
       },
       "callout": "You will not use every strategy on every project. But combining just 3-4 of these on a typical renovation can realistically save 15-25% of total cost."
@@ -208,8 +426,8 @@
       "subtitle": "See cost breakdown"
     },
     {
-      "title": "Full Bathroom Remodel",
-      "href": "/projects/bathroom/full-bathroom-remodel/",
+      "title": "Bathroom Remodel",
+      "href": "/projects/bathroom/bathroom-remodel/",
       "subtitle": "See cost breakdown"
     }
   ],

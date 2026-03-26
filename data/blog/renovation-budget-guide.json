@@ -27,15 +27,47 @@
         "If your home was built before 1980, bump that contingency to 20-25%. Older homes hide problems behind walls that nobody can predict until demo day. Homes built after 2000 can usually get away with 10-15% contingency for cosmetic renovations."
       ],
       "table": {
-        "headers": ["Project Type", "Recommended Contingency", "Why"],
+        "headers": [
+          "Project Type",
+          "Recommended Contingency",
+          "Why"
+        ],
         "rows": [
-          ["Cosmetic updates (paint, fixtures, hardware)", "5-10%", "Low risk of hidden surprises"],
-          ["Kitchen remodel (layout stays the same)", "15-20%", "Plumbing and electrical unknowns behind walls"],
-          ["Kitchen remodel (layout changes)", "20-25%", "Structural, plumbing, electrical all in play"],
-          ["Bathroom remodel", "15-20%", "Water damage and subfloor issues are common"],
-          ["Basement finishing", "20-25%", "Moisture, foundation, and egress issues"],
-          ["Whole-house renovation", "20-30%", "Cascading discoveries across systems"],
-          ["Homes built before 1980", "Add 5-10% more", "Lead paint, asbestos, outdated wiring, galvanized pipes"]
+          [
+            "Cosmetic updates (paint, fixtures, hardware)",
+            "5-10%",
+            "Low risk of hidden surprises"
+          ],
+          [
+            "Kitchen remodel (layout stays the same)",
+            "15-20%",
+            "Plumbing and electrical unknowns behind walls"
+          ],
+          [
+            "Kitchen remodel (layout changes)",
+            "20-25%",
+            "Structural, plumbing, electrical all in play"
+          ],
+          [
+            "Bathroom remodel",
+            "15-20%",
+            "Water damage and subfloor issues are common"
+          ],
+          [
+            "Basement finishing",
+            "20-25%",
+            "Moisture, foundation, and egress issues"
+          ],
+          [
+            "Whole-house renovation",
+            "20-30%",
+            "Cascading discoveries across systems"
+          ],
+          [
+            "Homes built before 1980",
+            "Add 5-10% more",
+            "Lead paint, asbestos, outdated wiring, galvanized pipes"
+          ]
         ]
       }
     },
@@ -46,13 +78,49 @@
         "Here's how renovation dollars typically break down in 2026. Labor costs have climbed significantly over the past few years due to skilled trade shortages, so don't be surprised if labor is the biggest line item."
       ],
       "table": {
-        "headers": ["Budget Category", "Kitchen Remodel", "Bathroom Remodel", "Basement Finish", "Exterior/Roofing"],
+        "headers": [
+          "Budget Category",
+          "Kitchen Remodel",
+          "Bathroom Remodel",
+          "Basement Finish",
+          "Exterior/Roofing"
+        ],
         "rows": [
-          ["Materials", "35-40%", "30-35%", "35-40%", "45-55%"],
-          ["Labor", "35-45%", "40-45%", "35-40%", "30-40%"],
-          ["Permits & fees", "2-4%", "2-4%", "3-5%", "1-3%"],
-          ["Design/architecture", "5-10%", "3-5%", "2-5%", "0-2%"],
-          ["Contingency", "15-20%", "15-20%", "20-25%", "10-15%"]
+          [
+            "Materials",
+            "35-40%",
+            "30-35%",
+            "35-40%",
+            "45-55%"
+          ],
+          [
+            "Labor",
+            "35-45%",
+            "40-45%",
+            "35-40%",
+            "30-40%"
+          ],
+          [
+            "Permits & fees",
+            "2-4%",
+            "2-4%",
+            "3-5%",
+            "1-3%"
+          ],
+          [
+            "Design/architecture",
+            "5-10%",
+            "3-5%",
+            "2-5%",
+            "0-2%"
+          ],
+          [
+            "Contingency",
+            "15-20%",
+            "15-20%",
+            "20-25%",
+            "10-15%"
+          ]
         ]
       }
     },
@@ -63,16 +131,61 @@
         "Use these as starting points, then adjust for your region and the quality tier you're targeting."
       ],
       "table": {
-        "headers": ["Project", "Budget Tier", "Mid-Range", "Premium"],
+        "headers": [
+          "Project",
+          "Budget Tier",
+          "Mid-Range",
+          "Premium"
+        ],
         "rows": [
-          ["Full kitchen remodel", "$15,000-$25,000", "$30,000-$60,000", "$75,000-$150,000+"],
-          ["Full bathroom remodel", "$7,000-$12,000", "$15,000-$30,000", "$40,000-$75,000+"],
-          ["Basement finishing", "$20,000-$35,000", "$40,000-$65,000", "$70,000-$100,000+"],
-          ["Roof replacement (asphalt)", "$8,000-$12,000", "$12,000-$18,000", "$20,000-$35,000"],
-          ["Window replacement (whole house)", "$5,000-$8,000", "$10,000-$18,000", "$20,000-$40,000"],
-          ["Hardwood flooring (1,000 sq ft)", "$6,000-$9,000", "$9,000-$14,000", "$15,000-$25,000"],
-          ["Interior painting (whole house)", "$3,000-$5,000", "$5,000-$8,000", "$8,000-$15,000"],
-          ["Deck building (400 sq ft)", "$6,000-$10,000", "$12,000-$20,000", "$22,000-$40,000"]
+          [
+            "Full kitchen remodel",
+            "$15,000-$25,000",
+            "$30,000-$60,000",
+            "$75,000-$150,000+"
+          ],
+          [
+            "Full bathroom remodel",
+            "$7,000-$12,000",
+            "$15,000-$30,000",
+            "$40,000-$75,000+"
+          ],
+          [
+            "Basement finishing",
+            "$20,000-$35,000",
+            "$40,000-$65,000",
+            "$70,000-$100,000+"
+          ],
+          [
+            "Roof replacement (asphalt)",
+            "$8,000-$12,000",
+            "$12,000-$18,000",
+            "$20,000-$35,000"
+          ],
+          [
+            "Window replacement (whole house)",
+            "$5,000-$8,000",
+            "$10,000-$18,000",
+            "$20,000-$40,000"
+          ],
+          [
+            "Hardwood flooring (1,000 sq ft)",
+            "$6,000-$9,000",
+            "$9,000-$14,000",
+            "$15,000-$25,000"
+          ],
+          [
+            "Interior painting (whole house)",
+            "$3,000-$5,000",
+            "$5,000-$8,000",
+            "$8,000-$15,000"
+          ],
+          [
+            "Deck building (400 sq ft)",
+            "$6,000-$10,000",
+            "$12,000-$20,000",
+            "$22,000-$40,000"
+          ]
         ]
       },
       "callout": "These ranges reflect 2026 national averages. If you're in the Northeast or West Coast, add 15-35%. Southeast and Midwest are typically 5-15% below national average."
@@ -99,15 +212,47 @@
         "Here's a practical framework for building a renovation budget that actually works. Start with the total amount you're comfortable spending, then work backward."
       ],
       "table": {
-        "headers": ["Step", "Action", "Example ($50,000 budget)"],
+        "headers": [
+          "Step",
+          "Action",
+          "Example ($50,000 budget)"
+        ],
         "rows": [
-          ["1", "Start with total available funds", "$50,000"],
-          ["2", "Subtract contingency (20%)", "-$10,000 = $40,000 working budget"],
-          ["3", "Subtract permit and design fees (5%)", "-$2,500 = $37,500"],
-          ["4", "Subtract hidden costs estimate (5%)", "-$2,500 = $35,000"],
-          ["5", "Remaining = actual project budget", "$35,000 for materials + labor"],
-          ["6", "Get 3 contractor bids within that range", "Compare against $35,000 target"],
-          ["7", "If bids exceed budget, reduce scope", "Not quality - scope"]
+          [
+            "1",
+            "Start with total available funds",
+            "$50,000"
+          ],
+          [
+            "2",
+            "Subtract contingency (20%)",
+            "-$10,000 = $40,000 working budget"
+          ],
+          [
+            "3",
+            "Subtract permit and design fees (5%)",
+            "-$2,500 = $37,500"
+          ],
+          [
+            "4",
+            "Subtract hidden costs estimate (5%)",
+            "-$2,500 = $35,000"
+          ],
+          [
+            "5",
+            "Remaining = actual project budget",
+            "$35,000 for materials + labor"
+          ],
+          [
+            "6",
+            "Get 3 contractor bids within that range",
+            "Compare against $35,000 target"
+          ],
+          [
+            "7",
+            "If bids exceed budget, reduce scope",
+            "Not quality - scope"
+          ]
         ]
       },
       "callout": "Notice that your actual construction budget is about 70% of your total available funds. This is why so many homeowners overspend. They hand a contractor their full $50,000 and have nothing left when surprises hit."
@@ -119,14 +264,49 @@
         "In 2026, with interest rates in the 6-8% range for home equity products, financing a $40,000 renovation over 10 years adds $13,000-$18,000 in interest. That's real money that needs to be part of your decision."
       ],
       "table": {
-        "headers": ["Financing Option", "Typical Rate (2026)", "Best For", "Watch Out For"],
+        "headers": [
+          "Financing Option",
+          "Typical Rate (2026)",
+          "Best For",
+          "Watch Out For"
+        ],
         "rows": [
-          ["Home equity loan (HELOAN)", "6.5-8.5%", "Large, one-time projects", "Uses your home as collateral"],
-          ["Home equity line of credit (HELOC)", "7.0-9.0% variable", "Phased renovations", "Variable rate can increase"],
-          ["Cash-out refinance", "6.5-7.5%", "Major renovations + rate improvement", "Resets your mortgage term"],
-          ["Personal loan", "8-15%", "Small projects under $15,000", "Higher rates, shorter terms"],
-          ["Credit cards", "18-28%", "Very small projects only", "Expensive if not paid off quickly"],
-          ["Contractor financing", "0-12%", "Convenience", "Often has deferred interest traps"]
+          [
+            "Home equity loan (HELOAN)",
+            "6.5-8.5%",
+            "Large, one-time projects",
+            "Uses your home as collateral"
+          ],
+          [
+            "Home equity line of credit (HELOC)",
+            "7.0-9.0% variable",
+            "Phased renovations",
+            "Variable rate can increase"
+          ],
+          [
+            "Cash-out refinance",
+            "6.5-7.5%",
+            "Major renovations + rate improvement",
+            "Resets your mortgage term"
+          ],
+          [
+            "Personal loan",
+            "8-15%",
+            "Small projects under $15,000",
+            "Higher rates, shorter terms"
+          ],
+          [
+            "Credit cards",
+            "18-28%",
+            "Very small projects only",
+            "Expensive if not paid off quickly"
+          ],
+          [
+            "Contractor financing",
+            "0-12%",
+            "Convenience",
+            "Often has deferred interest traps"
+          ]
         ]
       }
     },
@@ -150,13 +330,43 @@
         "The general principle: don't spend more than 10-15% of your home's value on a single room renovation. And your total renovation budget across all projects shouldn't exceed 30-40% of your home's current value unless you're doing a complete gut renovation."
       ],
       "table": {
-        "headers": ["Home Value", "Max Kitchen Budget", "Max Bathroom Budget", "Max Total Renovation"],
+        "headers": [
+          "Home Value",
+          "Max Kitchen Budget",
+          "Max Bathroom Budget",
+          "Max Total Renovation"
+        ],
         "rows": [
-          ["$250,000", "$25,000-$37,500", "$12,500-$25,000", "$75,000-$100,000"],
-          ["$400,000", "$40,000-$60,000", "$20,000-$40,000", "$120,000-$160,000"],
-          ["$600,000", "$60,000-$90,000", "$30,000-$60,000", "$180,000-$240,000"],
-          ["$800,000", "$80,000-$120,000", "$40,000-$80,000", "$240,000-$320,000"],
-          ["$1,000,000+", "$100,000-$150,000", "$50,000-$100,000", "$300,000-$400,000"]
+          [
+            "$250,000",
+            "$25,000-$37,500",
+            "$12,500-$25,000",
+            "$75,000-$100,000"
+          ],
+          [
+            "$400,000",
+            "$40,000-$60,000",
+            "$20,000-$40,000",
+            "$120,000-$160,000"
+          ],
+          [
+            "$600,000",
+            "$60,000-$90,000",
+            "$30,000-$60,000",
+            "$180,000-$240,000"
+          ],
+          [
+            "$800,000",
+            "$80,000-$120,000",
+            "$40,000-$80,000",
+            "$240,000-$320,000"
+          ],
+          [
+            "$1,000,000+",
+            "$100,000-$150,000",
+            "$50,000-$100,000",
+            "$300,000-$400,000"
+          ]
         ]
       }
     },
@@ -197,8 +407,8 @@
       "subtitle": "See cost breakdown"
     },
     {
-      "title": "Full Bathroom Remodel",
-      "href": "/projects/bathroom/full-bathroom-remodel/",
+      "title": "Bathroom Remodel",
+      "href": "/projects/bathroom/bathroom-remodel/",
       "subtitle": "See cost breakdown"
     }
   ],

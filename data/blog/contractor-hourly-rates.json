@@ -26,18 +26,73 @@
         "These ranges reflect what homeowners typically pay in 2026, which includes the contractor's overhead, insurance, and profit margin on top of the actual labor wage. The rate you pay is not what the worker takes home."
       ],
       "table": {
-        "headers": ["Trade", "Low End (per hour)", "Average (per hour)", "High End (per hour)"],
+        "headers": [
+          "Trade",
+          "Low End (per hour)",
+          "Average (per hour)",
+          "High End (per hour)"
+        ],
         "rows": [
-          ["General Contractor", "$50", "$65", "$85"],
-          ["Electrician", "$75", "$100", "$150"],
-          ["Plumber", "$75", "$110", "$150"],
-          ["HVAC Technician", "$75", "$100", "$140"],
-          ["Carpenter", "$50", "$75", "$100"],
-          ["Painter", "$35", "$50", "$70"],
-          ["Roofer", "$45", "$65", "$85"],
-          ["Mason/Bricklayer", "$60", "$80", "$110"],
-          ["Tile Installer", "$50", "$70", "$100"],
-          ["Landscaper", "$30", "$50", "$75"]
+          [
+            "General Contractor",
+            "$50",
+            "$65",
+            "$85"
+          ],
+          [
+            "Electrician",
+            "$75",
+            "$100",
+            "$150"
+          ],
+          [
+            "Plumber",
+            "$75",
+            "$110",
+            "$150"
+          ],
+          [
+            "HVAC Technician",
+            "$75",
+            "$100",
+            "$140"
+          ],
+          [
+            "Carpenter",
+            "$50",
+            "$75",
+            "$100"
+          ],
+          [
+            "Painter",
+            "$35",
+            "$50",
+            "$70"
+          ],
+          [
+            "Roofer",
+            "$45",
+            "$65",
+            "$85"
+          ],
+          [
+            "Mason/Bricklayer",
+            "$60",
+            "$80",
+            "$110"
+          ],
+          [
+            "Tile Installer",
+            "$50",
+            "$70",
+            "$100"
+          ],
+          [
+            "Landscaper",
+            "$30",
+            "$50",
+            "$75"
+          ]
         ]
       },
       "callout": "These are what you pay, not what the contractor earns. A plumber charging $110/hour might pay their journeyman $35/hour. The rest covers insurance, vehicle costs, tools, licensing, overhead, and profit."
@@ -56,18 +111,62 @@
         "Where you live has a massive impact on what you'll pay. Labor rates in major coastal metros can run 40-60% higher than in rural areas of the South or Midwest. This reflects differences in cost of living, local demand, licensing requirements, and the overall cost of doing business."
       ],
       "table": {
-        "headers": ["Region", "Cost Multiplier vs. National Average", "Example: Plumber Hourly Rate"],
+        "headers": [
+          "Region",
+          "Cost Multiplier vs. National Average",
+          "Example: Plumber Hourly Rate"
+        ],
         "rows": [
-          ["San Francisco Bay Area", "+45-60%", "$140-$175"],
-          ["New York City Metro", "+35-55%", "$130-$165"],
-          ["Boston / Northeast", "+20-35%", "$115-$145"],
-          ["Seattle / Portland", "+15-30%", "$110-$140"],
-          ["Denver / Mountain West", "+10-20%", "$105-$130"],
-          ["Chicago / Upper Midwest", "+5-15%", "$100-$120"],
-          ["Atlanta / Southeast", "-5-10%", "$90-$105"],
-          ["Dallas / Texas", "-5-10%", "$90-$110"],
-          ["Rural Midwest", "-15-25%", "$80-$95"],
-          ["Rural South", "-20-30%", "$75-$90"]
+          [
+            "San Francisco Bay Area",
+            "+45-60%",
+            "$140-$175"
+          ],
+          [
+            "New York City Metro",
+            "+35-55%",
+            "$130-$165"
+          ],
+          [
+            "Boston / Northeast",
+            "+20-35%",
+            "$115-$145"
+          ],
+          [
+            "Seattle / Portland",
+            "+15-30%",
+            "$110-$140"
+          ],
+          [
+            "Denver / Mountain West",
+            "+10-20%",
+            "$105-$130"
+          ],
+          [
+            "Chicago / Upper Midwest",
+            "+5-15%",
+            "$100-$120"
+          ],
+          [
+            "Atlanta / Southeast",
+            "-5-10%",
+            "$90-$105"
+          ],
+          [
+            "Dallas / Texas",
+            "-5-10%",
+            "$90-$110"
+          ],
+          [
+            "Rural Midwest",
+            "-15-25%",
+            "$80-$95"
+          ],
+          [
+            "Rural South",
+            "-20-30%",
+            "$75-$90"
+          ]
         ]
       },
       "callout": "These multipliers apply to labor rates specifically. Material costs also vary by region but usually by a smaller margin of 5-15%."
@@ -75,20 +174,37 @@
     {
       "heading": "Hourly vs. Flat Rate vs. Cost-Plus Pricing",
       "paragraphs": [
-        "Most contractors don't actually bill by the hour for full projects. Understanding the three main pricing models helps you evaluate any quote you receive."
-      ],
-      "table": {
-        "headers": ["Pricing Model", "How It Works", "Best For", "Watch Out For"],
-        "rows": [
-          ["Hourly", "You pay for actual time spent plus materials", "Small repairs, diagnostics, handyman tasks", "No cost ceiling - a slow worker costs you more"],
-          ["Flat Rate / Fixed Bid", "Contractor quotes one total price for the entire job", "Well-defined projects like roof replacement or flooring", "Change orders can add up fast if scope changes"],
-          ["Cost-Plus", "You pay actual costs (materials + labor) plus a fixed markup of 10-20%", "Complex renovations where scope may shift", "Requires trust and transparency - ask for receipts"]
-        ]
-      },
-      "paragraphs": [
         "For anything bigger than a half-day repair, most contractors prefer flat-rate bids. It's cleaner for both sides. You know the total upfront, and the contractor is motivated to work efficiently because their profit margin improves if they finish faster.",
         "Cost-plus contracts make sense for larger renovations where the scope is hard to pin down in advance - think gut renovations or projects where you might find surprises behind the walls. Just make sure the markup percentage and what counts as a 'cost' are spelled out clearly in the contract."
-      ]
+      ],
+      "table": {
+        "headers": [
+          "Pricing Model",
+          "How It Works",
+          "Best For",
+          "Watch Out For"
+        ],
+        "rows": [
+          [
+            "Hourly",
+            "You pay for actual time spent plus materials",
+            "Small repairs, diagnostics, handyman tasks",
+            "No cost ceiling - a slow worker costs you more"
+          ],
+          [
+            "Flat Rate / Fixed Bid",
+            "Contractor quotes one total price for the entire job",
+            "Well-defined projects like roof replacement or flooring",
+            "Change orders can add up fast if scope changes"
+          ],
+          [
+            "Cost-Plus",
+            "You pay actual costs (materials + labor) plus a fixed markup of 10-20%",
+            "Complex renovations where scope may shift",
+            "Requires trust and transparency - ask for receipts"
+          ]
+        ]
+      }
     },
     {
       "heading": "What's Included in the Rate (and What's Not)",
@@ -121,16 +237,13 @@
     {
       "heading": "When Hourly Billing Makes Sense",
       "paragraphs": [
-        "Despite the risks of open-ended billing, there are scenarios where hourly pricing is actually the fairest option for both you and the contractor."
+        "For these situations, ask for an estimated time range upfront. A good contractor will tell you something like 'I expect this to take 3-5 hours' so you have a rough ceiling to work with."
       ],
       "list": [
         "Diagnostic work - when the contractor needs to find the source of a leak, electrical fault, or structural issue before they can quote a fix",
         "Small repairs under $500 - the time to scope, estimate, and write up a flat-rate quote doesn't make sense for a 2-hour job",
         "Handyman work - when you're bundling a list of small tasks into one visit",
         "Time-and-materials where scope is genuinely uncertain - like opening up a wall and not knowing what you'll find"
-      ],
-      "paragraphs": [
-        "For these situations, ask for an estimated time range upfront. A good contractor will tell you something like 'I expect this to take 3-5 hours' so you have a rough ceiling to work with."
       ]
     },
     {
@@ -140,14 +253,35 @@
         "Expect minimum service fees between $75 and $200 depending on the trade. Electricians and plumbers tend to have the highest minimums. Some will credit the service call fee toward the work if you hire them to do the repair."
       ],
       "table": {
-        "headers": ["Trade", "Typical Minimum Service Fee"],
+        "headers": [
+          "Trade",
+          "Typical Minimum Service Fee"
+        ],
         "rows": [
-          ["Electrician", "$100-$200"],
-          ["Plumber", "$100-$200"],
-          ["HVAC Technician", "$80-$175"],
-          ["General Handyman", "$75-$150"],
-          ["Appliance Repair", "$75-$125"],
-          ["Locksmith", "$50-$100"]
+          [
+            "Electrician",
+            "$100-$200"
+          ],
+          [
+            "Plumber",
+            "$100-$200"
+          ],
+          [
+            "HVAC Technician",
+            "$80-$175"
+          ],
+          [
+            "General Handyman",
+            "$75-$150"
+          ],
+          [
+            "Appliance Repair",
+            "$75-$125"
+          ],
+          [
+            "Locksmith",
+            "$50-$100"
+          ]
         ]
       }
     },
@@ -158,14 +292,49 @@
         "The labor shortage is the biggest driver. The average age of a skilled tradesperson in the U.S. is now over 55, and there aren't enough young workers entering the trades to replace retirees. This supply-demand imbalance keeps pushing rates higher, and there's no sign of that reversing anytime soon."
       ],
       "table": {
-        "headers": ["Trade", "Average Rate in 2020", "Average Rate in 2026", "Increase"],
+        "headers": [
+          "Trade",
+          "Average Rate in 2020",
+          "Average Rate in 2026",
+          "Increase"
+        ],
         "rows": [
-          ["Electrician", "$70", "$100", "+43%"],
-          ["Plumber", "$80", "$110", "+38%"],
-          ["HVAC Technician", "$70", "$100", "+43%"],
-          ["Carpenter", "$55", "$75", "+36%"],
-          ["Painter", "$38", "$50", "+32%"],
-          ["General Contractor", "$48", "$65", "+35%"]
+          [
+            "Electrician",
+            "$70",
+            "$100",
+            "+43%"
+          ],
+          [
+            "Plumber",
+            "$80",
+            "$110",
+            "+38%"
+          ],
+          [
+            "HVAC Technician",
+            "$70",
+            "$100",
+            "+43%"
+          ],
+          [
+            "Carpenter",
+            "$55",
+            "$75",
+            "+36%"
+          ],
+          [
+            "Painter",
+            "$38",
+            "$50",
+            "+32%"
+          ],
+          [
+            "General Contractor",
+            "$48",
+            "$65",
+            "+35%"
+          ]
         ]
       }
     },
@@ -190,8 +359,8 @@
       "subtitle": "See cost breakdown"
     },
     {
-      "title": "Whole-House Repiping",
-      "href": "/projects/plumbing/whole-house-repiping/",
+      "title": "Whole-House Rewiring",
+      "href": "/projects/electrical/whole-house-rewiring/",
       "subtitle": "See cost breakdown"
     }
   ],

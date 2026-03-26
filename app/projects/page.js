@@ -7,6 +7,12 @@ import { getAllProjects } from '@/app/lib/projects';
 export const metadata = {
   title: 'All Home Improvement Projects',
   description: 'Browse cost guides for 200+ home improvement projects. Find accurate pricing for kitchen remodels, bathroom renovations, roofing, flooring, and more.',
+  openGraph: {
+    title: 'All Home Improvement Projects',
+    description: 'Browse cost guides for 200+ home improvement projects with detailed breakdowns and calculators.',
+    url: 'https://homeprojectcostguide.com/projects/',
+  },
+  alternates: { canonical: 'https://homeprojectcostguide.com/projects/' },
 };
 
 export default function ProjectsIndex() {

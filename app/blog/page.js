@@ -4,6 +4,12 @@ import BlogIndex from '@/app/components/BlogIndex';
 export const metadata = {
   title: 'Home Renovation Blog',
   description: 'In-depth guides on renovation costs, ROI analysis, material comparisons, and money-saving strategies for homeowners.',
+  openGraph: {
+    title: 'Home Renovation Blog',
+    description: 'In-depth guides on renovation costs, ROI analysis, material comparisons, and money-saving strategies for homeowners.',
+    url: 'https://homeprojectcostguide.com/blog/',
+  },
+  alternates: { canonical: 'https://homeprojectcostguide.com/blog/' },
 };
 
 export default function BlogPage() {
