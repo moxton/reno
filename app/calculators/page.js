@@ -91,7 +91,7 @@ export default function CalculatorsPage() {
               className="group bg-white rounded-xl border border-gray-100 p-6 card-hover"
             >
               <div className="flex items-center gap-2 mb-3">
-                <span className="text-xs font-medium text-accent bg-accent-50 px-2 py-0.5 rounded-full">
+                <span className="text-xs font-medium text-accent-700 bg-accent-50 px-2 py-0.5 rounded-full">
                   {categoryLabels[calc.category] || calc.category}
                 </span>
               </div>

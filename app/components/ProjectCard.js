@@ -19,7 +19,7 @@ export default function ProjectCard({ project }) {
       href={`/projects/${project.category}/${project.slug}/`}
       className="group block bg-white rounded-xl border border-gray-100 p-5 hover:border-gray-200 hover:shadow-sm transition-all duration-150"
     >
-      <p className="text-xs font-medium text-accent uppercase tracking-wide">{categoryLabel}</p>
+      <p className="text-xs font-medium text-accent-700 uppercase tracking-wide">{categoryLabel}</p>
       <h3 className="text-base font-semibold text-primary mt-1 group-hover:text-accent transition-colors">
         {project.title}
       </h3>

@@ -69,7 +69,7 @@ export default function BlogIndex({ posts, categories }) {
             >
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-xs font-medium text-accent bg-accent-50 px-2 py-0.5 rounded-full">
+                  <span className="text-xs font-medium text-accent-700 bg-accent-50 px-2 py-0.5 rounded-full">
                     {categoryLabels[post.category] || post.category}
                   </span>
                   <span className="text-xs text-muted">

@@ -286,7 +286,7 @@ export default function RegionalCostLookup({ projects, regionalMultipliers }) {
                   className="group block bg-white rounded-xl border border-gray-100 p-5 hover:border-accent/30 hover:shadow-md transition-all"
                 >
                   <div className="flex items-start justify-between gap-3 mb-3">
-                    <p className="text-xs font-medium text-accent uppercase tracking-wide">
+                    <p className="text-xs font-medium text-accent-700 uppercase tracking-wide">
                       {getCategoryLabel(project.category)}
                     </p>
                     <MultiplierBadge multiplier={multiplier} />

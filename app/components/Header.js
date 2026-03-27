@@ -28,7 +28,7 @@ export default function Header() {
             </svg>
             <div className="flex flex-col">
               <span className="text-sm font-bold text-primary leading-tight tracking-tight">Home Project</span>
-              <span className="text-xs font-semibold text-accent leading-tight tracking-wide uppercase">Cost Guide</span>
+              <span className="text-xs font-semibold text-accent-700 leading-tight tracking-wide uppercase">Cost Guide</span>
             </div>
           </Link>
 

@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -13,16 +15,26 @@ body {
 
 @layer components {
   .card-hover {
-    @apply transition-all duration-200 ease-out;
+    @apply transition-all duration-150 ease-out;
   }
   .card-hover:hover {
-    @apply -translate-y-1 shadow-lg;
+    @apply shadow-sm border-gray-200;
   }
   .section-padding {
     @apply px-4 sm:px-6 lg:px-8;
   }
   .section-width {
     @apply max-w-site mx-auto;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 

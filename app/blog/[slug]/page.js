@@ -87,7 +87,7 @@ export default function BlogPostPage({ params }) {
           {/* Post Header */}
           <div className="mb-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-xs font-medium text-accent bg-accent-50 px-2.5 py-1 rounded-full">
+              <span className="text-xs font-medium text-accent-700 bg-accent-50 px-2.5 py-1 rounded-full">
                 {categoryLabels[post.category] || post.category}
               </span>
               <span className="text-sm text-muted">
@@ -252,7 +252,7 @@ export default function BlogPostPage({ params }) {
                 href={`/blog/${rp.slug}/`}
                 className="group bg-white rounded-xl border border-gray-100 p-5 card-hover"
               >
-                <span className="text-xs font-medium text-accent">{categoryLabels[rp.category] || rp.category}</span>
+                <span className="text-xs font-medium text-accent-700">{categoryLabels[rp.category] || rp.category}</span>
                 <h3 className="mt-1 font-semibold text-primary group-hover:text-accent transition-colors leading-snug">{rp.title}</h3>
                 <p className="text-sm text-muted mt-2 line-clamp-2">{rp.excerpt}</p>
               </Link>
